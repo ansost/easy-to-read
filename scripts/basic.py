@@ -12,6 +12,7 @@ import docopt
 from docopt import docopt
 import pandas as pd
 from tqdm.auto import tqdm
+from transformers import pipeline
 
 tqdm.pandas()
 
@@ -54,22 +55,32 @@ def counts(doc) -> dict[str, int]:
     }
 
 
+def classification(phrase) -> str:
+    """Classify a phrase."""
+    classi = pipe(phrase)[0]
+    classi["score"] = round(classi["score"], 2)
+    return classi
+
+
 def preprocess(phrase) -> dict[str, int]:
     """Preprocess a phrase."""
     measures = {}
     doc = nlp(phrase)
     measures.update(dependency_length(doc))
     measures.update(counts(doc))
+    measures.update(classification(phrase))
     return measures
 
 
 if __name__ == "__main__":
     args = docopt(__doc__)
     nlp = spacy.load("de_dep_news_trf")  # or news
-    df = pd.read_csv(f"../data/{args['--data']}.csv")
-    df = df.assign(
-        **df["phrase"].progress_apply(preprocess).apply(pd.Series).astype(int)
+    pipe = pipeline(
+        "text-classification", model="krupper/text-complexity-classification"
     )
+
+    df = pd.read_csv(f"../data/{args['--data']}.csv")
+    df = df.assign(**df["phrase"].progress_apply(preprocess).apply(pd.Series))
     df.to_csv(f"../data/metrics/{args['--data']}_basics.csv", index=False)
 
     stats = round(df.describe(percentiles=[]), 2)
