@@ -66,8 +66,13 @@ def preprocess(phrase) -> dict[str, int]:
 if __name__ == "__main__":
     args = docopt(__doc__)
     nlp = spacy.load("de_dep_news_trf")  # or news
-    train = pd.read_csv(f"../data/{args['--data']}.csv")
-    train = train.assign(
-        **train["phrase"].progress_apply(preprocess).apply(pd.Series).astype(int)
+    df = pd.read_csv(f"../data/{args['--data']}.csv")
+    df = df.assign(
+        **df["phrase"].progress_apply(preprocess).apply(pd.Series).astype(int)
     )
-    train.to_csv(f"../data/metrics/{args['--data']}_basics.csv", index=False)
+    df.to_csv(f"../data/metrics/{args['--data']}_basics.csv", index=False)
+
+    stats = round(df.describe(percentiles=[]), 2)
+    stats = stats.drop(["count", "50%"])
+    stats = stats.reindex(["min", "max", "mean", "std"])
+    stats.to_csv(f"../data/metrics/{args['--data']}_basics_stats.csv")
