@@ -1,5 +1,5 @@
-,sent-id,num_statements,notes,mean_dep_length,max_dep_length,min_dep_length,disjunctions,conjunctions,verbs,tokens
-min,1649.0,0.0,,1.0,1.0,1.0,0.0,0.0,0.0,3.0
-max,2156.0,5.0,,4.0,18.0,1.0,0.0,0.0,4.0,46.0
-mean,1903.32,1.4,,1.85,5.49,1.0,0.0,0.0,0.88,9.03
-std,147.11,0.91,,0.67,2.35,0.0,0.0,0.0,0.68,3.93
+,sent-id,num_statements,notes,mean_dep_length,max_dep_length,min_dep_length,disjunctions,conjunctions,verbs,tokens,score
+min,1649.0,0.0,,1.0,1.0,1.0,0.0,0.0,0.0,3.0,0.44
+max,2156.0,5.0,,4.96,18.0,1.0,0.0,0.0,4.0,46.0,1.0
+mean,1903.32,1.4,,2.28,5.49,1.0,0.0,0.0,0.88,9.03,0.96
+std,147.11,0.91,,0.61,2.35,0.0,0.0,0.0,0.68,3.93,0.1
