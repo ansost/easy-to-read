@@ -70,4 +70,4 @@ if __name__ == "__main__":
     train = train.assign(
         **train["phrase"].progress_apply(preprocess).apply(pd.Series).astype(int)
     )
-    train.to_csv("../data/metrics/train_basics.csv", index=False)
+    train.to_csv(f"../data/metrics/{args['--data']}_basics.csv", index=False)
