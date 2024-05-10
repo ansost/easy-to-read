@@ -22,5 +22,5 @@ Resources:
 
 Use the sheel script (`scripts/classifier_baselines.sh`) or the command line. For the shell script: 
 ```bash
-sh run_classifier_baselines.sh
+sh run_classifier_baselines.sh > ../results/classifier_baselines.txt
 ```
