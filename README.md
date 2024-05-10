@@ -13,4 +13,14 @@
 
 Resources:
 - [Task Website](https://german-easy-to-read.github.io/statements/)
-- [Data](TBD)
+- [Data](https://github.com/german-easy-to-read/statements/tree/master/data)
+
+# Docs
+
+## Reproduce classifier results
+>Download the new train data!
+
+Use the sheel script () or the command line. For the shell script: 
+```bash
+sh run_classifier_baselines.sh
+```
