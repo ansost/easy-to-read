@@ -20,7 +20,7 @@ Resources:
 ## Reproduce classifier results
 >Download the new train data!
 
-Use the sheel script () or the command line. For the shell script: 
+Use the sheel script (`scripts/classifier_baselines.sh`) or the command line. For the shell script: 
 ```bash
 sh run_classifier_baselines.sh
 ```
