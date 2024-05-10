@@ -1,2 +1,6 @@
 # Virtual environments
 easyV
+
+# data
+data/train.csv
+data/trial.csv
