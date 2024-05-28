@@ -70,17 +70,19 @@ if __name__ == "__main__":
     if args.clean == "True":
         train = clean_data(train)
 
+    X_train, X_test, y_train, y_test = train_test_split(
+    train, labels, test_size=0.33, random_state=42)
+
     if args.classifier == "RF":
-        clf = RandomForestClassifier(random_state=1, verbose=True).fit(train, labels)
+        clf = RandomForestClassifier(random_state=1, verbose=True).fit(X_train, y_train).predict(X_test)
     if args.classifier == "MLP":
         clf = MLPClassifier(random_state=1, max_iter=1000, verbose=True).fit(
-            train, labels
-        )
+            X_train, y_train).predict(X_test)
     if args.classifier == "SVM":
         clf = SVC(
             random_state=1,
             verbose=True,
             max_iter=1000,
-        ).fit(train, labels)
-    preds = clf.predict(train)
-    print(classification_report(labels, preds, zero_division=0))
+        ).fit(X_train, y_train)
+    preds = clf.predict(X_test)
+    print(classification_report(y_test, preds, zero_division=0))
