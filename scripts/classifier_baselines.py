@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     if args.classifier == "RF":
         clf = RandomForestClassifier(random_state=1, verbose=True).fit(X_train, y_train).predict(X_test)
-        print(clf.feature_importances)
+        print(clf.feature_importances_)
     if args.classifier == "MLP":
         clf = MLPClassifier(random_state=1, max_iter=1000, verbose=True).fit(
             X_train, y_train).predict(X_test)
