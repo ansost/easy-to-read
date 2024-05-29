@@ -1,4 +1,6 @@
 import spacy
+import re
+
 
 def count_statements(text: str) -> int:
     nlp = spacy.load("de_core_news_sm")
@@ -12,6 +14,10 @@ def count_statements(text: str) -> int:
     for sent in doc.sents:
         clauses = []
         current_clause = []
+
+        if re.match(r'(Das heißt|Manche sagen)', sent.text):
+            statements += 1 # handle special cases
+            continue
 
         for token in sent:
             if token.text in ["(", ")"]:
