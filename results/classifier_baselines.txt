@@ -1,274 +1,148 @@
 RF is being trained using: 
-Index(['sent-id', 'disj_count', 'mean_dep_length', 'conj_count',
-       'max_dep_length', 'token_count', 'verb_count', 'min_dep_length',
+Index(['sent-id', 'conj_count', 'mean_dep_length', 'token_count',
+       'max_dep_length', 'verb_count', 'min_dep_length', 'disj_count',
        'class_score', 'flesh_reading_ease'],
       dtype='object') 
-Parameters: Namespace(dataset='train', clean=True, classifier='RF')
+Parameters: Namespace(classifier='RF', clean=True, dataset='train')
+[0.22131827 0.         0.16320572 0.20258217 0.11739515 0.07454254
+ 0.         0.         0.06883363 0.15212253]
+Classification score:
+
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00       294
-           1       1.00      1.00      1.00      1047
-           2       1.00      1.00      1.00       460
-           3       1.00      1.00      1.00       117
-           4       1.00      1.00      1.00        22
-           5       1.00      1.00      1.00         2
+           0       0.73      0.67      0.70       148
+           1       0.74      0.81      0.78       505
+           2       0.49      0.50      0.49       242
+           3       0.21      0.10      0.13        63
+           4       0.67      0.31      0.42        13
+           5       0.00      0.00      0.00         1
 
-    accuracy                           1.00      1942
-   macro avg       1.00      1.00      1.00      1942
-weighted avg       1.00      1.00      1.00      1942
+    accuracy                           0.66       972
+   macro avg       0.47      0.40      0.42       972
+weighted avg       0.64      0.66      0.65       972
 
+Crossvalidation score:
+
+[0.28644241 0.60856269 0.54740061]
 RF is being trained using: 
-Index(['sent-id', 'disj_count', 'mean_dep_length', 'conj_count',
-       'max_dep_length', 'token_count', 'verb_count', 'min_dep_length',
+Index(['sent-id', 'conj_count', 'mean_dep_length', 'token_count',
+       'max_dep_length', 'verb_count', 'min_dep_length', 'disj_count',
        'class_score', 'flesh_reading_ease'],
       dtype='object') 
-Parameters: Namespace(dataset='train', clean=True, classifier='RF')
+Parameters: Namespace(classifier='RF', clean=True, dataset='train')
+[0.22131827 0.         0.16320572 0.20258217 0.11739515 0.07454254
+ 0.         0.         0.06883363 0.15212253]
+Classification score:
+
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00       294
-           1       1.00      1.00      1.00      1047
-           2       1.00      1.00      1.00       460
-           3       1.00      1.00      1.00       117
-           4       1.00      1.00      1.00        22
-           5       1.00      1.00      1.00         2
+           0       0.73      0.67      0.70       148
+           1       0.74      0.81      0.78       505
+           2       0.49      0.50      0.49       242
+           3       0.21      0.10      0.13        63
+           4       0.67      0.31      0.42        13
+           5       0.00      0.00      0.00         1
 
-    accuracy                           1.00      1942
-   macro avg       1.00      1.00      1.00      1942
-weighted avg       1.00      1.00      1.00      1942
+    accuracy                           0.66       972
+   macro avg       0.47      0.40      0.42       972
+weighted avg       0.64      0.66      0.65       972
 
+Crossvalidation score:
+
+[0.28644241 0.60856269 0.54740061]
 MLP is being trained using: 
-Index(['sent-id', 'disj_count', 'mean_dep_length', 'conj_count',
-       'max_dep_length', 'token_count', 'verb_count', 'min_dep_length',
+Index(['sent-id', 'conj_count', 'mean_dep_length', 'token_count',
+       'max_dep_length', 'verb_count', 'min_dep_length', 'disj_count',
        'class_score', 'flesh_reading_ease'],
       dtype='object') 
-Parameters: Namespace(dataset='train', clean=True, classifier='MLP')
-Iteration 1, loss = 16.59542052
-Iteration 2, loss = 19.30776850
-Iteration 3, loss = 18.72645719
-Iteration 4, loss = 11.96367848
-Iteration 5, loss = 12.00459835
-Iteration 6, loss = 9.75300508
-Iteration 7, loss = 8.84501248
-Iteration 8, loss = 9.40316003
-Iteration 9, loss = 10.67303846
-Iteration 10, loss = 13.44222972
-Iteration 11, loss = 11.50629163
-Iteration 12, loss = 10.63970435
-Iteration 13, loss = 10.89402905
-Iteration 14, loss = 10.12670069
-Iteration 15, loss = 9.88388689
-Iteration 16, loss = 10.35498572
-Iteration 17, loss = 10.00584036
-Iteration 18, loss = 11.00291730
-Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+Parameters: Namespace(classifier='MLP', clean=True, dataset='train')
+Classification score:
+
               precision    recall  f1-score   support
 
-           0       0.20      0.00      0.01       294
-           1       0.59      0.93      0.73      1047
-           2       0.37      0.23      0.29       460
-           3       0.00      0.00      0.00       117
-           4       0.00      0.00      0.00        22
-           5       0.00      0.00      0.00         2
+           0       0.00      0.00      0.00       148
+           1       0.56      0.81      0.66       505
+           2       0.32      0.24      0.28       242
+           3       0.02      0.02      0.02        63
+           4       0.00      0.00      0.00        13
+           5       0.00      0.00      0.00         1
 
-    accuracy                           0.56      1942
-   macro avg       0.19      0.20      0.17      1942
-weighted avg       0.44      0.56      0.46      1942
+    accuracy                           0.48       972
+   macro avg       0.15      0.18      0.16       972
+weighted avg       0.37      0.48      0.41       972
 
+Crossvalidation score:
+
+[0.08970438 0.51987768 0.51987768]
 MLP is being trained using: 
-Index(['sent-id', 'disj_count', 'mean_dep_length', 'conj_count',
-       'max_dep_length', 'token_count', 'verb_count', 'min_dep_length',
+Index(['sent-id', 'conj_count', 'mean_dep_length', 'token_count',
+       'max_dep_length', 'verb_count', 'min_dep_length', 'disj_count',
        'class_score', 'flesh_reading_ease'],
       dtype='object') 
-Parameters: Namespace(dataset='train', clean=True, classifier='MLP')
-Iteration 1, loss = 16.59542052
-Iteration 2, loss = 19.30776850
-Iteration 3, loss = 18.72645719
-Iteration 4, loss = 11.96367848
-Iteration 5, loss = 12.00459835
-Iteration 6, loss = 9.75300508
-Iteration 7, loss = 8.84501248
-Iteration 8, loss = 9.40316003
-Iteration 9, loss = 10.67303846
-Iteration 10, loss = 13.44222972
-Iteration 11, loss = 11.50629163
-Iteration 12, loss = 10.63970435
-Iteration 13, loss = 10.89402905
-Iteration 14, loss = 10.12670069
-Iteration 15, loss = 9.88388689
-Iteration 16, loss = 10.35498572
-Iteration 17, loss = 10.00584036
-Iteration 18, loss = 11.00291730
-Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+Parameters: Namespace(classifier='MLP', clean=True, dataset='train')
+Classification score:
+
               precision    recall  f1-score   support
 
-           0       0.20      0.00      0.01       294
-           1       0.59      0.93      0.73      1047
-           2       0.37      0.23      0.29       460
-           3       0.00      0.00      0.00       117
-           4       0.00      0.00      0.00        22
-           5       0.00      0.00      0.00         2
+           0       0.00      0.00      0.00       148
+           1       0.56      0.81      0.66       505
+           2       0.32      0.24      0.28       242
+           3       0.02      0.02      0.02        63
+           4       0.00      0.00      0.00        13
+           5       0.00      0.00      0.00         1
 
-    accuracy                           0.56      1942
-   macro avg       0.19      0.20      0.17      1942
-weighted avg       0.44      0.56      0.46      1942
+    accuracy                           0.48       972
+   macro avg       0.15      0.18      0.16       972
+weighted avg       0.37      0.48      0.41       972
 
-*
-optimization finished, #iter = 327
-obj = -587.998789, rho = 1.000087
-nSV = 590, nBSV = 586
-*
-optimization finished, #iter = 337
-obj = -587.996364, rho = 0.995697
-nSV = 592, nBSV = 583
-*
-optimization finished, #iter = 175
-obj = -233.999425, rho = -1.007267
-nSV = 243, nBSV = 227
-*
-optimization finished, #iter = 52
-obj = -43.999653, rho = -1.006700
-nSV = 53, nBSV = 38
-*
-optimization finished, #iter = 7
-obj = -3.999684, rho = -1.012221
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 496
-obj = -919.999076, rho = -0.999019
-nSV = 930, nBSV = 910
-*
-optimization finished, #iter = 168
-obj = -233.999189, rho = -1.006793
-nSV = 246, nBSV = 228
-*
-optimization finished, #iter = 73
-obj = -43.999757, rho = -1.004276
-nSV = 59, nBSV = 38
-*
-optimization finished, #iter = 9
-obj = -3.999700, rho = -1.012240
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 173
-obj = -233.999593, rho = -1.006597
-nSV = 244, nBSV = 226
-*
-optimization finished, #iter = 68
-obj = -43.999775, rho = -1.005192
-nSV = 57, nBSV = 39
-*
-optimization finished, #iter = 9
-obj = -3.999699, rho = -1.012246
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 27
-obj = -43.999952, rho = -0.998791
-nSV = 48, nBSV = 40
-*
-optimization finished, #iter = 7
-obj = -3.999678, rho = -1.012349
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 7
-obj = -3.999704, rho = -1.011855
-nSV = 8, nBSV = 2
-Total nSV = 1530
+Crossvalidation score:
+
+[0.08970438 0.51987768 0.51987768]
 SVM is being trained using: 
-Index(['sent-id', 'disj_count', 'mean_dep_length', 'conj_count',
-       'max_dep_length', 'token_count', 'verb_count', 'min_dep_length',
+Index(['sent-id', 'conj_count', 'mean_dep_length', 'token_count',
+       'max_dep_length', 'verb_count', 'min_dep_length', 'disj_count',
        'class_score', 'flesh_reading_ease'],
       dtype='object') 
-Parameters: Namespace(dataset='train', clean=True, classifier='SVM')
-[LibSVM]              precision    recall  f1-score   support
+Parameters: Namespace(classifier='SVM', clean=True, dataset='train')
+Classification score:
 
-           0       0.00      0.00      0.00       294
-           1       0.54      1.00      0.70      1047
-           2       0.00      0.00      0.00       460
-           3       0.00      0.00      0.00       117
-           4       0.00      0.00      0.00        22
-           5       0.00      0.00      0.00         2
+              precision    recall  f1-score   support
 
-    accuracy                           0.54      1942
-   macro avg       0.09      0.17      0.12      1942
-weighted avg       0.29      0.54      0.38      1942
+           0       0.00      0.00      0.00       148
+           1       0.52      1.00      0.68       505
+           2       0.00      0.00      0.00       242
+           3       0.00      0.00      0.00        63
+           4       0.00      0.00      0.00        13
+           5       0.00      0.00      0.00         1
 
-*
-optimization finished, #iter = 327
-obj = -587.998789, rho = 1.000087
-nSV = 590, nBSV = 586
-*
-optimization finished, #iter = 337
-obj = -587.996364, rho = 0.995697
-nSV = 592, nBSV = 583
-*
-optimization finished, #iter = 175
-obj = -233.999425, rho = -1.007267
-nSV = 243, nBSV = 227
-*
-optimization finished, #iter = 52
-obj = -43.999653, rho = -1.006700
-nSV = 53, nBSV = 38
-*
-optimization finished, #iter = 7
-obj = -3.999684, rho = -1.012221
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 496
-obj = -919.999076, rho = -0.999019
-nSV = 930, nBSV = 910
-*
-optimization finished, #iter = 168
-obj = -233.999189, rho = -1.006793
-nSV = 246, nBSV = 228
-*
-optimization finished, #iter = 73
-obj = -43.999757, rho = -1.004276
-nSV = 59, nBSV = 38
-*
-optimization finished, #iter = 9
-obj = -3.999700, rho = -1.012240
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 173
-obj = -233.999593, rho = -1.006597
-nSV = 244, nBSV = 226
-*
-optimization finished, #iter = 68
-obj = -43.999775, rho = -1.005192
-nSV = 57, nBSV = 39
-*
-optimization finished, #iter = 9
-obj = -3.999699, rho = -1.012246
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 27
-obj = -43.999952, rho = -0.998791
-nSV = 48, nBSV = 40
-*
-optimization finished, #iter = 7
-obj = -3.999678, rho = -1.012349
-nSV = 7, nBSV = 2
-*
-optimization finished, #iter = 7
-obj = -3.999704, rho = -1.011855
-nSV = 8, nBSV = 2
-Total nSV = 1530
+    accuracy                           0.52       972
+   macro avg       0.09      0.17      0.11       972
+weighted avg       0.27      0.52      0.36       972
+
+Crossvalidation score:
+
+[0.51987768 0.51987768 0.51987768]
 SVM is being trained using: 
-Index(['sent-id', 'disj_count', 'mean_dep_length', 'conj_count',
-       'max_dep_length', 'token_count', 'verb_count', 'min_dep_length',
+Index(['sent-id', 'conj_count', 'mean_dep_length', 'token_count',
+       'max_dep_length', 'verb_count', 'min_dep_length', 'disj_count',
        'class_score', 'flesh_reading_ease'],
       dtype='object') 
-Parameters: Namespace(dataset='train', clean=True, classifier='SVM')
-[LibSVM]              precision    recall  f1-score   support
+Parameters: Namespace(classifier='SVM', clean=True, dataset='train')
+Classification score:
 
-           0       0.00      0.00      0.00       294
-           1       0.54      1.00      0.70      1047
-           2       0.00      0.00      0.00       460
-           3       0.00      0.00      0.00       117
-           4       0.00      0.00      0.00        22
-           5       0.00      0.00      0.00         2
+              precision    recall  f1-score   support
 
-    accuracy                           0.54      1942
-   macro avg       0.09      0.17      0.12      1942
-weighted avg       0.29      0.54      0.38      1942
+           0       0.00      0.00      0.00       148
+           1       0.52      1.00      0.68       505
+           2       0.00      0.00      0.00       242
+           3       0.00      0.00      0.00        63
+           4       0.00      0.00      0.00        13
+           5       0.00      0.00      0.00         1
 
+    accuracy                           0.52       972
+   macro avg       0.09      0.17      0.11       972
+weighted avg       0.27      0.52      0.36       972
+
+Crossvalidation score:
+
+[0.51987768 0.51987768 0.51987768]
