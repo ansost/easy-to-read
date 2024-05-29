@@ -6,11 +6,19 @@ Usage:
 
 import pandas as pd
 import argparse
+from transformers import pipeline
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split, cross_val_score
+
+from . import embeddings
+from embeddings import *
+
+
+def get_embeddings(phrase: str):
+    return pipe(phrase)[0]["token_str"]
 
 
 def clean_data(data: pd.DataFrame) -> pd.DataFrame:
@@ -55,6 +63,13 @@ if __name__ == "__main__":
         required=True,
         help="Which classifier to use. Options: Random Forrst 'RF', Multi-layer Perceptron 'MLP'",
     )
+    parser.add_argument(
+        "--add_embeddings",
+        type=str,
+        required=True,
+        default="True",
+        help="Whether to add embeddings to the df. Default: True.",
+    )
     args = parser.parse_args()
 
     classifiers = {
@@ -73,6 +88,12 @@ if __name__ == "__main__":
         f"../data/metrics/{args.dataset}_basics.csv",
         dtype={"num_statements": str, "notes": str},
     )
+
+    if args.embeddings == "True":
+        if "embeddings" not in data.columns:
+            pipe = pipeline("fill-mask", model="google-bert/bert-base-german-cased")
+            data["embeddings"] = data["phrase"].apply(get_embeddings)
+            data.to_csv(f"../data/metrics/{args.dataset}.csv", index=False)
 
     data = data.groupby("num_statements").filter(lambda x: len(x) > 1)
 
