@@ -10,6 +10,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split, cross_val_score
 
 
 def clean_data(data: pd.DataFrame) -> pd.DataFrame:
@@ -56,10 +57,24 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
+    classifiers = {
+        "RF": RandomForestClassifier,
+        "MLP": MLPClassifier,
+        "SVM": SVC,
+    }
+
+    assert args.classifier in [
+        "RF",
+        "MLP",
+        "SVM",
+    ], "Invalid classifier (RF, MLP, SVM are available)."
+
     data = pd.read_csv(
         f"../data/metrics/{args.dataset}_basics.csv",
         dtype={"num_statements": str, "notes": str},
     )
+
+    data = data.groupby("num_statements").filter(lambda x: len(x) > 1)
 
     labels = data["num_statements"]
     train = data.select_dtypes(include=["number"])
@@ -71,19 +86,16 @@ if __name__ == "__main__":
         train = clean_data(train)
 
     X_train, X_test, y_train, y_test = train_test_split(
-    train, labels, test_size=0.33, random_state=42)
+        train, labels, test_size=0.33, random_state=42, stratify=labels
+    )
+
+    clf = classifiers[args.classifier](random_state=1).fit(X_train, y_train)
+    preds = clf.predict(X_test)
 
     if args.classifier == "RF":
-        clf = RandomForestClassifier(random_state=1, verbose=True).fit(X_train, y_train).predict(X_test)
         print(clf.feature_importances_)
-    if args.classifier == "MLP":
-        clf = MLPClassifier(random_state=1, max_iter=1000, verbose=True).fit(
-            X_train, y_train).predict(X_test)
-    if args.classifier == "SVM":
-        clf = SVC(
-            random_state=1,
-            verbose=True,
-            max_iter=1000,
-        ).fit(X_train, y_train)
-    preds = clf.predict(X_test)
+
+    print("Classification score:\n")
     print(classification_report(y_test, preds, zero_division=0))
+    print("Crossvalidation score:\n")
+    print(cross_val_score(clf, train, labels, cv=3, scoring="accuracy"))
