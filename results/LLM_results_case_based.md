@@ -50,7 +50,7 @@ Zum Beispiel tragen die meisten alevitischen Frauen kein Kopftuch.
 
 LLMs answer: 
 
-```
+'''
 Here is the output table with my classification of each sentence as either containing 0 statements or more than 0 statements, along with a short explanation:
 
 | Sentence | Answer | Explanation |
@@ -70,7 +70,8 @@ Here is the output table with my classification of each sentence as either conta
 | Im Jahr 1952 hat ein Architekt neue Straßen geplant. | more than 0 | Contains a verb "hat" and a statement about an architect's plan in 1952. |
 
 Let me know if you have any questions or need further clarification!
-```
+'''
+
 
 -------
 ### Identifying 0 statements
@@ -103,7 +104,7 @@ Im Jahr 1952 hat ein Architekt neue Straßen geplant.
 
 
 LLM output:
-```
+'''
 Here is the output table with my classification of each sentence as either containing 0 statements or more than 0 statements, along with a short explanation:
 
 | Sentence | Answer | Explanation |
@@ -123,7 +124,7 @@ Here is the output table with my classification of each sentence as either conta
 | Im Jahr 1952 hat ein Architekt neue Straßen geplant. | more than 0 | Contains a verb "hat" and a statement about an architect's plan in 1952. |
 
 Let me know if you have any questions or need further clarification!
-```
+'''
 
 --------
 ### Propositional Phrases
@@ -147,7 +148,7 @@ Die Bilder sind zusammen mit den Buchstaben.
 Anna Faris ist am 29. November 1976 geboren.
 Sie ist in der Partei die Grünen.
 
-```
+'''
 Here is the output table with my decisions:
 
 | Sentence | Additional Statements | Explanation |
@@ -164,4 +165,4 @@ Here is the output table with my decisions:
 | Sie ist in der Partei die Grünen. | 1 | The prepositional phrase "in der Partei" adds one statement, specifying the membership. |
 
 Let me know if you have any questions or need further clarification!
-```
+'''
