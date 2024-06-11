@@ -151,7 +151,7 @@ if __name__ == "__main__":
     for measure in tqdm(get_funcs(family="other")):
         df[measure.__name__] = df["phrase"].apply(measure)
 
-    benepar_res = pd.read_csv(f"../data/bracket_is_sent_results_{args.dataset}.csv")
+    benepar_res = pd.read_csv(f"../data//metrics/benepar_features_{args.dataset}.csv")
     df["is_sent"] = benepar_res["is_sent"]
     df["big_np_count"] = benepar_res["big_np_count"]
     df["big_pp_count"] = benepar_res["big_pp_count"]
