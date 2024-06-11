@@ -13,7 +13,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split, cross_val_score
 
-from . import embeddings
+import embeddings
 from embeddings import *
 
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
         dtype={"num_statements": str, "notes": str},
     )
 
-    if args.embeddings == "True":
+    if args.add_embeddings == "True":
         if "embeddings" not in data.columns:
             pipe = pipeline("fill-mask", model="google-bert/bert-base-german-cased")
             data["embeddings"] = data["phrase"].apply(get_embeddings)

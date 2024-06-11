@@ -7,6 +7,7 @@ do
         python3 classifier_baselines.py \
             --classifier $classifier \
             --dataset "train" \
-            --clean $value 
+            --clean $value \
+            --add_embeddings False
     done
 done
