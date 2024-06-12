@@ -1,12 +1,12 @@
 #!/bin/bash
 
-for classifier in "RF" "MLP" "SVM"
+for classifier in "RF" "MLP" "SVM" "regression"
 do
-    for value in "True" "False"
+    for zero_class in "remove" "keep"
     do
-        python3 classifier_baselines.py \
-            --classifier $classifier \
-            --dataset "train" \
-            --clean $value 
+            python3 classifier_baselines.py \
+                --classifier $classifier \
+                --dataset train \
+                --zero_class $zero_class
     done
 done
