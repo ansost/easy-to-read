@@ -4,11 +4,12 @@ Usage:
   python basic.py --dataset <dataset>
 """
 
+from typing import Generator
+
 import spacy
 import argparse
 import numpy as np
 import pandas as pd
-from typing import Generator
 from tqdm.auto import tqdm
 from spacy.glossary import GLOSSARY
 from textstat import textstat
@@ -17,7 +18,7 @@ from transformers import pipeline
 tqdm.pandas()
 
 
-def dependency_length(doc: str) -> dict[str, float]:
+def dependency_length(doc: str):
     """Return max, min, and avg. dependency length of a sentence."""
     lengths = []
     for token in doc:
@@ -46,7 +47,7 @@ def min_dep_length(phrase: str) -> int:
     return dependency_length(phrase)["min_dep_length"]
 
 
-def pos_onehot(doc: str) -> dict[str, int]:
+def pos_onehot(doc: str):
     """Return one-hot encoded POS tags of a sentence.
     The vector always corresponds to the same order as the keys of the GLOSSARY."""
     pos_onehot_vector = {pos: 0 for pos in GLOSSARY.keys()}
@@ -56,7 +57,7 @@ def pos_onehot(doc: str) -> dict[str, int]:
     return arr
 
 
-def counts(doc: str) -> dict[str, int]:
+def counts(doc: str):
     """Count disjunctions, conjunctions and vesrbs in a sentence."""
     disj = 0
     conj = 0
@@ -150,6 +151,12 @@ if __name__ == "__main__":
 
     for measure in tqdm(get_funcs(family="other")):
         df[measure.__name__] = df["phrase"].apply(measure)
+
+    #benepar_res = pd.read_csv(f"../data/metrics/benepar_features_{args.dataset}.csv", usecols=["is_sent", "big_np_count", "big_pp_count"])
+    #df["is_sent"] = benepar_res["is_sent"]
+    #df["big_np_count"] = benepar_res["big_np_count"]
+    #df["big_pp_count"] = benepar_res["big_pp_count"]
+    #del benepar_res
 
     print(df.head())
     df.to_csv(f"../data/metrics/{args.dataset}_basics.csv", index=False)
