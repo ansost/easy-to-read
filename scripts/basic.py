@@ -17,7 +17,7 @@ from transformers import pipeline
 tqdm.pandas()
 
 
-def dependency_length(doc: str) -> dict[str, float]:
+def dependency_length(doc: str):
     """Return max, min, and avg. dependency length of a sentence."""
     lengths = []
     for token in doc:
@@ -46,7 +46,7 @@ def min_dep_length(phrase: str) -> int:
     return dependency_length(phrase)["min_dep_length"]
 
 
-def pos_onehot(doc: str) -> dict[str, int]:
+def pos_onehot(doc: str):
     """Return one-hot encoded POS tags of a sentence.
     The vector always corresponds to the same order as the keys of the GLOSSARY."""
     pos_onehot_vector = {pos: 0 for pos in GLOSSARY.keys()}
@@ -56,7 +56,7 @@ def pos_onehot(doc: str) -> dict[str, int]:
     return arr
 
 
-def counts(doc: str) -> dict[str, int]:
+def counts(doc: str):
     """Count disjunctions, conjunctions and vesrbs in a sentence."""
     disj = 0
     conj = 0
