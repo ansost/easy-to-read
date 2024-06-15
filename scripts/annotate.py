@@ -8,6 +8,18 @@ def count_statements(text: str) -> int:
 
     statements = 0
 
+    sein_verbforms = [
+        "ist",
+        "sind",
+        "war",
+        "waren",
+        "bin",
+        "bist",
+        "ist",
+        "sind",
+        "seid",
+    ]
+
     coordinating_conjunctions = ["und", "oder", "aber", "denn", "sondern", "doch"]
     subordinating_conjunctions = ["dass", "ob", "weil", "da", "wenn", "als", "nachdem", "damit", "um", "so dass", "sodass", "obwohl", "obgleich", "wobei", "während", "bevor", "ehe", "seit", "seitdem", "bis", "solange", "sobald", "sooft", "wie", "als ob", "als wenn", "indem", "ohne dass", "statt dass", "anstatt dass", "außer dass", "nur dass", "kaum dass", "geschweige denn", "es sei denn", "wenn auch", "wenngleich", "gleichwohl", "trotzdem", "ungeachtet dessen"]
 
@@ -62,12 +74,23 @@ def count_statements(text: str) -> int:
             has_object = any(token.dep_ in ["oa", "og", "op"] for token in clause_doc)
             has_verb = any(token.pos_ == "VERB" for token in clause_doc)
 
+
+            # Add a statement if the clause has a "sein" (to be) verb form in it.
+            has_sein_statement = False
+            for token in clause_doc:
+                if token.text in sein_verbforms:
+                    has_sein_statement = True
+            if has_sein_statement:
+                statements += 1            
+
+            
+
             if has_subject and has_verb:
                 statements += 1  # SVO combination forming a statement
             elif has_verb:
                 statements += 1  # Subclause with a verb forming a statement
 
-        if not any(token.pos_ == "VERB" for token in sent):
+        if not any(token.pos_ == "VERB" for token in sent) and not has_sein_statement::
             statements = 0  # 0-statement sentences
 
     return statements
