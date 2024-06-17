@@ -2,7 +2,8 @@
 Presupposes that your dataset is in the data/metrics/.
 
 Usage:
-    python classifier_baselines.py --dataset <dataset> --clean <clean> --classifier <classifier> --zero_class <zero_class>"""
+    python classifier_baselines.py --dataset <str> --classifier <str> --boundary_classes <str> --use_benepar <bool> --use_basics <bool> --use_amr <bool>
+"""
 
 import pandas as pd
 import argparse
@@ -12,13 +13,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 from classifiers import *
-
-
-def load_data():
-    """Load and filter data based on the arguments given."""
-
-    return data
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
