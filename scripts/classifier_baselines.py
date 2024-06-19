@@ -14,6 +14,47 @@ from sklearn.preprocessing import StandardScaler
 
 from classifiers import *
 
+
+def read_basics(dataset):
+    return pd.read_csv(
+        f"../data/metrics/{dataset}_basics.csv",
+        usecols=[
+            "disj_count",
+            "mean_dep_length",
+            "conj_count",
+            "max_dep_length",
+            "token_count",
+            "verb_count",
+            "min_dep_length",
+            "flesh_reading_ease",
+            "class_score",
+        ],
+    )
+
+
+def read_benepar(dataset):
+    return pd.read_csv(
+        f"../data/metrics/benepar_features_{dataset}.csv",
+        usecols=["is_sent", "big_np_count", "big_pp_count"],
+    )
+
+
+def read_amr(dataset):
+    return pd.read_csv(
+        f"../data/metrics/{dataset}_amr.csv", usecols=["amr", "amr_prolog"]
+    )
+
+
+def combine_data(dataset, feature):
+    if dataset == "combined":
+        train = globals()[f"read_{feature}"]("train")
+        test = globals()[f"read_{feature}"]("test")
+        data = pd.concat([train, test], ignore_index=True, axis=1)
+    else:
+        data = globals()[f"read_{feature}"](dataset)
+    return data
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -21,8 +62,8 @@ if __name__ == "__main__":
         "--dataset",
         type=str,
         required=True,
-        choices=["train", "test", "trial"],
-        help="Which dataset to use for the classifier. Options: 'train', 'dev', 'test'.",
+        choices=["train", "test", "trial", "combined"],
+        help="Which dataset to use for the classifier. Options: 'train', 'dev', 'test'. The combination 'trial' with 'use_amr' is not available.",
     )
     parser.add_argument(
         "-c",
@@ -65,48 +106,43 @@ if __name__ == "__main__":
         help="Whether to include AMR features.",
     )
     args = parser.parse_args()
+    datasets = ["train", "test"]
 
-    data = pd.read_csv(
-        f"../data/{args.dataset}.csv",
-        dtype={"num_statements": str, "notes": str},
-    )
+    if args.dataset == "combined":
+        data = pd.concat(
+            [
+                pd.read_csv(
+                    f"../data/train.csv",
+                    dtype={"num_statements": str, "phrase": str},
+                    usecols=["num_statements", "phrase"],
+                ),
+                pd.read_csv(
+                    f"../data/test.csv",
+                    dtype={"num_statements": str, "phrase": str},
+                    usecols=["num_statements", "phrase"],
+                ),
+            ],
+            ignore_index=True,
+        )
+    else:
+        data = pd.read_csv(
+            f"../data/{args.dataset}.csv",
+            dtype={"num_statements": str, "phrase": str},
+            usecols=["num_statements", "phrase"],
+        )
 
     # Load extra features.
     if not args.use_benepar and not args.use_basics and not args.use_amr:
         raise ValueError("No features selected. Please select one or more features.")
 
     if args.use_benepar:
-        benepar_df = pd.read_csv(
-            f"../data/metrics/benepar_features_{args.dataset}.csv",
-            usecols=["is_sent", "big_np_count", "big_pp_count"],
-        )
-        data = pd.concat([data, benepar_df], axis=1)
-        del benepar_df
+        data = combine_data(args.dataset, "benepar")
     if args.use_basics:
-        basics_df = pd.read_csv(
-            f"../data/metrics/{args.dataset}_basics.csv",
-            usecols=[
-                "disj_count",
-                "mean_dep_length",
-                "conj_count",
-                "max_dep_length",
-                "token_count",
-                "verb_count",
-                "min_dep_length",
-                "flesh_reading_ease",
-                "class_score",
-            ],
-        )
-        data = pd.concat([data, basics_df], axis=1)
-        del basics_df
+        data = combine_data(args.dataset, "basics")
     if args.use_amr:
-        amr_df = pd.read_csv(
-            f"../data/metrics/{args.dataset}_amr.csv",
-            usecols=["amr", "amr_prolog"],
-        )
-        data = pd.concat([data, amr_df], axis=1)
-        del amr_df
+        data = combine_data(args.dataset, "amr")
 
+    breakpoint()
     # Exclude or re-group boundary classes.
     data = data.groupby("num_statements").filter(lambda x: len(x) > 3)
     if args.boundary_classes:
@@ -141,7 +177,7 @@ if __name__ == "__main__":
         f"../results/classification_reports/{args.dataset}_{args.classifier}_{args.boundary_classes}.csv"
     )
     report.to_latex(
-        f"../results/classification_reports/{args.dataset}_{args.classifier}_{args.boundary_classes}.tex",
+        f"../results/classification_reports/tex_tables/{args.dataset}_{args.classifier}_{args.boundary_classes}.tex",
         index=False,
         float_format="%.2f",
     )
