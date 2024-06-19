@@ -4,11 +4,12 @@ Usage:
   python basic.py --dataset <dataset>
 """
 
+from typing import Generator
+
 import spacy
 import argparse
 import numpy as np
 import pandas as pd
-from typing import Generator
 from tqdm.auto import tqdm
 from spacy.glossary import GLOSSARY
 from textstat import textstat
@@ -150,6 +151,12 @@ if __name__ == "__main__":
 
     for measure in tqdm(get_funcs(family="other")):
         df[measure.__name__] = df["phrase"].apply(measure)
+
+    #benepar_res = pd.read_csv(f"../data/metrics/benepar_features_{args.dataset}.csv", usecols=["is_sent", "big_np_count", "big_pp_count"])
+    #df["is_sent"] = benepar_res["is_sent"]
+    #df["big_np_count"] = benepar_res["big_np_count"]
+    #df["big_pp_count"] = benepar_res["big_pp_count"]
+    #del benepar_res
 
     print(df.head())
     df.to_csv(f"../data/metrics/{args.dataset}_basics.csv", index=False)
