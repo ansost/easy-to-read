@@ -1,14 +1,11 @@
 ### Results from the LLM analysis
 
-
 **Tldr** :LLMs are not super consistent in their judgement. The best usecase I've found for them is the generation of simplified statements, which I found they do quite well at if prompted correctly.
-Predicting number of statements also has okay-ish performance, it gets about 50% accuracy, but I think other approaches will do better here, especially since they are more reproducible. 
-
-
+Predicting number of statements also has okay-ish performance, it gets about 50% accuracy, but I think other approaches will do better here, especially since they are more reproducible.  
 
 But if you're interested in how LLMs handled this, feel free to read on.
 
-I tested out some different things: 
+I tested out some different things:
 
 1. Asking the model to predict the number of statements
 2. Asking the model to predict the statement spans
@@ -21,7 +18,8 @@ I provided the annotation guidelines from the website and used few-shot promptin
 ---
 
 ### Predicting the amount of statements
-So I tried n=30 different sentences and it gets an accuracy of about 50%, which is significantly better than chance, but still not super good. This is an example of its output: 
+
+So I tried n=30 different sentences and it gets an accuracy of about 50%, which is significantly better than chance, but still not super good. This is an example of its output:
 
 The correct outputs would have been: 1,1,1,3,3,2,2
 
@@ -60,6 +58,7 @@ Let me know if you have any questions or if you'd like me to explain my reasonin
 ```
 
 ### Predicting the statement spans
+
 Performance on this was really bad, it hardly got any right (<10%). This for an LLM might also be harder, because if you get the amount of statements wrong, you'll also get the statement spans wrong. It also didn't really understand that you should not "count" every word in the sentence.
 
 ```
@@ -95,11 +94,10 @@ Performance on this was really bad, it hardly got any right (<10%). This for an 
 Please let me know if you'd like me to clarify or correct any of these predictions!
 ```
 
-
 ### Generating simplified versions of the text
-The regenerated texts were actually not bad and really good in terms of simplification. You do have
-to remind the model to make the sentences into grammatically correct sentences to get good output though. 
 
+The regenerated texts were actually not bad and really good in terms of simplification. You do have
+to remind the model to make the sentences into grammatically correct sentences to get good output though.
 
 ```
 
@@ -118,12 +116,3 @@ to remind the model to make the sentences into grammatically correct sentences t
     Die Nacht-schrift hat der Hauptmann Charles Barbier erfunden.
         Simplified: Charles Barbier erfand die Nacht-schrift. (1 statement)
 ```
-
-
-
-
-
-
-
-
-
