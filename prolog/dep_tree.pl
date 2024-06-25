@@ -1,8 +1,8 @@
 :- dynamic([item/2,depPath_fl/2,maxDepPath/2]).
 
-%type(train).
+type(train).
 %type(test).
-type(augmented).
+%type(augmented).
 
 depTree:-
     retractall(item(_,_)),
@@ -11,11 +11,11 @@ depTree:-
     read_data,
     generate_features,
     (
-        (type(train), open('depTree_features_train.txt',write,Out))
+        (type(train), open('../data/prologData/depTree_features_train.txt',write,Out))
         ;
-        (type(test), open('depTree_features_test.txt',write,Out) )
+        (type(test), open('../data/prologData/depTree_features_test.txt',write,Out) )
         ;
-        (type(augmented), open('depTree_features_augmented.txt',write,Out))
+        (type(augmented), open('../data/prologData/depTree_features_augmented.txt',write,Out))
     ),
     output_file(Out),
     close(Out).
@@ -51,15 +51,15 @@ write_out(Out,[H|T]):-
 
 read_data:-
     type(train),
-    consult("train_prolog_deptree.pl").
+    consult("../data/prologData/train_prolog_deptree.pl").
 
 read_data:-
     type(test),
-    consult("test_prolog_deptree.pl").
+    consult("../data/prologData/test_prolog_deptree.pl").
 
 read_data:-
     type(augmented),
-    consult("augmented_prolog_deptree.pl").
+    consult("../data/prologData/augmented_prolog_deptree.pl").
 
 generate_features:-
     retract(item(SentID,token(StartID,_,'ROOT',_,_,_))),
