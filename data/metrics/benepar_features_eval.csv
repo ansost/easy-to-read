@@ -1,0 +1,879 @@
+sentence,tree,is_sent,big_np_count,big_pp_count
+Rot ist eine Grundfarbe.,(S (NN Rot) (VAFIN ist) (NP (ART eine) (NN Grundfarbe))) ($. .),1,0,0
+Das heißt: man nimmt sie zum Mischen für andere Farben.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (PIS man) (VVFIN nimmt) (PPER sie) (PP (APPRART zum) (NN Mischen) (PP (APPR für) (ADJA andere) (NN Farben)))) ($. .),1,0,1
+"Beispiel: \newline Wenn man die Farben Rot und Grün zusammen-mischt, \newline bekommt man die Farbe: Gelb.",(NN Beispiel) ($. :) (NE \newline),0,0,0
+Es gibt verschiedene Rot-arten.,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Rot-arten))) ($. .),1,0,0
+Weil die Farbe aussieht wie Rotwein.,(S (KOUS Weil) (NP (ART die) (NN Farbe)) (VVFIN aussieht) (NP (KOKOM wie) (NN Rotwein))) ($. .),1,0,0
+Weil die Farbe aussieht wie Blut.,(S (KOUS Weil) (NP (ART die) (NN Farbe)) (VVFIN aussieht) (NP (KOKOM wie) (NN Blut))) ($. .),1,0,0
+Viele verbinden die Farbe Rot mit einer Warnung.,(S (PIS Viele) (VVFIN verbinden) (NP (ART die) (NN Farbe) (NN Rot)) (PP (APPR mit) (ART einer) (NN Warnung))) ($. .),1,1,0
+Rot ist eine Farbe.,(S (NN Rot) (VAFIN ist) (NP (ART eine) (NN Farbe))) ($. .),1,0,0
+"Beim Roulette setzt man seine Jetons \newline  \newline auf eine bestimmte Zahl,  \newline oder eine Farbe  \newline oder eine ganze Reihe.","(S (PP (APPRART Beim) (NN Roulette)) (VVFIN setzt) (PIS man) (NP (PPOSAT seine) (NN Jetons)) (FM \newline) ($.  ) (FM \newline) (PP (APPR auf) (CNP (NP (ART eine) (ADJA bestimmte) (NN Zahl))))) ($, ,) ($.  ) (CNP (FM \newline) (KON oder) (NP (NP (ART eine) (NN Farbe) (XY  ) (NE \newline)) (KON oder) (NP (ART eine) (ADJA ganze) (NN Reihe)))) ($. .)",1,4,1
+"Wird diese Zahl getroffen, hat man gewonnen.","(S (VAFIN Wird) (NP (PDAT diese) (NN Zahl)) (VVPP getroffen)) ($, ,) (S (VAFIN hat) (PIS man) (VP (VVPP gewonnen))) ($. .)",1,0,0
+Roulette ist ein Glücks-spiel.,(S (NN Roulette) (VAFIN ist) (NP (ART ein) (NN Glücks-spiel))) ($. .),1,0,0
+Durch den Gaza Krieg 2014 gibt es viele Menschen die Leiden.,(S (PP (APPR Durch) (ART den) (NE Gaza) (NN Krieg) (CARD 2014)) (VVFIN gibt) (PPER es) (NP (PIAT viele) (NN Menschen)) (NP (ART die) (NN Leiden))) ($. .),1,0,1
+Und es gibt viele Häuser die zerstört wurden.,(S (KON Und) (PPER es) (VVFIN gibt) (PIAT viele) (NN Häuser) (PRELS die) (VVPP zerstört) (VAFIN wurden)) ($. .),1,0,0
+"Dadurch gibt es viel Staub, Steine und Sand.","(S (PROAV Dadurch) (VVFIN gibt) (PPER es) (NP (PIAT viel) (CNP (NN Staub)))) ($, ,) (NN Steine) (KON und) (NN Sand) ($. .)",1,0,0
+Der Eimer mit Sand oder Staub ist das Symbol dafür.,(S (NP (ART Der) (NN Eimer) (PP (APPR mit) (CNP (NN Sand) (KON oder) (NN Staub)))) (VAFIN ist) (NP (ART das) (NN Symbol) (PROAV dafür))) ($. .),1,2,1
+Mit der Rubble Bucket Challenge möchten Menschen Aufmerksamkeit bekommen.,(S (PP (APPR Mit) (ART der) (PN (FM Rubble) (NE Bucket) (NE Challenge))) (VMFIN möchten) (NN Menschen) (VP (NN Aufmerksamkeit) (VVINF bekommen))) ($. .),1,0,1
+So ähnlich wie bei der Ice Bucket Challenge.,(AP (AVP (ADV So)) (ADJD ähnlich) (PP (KOKOM wie) (APPR bei) (ART der) (PN (NE Ice) (NE Bucket) (NE Challenge)))) ($. .),0,0,1
+Peter Paul Rubens war ein Maler.,(S (PN (NE Peter) (NE Paul) (NE Rubens)) (VAFIN war) (NP (ART ein) (NN Maler))) ($. .),1,0,0
+Er hat vom Jahr 1577 bis zum Jahr 1670 gelebt.,(S (PPER Er) (VAFIN hat) (VP (PP (APPRART vom) (NN Jahr) (CARD 1577)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 1670)) (VVPP gelebt))) ($. .),1,0,1
+Er hat viele Bilder gemalt.,(S (PPER Er) (VAFIN hat) (VP (NP (PIAT viele) (NN Bilder)) (VVPP gemalt))) ($. .),1,0,0
+Er hat auch viele Frauen gemalt.,(S (PPER Er) (VAFIN hat) (VP (ADV auch) (NP (PIAT viele) (NN Frauen)) (VVPP gemalt))) ($. .),1,0,0
+Die Frauen in den Bilder sind meistens mollig.,(S (NP (ART Die) (NN Frauen) (PP (APPR in) (ART den) (NN Bilder))) (VAFIN sind) (ADV meistens) (ADJD mollig)) ($. .),1,1,0
+Manche sagen auch: \newline Frauen mit vielen Kurven.,(S (PIS Manche) (VVFIN sagen) (ADV auch)) ($. :) (NP (ADJA \newline) (NN Frauen) (PP (APPR mit) (PIAT vielen) (NN Kurven))) ($. .),1,1,0
+"Wenn heute eine Frau mollig ist, \newline sagen manche: \newline ""Diese Frau hat eine Rubens-figur""","(S (KOUS Wenn) (ADV heute) (NP (ART eine) (NN Frau)) (ADJD mollig) (VAFIN ist)) ($, ,) (S (ADV \newline) (VVFIN sagen) (PIS manche)) ($. :) (FM \newline) ($LRB "")",1,0,0
+Rubens-figur ist die Figur einer Frau.,(S (NN Rubens-figur) (VAFIN ist) (NP (ART die) (NN Figur) (NP (ART einer) (NN Frau)))) ($. .),1,1,0
+Eine Frau die eine fülligen Körper hat.,(ART Eine) (NN Frau) (S (PRELS die) (NP (ART eine) (ADJA fülligen) (NN Körper)) (VAFIN hat)) ($. .),1,1,0
+In Deutschland gibt es für Rück-ruf-aktionen Regeln.,(S (PP (APPR In) (NE Deutschland)) (VVFIN gibt) (PPER es) (PP (APPR für) (NN Rück-ruf-aktionen)) (NN Regeln)) ($. .),1,0,0
+Die genauen Regeln stehen im ProdS Gesetz.,(S (NP (ART Die) (ADJA genauen) (NN Regeln)) (VVFIN stehen) (PP (APPRART im) (NE ProdS) (NN Gesetz))) ($. .),1,1,0
+Und Deutschland muss sich an die Regeln von der Europäische Union halten.,(S (KON Und) (NE Deutschland) (VMFIN muss) (VP (PRF sich) (PP (APPR an) (ART die) (NN Regeln) (PP (APPR von) (ART der) (PN (NP (ADJA Europäische) (NN Union))))) (VVINF halten))) ($. .),1,0,2
+"Sachen werden zurück gerufen, \newline wenn es Fehler oder Mängel gibt.","(S (NN Sachen) (VAFIN werden) (VP (ADV zurück) (VVPP gerufen))) ($, ,) (S (ADV \newline) (KOUS wenn) (PPER es) (CNP (NN Fehler) (KON oder) (NN Mängel)) (VVFIN gibt)) ($. .)",1,0,0
+Und wenn es deswegen eine Gefahr gibt.,(S (KON Und) (S (KOUS wenn) (PPER es) (PROAV deswegen) (NP (ART eine) (NN Gefahr)) (VVFIN gibt))) ($. .),1,0,0
+Bekannte Rück-ruf-aktionen hat es bei Autos und bei Essen und Trinken gegeben.,(S (NP (ADJA Bekannte) (NN Rück-ruf-aktionen)) (VAFIN hat) (PPER es) (VP (CPP (PP (APPR bei) (NN Autos)) (KON und) (PP (APPR bei) (CNP (NN Essen) (KON und) (NN Trinken)))) (VVPP gegeben))) ($. .),1,0,1
+Bei einer Rückrufaktion wird etwas zurück geholt.,(S (PP (APPR Bei) (ART einer) (NN Rückrufaktion)) (VAFIN wird) (PIS etwas) (VP (ADV zurück) (VVPP geholt))) ($. .),1,0,0
+"Das heißt, \newline jemand holt etwas zurück weil es Fehler hat.","(S (PDS Das) (VVFIN heißt)) ($, ,) (S (NP (ADV \newline) (PIS jemand)) (VVFIN holt) (PIS etwas) (PTKVZ zurück) (S (KOUS weil) (PPER es) (NN Fehler) (VAFIN hat))) ($. .)",1,0,0
+Und weil die Fehler eine Gefahr sein können.,(S (KON Und) (S (KOUS weil) (NP (ART die) (NN Fehler)) (VP (NP (ART eine) (NN Gefahr)) (VAINF sein)) (VMFIN können))) ($. .),1,0,0
+Zum Beispiel ein Auto das falsch funktioniert.,(PP (APPRART Zum) (NN Beispiel)) (ART ein) (NN Auto) (PRELS das) (ADJD falsch) (VVFIN funktioniert) ($. .),0,0,0
+Man will da bleiben wo es schön ist.,(S (PIS Man) (VMFIN will) (VP (AVP (ADV da)) (VVINF bleiben) (S (PWAV wo) (PPER es) (ADJD schön) (VAFIN ist)))) ($. .),1,0,0
+Und schnell weiter-reisen können.,(KON Und) (ADJD schnell) (VVINF weiter-reisen) (VMINF können) ($. .),0,0,0
+Weil man nur wenig Gepäck dabei hat geht das leicht.,(S (S (KOUS Weil) (PIS man) (NP (AP (ADV nur) (PIAT wenig)) (NN Gepäck)) (PTKVZ dabei) (VAFIN hat)) (VVFIN geht) (PDS das) (ADJD leicht)) ($. .),1,1,0
+Jemand der Ruck-sack-tourismus macht ist ein Ruck-sack-tourist.,(S (NP (PIS Jemand) (NP (ART der) (NN Ruck-sack-tourismus))) (VVFIN macht)),1,1,0
+Back-packer helfen sich gegenseitig.,(S (NN Back-packer) (VVFIN helfen) (PRF sich) (ADJD gegenseitig)) ($. .),1,0,0
+Sie geben sich Tipps.,(S (PPER Sie) (VVFIN geben) (PRF sich) (NN Tipps)) ($. .),1,0,0
+Zum Beispiel wo es wenig Geld kostet.,(S (PP (APPRART Zum) (NN Beispiel)) (PWAV wo) (PPER es) (NP (PIAT wenig) (NN Geld)) (VVFIN kostet)) ($. .),1,0,0
+Ruck-sack-tourismus ist wenn man eine Reise macht.,(S (NN Ruck-sack-tourismus) (VAFIN ist) (S (KOUS wenn) (PIS man) (NP (ART eine) (NN Reise)) (VVFIN macht))) ($. .),1,0,0
+Und dabei nur einen Rucksack dabei hat.,(S (KON Und) (PROAV dabei) (NP (AP (ADV nur) (ART einen)) (NN Rucksack)) (PTKVZ dabei) (VAFIN hat)) ($. .),1,1,0
+Alle Sachen die man braucht sind im Ruck-sack.,(S (NP (PIAT Alle) (NN Sachen) (S (PRELS die) (PIS man) (VVFIN braucht))) (VAFIN sind) (PP (APPRART im) (NN Ruck-sack))) ($. .),1,1,0
+Man kann schnell seine Sachen packen.,(S (PIS Man) (VMFIN kann) (VP (ADJD schnell) (NP (PPOSAT seine) (NN Sachen)) (VVINF packen))) ($. .),1,0,0
+Wenn man weiter-reisen will.,(S (KOUS Wenn) (PIS man) (VP (VVINF weiter-reisen)) (VMFIN will)) ($. .),1,0,0
+Und man kann eine lange Reise machen.,(S (KON Und) (PIS man) (VMFIN kann) (VP (NP (ART eine) (ADJA lange) (NN Reise)) (VVINF machen))) ($. .),1,1,0
+Weil man wenig im Ruck-sack dabei hat.,(S (KOUS Weil) (PIS man) (ADV wenig) (PP (APPRART im) (NN Ruck-sack)) (PROAV dabei) (VAFIN hat)) ($. .),1,0,0
+Rückstellregale gibt es oft in Büchereien.,(S (NN Rückstellregale) (VVFIN gibt) (PPER es) (ADV oft) (PP (APPR in) (NN Büchereien))) ($. .),1,0,0
+"Nach dem Lesen von einem Buch, \newline wird es in das Rückstellregal gestellt.","(APPR Nach) (ART dem) (NN Lesen) (PP (APPR von) (ART einem) (NN Buch)) ($, ,) (S (NE \newline) (VAFIN wird) (PPER es) (VP (PP (APPR in) (ART das) (NN Rückstellregal)) (VVPP gestellt))) ($. .)",1,0,0
+Mitarbeiter einer Bücherei stellen die Bücher dann wieder in das richtige Regal.,(S (NP (NN Mitarbeiter) (NP (ART einer) (NN Bücherei))) (VVFIN stellen) (NP (ART die) (NN Bücher)) (ADV dann) (ADV wieder) (PP (APPR in) (ART das) (ADJA richtige) (NN Regal))) ($. .),1,1,1
+Ein Rückstellregal ist ein Regal für Bücher.,(S (NP (ART Ein) (NN Rückstellregal)) (VAFIN ist) (NP (ART ein) (NN Regal) (PP (APPR für) (NN Bücher)))) ($. .),1,1,0
+"In das Regal kommen Bücher, \newline die nicht mehr gebraucht werden.","(S (PP (APPR In) (ART das) (NN Regal)) (VVFIN kommen) (NN Bücher)) ($, ,) (NP (NP (FM \newline) (PRELS die)) (VP (AVP (PTKNEG nicht) (ADV mehr)) (VVPP gebraucht)) (VAFIN werden)) ($. .)",1,1,0
+Ein Rücktritt ist wenn eine Person mit etwas aufhört.,(S (NP (ART Ein) (NN Rücktritt)) (VAFIN ist) (S (KOUS wenn) (NP (ART eine) (NN Person)) (PP (APPR mit) (PIS etwas)) (VVFIN aufhört))) ($. .),1,0,0
+Die Person macht eine Aufgabe nicht mehr weiter.,(S (NP (ART Die) (NN Person)) (VVFIN macht) (NP (ART eine) (NN Aufgabe)) (AVP (PTKNEG nicht) (ADV mehr)) (PTKVZ weiter)) ($. .),1,0,0
+Diese Tiere können Rudel bilden: \newline Wolf \newline Seehund \newline Elch \newline Löwe \newline Rotwild,(S (PDAT Diese) (NN Tiere) (VMFIN können) (VP (NN Rudel) (VVINF bilden))) ($. :) (NP (PN (NE \newline) (NE Wolf))),1,0,0
+Das Wort Rudel wird von Jägern benutzt.,(S (NP (ART Das) (NN Wort) (NN Rudel)) (VAFIN wird) (VP (PP (APPR von) (NN Jägern)) (VVPP benutzt))) ($. .),1,1,0
+"Wenn Jäger mehr als ein Tier von einer Art auf einmal sehen, sagen sie dazu Rudel.","(S (KOUS Wenn) (NN Jäger) (NP (PIAT mehr) (NP (NP (KOKOM als) (ART ein) (NN Tier) (PP (APPR von) (ART einer) (NN Art))) (PP (APPR auf) (ADV einmal)))) (VVFIN sehen)) ($, ,) (S (VVFIN sagen) (PPER sie) (PROAV dazu) (NE Rudel)) ($. .)",1,3,0
+Wenn es sehr viele Tiere sind sagen sie dazu Herde.,(S (KOUS Wenn) (PPER es) (NP (AP (ADV sehr) (PIAT viele)) (NN Tiere)) (VAFIN sind) (VVFIN sagen) (PPER sie) (PROAV dazu) (NN Herde)) ($. .),1,1,0
+Alfred Willi Rudi Dutschke kommt am 7. März 1940 auf die Welt.,(S (PN (NE Alfred) (NE Willi) (NE Rudi) (NE Dutschke)) (VVFIN kommt) (PP (APPRART am) (ADJA 7.) (NN März) (CARD 1940)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,1
+"Er stirbt am 24. Dezember 1979. \newline In Aarhus, Dänemark.",(PPER Er) (VVFIN stirbt) (APPRART am) (ADJA 24.) (NN Dezember) ($. 1979.),0,0,0
+Rudi Dutschke war Anführer einer Studenten-bewegung.,(S (PN (NE Rudi) (NE Dutschke)) (VAFIN war) (NP (NN Anführer) (NP (ART einer) (NN Studenten-bewegung)))) ($. .),1,1,0
+Er war ein Aktivist.,(S (PPER Er) (VAFIN war) (NP (ART ein) (NN Aktivist))) ($. .),1,0,0
+Und er glaubte an den Marxismus.,(S (KON Und) (PPER er) (VVFIN glaubte) (PP (APPR an) (ART den) (NN Marxismus))) ($. .),1,0,0
+Es gibt zwei Mannschaften.,(S (PPER Es) (VVFIN gibt) (NP (CARD zwei) (NN Mannschaften))) ($. .),1,0,0
+Jede Mannschaft hat 15 Spieler.,(S (NP (PIAT Jede) (NN Mannschaft)) (VAFIN hat) (NP (CARD 15) (NN Spieler))) ($. .),1,0,0
+Ein Rugby-Spiel geht zwei mal 40 Minuten.,(S (NP (ART Ein) (NN Rugby-Spiel)) (VVFIN geht) (NP (CAP (CARD zwei) (ADV mal) (CARD 40)) (NN Minuten))) ($. .),1,1,0
+Insgesamt geht ein Spiel 80 Minuten.,(S (ADV Insgesamt) (VVFIN geht) (NP (ART ein) (NN Spiel)) (NP (CARD 80) (NN Minuten))) ($. .),1,0,0
+Beim Rugby darf man mit den Händen oder mit den Füßen den Ball spielen.,(S (PP (APPRART Beim) (NN Rugby)) (VMFIN darf) (PIS man) (VP (CPP (PP (APPR mit) (ART den) (NN Händen)) (KON oder) (PP (APPR mit) (ART den) (NN Füßen))) (NP (ART den) (NN Ball)) (VVINF spielen))) ($. .),1,0,0
+Nach Vorne darf man nur mit dem Fuß spielen.,(S (PP (APPR Nach) (ADV Vorne)) (VMFIN darf) (PIS man) (ADV nur) (VP (PP (APPR mit) (ART dem) (NN Fuß)) (VVINF spielen))) ($. .),1,0,0
+Nach hinten oder zur Seite darf mit der Hand gespielt werden.,(S (CPP (PP (APPR Nach) (ADV hinten)) (KON oder) (PP (APPRART zur) (NN Seite))) (VMFIN darf) (VP (VP (PP (APPR mit) (ART der) (NN Hand)) (VVPP gespielt)) (VAINF werden))) ($. .),1,0,0
+Der Rugby-Ball ist ein Ball aus Leder.,(S (NP (ART Der) (NN Rugby-Ball)) (VAFIN ist) (NP (ART ein) (NN Ball) (PP (APPR aus) (NN Leder)))) ($. .),1,1,0
+"Das Tor heißt ""Malfeld"".","(S (NP (ART Das) (NN Tor)) (VVFIN heißt)) ($LRB "") (NE Malfeld) ($LRB "") ($. .)",1,0,0
+"Wird der Ball in das Malfeld gelegt heißt das ""Versuch"".","(S (S (VAFIN Wird) (NP (ART der) (NN Ball)) (VP (PP (APPR in) (ART das) (NN Malfeld)) (VVPP gelegt))) (VVFIN heißt) (ART das)) ($LRB "") (NP (NN Versuch)) ($LRB "") ($. .)",1,0,0
+Für einen Versuch gibt es 5 Punkte.,(S (PP (APPR Für) (ART einen) (NN Versuch)) (VVFIN gibt) (PPER es) (NP (CARD 5) (NN Punkte))) ($. .),1,0,0
+Nach einem Versuch kann der Ball noch über die Torstangen geschossen werden.,(S (PP (APPR Nach) (ART einem) (NN Versuch)) (VMFIN kann) (NP (ART der) (NN Ball)) (ADV noch) (VP (VP (PP (APPR über) (ART die) (NN Torstangen)) (VVPP geschossen)) (VAINF werden))) ($. .),1,0,0
+Das darf man mit dem Fuß machen.,(S (PDS Das) (VMFIN darf) (PIS man) (VP (PP (APPR mit) (ART dem) (NN Fuß)) (VVINF machen))) ($. .),1,0,0
+"Das nennt man ""Erhöhung"".","(S (PDS Das) (VVFIN nennt) (PIS man)) ($LRB "") (NN Erhöhung) ($LRB "") ($. .)",1,0,0
+Für eine Erhöhung gibt es 2 extra Punkte.,(S (PP (APPR Für) (ART eine) (NN Erhöhung)) (VVFIN gibt) (PPER es) (NP (CARD 2) (ADJA extra) (NN Punkte))) ($. .),1,1,0
+Beim Rugby darf man einen Spieler umwerfen.,(S (PP (APPRART Beim) (NN Rugby)) (VMFIN darf) (PIS man) (VP (NP (ART einen) (NN Spieler)) (VVINF umwerfen))) ($. .),1,0,0
+"Wenn der Spieler mit dem Ball am Boden liegt, muß er den Ball loslassen.","(S (KOUS Wenn) (NP (ART der) (NN Spieler)) (PP (APPR mit) (ART dem) (NN Ball)) (PP (APPRART am) (NN Boden)) (VVFIN liegt)) ($, ,) (S (VMFIN muß) (PPER er) (VP (NP (ART den) (NN Ball)) (VVINF loslassen))) ($. .)",1,0,0
+Rugby ist eine Sportart.,(S (NN Rugby) (VAFIN ist) (NP (ART eine) (NN Sportart))) ($. .),1,0,0
+Rugby wird mit der Hand und mit dem Fuß gespielt.,(S (NN Rugby) (VAFIN wird) (VP (CPP (PP (APPR mit) (ART der) (NN Hand)) (KON und) (PP (APPR mit) (ART dem) (NN Fuß))) (VVPP gespielt))) ($. .),1,0,0
+Auf einem Rummel gibt es viele Fahrgeschäfte.,(S (PP (APPR Auf) (ART einem) (NN Rummel)) (VVFIN gibt) (PPER es) (NP (PIAT viele) (NN Fahrgeschäfte))) ($. .),1,0,0
+Der Rummel wird gern von Kindern und Erwachsenen besucht.,(S (NP (ART Der) (NN Rummel)) (VAFIN wird) (VP (ADV gern) (PP (APPR von) (CNP (NN Kindern) (KON und) (NN Erwachsenen))) (VVPP besucht))) ($. .),1,0,1
+An vielen kleinen Holzhütten kann man Essen und Trinken kaufen.,(S (PP (APPR An) (PIAT vielen) (ADJA kleinen) (NN Holzhütten)) (VMFIN kann) (PIS man) (VP (CNP (NN Essen) (KON und) (NN Trinken)) (VVINF kaufen))) ($. .),1,0,1
+Rummel ist ein Volksfest.,(S (NN Rummel) (VAFIN ist) (NP (ART ein) (NN Volksfest))) ($. .),1,0,0
+Ein Rummel findet auf einer Festwiese statt.,(S (NP (ART Ein) (NN Rummel)) (VVFIN findet) (PP (APPR auf) (ART einer) (NN Festwiese)) (PTKVZ statt)) ($. .),1,0,0
+Meistens wird ein Rummel zu Festen aufgebaut.,(S (ADV Meistens) (VAFIN wird) (NP (ART ein) (NN Rummel)) (VP (PP (APPR zu) (NN Festen)) (VVPP aufgebaut))) ($. .),1,0,0
+Rumpelstilzchen ist ein Märchen.,(S (NN Rumpelstilzchen) (VAFIN ist) (NP (ART ein) (NN Märchen))) ($. .),1,0,0
+Die Brüder Grimm machen es bekannt.,(S (NP (ART Die) (NN Brüder) (NE Grimm)) (VVFIN machen) (PPER es) (ADJD bekannt)) ($. .),1,1,0
+Runde Geburtstage werden sehr groß gefeiert.,(S (NP (ADJA Runde) (NN Geburtstage)) (VAFIN werden) (VP (AP (ADV sehr) (ADJD groß)) (VVPP gefeiert))) ($. .),1,0,0
+Ein Runder Geburtstag ist ein Geburtstag mit einer Null.,(S (NP (ART Ein) (ADJA Runder) (NN Geburtstag)) (VAFIN ist) (NP (ART ein) (NN Geburtstag) (PP (APPR mit) (ART einer) (NN Null)))) ($. .),1,2,0
+"Das Wort ""Runder Tisch"" ist auch ein Zeichen.","(ART Das) (NN Wort) ($LRB "") (NP (NP (ADJA Runder) (NN Tisch))) ($LRB "") (S (VAFIN ist) (ADV auch) (NP (ART ein) (NN Zeichen))) ($. .)",1,0,0
+Beispiel: \newline Verschiedene Leute streiten über ein Thema.,(NN Beispiel) ($. :) (NE \newline),0,0,0
+Alle wollen eine Lösung finden.,(S (PIS Alle) (VMFIN wollen) (VP (NP (ART eine) (NN Lösung)) (VVINF finden))) ($. .),1,0,0
+Damit der Streit aufhört.,(S (KOUS Damit) (NP (ART der) (NN Streit)) (VVFIN aufhört)) ($. .),1,0,0
+Bei einem Streit stehen die Menschen sich oft gegenüber.,(S (PP (APPR Bei) (ART einem) (NN Streit)) (VVFIN stehen) (NP (ART die) (NN Menschen)) (PRF sich) (ADV oft) (ADV gegenüber)) ($. .),1,0,0
+Der Runde Tisch soll ein Zeichen sein.,(S (NP (ART Der) (ADJA Runde) (NN Tisch)) (VMFIN soll) (VP (NP (ART ein) (NN Zeichen)) (VAINF sein))) ($. .),1,1,0
+Das Zeichen sagt: \newline Wir wollen nicht gegeneinander kämpfen.,(S (NP (ART Das) (NN Zeichen)) (VVFIN sagt)) ($. :) (XY \newline),1,0,0
+Wir wollen gemeinsam an einem Tisch sitzen.,(S (PPER Wir) (VMFIN wollen) (VP (ADJD gemeinsam) (PP (APPR an) (ART einem) (NN Tisch)) (VVINF sitzen))) ($. .),1,0,0
+Wir wollen gemeinsam eine Lösung finden.,(S (PPER Wir) (VMFIN wollen) (VP (ADJD gemeinsam) (NP (ART eine) (NN Lösung)) (VVINF finden))) ($. .),1,0,0
+An einem Runden Tisch werden Gespräche gemacht.,(S (PP (APPR An) (ART einem) (ADJA Runden) (NN Tisch)) (VAFIN werden) (NN Gespräche) (VP (VVPP gemacht))) ($. .),1,0,1
+Und es wird diskutiert.,(S (KON Und) (PPER es) (VAFIN wird) (VVPP diskutiert)) ($. .),1,0,0
+Die Gespräche können verschiedene Themen haben.,(S (NP (ART Die) (NN Gespräche)) (VMFIN können) (VP (NP (ADJA verschiedene) (NN Themen)) (VAINF haben))) ($. .),1,0,0
+Meistens wird ein Runder Tisch benutzt um: • einen Streit zu beenden,(S (ADV Meistens) (VAFIN wird) (NP (ART ein) (ADJA Runder) (NN Tisch)) (VP (VVPP benutzt) (KOUI um))) ($. :) ($LRB •) (VP (NP (ART einen) (NN Streit)) (VZ (PTKZU zu) (VVINF beenden))),1,1,0
+Der Runde Tisch hilft bei Problemen weil:,(S (NP (ART Der) (PN (NP (ADJA Runde) (NN Tisch)))) (VVFIN hilft) (PP (APPR bei) (NN Problemen))),1,1,0
+Ein Runder Tisch ist eine Sitz-ordnung für Gespräche.,(S (NP (ART Ein) (ADJA Runder) (NN Tisch)) (VAFIN ist) (NP (ART eine) (NN Sitz-ordnung) (PP (APPR für) (NN Gespräche)))) ($. .),1,2,0
+Das heißt: die Teilnehmer sitzen an einem Runden Tisch.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (NP (ART die) (NN Teilnehmer)) (VVFIN sitzen) (PP (APPR an) (ART einem) (ADJA Runden) (NN Tisch))) ($. .),1,0,1
+Der Rund-funk-staats-vertrag war früher gültig.,(S (NP (ART Der) (NN Rund-funk-staats-vertrag)) (VAFIN war) (ADJD früher) (ADJD gültig)) ($. .),1,0,0
+Der Rund-funk-staats-vertrag war ein Vertrag.,(S (NP (ART Der) (NN Rund-funk-staats-vertrag)) (VAFIN war) (NP (ART ein) (NN Vertrag))) ($. .),1,0,0
+Im Rund-funk-staats-vertrag stehen Rund-funk-rechte.,(S (PP (APPRART Im) (NN Rund-funk-staats-vertrag)) (VVFIN stehen) (NN Rund-funk-rechte)) ($. .),1,0,0
+Zum Beispiel wie-viel Geld man für Rund-funk be-zahlen muss.,(PP (APPRART Zum) (NN Beispiel)) (NP (PWAT wie-viel) (NN Geld)) (PIS man) (VP (PP (APPR für) (NN Rund-funk)) (VVINF be-zahlen)) (VMFIN muss) ($. .),0,0,0
+Oder wie-viel Werbung es im Rund-funk geben darf.,(KON Oder) (NP (PWAT wie-viel) (NN Werbung)) (PPER es) (VP (PP (APPRART im) (NN Rund-funk)) (VVINF geben)) (VMFIN darf) ($. .),0,0,0
+Heute ist der Rund-funk-staats-vertrag un-gültig.,(S (ADV Heute) (VAFIN ist) (NP (ART der) (NN Rund-funk-staats-vertrag)) (ADJD un-gültig)) ($. .),1,0,0
+Ein Running Dinner macht man oft in einer großen Stadt.,(S (NP (ART Ein) (CH (FM Running) (FM Dinner))) (VVFIN macht) (PIS man) (ADV oft) (PP (APPR in) (ART einer) (ADJA großen) (NN Stadt))) ($. .),1,1,1
+Beim Running Dinner gibt es 3 Gruppen.,(S (PP (APPRART Beim) (PN (NN Running) (NE Dinner))) (VVFIN gibt) (PPER es) (NP (CARD 3) (NN Gruppen))) ($. .),1,0,0
+Jede Gruppe hat 2 Personen.,(S (NP (PIAT Jede) (NN Gruppe)) (VAFIN hat) (NP (CARD 2) (NN Personen))) ($. .),1,0,0
+Jede Gruppe kocht ein Essen.,(S (NP (PIAT Jede) (NN Gruppe)) (VVFIN kocht) (NP (ART ein) (NN Essen))) ($. .),1,0,0
+Gruppe 1 kocht eine Vor-speise.,(S (NP (NN Gruppe) (CARD 1)) (VVFIN kocht) (NP (ART eine) (NN Vor-speise))) ($. .),1,0,0
+Gruppe 2 kocht eine Haupt-speise.,(S (NP (NN Gruppe) (CARD 2)) (VVFIN kocht) (NP (ART eine) (NN Haupt-speise))) ($. .),1,0,0
+Gruppe 3 kocht eine Nach-speise.,(S (NP (NN Gruppe) (CARD 3)) (VVFIN kocht) (NP (ART eine) (NN Nach-speise))) ($. .),1,0,0
+Jede Gruppe kocht an einem anderen Ort.,(S (NP (PIAT Jede) (NN Gruppe)) (VVFIN kocht) (PP (APPR an) (ART einem) (ADJA anderen) (NN Ort))) ($. .),1,0,1
+"Das heißt, \newline alle müssen zu jedem Essen an einen anderen Ort gehen.","(S (PDS Das) (VVFIN heißt)) ($, ,) (S (NP (PDS \newline) (PIS alle)) (VMFIN müssen) (VP (PP (APPR zu) (PIAT jedem) (NN Essen)) (PP (APPR an) (ART einen) (ADJA anderen) (NN Ort)) (VVINF gehen))) ($. .)",1,0,1
+"Die Menschen die bei einem Running Dinner mit-machen, \newline kennen sich vorher nicht.","(NP (ART Die) (NN Menschen)) (PRELS die) (PP (APPR bei) (ART einem) (CH (FM Running) (FM Dinner))) (VVFIN mit-machen) ($, ,) (S (FM \newline) (VVFIN kennen) (PRF sich) (ADV vorher) (PTKNEG nicht)) ($. .)",1,0,1
+Beim gemeinsamen Kochen und Essen kann man die anderen kennen-lernen.,(PP (APPRART Beim) (ADJA gemeinsamen) (CNP (NN Kochen) (KON und) (NN Essen))) (VMFIN kann) (PIS man) (VP (NP (ART die) (ADJA anderen)) (VVINF kennen-lernen)) ($. .),0,0,1
+Manchmal gibt es nach dem Running Dinner noch-mal ein Treffen.,(S (ADV Manchmal) (VVFIN gibt) (PPER es) (PP (APPR nach) (ART dem) (PN (FM Running) (NE Dinner))) (ADV noch-mal) (NP (ART ein) (NN Treffen))) ($. .),1,0,1
+Damit man alle noch-mal wieder-sehen kann.,(KOUS Damit) (PIS man) (PIS alle) (ADV noch-mal) (VVINF wieder-sehen) (VMFIN kann) ($. .),0,0,0
+Die Wörter Running Dinner sind eine Marke.,(S (NP (ART Die) (NN Wörter) (PN (FM Running) (NE Dinner))) (VAFIN sind) (NP (ART eine) (NN Marke))) ($. .),1,1,0
+Bei einem Running Dinner  trifft man sich mit anderen Menschen.,(S (PP (APPR Bei) (ART einem) (PN (FM Running) (FM Dinner))) (VVFIN  ) (VVFIN trifft) (PIS man) (PRF sich) (PP (APPR mit) (ADJA anderen) (NN Menschen))) ($. .),1,0,1
+Man trifft andere Menschen um gemeinsam zu Essen.,(S (PIS Man) (VVFIN trifft) (NP (ADJA andere) (NN Menschen)) (VP (KOUI um) (ADJD gemeinsam) (VZ (PTKZU zu) (VVINF Essen)))) ($. .),1,0,0
+"Zu einem Running Dinner geht man,  \newline wenn man andere Menschen Kennen-lernen möchte.","(S (PP (APPR Zu) (ART einem) (PN (FM Running) (FM Dinner))) (VVFIN geht) (PIS man)) ($, ,) ($.  ) (NE \newline)",1,0,1
+Und wenn man nicht alleine sein möchte.,(S (KON Und) (S (KOUS wenn) (PIS man) (PTKNEG nicht) (VP (ADV alleine) (VAINF sein)) (VMFIN möchte))) ($. .),1,0,0
+Eine Russenpeitsche ist eine schnelle Wetter-Änderung.,(S (NP (ART Eine) (NN Russenpeitsche)) (VAFIN ist) (NP (ART eine) (ADJA schnelle) (NN Wetter-Änderung))) ($. .),1,1,0
+"Wennn es plötzlich und schnell kalt wird,  \newline sagt man dazu auch ""Russen-Peitsche"".","(S (KOUS Wennn) (PPER es) (CAP (ADJD plötzlich) (KON und) (ADJD schnell)) (ADJD kalt) (VAFIN wird)) ($, ,) (S (NN  ) (NE \newline) (VVFIN sagt) (PIS man) (PROAV dazu) (ADV auch)) ($LRB "") (NP (NN Russen-Peitsche)) ($LRB "") ($. .)",1,0,0
+Russisch Roulette ist ein Spiel bei dem jemand sterben kann.,(S (NP (ADJD Russisch) (NN Roulette)) (VAFIN ist) (ART ein) (NN Spiel) (PP (APPR bei) (PRELS dem)) (PIS jemand) (VVINF sterben) (VMFIN kann)) ($. .),1,0,0
+Das Spiel wird mit einem Revolver gespielt.,(S (NP (ART Das) (NN Spiel)) (VAFIN wird) (VP (PP (APPR mit) (ART einem) (NN Revolver)) (VVPP gespielt))) ($. .),1,0,0
+Mit dem Revolver wird auf den Kopf gezielt.,(S (PP (APPR Mit) (ART dem) (NN Revolver)) (VAFIN wird) (VP (PP (APPR auf) (ART den) (NN Kopf)) (VVPP gezielt))) ($. .),1,0,0
+"Wenn man Glück hat, geht kein Schuss los.","(S (KOUS Wenn) (PIS man) (NN Glück) (VAFIN hat)) ($, ,) (S (VVFIN geht) (NP (PIAT kein) (NN Schuss)) (PTKVZ los)) ($. .)",1,0,0
+Der Bürger-krieg hat im Jahr 1917 angefangen.,(S (NP (ART Der) (NN Bürger-krieg)) (VAFIN hat) (VP (PP (APPRART im) (NN Jahr) (CARD 1917)) (VVPP angefangen))) ($. .),1,0,0
+Weil viele Menschen sich in Russland unsicher gefühlt haben.,(S (KOUS Weil) (NP (PIAT viele) (NN Menschen)) (VP (PRF sich) (PP (APPR in) (NE Russland)) (ADJD unsicher) (VVPP gefühlt)) (VAFIN haben)) ($. .),1,0,0
+Sie haben nicht gewusst wie sie das Land organisieren sollen.,(S (PPER Sie) (VAFIN haben) (VP (PTKNEG nicht) (VVPP gewusst)) (S (PWAV wie) (PPER sie) (VP (NP (ART das) (NN Land)) (VVINF organisieren)) (VMFIN sollen))) ($. .),1,0,0
+Dabei haben sie Gruppen gegründet.,(S (PROAV Dabei) (VAFIN haben) (PPER sie) (VP (NN Gruppen) (VVPP gegründet))) ($. .),1,0,0
+Eine große Gruppe ist die weiße Armee gewesen.,(S (NP (ART Eine) (ADJA große) (NN Gruppe)) (VAFIN ist) (NP (ART die) (ADJA weiße) (NN Armee)) (VP (VAPP gewesen))) ($. .),1,2,0
+Sie finden zum Beispiel das eigene Eigentum sehr wichtig.,(S (PPER Sie) (VVFIN finden) (NP (PP (APPRART zum) (NN Beispiel)) (ART das) (ADJA eigene) (NN Eigentum)) (AP (ADV sehr) (ADJD wichtig))) ($. .),1,1,0
+Und sie finden die Schul-pflicht wichtig.,(S (KON Und) (PPER sie) (VVFIN finden) (NP (ART die) (NN Schul-pflicht)) (ADJD wichtig)) ($. .),1,0,0
+Die zweite große Gruppe ist die rote Armee gewesen.,(S (NP (ART Die) (ADJA zweite) (ADJA große) (NN Gruppe)) (VAFIN ist) (NP (ART die) (ADJA rote) (NN Armee)) (VP (VAPP gewesen))) ($. .),1,2,0
+Sie sind gegen die Ideen von der weißen Armee gewesen.,(S (PPER Sie) (VAFIN sind) (VP (PP (APPR gegen) (ART die) (NN Ideen) (PP (APPR von) (ART der) (ADJA weißen) (NN Armee))) (VAPP gewesen))) ($. .),1,0,2
+Die rote Armee hat an den Kommunismus geglaubt.,(S (NP (ART Die) (ADJA rote) (NN Armee)) (VAFIN hat) (VP (PP (APPR an) (ART den) (NN Kommunismus)) (VVPP geglaubt))) ($. .),1,1,0
+Sie wollen das alles gleich ist.,(S (PPER Sie) (VMFIN wollen) (VP (NP (ART das) (PIS alles)) (ADV gleich) (VAINF ist))) ($. .),1,0,0
+Es soll kein arm oder reich geben.,(S (PPER Es) (VMFIN soll) (VP (NP (PIAT kein) (CAP (ADJD arm) (KON oder) (ADJD reich))) (VVINF geben))) ($. .),1,1,0
+Eine kleine Gruppe ist zum Beispiel die Grüne Armee gewesen.,(S (NP (ART Eine) (ADJA kleine) (NN Gruppe)) (VAFIN ist) (NP (PP (APPRART zum) (NN Beispiel)) (ART die) (PN (NP (ADJA Grüne) (NN Armee)))) (VP (VAPP gewesen))) ($. .),1,2,0
+Die grüne Armee hat manchmal gegen die rote Armee ge-kämpft.,(S (NP (ART Die) (ADJA grüne) (NN Armee)) (VAFIN hat) (VP (ADV manchmal) (PP (APPR gegen) (ART die) (ADJA rote) (NN Armee)) (VVPP ge-kämpft))) ($. .),1,1,1
+Und sie hat manchmal gegen die weiße Armee ge-kämpft.,(S (KON Und) (PPER sie) (VAFIN hat) (VP (ADV manchmal) (PP (APPR gegen) (ART die) (ADJA weiße) (NN Armee)) (VVPP ge-kämpft))) ($. .),1,0,1
+Zum Beispiel wenn ihnen eine der großen Armeen Lebensmittel weg-nehmen will.,(S (PP (APPRART Zum) (NN Beispiel)) (KOUS wenn) (PPER ihnen) (NP (PIS eine) (NP (ART der) (ADJA großen) (NN Armeen))) (VP (NN Lebensmittel) (VVINF weg-nehmen)) (VMFIN will)) ($. .),1,2,0
+Andere Länder haben im Russische Bürger-krieg die Gruppen unterstützt.,(S (NP (ADJA Andere) (NN Länder)) (VAFIN haben) (VP (PP (APPRART im) (ADJA Russische) (NN Bürger-krieg)) (NP (ART die) (NN Gruppen)) (VVPP unterstützt))) ($. .),1,0,0
+Viele haben die weiße Armee unterstützt.,(S (PIS Viele) (VAFIN haben) (VP (NP (ART die) (ADJA weiße) (NN Armee)) (VVPP unterstützt))) ($. .),1,1,0
+"Weil sie Angst haben, dass es sonst im eigenen Land auch Kommunismus gibt.","(S (KOUS Weil) (PPER sie) (NN Angst) (VAFIN haben)) ($, ,) (NP (S (KOUS dass) (PPER es) (ADV sonst) (PP (APPRART im) (ADJA eigenen) (NN Land)) (NP (ADV auch) (NN Kommunismus)) (VVFIN gibt))) ($. .)",1,1,0
+Sehr viele Länder haben beim Russischen Bürger-krieg mit-gemacht.,(NP (AP (ADV Sehr) (PIAT viele)) (NN Länder)) (VAFIN haben) (APPRART beim) (ADJA Russischen) (NN Bürger-krieg) (VVPP mit-gemacht) ($. .),0,1,0
+Viele Gruppen haben lange gegeneinander ge-kämpft.,(S (NP (PIAT Viele) (NN Gruppen)) (VAFIN haben) (VP (ADV lange) (ADV gegeneinander) (VVPP ge-kämpft))) ($. .),1,0,0
+Im Russischen Bürgerkrieg sind fast 10 Millionen Menschen gestorben.,(S (PP (APPRART Im) (ADJA Russischen) (NN Bürgerkrieg)) (VAFIN sind) (NP (AP (ADV fast) (NM (CARD 10) (NN Millionen))) (NN Menschen)) (VP (VVPP gestorben))) ($. .),1,1,0
+Der Russische Bürger-krieg ist ein großer Bürger-krieg gewesen.,(S (NP (ART Der) (ADJA Russische) (NN Bürger-krieg)) (VAFIN ist) (VP (NP (ART ein) (ADJA großer) (NN Bürger-krieg)) (VAPP gewesen))) ($. .),1,2,0
+Er ist in Russland gewesen.,(S (PPER Er) (VAFIN ist) (VP (PP (APPR in) (NE Russland)) (VAPP gewesen))) ($. .),1,0,0
+Und er hat 5 Jahre gedauert.,(S (KON Und) (PPER er) (VAFIN hat) (VP (NP (CARD 5) (NN Jahre)) (VVPP gedauert))) ($. .),1,0,0
+Der Bürger-krieg ist vom November 1917 bis zum Oktober 1922 gewesen.,(S (NP (ART Der) (NN Bürger-krieg)) (VAFIN ist) (VP (PP (APPRART vom) (NN November) (CARD 1917)) (PP (APPR bis) (APPRART zum) (NN Oktober) (CARD 1922)) (VAPP gewesen))) ($. .),1,0,1
+Im Bürger-krieg haben 2 große Gruppen gegen-einander ge-kämpft.,(PP (APPRART Im) (NN Bürger-krieg)) (VAFIN haben) (NP (CARD 2) (ADJA große) (NN Gruppen)) (VP (ADV gegen-einander) (VVPP ge-kämpft)) ($. .),0,1,0
+Die 2 großen Gruppen sind die Rote Armee und die Weiße Armee gewesen.,(S (NP (ART Die) (CARD 2) (ADJA großen) (NN Gruppen)) (VAFIN sind) (CNP (NP (ART die) (ADJA Rote) (NN Armee)) (KON und) (NP (ART die) (ADJA Weiße) (NN Armee))) (VP (VAPP gewesen))) ($. .),1,3,0
+Und es haben viele kleine Gruppen gegen-einander ge-kämpft.,(S (KON Und) (PPER es) (VAFIN haben) (NP (PIAT viele) (ADJA kleine) (NN Gruppen)) (VP (ADV gegen-einander) (VVPP ge-kämpft))) ($. .),1,1,0
+Oder die kleinen Gruppen haben gegen die weiße Armee ge-kämpft.,(S (KON Oder) (NP (ART die) (ADJA kleinen) (NN Gruppen)) (VAFIN haben) (VP (PP (APPR gegen) (ART die) (ADJA weiße) (NN Armee)) (VVPP ge-kämpft))) ($. .),1,1,1
+Oder sie haben gegen die rote Armee ge-kämpft.,(S (KON Oder) (PPER sie) (VAFIN haben) (VP (PP (APPR gegen) (ART die) (ADJA rote) (NN Armee)) (VVPP ge-kämpft))) ($. .),1,0,1
+Die rote Armee hat den Russische Bürger-krieg gewonnen.,(S (NP (ART Die) (ADJA rote) (NN Armee)) (VAFIN hat) (VP (NP (ART den) (ADJA Russische) (NN Bürger-krieg)) (VVPP gewonnen))) ($. .),1,2,0
+Nach dem Bürger-krieg haben sie die Sowjetunion aufgebaut.,(S (PP (APPR Nach) (ART dem) (NN Bürger-krieg)) (VAFIN haben) (PPER sie) (VP (NP (ART die) (NE Sowjetunion)) (VVPP aufgebaut))) ($. .),1,0,0
+Russland hat eine Gelenkte Demokratie.,(S (NE Russland) (VAFIN hat) (NP (ART eine) (ADJA Gelenkte) (NN Demokratie))) ($. .),1,1,0
+Der Präsident von Russland heißt: Wladimir Wladimirowitsch Putin.,(S (NP (ART Der) (NN Präsident) (PP (APPR von) (NE Russland))) (VVFIN heißt)) ($. :) (PN (NE Wladimir) (NE Wladimirowitsch) (NE Putin)) ($. .),1,1,0
+Der Regierungs-chef von Russland heißt: Michail Mischustin.,(S (NP (ART Der) (NN Regierungs-chef) (PP (APPR von) (NE Russland))) (VVFIN heißt)) ($. :) (PN (NE Michail) (NE Mischustin)) ($. .),1,1,0
+Russland ist Mitglied bei: • Sicherheitsrat der Vereinten Nationen,(S (NE Russland) (VAFIN ist) (NN Mitglied) (APPR bei)) ($. :),1,0,0
+Russland ist Mitglied bei: • OSZE,(S (NE Russland) (VAFIN ist) (NN Mitglied) (APPR bei)) ($. :),1,0,0
+Russland ist Mitglied bei: • Europarat,(S (NE Russland) (VAFIN ist) (NN Mitglied) (APPR bei)) ($. :),1,0,0
+Russland ist Mitglied bei: • G8,(S (NE Russland) (VAFIN ist) (NN Mitglied) (APPR bei)) ($. :),1,0,0
+Russland ist Mitglied bei: • IWF,(S (NE Russland) (VAFIN ist) (NN Mitglied) (APPR bei)) ($. :),1,0,0
+Russland ist Mitglied bei: • Weltbank,(S (NE Russland) (VAFIN ist) (NN Mitglied) (APPR bei)) ($. :),1,0,0
+Rußland ist das größte Land der Welt.,(S (NE Rußland) (VAFIN ist) (NP (ART das) (ADJA größte) (NN Land) (NP (ART der) (NN Welt)))) ($. .),1,1,0
+"Weil es so groß ist,  \newline gibt es 11 verschiedene Uhr-zeiten.","(S (KOUS Weil) (PPER es) (AP (ADV so) (ADJD groß)) (VAFIN ist)) ($, ,) ($.  ) (S (NE \newline) (VVFIN gibt) (PPER es) (NP (CARD 11) (ADJA verschiedene) (NN Uhr-zeiten))) ($. .)",1,1,0
+Durch Russland fährt die Transsibirische Eisenbahn.,(S (PP (APPR Durch) (NE Russland)) (VVFIN fährt) (NP (ART die) (ADJA Transsibirische) (NN Eisenbahn))) ($. .),1,1,0
+Das ist die längste Zug-strecke der Welt.,(S (PDS Das) (VAFIN ist) (NP (ART die) (ADJA längste) (NN Zug-strecke) (NP (ART der) (NN Welt)))) ($. .),1,1,0
+Eine Zug-fahrt von Moskau nach Wladiwostok dauert über 160 Stunden.,(S (NP (ART Eine) (NN Zug-fahrt) (PP (APPR von) (NE Moskau)) (PP (APPR nach) (NE Wladiwostok))) (VVFIN dauert) (NP (AP (ADV über) (CARD 160)) (NN Stunden))) ($. .),1,2,0
+Der höchste Berg in Russland heißt: Elbrus.,(S (NP (ART Der) (ADJA höchste) (NN Berg) (PP (APPR in) (NE Russland))) (VVFIN heißt)) ($. :) (NE Elbrus) ($. .),1,1,0
+Er ist über 5000 Meter hoch und liegt im Kaukasus.,(CS (S (PPER Er) (VAFIN ist) (AP (NP (AP (ADV über) (CARD 5000)) (NN Meter)) (ADJD hoch))) (KON und) (S (VVFIN liegt) (PP (APPRART im) (NE Kaukasus)))) ($. .),1,1,0
+In Russland leben über 140 Millionen Menschen.,(S (PP (APPR In) (NE Russland)) (VVFIN leben) (NP (AP (ADV über) (NM (CARD 140) (NN Millionen))) (NN Menschen))) ($. .),1,1,0
+Und sie sprechen die Sprache Russisch.,(S (KON Und) (PPER sie) (VVFIN sprechen) (NP (ART die) (NN Sprache) (NN Russisch))) ($. .),1,1,0
+Russisch wird in vielen Ländern gesprochen.,(S (NN Russisch) (VAFIN wird) (VP (PP (APPR in) (PIAT vielen) (NN Ländern)) (VVPP gesprochen))) ($. .),1,0,0
+163 Millionen sprechen Russisch als Mutter-sprache.,(S (NM (CARD 163) (NN Millionen)) (VVFIN sprechen) (NN Russisch) (PP (APPR als) (NN Mutter-sprache))) ($. .),1,0,0
+In Russland bezahlt man mit Rubel.,(S (PP (APPR In) (NE Russland)) (VVFIN bezahlt) (PIS man) (PP (APPR mit) (NN Rubel))) ($. .),1,0,0
+In der Haupt-stadt Moskau leben über 11 Millionen Menschen.,(S (PP (APPR In) (ART der) (NN Haupt-stadt) (NE Moskau)) (VVFIN leben) (NP (AP (ADV über) (NM (CARD 11) (NN Millionen))) (NN Menschen))) ($. .),1,1,1
+Und in Deutschland leben über 6 Millionen Russen.,(S (KON Und) (PP (APPR in) (NE Deutschland)) (VVFIN leben) (NP (AP (ADV über) (NM (CARD 6) (NN Millionen))) (NN Russen))) ($. .),1,1,0
+So sieht die Flagge von Russland aus:,(S (ADV So) (VVFIN sieht) (NP (ART die) (NN Flagge)) (PP (APPR von) (NE Russland)) (PTKVZ aus)) ($. :),1,0,0
+Russland ist ein Land in Eurasien.,(S (NE Russland) (VAFIN ist) (NP (ART ein) (NN Land) (PP (APPR in) (NE Eurasien)))) ($. .),1,1,0
+Die Menschen die in Russland leben heißen: Russen.,(S (ART Die) (NN Menschen) (PRELS die) (PP (APPR in) (NE Russland)) (VVFIN leben) (VVFIN heißen)) ($. :) (NN Russen) ($. .),1,0,0
+Die Haupt-stadt von Russland ist: Moskau.,(S (NP (ART Die) (NN Haupt-stadt) (PP (APPR von) (NE Russland))) (VAFIN ist)) ($. :) (NE Moskau) ($. .),1,1,0
+Beim Sabbatical wird man frei gestellt vom Arbeits-beruf.,(S (PP (APPRART Beim) (NN Sabbatical)) (VAFIN wird) (PIS man) (VP (ADJD frei) (VVPP gestellt) (PP (APPRART vom) (NN Arbeits-beruf)))) ($. .),1,0,0
+Das heißt: • man muss nicht in seinem Beruf arbeiten,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (S (PIS man) (VMFIN muss) (PTKNEG nicht) (VP (PP (APPR in) (PPOSAT seinem) (NN Beruf)) (VVINF arbeiten))),1,0,0
+Mitarbeiter können ein Sabbatical machen:,(S (NN Mitarbeiter) (VMFIN können) (VP (NP (ART ein) (NN Sabbatical)) (VVINF machen))) ($. :),1,0,0
+Das heißt: • ohne Geld dafür zu bekommen,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (VP (KOUI ohne) (NP (NN Geld) (PROAV dafür)) (VZ (PTKZU zu) (VVINF bekommen))),1,0,0
+Das heißt: • vor dem Sabbatical mehr arbeiten und dann frei machen,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (CVP (VP (PP (APPR vor) (ART dem) (NN Sabbatical)) (PIS mehr) (VVINF arbeiten)) (KON und) (VP (ADV dann) (ADJD frei) (VVINF machen))),1,0,0
+Ein Gap Year ist etwas ähnliches.,(S (NP (ART Ein) (PN (FM Gap) (FM Year))) (VAFIN ist) (NP (PIAT etwas) (ADJA ähnliches))) ($. .),1,1,0
+Und geht auch 1 Jahr.,(S (KON Und) (VVFIN geht) (ADV auch) (NP (CARD 1) (NN Jahr))) ($. .),1,0,0
+Sabbatical ist eine Zeit ohne (im festen Beruf) zu arbeiten.,(S (NN Sabbatical) (VAFIN ist) (NP (ART eine) (NN Zeit)) (APPR ohne)) ($LRB -LRB-) (PP (APPRART im) (ADJA festen) (NN Beruf)) ($LRB -RRB-) (VP (VZ (PTKZU zu) (VVINF arbeiten))) ($. .),1,0,0
+Das heißt: • Zeit für etwas anderes zu haben,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (VP (NP (NN Zeit) (PP (APPR für) (PIAT etwas) (PIS anderes))) (VZ (PTKZU zu) (VAINF haben))),1,1,0
+Das heißt: • eine Reise zu machen,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (VP (NP (ART eine) (NN Reise)) (VZ (PTKZU zu) (VVINF machen))),1,0,0
+Das heißt: • neue Sprachen zu lernen,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (VP (NP (ADJA neue) (NN Sprachen)) (VZ (PTKZU zu) (VVINF lernen))),1,0,0
+Das heißt: • Forschung zu machen,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (VP (NN Forschung) (VZ (PTKZU zu) (VVINF machen))),1,0,0
+Das heißt: • um mehr Zeit mit der Familie zu haben,(S (PDS Das) (VVFIN heißt)) ($. :) ($LRB •) (VP (KOUI um) (NP (PIAT mehr) (NN Zeit) (PP (APPR mit) (ART der) (NN Familie))) (VZ (PTKZU zu) (VAINF haben))),1,1,0
+"Sabine Lisicki wurde am 22. September 1989 in Troisdorf, Deutschland geboren.","(S (PN (NE Sabine) (NE Lisicki)) (VAFIN wurde) (PP (APPRART am) (ADJA 22.) (NN September) (CARD 1989)) (APPR in) (NE Troisdorf)) ($, ,) (VP (PP (NE Deutschland)) (VVPP geboren)) ($. .)",1,0,1
+Ihre Eltern kommen aus Polen.,(S (NP (PPOSAT Ihre) (NN Eltern)) (VVFIN kommen) (PP (APPR aus) (NE Polen))) ($. .),1,0,0
+Im Jahr 1979 sind sie nach Deutschland eingewandert.,(S (PP (APPRART Im) (NN Jahr) (CARD 1979)) (VAFIN sind) (PPER sie) (VP (PP (APPR nach) (NE Deutschland)) (VVPP eingewandert))) ($. .),1,0,0
+Sabine Lisicki spricht die Sprachen: • Deutsch,(S (PN (NE Sabine) (NE Lisicki)) (VVFIN spricht) (NP (ART die) (NN Sprachen))) ($. :),1,0,0
+Sabine Lisicki spricht die Sprachen: • Englisch,(S (PN (NE Sabine) (NE Lisicki)) (VVFIN spricht) (NP (ART die) (NN Sprachen))) ($. :),1,0,0
+Sabine Lisicki spricht die Sprachen: • Polnisch,(S (PN (NE Sabine) (NE Lisicki)) (VVFIN spricht) (NP (ART die) (NN Sprachen))) ($. :),1,0,0
+Sabine Lisicki hat zwei Wohn-orte.,(S (PN (NE Sabine) (NE Lisicki)) (VAFIN hat) (NP (CARD zwei) (NN Wohn-orte))) ($. .),1,0,0
+Der Wettbewerb heißt: Der Große Preis von Wimbledon.,(S (NP (ART Der) (NN Wettbewerb)) (VVFIN heißt)) ($. :) (NP (ART Der) (ADJA Große) (NN Preis) (PP (APPR von) (NE Wimbledon))) ($. .),1,1,0
+Im Halb-Finale hat sie gegen die Tennis-Spielerin Agnieszka Radwanska gewonnen.,(S (PP (APPRART Im) (NN Halb-Finale)) (VAFIN hat) (PPER sie) (VP (PP (APPR gegen) (ART die) (NN Tennis-Spielerin) (PN (NE Agnieszka) (NE Radwanska))) (VVPP gewonnen))) ($. .),1,0,1
+Das heißt: Sabine Lisicki hat es ins Finale von Wimbledon geschafft.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (PN (NE Sabine) (NE Lisicki)) (VAFIN hat) (VP (PPER es) (PP (APPRART ins) (NN Finale) (PP (APPR von) (NE Wimbledon))) (VVPP geschafft))) ($. .),1,0,1
+"Die letzte deutsche Tennis-Spielerin die das geschafft hat, war Steffi Graf.","(ART Die) (ADJA letzte) (ADJA deutsche) (NN Tennis-Spielerin) (PRELS die) (VP (PDS das) (VVPP geschafft)) (VAFIN hat) ($, ,) (S (VAFIN war) (PN (NE Steffi) (NE Graf))) ($. .)",1,0,0
+Das war im Jahr 1999.,(PDS Das) (VAFIN war) (APPRART im) (NN Jahr) ($. 1999.),0,0,0
+Sabine Lisicki ist eine deutsche Tennis-Spielerin.,(S (PN (NE Sabine) (NE Lisicki)) (VAFIN ist) (NP (ART eine) (ADJA deutsche) (NN Tennis-Spielerin))) ($. .),1,1,0
+Manche Hunde-besitzer brauchen einen Sach-kunde-ausweis für Hunde.,(S (NP (PIAT Manche) (NN Hunde-besitzer)) (VVFIN brauchen) (NP (ART einen) (NN Sach-kunde-ausweis) (PP (APPR für) (NN Hunde)))) ($. .),1,1,0
+"Zum Beispiel, \newline wenn man einen gefährlichen Hund hat.","(PP (APPRART Zum) (NN Beispiel)) ($, ,) (S (ADV \newline) (KOUS wenn) (PIS man) (NP (ART einen) (ADJA gefährlichen) (NN Hund)) (VAFIN hat)) ($. .)",1,1,0
+Diese Hunde-besitzer müssen eine Prüfung machen.,(S (NP (PDAT Diese) (NN Hunde-besitzer)) (VMFIN müssen) (VP (NP (ART eine) (NN Prüfung)) (VVINF machen))) ($. .),1,0,0
+Bei der Prüfung muss man Hunde-fragen beantworten.,(S (PP (APPR Bei) (ART der) (NN Prüfung)) (VMFIN muss) (PIS man) (VP (NN Hunde-fragen) (VVINF beantworten))) ($. .),1,0,0
+Zum Beispiel wie man einen Hund loben kann.,(S (PP (APPRART Zum) (NN Beispiel)) (PWAV wie) (PIS man) (VP (NP (ART einen) (NN Hund)) (VVINF loben)) (VMFIN kann)) ($. .),1,0,0
+"Mit dem Sach-kunde-nachweis für Hunde kann man nachweisen, \newline dass man die Prüfung gemacht hat.","(S (PP (APPR Mit) (ART dem) (NN Sach-kunde-nachweis) (PP (APPR für) (NN Hunde))) (VMFIN kann) (PIS man) (VP (VVINF nachweisen))) ($, ,) (FM \newline) (KOUS dass) (PIS man) (VP (NP (ART die) (NN Prüfung)) (VVPP gemacht)) (VAFIN hat) ($. .)",1,0,1
+Und das man die Prüfung geschafft hat.,(S (KON Und) (PDS das) (PIS man) (VP (NP (ART die) (NN Prüfung)) (VVPP geschafft)) (VAFIN hat)) ($. .),1,0,0
+Die Prüfung kann man beim Veterinär-amt machen.,(S (NP (ART Die) (NN Prüfung)) (VMFIN kann) (PIS man) (VP (PP (APPRART beim) (NN Veterinär-amt)) (VVINF machen))) ($. .),1,0,0
+"Wenn man die Prüfung schafft, \newline bekommt man eine Bestätigung.","(AVP (S (KOUS Wenn) (PIS man) (NP (ART die) (NN Prüfung)) (VVFIN schafft))) ($, ,) (S (ADV \newline) (VVFIN bekommt) (PIS man) (NP (ART eine) (NN Bestätigung))) ($. .)",1,0,0
+"In der Bestätigung steht, \newline dass man sich gut mit Hunden auskennt.","(S (PP (APPR In) (ART der) (NN Bestätigung)) (VVFIN steht)) ($, ,) (ADV \newline) (S (KOUS dass) (PIS man) (PRF sich) (ADJD gut) (PP (APPR mit) (NN Hunden)) (VVFIN auskennt)) ($. .)",1,0,0
+Und das man sich um einen Hund kümmern kann.,(S (KON Und) (KOUS das) (PIS man) (VP (PRF sich) (PP (APPR um) (ART einen) (NN Hund)) (VVINF kümmern)) (VMFIN kann)) ($. .),1,0,0
+Die genauen Regeln für den Sach-kunde-nachweis für Hunde stehen in den Hunde-gesetzen.,(S (NP (ART Die) (ADJA genauen) (NN Regeln) (PP (APPR für) (ART den) (NN Sach-kunde-nachweis) (PP (APPR für) (NN Hunde)))) (VVFIN stehen) (PP (APPR in) (ART den) (NN Hunde-gesetzen))) ($. .),1,1,1
+Ein Sachkundenachweis für Hunde ist ein Sach-kunde-nachweis.,(S (NP (ART Ein) (NN Sachkundenachweis) (PP (APPR für) (NN Hunde))) (VAFIN ist) (NP (ART ein) (NN Sach-kunde-nachweis))) ($. .),1,1,0
+Ein Sach-kunde-nachweis für Hunde ist eine Hunde-prüfung.,(S (NP (ART Ein) (NN Sach-kunde-nachweis) (PP (APPR für) (NN Hunde))) (VAFIN ist) (NP (ART eine) (NN Hunde-prüfung))) ($. .),1,1,0
+Mit einem Sach-kunde-nachweis für Hunde kann man Wissen nachweisen.,(S (PP (APPR Mit) (ART einem) (NN Sach-kunde-nachweis) (PP (APPR für) (NN Hunde))) (VMFIN kann) (PIS man) (VP (NN Wissen) (VVINF nachweisen))) ($. .),1,0,1
+"Man kann nachweisen, \newline dass man sich gut mit Hunden auskennt.","(S (PIS Man) (VMFIN kann) (VP (VVINF nachweisen))) ($, ,) (ADV \newline) (S (KOUS dass) (PIS man) (PRF sich) (ADJD gut) (PP (APPR mit) (NN Hunden)) (VVFIN auskennt)) ($. .)",1,0,0
+Und das man sich um einen Hund kümmern kann.,(S (KON Und) (KOUS das) (PIS man) (VP (PRF sich) (PP (APPR um) (ART einen) (NN Hund)) (VVINF kümmern)) (VMFIN kann)) ($. .),1,0,0
+Ein Sach-walter hilft Menschen die Schwierigkeiten haben.,(S (NP (ART Ein) (NN Sach-walter)) (VVFIN hilft) (NN Menschen) (NP (ART die) (NN Schwierigkeiten)) (VAINF haben)) ($. .),1,0,0
+Ein Sach-walter hilft beim Thema Recht.,(S (NP (ART Ein) (NN Sach-walter)) (VVFIN hilft) (PP (APPRART beim) (NN Thema) (NN Recht))) ($. .),1,0,0
+Sach-walter werden von einem Gericht gestellt.,(S (NN Sach-walter) (VAFIN werden) (VP (PP (APPR von) (ART einem) (NN Gericht)) (VVPP gestellt))) ($. .),1,0,0
+Die Aufgaben von einem Sach-walter bestimmt ein Richter.,(S (NP (ART Die) (NN Aufgaben) (PP (APPR von) (ART einem) (NN Sach-walter))) (VVFIN bestimmt) (NP (ART ein) (NN Richter))) ($. .),1,1,0
+Der Aktions-tag soll die Medienkompetenz verbessern.,(S (NP (ART Der) (NN Aktions-tag)) (VMFIN soll) (VP (NP (ART die) (NN Medienkompetenz)) (VVINF verbessern))) ($. .),1,0,0
+Medien-kompetenz heißt: \newline Jemand kann Medien richtig benutzen.,(S (NN Medien-kompetenz) (VVFIN heißt)) ($. :) (FM \newline),1,0,0
+Medien sind zum Beispiel: • Zeitung,(S (NN Medien) (VAFIN sind) (PP (APPRART zum) (NN Beispiel))) ($. :),1,0,0
+Medien sind zum Beispiel: • DVD,(S (NN Medien) (VAFIN sind) (PP (APPRART zum) (NN Beispiel))) ($. :),1,0,0
+Medien sind zum Beispiel: • Handy,(S (NN Medien) (VAFIN sind) (PP (APPRART zum) (NN Beispiel))) ($. :) (XY •) (NN Handy),1,0,0
+Medien sind zum Beispiel: • Internet,(S (NN Medien) (VAFIN sind) (PP (APPRART zum) (NN Beispiel))) ($. :) (XY •) (NN Internet),1,0,0
+Safer Internet Day ist Englisch.,(NE Safer),0,0,0
+Auf Deutsch heißt Safer Internet Day': Sicherer Internet Tag.,(S (PP (APPR Auf) (NN Deutsch)) (VVFIN heißt) (PN (FM Safer) (FM Internet) (FM Day))) ($LRB ') ($. :) (NP (NP (ADJA Sicherer) (NN Internet) (NN Tag))) ($. .),1,2,0
+Safer Internet Day wird so gesprochen: säfer internet.,(NE Safer),0,0,0
+Den Safer Internet Tag gibt es seit dem Jahr 2003 in Österreich.,(S (NP (ART Den) (PN (NP (ADJA Safer) (NN Internet) (NN Tag)))) (VVFIN gibt) (PPER es) (PP (APPR seit) (ART dem) (NN Jahr) (CARD 2003)) (PP (APPR in) (NE Österreich))) ($. .),1,2,1
+Jedes mal hat der Tag ein bestimmtes Thema.,(S (AVP (PIAT Jedes) (ADV mal)) (VAFIN hat) (NP (ART der) (NN Tag)) (NP (ART ein) (ADJA bestimmtes) (NN Thema))) ($. .),1,1,0
+"Was es alles am Safer Internet Tag gibt, \newline bereitet der ""Safer Internet Verbund"" vor.","(S (PWS Was) (PPER es) (NP (PIS alles)) (PP (APPRART am) (PN (NP (NE Safer) (NN Internet) (NN Tag)))) (VVFIN gibt)) ($, ,) (S (NE \newline) (VVFIN bereitet) (ART der)) ($LRB "") (NP (PN (NE Safer) (NN Internet) (NN Verbund))) ($LRB "") (PTKVZ vor) ($. .)",1,2,1
+Zu diesem Verbund gehören: • klicksafe.de,(S (PP (APPR Zu) (PDAT diesem) (NN Verbund)) (VVFIN gehören)) ($. :) (XY •) (NP (NN klicksafe.de)),1,0,0
+Zu diesem Verbund gehören: • nummergegenkummer.de,(S (PP (APPR Zu) (PDAT diesem) (NN Verbund)) (VVFIN gehören)) ($. :) (XY •) (NN nummergegenkummer.de),1,0,0
+Zu diesem Verbund gehören: • jugendschutz.net,(S (PP (APPR Zu) (PDAT diesem) (NN Verbund)) (VVFIN gehören)) ($. :) (XY •) (NE jugendschutz.net),1,0,0
+Zu diesem Verbund gehören: • Internet-Beschwerdestelle,(S (PP (APPR Zu) (PDAT diesem) (NN Verbund)) (VVFIN gehören)) ($. :) (XY •) (NN Internet-Beschwerdestelle),1,0,0
+Safer Internet Day ist der Name eines Aktions-tages.,(NE Safer),0,0,0
+"Der Tag soll helfen, \newline gefährliche Sachen im Internet zu erkennen.","(S (NP (ART Der) (NN Tag)) (VMFIN soll) (VP (VVINF helfen))) ($, ,) (VP (NP (ADJA \newline) (ADJA gefährliche) (NN Sachen)) (PP (APPRART im) (NN Internet)) (VZ (PTKZU zu) (VVINF erkennen))) ($. .)",1,1,0
+Sagen wurden von Leuten erzählt.,(S (NN Sagen) (VAFIN wurden) (VP (PP (APPR von) (NN Leuten)) (VVPP erzählt))) ($. .),1,0,0
+Manche Orte und Personen gab es wirklich.,(S (NP (PIAT Manche) (CNP (NN Orte) (KON und) (NN Personen))) (VVFIN gab) (PPER es) (ADJD wirklich)) ($. .),1,1,0
+Manches ist erfunden.,(S (PIS Manches) (VAFIN ist) (VVPP erfunden)) ($. .),1,0,0
+Es gibt verschiedene Arten von Sagen.,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Arten) (PP (APPR von) (NN Sagen)))) ($. .),1,1,0
+Dort gibt es zum Beispiel die Sagen von Zeus und Poseidon.,(S (ADV Dort) (VVFIN gibt) (PPER es) (NP (PP (APPRART zum) (NN Beispiel)) (NP (ART die) (NN Sagen) (PP (APPR von) (CNP (NE Zeus) (KON und) (NE Poseidon)))))) ($. .),1,2,1
+Und es gibt Fantasie-wesen.,(S (KON Und) (PPER es) (VVFIN gibt) (NN Fantasie-wesen)) ($. .),1,0,0
+Eine Sage ist eine bestimmte Art Geschichte.,(S (NP (ART Eine) (NN Sage)) (VAFIN ist) (NP (ART eine) (ADJA bestimmte) (NN Art) (NN Geschichte))) ($. .),1,1,0
+Sahra Wagenknecht wurde am 16. Juli 1969 geboren.,(S (PN (NE Sahra) (NE Wagenknecht)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 16.) (NN Juli) (CARD 1969)) (VVPP geboren))) ($. .),1,0,1
+Im Jahr  1997 hat sie Ralph-Thomas Niemeyer geheiratet.,(S (PP (APPRART Im) (NN Jahr) (CARD  ) (CARD 1997)) (VAFIN hat) (PPER sie) (VP (PN (NE Ralph-Thomas) (NE Niemeyer)) (VVPP geheiratet))) ($. .),1,0,0
+Im Jahr 2013 haben die beiden sich geschieden.,(S (PP (APPRART Im) (NN Jahr) (CARD 2013)) (VAFIN haben) (NP (ART die) (PIS beiden)) (VP (PRF sich) (VVPP geschieden))) ($. .),1,0,0
+Seit dem Jahr 2012 lebt sie mit Oskar Lafontaine zusammen.,(S (PP (APPR Seit) (ART dem) (NN Jahr) (CARD 2012)) (VVFIN lebt) (PPER sie) (PP (APPR mit) (PN (NE Oskar) (NE Lafontaine))) (PTKVZ zusammen)) ($. .),1,0,1
+Sie hat an der Friedrich-Schiller-Universität Jena studiert.,(S (PPER Sie) (VAFIN hat) (VP (PP (APPR an) (ART der) (NE Friedrich-Schiller-Universität) (NE Jena)) (VVPP studiert))) ($. .),1,0,1
+Sie hat die Fächer Philosophie und Literatur studiert.,(S (PPER Sie) (VAFIN hat) (VP (NP (ART die) (NN Fächer) (CNP (NN Philosophie) (KON und) (NN Literatur))) (VVPP studiert))) ($. .),1,1,0
+Ihre Doktor-arbeit hat sie im Fach Volks-wirtschafts-lehre geschrieben.,(S (NP (PPOSAT Ihre) (NN Doktor-arbeit)) (VAFIN hat) (PPER sie) (VP (PP (APPRART im) (NN Fach) (NN Volks-wirtschafts-lehre)) (VVPP geschrieben))) ($. .),1,0,0
+Dafür hat sie die Note magna cum laude bekommen.,(S (PROAV Dafür) (VAFIN hat) (PPER sie) (VP (NP (ART die) (NN Note) (CH (FM magna) (FM cum) (FM laude))) (VVPP bekommen))) ($. .),1,1,0
+Das heißt die Arbeit war sehr gut.,(S (PDS Das) (VVFIN heißt) (S (NP (ART die) (NN Arbeit)) (VAFIN war) (AP (ADV sehr) (ADJD gut)))) ($. .),1,0,0
+Vom  Juli 2004 bis Juli 2009 war sie im Europa-parlament.,(S (PP (APPRART Vom) (NN  ) (NN Juli) (CARD 2004)) (PP (APPR bis) (NN Juli) (CARD 2009)) (VAFIN war) (PPER sie) (PP (APPRART im) (NN Europa-parlament))) ($. .),1,0,0
+Seit dem Jahr 2009 ist sie Mitglied des Deutschen Bundestages.,(S (PP (APPR Seit) (ART dem) (NN Jahr) (CARD 2009)) (VAFIN ist) (PPER sie) (NP (NN Mitglied) (NP (ART des) (PN (NP (ADJA Deutschen) (NN Bundestages)))))) ($. .),1,2,1
+Sahra Wagenknecht ist eine deutsche Politikerin.,(S (PN (NE Sahra) (NE Wagenknecht)) (VAFIN ist) (NP (ART eine) (ADJA deutsche) (NN Politikerin))) ($. .),1,1,0
+Sie ist in der Partei Die Linke.,(S (PPER Sie) (VAFIN ist) (PP (APPR in) (ART der) (NN Partei) (PN (NP (ART Die) (NN Linke))))) ($. .),1,0,1
+Sie war stell­vertretende Vorsitzende der Partei.,(S (PPER Sie) (VAFIN war) (NP (ADJA stell­vertretende) (NN Vorsitzende) (NP (ART der) (NN Partei)))) ($. .),1,1,0
+Naoko Takeuchi ist eine japanische Mangaka.,(S (PN (NE Naoko) (NE Takeuchi)) (VAFIN ist) (NP (ART eine) (ADJA japanische) (NN Mangaka))) ($. .),1,1,0
+Das heißt: \newline Naoko Takeuchi ist eine Manga Autorin.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (PN (NE \newline) (NE Naoko) (NE Takeuchi)) (VAFIN ist) (NP (ART eine) (NN Manga) (NN Autorin))) ($. .),1,1,0
+Sie hat das Manga Sailor Moon erfunden.,(S (PPER Sie) (VAFIN hat) (VP (NP (ART das) (NN Manga) (PN (NE Sailor) (NE Moon))) (VVPP erfunden))) ($. .),1,1,0
+Von Sailor Moon  gibt es mehrere Comic Bände.,(S (PP (APPR Von) (PN (NE Sailor) (NE Moon))) (VVFIN  ) (VVFIN gibt) (PPER es) (NP (PIAT mehrere) (TRUNC Comic) (NN Bände))) ($. .),1,1,0
+Es gibt auch eine Fernseh-serie von dem Comic.,(S (PPER Es) (VVFIN gibt) (NP (ADV auch) (ART eine) (NN Fernseh-serie) (PP (APPR von) (ART dem) (NN Comic)))) ($. .),1,1,0
+Usagi Tsukino ist ein tollpatschiges Schul-mädchen.,(S (PN (NE Usagi) (NE Tsukino)) (VAFIN ist) (NP (ART ein) (ADJA tollpatschiges) (NN Schul-mädchen))) ($. .),1,1,0
+Manche sagen zu Usagi Tsukino auch Bunny.,(S (PIS Manche) (VVFIN sagen) (PP (APPR zu) (PN (NE Usagi) (NE Tsukino))) (NP (ADV auch) (NE Bunny))) ($. .),1,0,0
+Eines Tages sagt die  Katze Luna zu ihr: \newline Du bist in Wirklichkeit die Kriegerin Sailor Moon.,(S (NP (ART Eines) (NN Tages)) (VVFIN sagt) (NP (ART die) (NN  ) (NN Katze) (NE Luna)) (PP (APPR zu) (PPER ihr))) ($. :),1,1,0
+Sie bekommt magische Kräfte.,(S (PPER Sie) (VVFIN bekommt) (NP (ADJA magische) (NN Kräfte))) ($. .),1,0,0
+Sie kämpft zusammen mit ihren Freundinnen.,(S (PPER Sie) (VVFIN kämpft) (PP (ADV zusammen) (APPR mit) (PPOSAT ihren) (NN Freundinnen))) ($. .),1,0,1
+Sie kämpfen für Liebe und Gerechtigkeit.,(S (PPER Sie) (VVFIN kämpfen) (PP (APPR für) (CNP (NN Liebe) (KON und) (NN Gerechtigkeit)))) ($. .),1,0,1
+Sie kämpfen gegen das Königreich des Dunkeln.,(S (PPER Sie) (VVFIN kämpfen) (PP (APPR gegen) (ART das) (NN Königreich) (NP (ART des) (NN Dunkeln)))) ($. .),1,0,1
+Sailor Moon ist der Name von einem Comic.,(S (PN (NE Sailor) (NE Moon)) (VAFIN ist) (NP (ART der) (NN Name) (PP (APPR von) (ART einem) (NN Comic)))) ($. .),1,1,0
+Von dem Comic gibt es mehrere Hefte.,(S (PP (APPR Von) (ART dem) (NN Comic)) (VVFIN gibt) (PPER es) (NP (PIAT mehrere) (NN Hefte))) ($. .),1,0,0
+Das Comic erzählt die Geschichte von einer Kriegerin.,(S (NP (ART Das) (NN Comic)) (VVFIN erzählt) (NP (ART die) (NN Geschichte)) (PP (APPR von) (ART einer) (NN Kriegerin))) ($. .),1,0,0
+Die Kriegerin heißt Usagi Tsukino.,(S (NP (ART Die) (NN Kriegerin)) (VVFIN heißt) (PN (NE Usagi) (NE Tsukino))) ($. .),1,0,0
+Saint Patrick ist der Schutz-patron der Iren.,(S (PN (NE Saint) (NE Patrick)) (VAFIN ist) (NP (ART der) (NN Schutz-patron) (NP (ART der) (NN Iren)))) ($. .),1,1,0
+Er lebte dort 40 Tage.,(S (PPER Er) (VVFIN lebte) (ADV dort) (NP (CARD 40) (NN Tage))) ($. .),1,0,0
+Er hatte kein Essen dabei.,(S (PPER Er) (VAFIN hatte) (NP (PIAT kein) (NN Essen)) (PROAV dabei)) ($. .),1,0,0
+Er hatte auch kein Trinken dabei.,(S (PPER Er) (VAFIN hatte) (ADV auch) (NP (PIAT kein) (NN Trinken)) (PROAV dabei)) ($. .),1,0,0
+Er vertraute auf Gott.,(S (PPER Er) (VVFIN vertraute) (PP (APPR auf) (NN Gott))) ($. .),1,0,0
+Es war eine schwere Zeit für Saint Patrick.,(S (PPER Es) (VAFIN war) (NP (ART eine) (ADJA schwere) (NN Zeit) (PP (APPR für) (PN (NE Saint) (NE Patrick))))) ($. .),1,1,0
+Er hat das für das irische Volk gemacht.,(S (PPER Er) (VAFIN hat) (VP (PDS das) (PP (APPR für) (ART das) (ADJA irische) (NN Volk)) (VVPP gemacht))) ($. .),1,0,1
+Nach 40 Tagen ging er zurück zu den Menschen.,(S (PP (APPR Nach) (CARD 40) (NN Tagen)) (VVFIN ging) (PPER er) (PTKVZ zurück) (PP (APPR zu) (ART den) (NN Menschen))) ($. .),1,0,0
+Er war gesund.,(S (PPER Er) (VAFIN war) (ADJD gesund)) ($. .),1,0,0
+Jetzt glaubten auch andere Leute an Gott.,(S (ADV Jetzt) (VVFIN glaubten) (NP (ADV auch) (ADJA andere) (NN Leute)) (PP (APPR an) (NN Gott))) ($. .),1,1,0
+Seitdem ist Saint Patrick ein Heiliger.,(S (PROAV Seitdem) (VAFIN ist) (PN (NE Saint) (NE Patrick)) (NP (ART ein) (NN Heiliger))) ($. .),1,0,0
+Vor ungefähr 300 Jahren feierten die Menschen aus New York das erste Mal den Saint Patricks Day.,(S (PP (APPR Vor) (AP (ADV ungefähr) (CARD 300)) (NN Jahren)) (VVFIN feierten) (NP (ART die) (NN Menschen) (PP (APPR aus) (PN (NE New) (NE York)))) (NP (ART das) (ADJA erste) (NN Mal)) (NP (ART den) (PN (NE Saint) (NE Patricks) (NE Day)))) ($. .),1,3,1
+Mit der Zeit feierten in New York Katholiken aus Irland und evangelische Amerikaner zusammen.,(S (PP (APPR Mit) (ART der) (NN Zeit)) (VVFIN feierten) (PP (APPR in) (PN (NE New) (NE York))) (CNP (NP (NN Katholiken) (PP (APPR aus) (NE Irland))) (KON und) (NP (ADJA evangelische) (NN Amerikaner))) (PTKVZ zusammen)) ($. .),1,1,0
+Heutzutage wird der Saint Patricks Day auf der ganzen Welt gefeiert.,(S (ADV Heutzutage) (VAFIN wird) (NP (ART der) (PN (NE Saint) (NE Patricks) (NE Day))) (VP (PP (APPR auf) (ART der) (ADJA ganzen) (NN Welt)) (VVPP gefeiert))) ($. .),1,1,1
+Seit 30 Jahren feiern die Iren diesen Tag mit Paraden.,(S (PP (APPR Seit) (CARD 30) (NN Jahren)) (VVFIN feiern) (NP (ART die) (NN Iren)) (NP (PDAT diesen) (NN Tag)) (PP (APPR mit) (NN Paraden))) ($. .),1,0,0
+Die Paraden erinnern sehr an Karnevalsumzüge.,(S (NP (ART Die) (NN Paraden)) (VVFIN erinnern) (ADV sehr) (PP (APPR an) (NN Karnevalsumzüge))) ($. .),1,0,0
+Auch in Deutschland werden bekannte Gebäude zum Leuchten gebracht.,(S (PP (ADV Auch) (APPR in) (NE Deutschland)) (VAFIN werden) (NP (ADJA bekannte) (NN Gebäude)) (VP (PP (APPRART zum) (NN Leuchten)) (VVPP gebracht))) ($. .),1,0,0
+Der Tag wird traditionell in der Nationalfarbe Irlands in Grün gehalten.,(S (NP (ART Der) (NN Tag)) (VAFIN wird) (VP (ADJD traditionell) (PP (APPR in) (ART der) (NN Nationalfarbe) (NE Irlands)) (PP (APPR in) (NN Grün)) (VVPP gehalten))) ($. .),1,0,1
+Der Saint Patricks Day ist ein Gedenk-tag.,(S (NP (ART Der) (PN (NE Saint) (NE Patricks) (NE Day))) (VAFIN ist) (NP (ART ein) (NN Gedenk-tag))) ($. .),1,1,0
+Es ist ein Feier-tag in Irland.,(S (PPER Es) (VAFIN ist) (NP (ART ein) (NN Feier-tag)) (PP (APPR in) (NE Irland))) ($. .),1,0,0
+Der Tag ist immer am 17. März.,(S (NP (ART Der) (NN Tag)) (VAFIN ist) (ADV immer) (PP (APPRART am) (ADJA 17.) (NN März))) ($. .),1,0,0
+Pfarrer und Ministranten benutzen die Sakristei.,(S (CNP (NN Pfarrer) (KON und) (NN Ministranten)) (VVFIN benutzen) (NP (ART die) (NN Sakristei))) ($. .),1,0,0
+Sie bereitet sich dort auf Gottes-dienste vor.,(S (PPER Sie) (VVFIN bereitet) (PRF sich) (ADV dort) (PP (APPR auf) (NN Gottes-dienste)) (PTKVZ vor)) ($. .),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Gewand,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (NP (PDAT diese) (NN Sachen)) (VP (VVPP auf-bewahrt))) ($. :),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Piscina,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) (XY •) (NE Piscina),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Paramente,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) (XY •) (NN Paramente),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Geräte,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) (XY •) (NN Geräte),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Kelche,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) (XY •) (NN Kelche),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Hostien-schalen,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) ($LRB •) (NP (NN Hostien-schalen)),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Leuchter,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (NP (PDAT diese) (NN Sachen)) (VP (VVPP auf-bewahrt))) ($. :) (XY •) (NN Leuchter),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Bücher,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) (XY •) (NN Bücher),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Hostien,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) (XY •),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Messwein,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (PDAT diese) (NN Sachen) (VP (VVPP auf-bewahrt))) ($. :) ($LRB •) (NN Messwein),1,0,0
+In einer Sakristei werden diese Sachen auf-bewahrt: • Kerzen,(S (PP (APPR In) (ART einer) (NN Sakristei)) (VAFIN werden) (NP (PDAT diese) (NN Sachen)) (VP (VVPP auf-bewahrt))) ($. :),1,0,0
+Ein Küster kümmert sich um die Sakristei.,(S (NP (ART Ein) (NN Küster)) (VVFIN kümmert) (PRF sich) (PP (APPR um) (ART die) (NN Sakristei))) ($. .),1,0,0
+Er schaut das alles in Ordnung ist.,(S (PPER Er) (VVFIN schaut) (S (NP (PDS das) (PIS alles)) (PP (APPR in) (NN Ordnung)) (VAFIN ist))) ($. .),1,0,0
+Eine Sakristei ist ein Raum in der Kirche.,(S (NP (ART Eine) (NN Sakristei)) (VAFIN ist) (NP (ART ein) (NN Raum) (PP (APPR in) (ART der) (NN Kirche)))) ($. .),1,1,0
+"Dort ist alles,  \newline was man für einen Gottes-dienst braucht.","(S (ADV Dort) (VAFIN ist) (PIS alles)) ($, ,) ($.  ) (FM \newline) (NP (S (PRELS was) (PIS man) (PP (APPR für) (ART einen) (NN Gottes-dienst)) (VVFIN braucht))) ($. .)",1,1,0
+Das Ziel der Salamitaktik kann sein: • jemanden hin-halten,(S (NP (ART Das) (NN Ziel) (NP (ART der) (NN Salamitaktik))) (VMFIN kann) (VP (VAINF sein))) ($. :) ($LRB •) (VP (PIS jemanden) (VVINF hin-halten)),1,1,0
+Das Ziel der Salamitaktik kann sein: • jemand vertrösten,(S (NP (ART Das) (NN Ziel) (NP (ART der) (NN Salamitaktik))) (VMFIN kann) (VP (VAINF sein))) ($. :) ($LRB •) (VP (PIS jemand) (VVINF vertrösten)),1,1,0
+Das Wort Salami-Taktik hat 2 Wörter.,(S (NP (ART Das) (NN Wort) (NN Salami-Taktik)) (VAFIN hat) (NP (CARD 2) (NN Wörter))) ($. .),1,1,0
+1.Das Wort Salami:  \newline damit ist die Wurst gemeint.,(S (NP (ART 1.Das) (NN Wort) (NN Salami))) ($. :) ($.  ) (S (FM \newline) (PROAV damit) (VAFIN ist) (NP (ART die) (NN Wurst)) (VP (VVPP gemeint))) ($. .),1,1,0
+Die sehr lang sein kann.,(S (PRELS Die) (VP (AP (ADV sehr) (ADJD lang)) (VAINF sein)) (VMFIN kann)) ($. .),1,0,0
+"Bei der Salamitaktik macht man etwas langsam, \newline und in kleinen Schritten.","(S (PP (APPR Bei) (ART der) (NN Salamitaktik)) (VVFIN macht) (PIS man) (PIS etwas) (CO (ADJD langsam))) ($, ,) (ADJD \newline) (KON und) (PP (APPR in) (ADJA kleinen) (NN Schritten)) ($. .)",1,0,0
+"Wenn man Salmonellen im Darm hat, bekommt man Übelkeit, Durchfall und Fieber.","(S (KOUS Wenn) (PIS man) (NN Salmonellen) (PP (APPRART im) (NN Darm)) (VAFIN hat)) ($, ,) (S (VVFIN bekommt) (PIS man) (CNP (NN Übelkeit))) ($, ,) (NN Durchfall) (KON und) (NN Fieber) ($. .)",1,0,0
+"Salmonellen kann man bekommen, wenn man zum Beispiel alten Fisch oder rohe Eier ißt.","(S (NN Salmonellen) (VMFIN kann) (PIS man) (VP (VVINF bekommen))) ($, ,) (S (KOUS wenn) (PIS man) (NP (PP (APPRART zum) (NN Beispiel)) (CNP (NP (ADJA alten) (NN Fisch)) (KON oder) (NP (ADJA rohe) (NN Eier)))) (VVFIN ißt)) ($. .)",1,1,0
+"Alte Menschen, Kranke und Babys können von Salmonellen sterben.","(CNP (NP (ADJA Alte) (NN Menschen))) ($, ,) (S (NN Kranke) (KON und) (NN Babys) (VMFIN können) (VP (PP (APPR von) (NN Salmonellen)) (VVINF sterben))) ($. .)",1,0,0
+Salmonellen sind Bakterien.,(S (NN Salmonellen) (VAFIN sind) (NN Bakterien)) ($. .),1,0,0
+Von Salmonellen wird man krank.,(S (PP (APPR Von) (NN Salmonellen)) (VAFIN wird) (PIS man) (ADJD krank)) ($. .),1,0,0
+Salpicon gibt es mit verschiedenen Sachen.,(S (NE Salpicon) (VVFIN gibt) (PPER es) (PP (APPR mit) (ADJA verschiedenen) (NN Sachen))) ($. .),1,0,0
+Salpicon wird sehr oft in Frankreich oder Spanien gemacht.,(S (NE Salpicon) (VAFIN wird) (VP (AVP (ADV sehr) (ADV oft)) (PP (APPR in) (CNP (NE Frankreich) (KON oder) (NE Spanien))) (VVPP gemacht))) ($. .),1,0,1
+Oft wird es auch als Füllung benutzt.,(S (ADV Oft) (VAFIN wird) (PPER es) (VP (PP (ADV auch) (APPR als) (NN Füllung)) (VVPP benutzt))) ($. .),1,0,0
+Salpicon ist sehr klein geschnittenes Essen.,(S (NE Salpicon) (VAFIN ist) (NP (AP (AP (ADV sehr) (ADJD klein)) (ADJA geschnittenes)) (NN Essen))) ($. .),1,1,0
+Ein Samowar ist ein Wasser-kocher.,(S (NP (ART Ein) (NN Samowar)) (VAFIN ist) (NP (ART ein) (NN Wasser-kocher))) ($. .),1,0,0
+Meistens wird damit Tee gekocht.,(S (ADV Meistens) (VAFIN wird) (PROAV damit) (NN Tee) (VP (VVPP gekocht))) ($. .),1,0,0
+Durch einen Hahn kommt das Wasser oder der Tee raus.,(S (PP (APPR Durch) (ART einen) (NN Hahn)) (VVFIN kommt) (CNP (NP (ART das) (NN Wasser)) (KON oder) (NP (ART der) (NN Tee))) (PTKVZ raus)) ($. .),1,0,0
+Es gibt Samowars die mit Strom funktionieren.,(PPER Es) (VVFIN gibt) (NN Samowars) (NP (S (PRELS die) (PP (APPR mit) (NN Strom)) (VVFIN funktionieren))) ($. .),1,1,0
+Und welche die mit Holzkohle funktionieren.,(S (KON Und) (NP (PWS welche) (PDS die)) (PP (APPR mit) (NN Holzkohle)) (VVFIN funktionieren)) ($. .),1,0,0
+Ein Samowar wird zum Wasser kochen benutzt.,(S (NP (ART Ein) (NN Samowar)) (VAFIN wird) (VP (VP (PP (APPRART zum) (NN Wasser)) (VVINF kochen)) (VVPP benutzt))) ($. .),1,0,0
+Sheldon Dorf war ein amerikanischer Künstler.,(S (PN (NE Sheldon) (NE Dorf)) (VAFIN war) (NP (ART ein) (ADJA amerikanischer) (NN Künstler))) ($. .),1,1,0
+Das heißt: \newline Er hat die Sprech-blasen in Comics gezeichnet.,(S (PDS Das) (VVFIN heißt)) ($. :) (NE \newline),1,0,0
+Er hat die Idee gehabt für die San Diego Comic-Con International.,(S (PPER Er) (VAFIN hat) (VP (ART die) (NN Idee) (VAPP gehabt) (NP (PP (APPR für) (ART die) (PN (NE San) (NE Diego) (NE Comic-Con) (NE International)))))) ($. .),1,1,1
+Zusammen mit anderen hat er das erste Treffen geplant.,(S (PP (ADV Zusammen) (APPR mit) (PIS anderen)) (VAFIN hat) (PPER er) (VP (NP (ART das) (ADJA erste) (NN Treffen)) (VVPP geplant))) ($. .),1,1,0
+Im Jahr 2015 waren 167 Tausend Menschen da.,(S (PP (APPRART Im) (NN Jahr) (CARD 2015)) (VAFIN waren) (NP (CARD 167) (NN Tausend) (NN Menschen)) (PTKVZ da)) ($. .),1,1,0
+Zu dem Treffen kommen viele Comic-zeichner.,(S (PP (APPR Zu) (ART dem) (NN Treffen)) (VVFIN kommen) (NP (PIAT viele) (NN Comic-zeichner))) ($. .),1,0,0
+Und es kommen viele Comic-fans.,(S (KON Und) (PPER es) (VVFIN kommen) (NP (PIAT viele) (NN Comic-fans))) ($. .),1,0,0
+Viele Fans verkleiden sich.,(S (NP (PIAT Viele) (NN Fans)) (VVFIN verkleiden) (PRF sich)) ($. .),1,0,0
+Sie verkleiden sich als ihre Lieblings-comic-figur.,(S (PPER Sie) (VVFIN verkleiden) (PRF sich) (PP (APPR als) (PPOSAT ihre) (NN Lieblings-comic-figur))) ($. .),1,0,0
+Das heißt: Cosplay.,(S (PDS Das) (VVFIN heißt)) ($. :) (NE Cosplay) ($. .),1,0,0
+San Diego Comic-Con International ist der Name von einem Treffen.,(S (PN (NE San) (NE Diego) (NE Comic-Con) (NE International)) (VAFIN ist) (NP (ART der) (NN Name) (PP (APPR von) (ART einem) (NN Treffen)))) ($. .),1,1,0
+Manche sagen zu dem Treffen auch Comic-Con.,(S (PIS Manche) (VVFIN sagen) (PP (APPR zu) (ART dem) (NN Treffen)) (NP (ADV auch) (NN Comic-Con))) ($. .),1,0,0
+Bei dem Treffen geht es um das Thema Comics.,(S (PP (APPR Bei) (ART dem) (NN Treffen)) (VVFIN geht) (PPER es) (PP (APPR um) (ART das) (NN Thema) (NN Comics))) ($. .),1,0,1
+Zum Beispiel kommen zu dem Treffen Verlage.,(S (PP (APPRART Zum) (NN Beispiel)) (VVFIN kommen) (PP (APPR zu) (ART dem) (NN Treffen)) (NN Verlage)) ($. .),1,0,0
+Die Verlage zeigen ihre Comics.,(S (NP (ART Die) (NN Verlage)) (VVFIN zeigen) (NP (PPOSAT ihre) (NN Comics))) ($. .),1,0,0
+Und zu dem Treffen kommen viele Fans.,(S (KON Und) (PP (APPR zu) (ART dem) (NN Treffen)) (VVFIN kommen) (NP (PIAT viele) (NN Fans))) ($. .),1,0,0
+Viele Fans verkleiden sich.,(S (NP (PIAT Viele) (NN Fans)) (VVFIN verkleiden) (PRF sich)) ($. .),1,0,0
+Sie verkleiden sich wie Comic-figuren.,(S (PPER Sie) (VVFIN verkleiden) (PRF sich) (NP (KOKOM wie) (NN Comic-figuren))) ($. .),1,0,0
+Man legt ein Toast-brot in das Gerät.,(S (PIS Man) (VVFIN legt) (NP (ART ein) (NN Toast-brot)) (PP (APPR in) (ART das) (NN Gerät))) ($. .),1,0,0
+Dann kommt der Belag.,(S (ADV Dann) (VVFIN kommt) (NP (ART der) (NN Belag))) ($. .),1,0,0
+Zum Schluß legt man ein Toast-brot-scheibe oben drauf.,(S (PP (APPRART Zum) (NN Schluß)) (VVFIN legt) (PIS man) (NP (ART ein) (NN Toast-brot-scheibe)) (AVP (ADV oben) (PROAV drauf))) ($. .),1,0,0
+Jetzt wird das Gerät zusammen-geklappt.,(S (ADV Jetzt) (VAFIN wird) (NP (ART das) (NN Gerät)) (VP (VVPP zusammen-geklappt))) ($. .),1,0,0
+Dann wird das Brot gebraten bis es knusprig ist.,(S (ADV Dann) (VAFIN wird) (NP (ART das) (NN Brot)) (VP (VVPP gebraten) (S (KOUS bis) (PPER es) (ADJD knusprig) (VAFIN ist)))) ($. .),1,0,0
+Im Brot schmilzt der Käse.,(S (PP (APPRART Im) (NN Brot)) (VVFIN schmilzt) (NP (ART der) (NN Käse))) ($. .),1,0,0
+An den Rändern sind die Brot-ränder mit einander verbacken.,(S (PP (APPR An) (ART den) (NN Rändern)) (VAFIN sind) (NP (ART die) (NN Brot-ränder)) (VP (PP (APPR mit) (PRF einander)) (VVPP verbacken))) ($. .),1,0,0
+Das heißt: es fließt kein Käse heraus.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (PPER es) (VVFIN fließt) (NP (PIAT kein) (NN Käse)) (PTKVZ heraus)) ($. .),1,0,0
+Ein Sandwichtoaster ist ein Gerät.,(S (NP (ART Ein) (NN Sandwichtoaster)) (VAFIN ist) (NP (ART ein) (NN Gerät))) ($. .),1,0,0
+Mit dem Gerät kann man eine bestimmte Art von belegtem Brot machen.,(S (PP (APPR Mit) (ART dem) (NN Gerät)) (VMFIN kann) (PIS man) (VP (NP (ART eine) (ADJA bestimmte) (NN Art) (PP (APPR von) (ADJA belegtem) (NN Brot))) (VVINF machen))) ($. .),1,1,0
+Manche sagen zu dazu das englische Wort: Sandwiches.,(S (PIS Manche) (VVFIN sagen) (PP (APPR zu) (PROAV dazu)) (ART das) (ADJA englische) (NN Wort)) ($. :) (NP (NN Sandwiches)) ($. .),1,0,0
+In einem Sanitäts-haus gibt es meistens auch eine Werkstatt.,(S (PP (APPR In) (ART einem) (NN Sanitäts-haus)) (VVFIN gibt) (PPER es) (ADV meistens) (NP (ADV auch) (ART eine) (NN Werkstatt))) ($. .),1,1,0
+Dort werden Hilfs-mittel repariert.,(S (ADV Dort) (VAFIN werden) (NN Hilfs-mittel) (VP (VVPP repariert))) ($. .),1,0,0
+Oder es werden Einlagen für Füße gemacht.,(S (KON Oder) (PPER es) (VAFIN werden) (NP (NN Einlagen) (PP (APPR für) (NN Füße))) (VP (VVPP gemacht))) ($. .),1,1,0
+Manche Sachen bezahlt die Kranken-kasse.,(S (NP (PIAT Manche) (NN Sachen)) (VVFIN bezahlt) (NP (ART die) (NN Kranken-kasse))) ($. .),1,0,0
+Dafür braucht man ein Rezept.,(S (PROAV Dafür) (VVFIN braucht) (PIS man) (NP (ART ein) (NN Rezept))) ($. .),1,0,0
+Ein Sanitäts-haus ist ein Geschäft.,(S (NP (ART Ein) (NN Sanitäts-haus)) (VAFIN ist) (NP (ART ein) (NN Geschäft))) ($. .),1,0,0
+Man kann dort medizinische Hilfs-mittel kaufen.,(S (PIS Man) (VMFIN kann) (VP (ADV dort) (NP (ADJA medizinische) (NN Hilfs-mittel)) (VVINF kaufen))) ($. .),1,0,0
+Gegen Russland gibt es verschiedene Sanktionen.,(S (PP (APPR Gegen) (NE Russland)) (VVFIN gibt) (PPER es) (NP (ADJA verschiedene) (NN Sanktionen))) ($. .),1,0,0
+Sanktionen sind Strafen.,(S (NN Sanktionen) (VAFIN sind) (NN Strafen)) ($. .),1,0,0
+Weil Russland ein Krieg gegen die Ukraine angefangen hat.,(S (KOUS Weil) (NE Russland) (VP (NP (ART ein) (NN Krieg) (PP (APPR gegen) (ART die) (NE Ukraine))) (VVPP angefangen)) (VAFIN hat)) ($. .),1,1,0
+Es gibt viele Sanktionen gegen Russland.,(S (PPER Es) (VVFIN gibt) (NP (PIAT viele) (NN Sanktionen) (PP (APPR gegen) (NE Russland)))) ($. .),1,1,0
+Firmen dürfen in Russland nichts mehr verkaufen.,(S (NN Firmen) (VMFIN dürfen) (VP (PP (APPR in) (NE Russland)) (NP (PIS nichts) (ADV mehr)) (VVINF verkaufen))) ($. .),1,0,0
+Und Schiffe dürfen nicht mehr nach Russland fahren.,(S (KON Und) (NN Schiffe) (VMFIN dürfen) (AVP (PTKNEG nicht) (ADV mehr)) (VP (PP (APPR nach) (NE Russland)) (VVINF fahren))) ($. .),1,0,0
+Reiche Menschen werden bestraft.,(S (NP (ADJA Reiche) (NN Menschen)) (VAFIN werden) (VVPP bestraft)) ($. .),1,0,0
+Und Banken werden bestraft.,(S (KON Und) (NN Banken) (VAFIN werden) (VVPP bestraft)) ($. .),1,0,0
+Sie bekommen kein Geld in anderen Ländern.,(S (PPER Sie) (VVFIN bekommen) (NP (PIAT kein) (NN Geld)) (PP (APPR in) (ADJA anderen) (NN Ländern))) ($. .),1,0,0
+Sanktionen sind schlecht für die Wirtschaft in Russland.,(S (NN Sanktionen) (VAFIN sind) (AP (ADJD schlecht) (PP (APPR für) (ART die) (NN Wirtschaft) (PP (APPR in) (NE Russland))))) ($. .),1,0,1
+Russland soll weniger Geld für den Krieg haben.,(S (NE Russland) (VMFIN soll) (VP (NP (PIAT weniger) (NN Geld)) (PP (APPR für) (ART den) (NN Krieg)) (VAINF haben))) ($. .),1,0,0
+Es gibt verschiedene Sanktionen: • Wirtschafts-sanktion,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Sanktionen))) ($. :),1,0,0
+Es gibt verschiedene Sanktionen: • Soziale Sanktion,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Sanktionen))) ($. :),1,0,0
+Eine Sanktion ist eine Strafe.,(S (NP (ART Eine) (NN Sanktion)) (VAFIN ist) (NP (ART eine) (NN Strafe))) ($. .),1,0,0
+Weil jemand Regeln nicht einhält.,(S (KOUS Weil) (PIS jemand) (NN Regeln) (PTKNEG nicht) (VVFIN einhält)) ($. .),1,0,0
+"Man wird bestraft,  \newline für etwas das man getan hat.","(S (PIS Man) (VAFIN wird) (VP (VVPP bestraft))) ($, ,) ($.  ) (ADV \newline) (APPR für) (PIS etwas) (S (PRELS das) (PIS man) (VP (VVPP getan)) (VAFIN hat)) ($. .)",1,0,0
+Den Sari gibt es schon lange.,(S (NP (ART Den) (NE Sari)) (VVFIN gibt) (PPER es) (AVP (ADV schon) (ADV lange))) ($. .),1,0,0
+Der Sari wird oft im Alltag angezogen.,(S (NP (ART Der) (NE Sari)) (VAFIN wird) (VP (ADV oft) (PP (APPRART im) (NN Alltag)) (VVPP angezogen))) ($. .),1,0,0
+Der Sari ist langes Tuch.,(S (NP (ART Der) (NE Sari)) (VAFIN ist) (NP (ADJA langes) (NN Tuch))) ($. .),1,0,0
+Er ist 6 bis 9 Meter lang.,(S (PPER Er) (VAFIN ist) (AP (NP (CAP (CARD 6) (KON bis) (CARD 9)) (NN Meter)) (ADJD lang))) ($. .),1,1,0
+Am Rand kann das Tuch ein Muster haben.,(S (PP (APPRART Am) (NN Rand)) (VMFIN kann) (NP (ART das) (NN Tuch)) (VP (NP (ART ein) (NN Muster)) (VAINF haben))) ($. .),1,0,0
+Der Stoff wird in einer bestimmten Technik um den Körper gewickelt.,(S (NP (ART Der) (NN Stoff)) (VAFIN wird) (VP (PP (APPR in) (ART einer) (ADJA bestimmten) (NN Technik)) (PP (APPR um) (ART den) (NN Körper)) (VVPP gewickelt))) ($. .),1,0,1
+Es gibt verschiedene Arten den Sari um den Körper zu wickeln.,(S (PPER Es) (VVFIN gibt) (ADJA verschiedene) (NN Arten) (VP (NP (ART den) (NN Sari)) (PP (APPR um) (ART den) (NN Körper)) (VZ (PTKZU zu) (VVINF wickeln)))) ($. .),1,0,0
+Das Sari Tuch kommt über andere Kleider darüber.,(S (NP (ART Das) (PN (NE Sari) (NE Tuch))) (VVFIN kommt) (PP (APPR über) (ADJA andere) (NN Kleider)) (PROAV darüber)) ($. .),1,1,0
+Unter dem Sari Tuch hat die Frau zum Beispiel an: • einen Unterrock,(S (PP (APPR Unter) (ART dem) (PN (NE Sari) (NE Tuch))) (VAFIN hat) (NP (ART die) (NN Frau)) (PP (APPRART zum) (NN Beispiel)) (APPR an)) ($. :) ($LRB •) (NP (ART einen) (NN Unterrock)),1,0,1
+Unter dem Sari Tuch hat die Frau zum Beispiel an: • eine Bluse,(S (PP (APPR Unter) (ART dem) (PN (NE Sari) (NE Tuch))) (VAFIN hat) (NP (ART die) (NN Frau)) (PP (APPRART zum) (NN Beispiel)) (APPR an)) ($. :) ($LRB •) (PP (NP (ART eine) (NN Bluse))),1,0,1
+Unter dem Sari Tuch hat die Frau zum Beispiel an: • oder ein Top,(S (PP (APPR Unter) (ART dem) (PN (NE Sari) (NE Tuch))) (VAFIN hat) (NP (ART die) (NN Frau)) (PP (APPRART zum) (NN Beispiel)) (APPR an)) ($. :) (XY •) (KON oder) (NP (ART ein) (NN Top)),1,0,1
+Der Sari ist ein Kleidungsstück für Frauen.,(S (NP (ART Der) (NE Sari)) (VAFIN ist) (NP (ART ein) (NN Kleidungsstück) (PP (APPR für) (NN Frauen)))) ($. .),1,1,0
+Der Sari ist langes Tuch.,(S (NP (ART Der) (NE Sari)) (VAFIN ist) (NP (ADJA langes) (NN Tuch))) ($. .),1,0,0
+Das Tuch wird um den Körper gewickelt.,(S (NP (ART Das) (NN Tuch)) (VAFIN wird) (VP (PP (APPR um) (ART den) (NN Körper)) (VVPP gewickelt))) ($. .),1,0,0
+Man benutzt für Sarkasmus einen besonderen Ton-fall.,(S (PIS Man) (VVFIN benutzt) (PP (APPR für) (NN Sarkasmus)) (NP (ART einen) (ADJA besonderen) (NN Ton-fall))) ($. .),1,1,0
+Sarkasmus ist Spott.,(S (NN Sarkasmus) (VAFIN ist) (NN Spott)) ($. .),1,0,0
+Man macht sich lustig über etwas.,(S (PIS Man) (VVFIN macht) (PRF sich) (ADJD lustig) (PP (APPR über) (PIS etwas))) ($. .),1,0,0
+Sarkasmus ist schwer zu erkennen.,(S (NN Sarkasmus) (VAFIN ist) (VP (ADJD schwer) (VZ (PTKZU zu) (VVINF erkennen)))) ($. .),1,0,0
+Weil man etwas lustig sagt.,(S (KOUS Weil) (PIS man) (NP (PIS etwas) (ADJD lustig)) (VVFIN sagt)) ($. .),1,0,0
+Aber das Gegenteil meint.,(S (KON Aber) (NP (ART das) (NN Gegenteil)) (VVFIN meint)) ($. .),1,0,0
+Ein Satellit braucht auch ein größeren Planet.,(S (NP (ART Ein) (NN Satellit)) (VVFIN braucht) (ADV auch) (NP (ART ein) (ADJA größeren) (NN Planet))) ($. .),1,1,0
+Damit der Satellit funktioniert.,(S (KOUS Damit) (NP (ART der) (NN Satellit)) (VVFIN funktioniert)) ($. .),1,0,0
+Ein Satelliten-staat ist ein kleines Land.,(S (NP (ART Ein) (NN Satelliten-staat)) (VAFIN ist) (NP (ART ein) (ADJA kleines) (NN Land))) ($. .),1,1,0
+Es braucht die Hilfe von einem größeren Land.,(S (PPER Es) (VVFIN braucht) (NP (ART die) (NN Hilfe) (PP (APPR von) (ART einem) (ADJA größeren) (NN Land)))) ($. .),1,1,1
+Und das größere Land bestimmt die Politik im Satelliten-staat.,(S (KON Und) (NP (ART das) (ADJA größere) (NN Land)) (VVFIN bestimmt) (NP (ART die) (NN Politik)) (PP (APPRART im) (NN Satelliten-staat))) ($. .),1,1,0
+Bei einer Schnaps-zahl wiederholt sich eine Zahl.,(S (PP (APPR Bei) (ART einer) (NN Schnaps-zahl)) (VVFIN wiederholt) (PRF sich) (NP (ART eine) (NN Zahl))) ($. .),1,0,0
+Es stehen immer die gleichen Zahlen hinter-einander.,(S (PPER Es) (VVFIN stehen) (ADV immer) (NP (ART die) (ADJA gleichen) (NN Zahlen)) (ADV hinter-einander)) ($. .),1,1,0
+Eine Schnaps-zahl sind gleiche Zahlen.,(S (NP (ART Eine) (NN Schnaps-zahl)) (VAFIN sind) (NP (ADJA gleiche) (NN Zahlen))) ($. .),1,0,0
+Es stehen gleiche Zahlen hinter-einander.,(S (PPER Es) (VVFIN stehen) (NP (ADJA gleiche) (NN Zahlen)) (ADV hinter-einander)) ($. .),1,0,0
+Schneekanonen werden oft beim Wintersport benutzt.,(S (NN Schneekanonen) (VAFIN werden) (VP (ADV oft) (PP (APPRART beim) (NN Wintersport)) (VVPP benutzt))) ($. .),1,0,0
+Wenn es keinen echten Schnee gibt.,(S (KOUS Wenn) (PPER es) (NP (PIAT keinen) (ADJA echten) (NN Schnee)) (VVFIN gibt)) ($. .),1,1,0
+Eine Schneekanone kann Schnee machen.,(S (NP (ART Eine) (NN Schneekanone)) (VMFIN kann) (VP (NN Schnee) (VVINF machen))) ($. .),1,0,0
+Schnee-männer können unterschiedlich ge-baut sein.,(S (NN Schnee-männer) (VMFIN können) (VP (VP (ADJD unterschiedlich) (VVPP ge-baut)) (VAINF sein))) ($. .),1,0,0
+ • Ein Schnee-ball soll der Kopf sein.,(XY  ) (XY •) (S (NP (ART Ein) (NN Schnee-ball)) (VMFIN soll) (NP (ART der) (NN Kopf)) (VP (VAINF sein))) ($. .),1,0,0
+ • Ein Schnee-ball soll der Körper sein.,(XY  ) (XY •) (S (NP (ART Ein) (NN Schnee-ball)) (VMFIN soll) (NP (ART der) (NN Körper)) (VP (VAINF sein))) ($. .),1,0,0
+ • Ein Schnee-ball soll die Füße sein.,(XY  ) (XY •) (S (NP (ART Ein) (NN Schnee-ball)) (VMFIN soll) (VP (NP (ART die) (NN Füße)) (VAINF sein))) ($. .),1,0,0
+Am Kopf wird ein Gesicht gemacht.,(S (PP (APPRART Am) (NN Kopf)) (VAFIN wird) (NP (ART ein) (NN Gesicht)) (VP (VVPP gemacht))) ($. .),1,0,0
+Die Augen sind aus Steinen.,(S (NP (ART Die) (NN Augen)) (VAFIN sind) (PP (APPR aus) (NN Steinen))) ($. .),1,0,0
+Die Nase ist aus einer Karotte.,(S (NP (ART Die) (NN Nase)) (VAFIN ist) (PP (APPR aus) (ART einer) (NN Karotte))) ($. .),1,0,0
+Als Mütze ist ein Topf ganz oben.,(S (PP (APPR Als) (NN Mütze)) (VAFIN ist) (NP (ART ein) (NN Topf)) (AVP (ADV ganz) (ADV oben))) ($. .),1,0,0
+Das Wort Schnee-mann ist ein Substantiv.,(NP (NP (ART Das) (NN Wort) (NN Schnee-mann)) (VAFIN ist) (NP (ART ein) (NN Substantiv))) ($. .),0,2,0
+es hat diese 2 Wörter: • Schnee,(S (PPER es) (VAFIN hat) (PDAT diese) (CARD 2) (NN Wörter)) ($. :) (NP (NP (XY •) (NN Schnee))),1,0,0
+es hat diese 2 Wörter: • Mann,(S (PPER es) (VAFIN hat) (PDAT diese) (CARD 2) (NN Wörter)) ($. :) (XY •) (NN Mann),1,0,0
+Ein Schnee-mann ist eine Figur.,(S (NP (ART Ein) (NN Schnee-mann)) (VAFIN ist) (NP (ART eine) (NN Figur))) ($. .),1,0,0
+Der Schnee-mann ist aus Schnee.,(S (NP (ART Der) (NN Schnee-mann)) (VAFIN ist) (PP (APPR aus) (NN Schnee))) ($. .),1,0,0
+Ein Schnee-mann sieht aus wie eine Person.,(S (NP (ART Ein) (NN Schnee-mann)) (VVFIN sieht) (PTKVZ aus) (NP (KOKOM wie) (ART eine) (NN Person))) ($. .),1,1,0
+Es ist Winter.,(S (PPER Es) (VAFIN ist) (NN Winter)) ($. .),1,0,0
+Die Schnee-flocken sehen aus wie Federn vom Himmel.,(S (NP (ART Die) (NN Schnee-flocken)) (VVFIN sehen) (PTKVZ aus) (NP (KOKOM wie) (NN Federn) (PP (APPRART vom) (NN Himmel)))) ($. .),1,1,0
+Eine Königin sitzt an einem Fenster.,(S (NP (ART Eine) (NN Königin)) (VVFIN sitzt) (PP (APPR an) (ART einem) (NN Fenster))) ($. .),1,0,0
+Das Fenster hat einen schwarzen Rahmen aus Eben-holz.,(S (NP (ART Das) (NN Fenster)) (VAFIN hat) (NP (ART einen) (ADJA schwarzen) (NN Rahmen) (PP (APPR aus) (NN Eben-holz)))) ($. .),1,1,0
+Dort näht sie nah am Licht.,(S (ADV Dort) (VVFIN näht) (PPER sie) (AP (ADJD nah) (PP (APPRART am) (NN Licht)))) ($. .),1,0,0
+Da sieht sie nach den Schnee-flocken.,(S (ADV Da) (VVFIN sieht) (PPER sie) (PP (APPR nach) (ART den) (NN Schnee-flocken))) ($. .),1,0,0
+Dabei stich sie sich mit der Nadel in den Finger.,(S (PROAV Dabei) (VVFIN stich) (PPER sie) (PRF sich) (PP (APPR mit) (ART der) (NN Nadel)) (PP (APPR in) (ART den) (NN Finger))) ($. .),1,0,0
+3 Tropfen Blut fallen in den Schnee.,(S (NP (CARD 3) (NN Tropfen) (NN Blut)) (VVFIN fallen) (PP (APPR in) (ART den) (NN Schnee))) ($. .),1,1,0
+Und ihr gefällt das Rot im weißen Schnee.,(S (KON Und) (PPER ihr) (VVFIN gefällt) (NP (ART das) (NN Rot) (PP (APPRART im) (ADJA weißen) (NN Schnee)))) ($. .),1,1,0
+"Sie denkt: \newline  \newline Ach, wenn ich ein Kind hätte, \newline dann soll es weiß wie Schnee sein.",(S (PPER Sie) (VVFIN denkt)) ($. :) (FM \newline) (XY  ) (FM \newline),1,0,0
+Sie bekommt bald darauf eine Tochter.,(S (PPER Sie) (VVFIN bekommt) (AVP (ADV bald) (PROAV darauf)) (NP (ART eine) (NN Tochter))) ($. .),1,0,0
+Ihr Haut ist weiß wie Schnee.,(S (NP (PPOSAT Ihr) (NN Haut)) (VAFIN ist) (AP (ADJD weiß) (NP (KOKOM wie) (NN Schnee)))) ($. .),1,0,0
+Man nennt es darum Schnee-wittchen.,(S (PIS Man) (VVFIN nennt) (PPER es) (PROAV darum) (NN Schnee-wittchen)) ($. .),1,0,0
+Aber bei ihrer Geburt stirbt die Königin.,(S (KON Aber) (PP (APPR bei) (PPOSAT ihrer) (NN Geburt)) (VVFIN stirbt) (NP (ART die) (NN Königin))) ($. .),1,0,0
+Nach einem Jahr heiratet der König eine andere Frau.,(S (PP (APPR Nach) (ART einem) (NN Jahr)) (VVFIN heiratet) (NP (ART der) (NN König)) (NP (ART eine) (ADJA andere) (NN Frau))) ($. .),1,1,0
+Sie ist schön.,(S (PPER Sie) (VAFIN ist) (ADJD schön)) ($. .),1,0,0
+"Wenn jemand schöner ist als sie, \newline dann kann sie das gar nicht leiden.","(AVP (S (KOUS Wenn) (PIS jemand) (AP (ADJD schöner)) (VAFIN ist) (NP (KOKOM als) (PPER sie)))) ($, ,) (S (NE \newline) (S (ADV dann) (VMFIN kann) (PPER sie) (PDS das) (AVP (ADV gar) (PTKNEG nicht)) (VP (VVINF leiden)))) ($. .)",1,0,0
+Sie hat einen Zauber-spiegel.,(S (PPER Sie) (VAFIN hat) (NP (ART einen) (NN Zauber-spiegel))) ($. .),1,0,0
+"Zu diesem sagt sie: \newline  \newline Spieglein, Spiegeln an der Wand.","(S (PP (APPR Zu) (PDS diesem)) (VVFIN sagt) (PPER sie)) ($. :) (FM \newline) ($.  ) (PN (NE \newline) (NE Spieglein)) ($, ,) (NP (NN Spiegeln) (PP (APPR an) (ART der) (NN Wand))) ($. .)",1,1,0
+Wer ist die Schönste im ganzen Land?,(S (PWS Wer) (VAFIN ist) (NP (ART die) (NN Schönste) (PP (APPRART im) (ADJA ganzen) (NN Land)))) ($. ?),1,1,0
+"Und der Spiegel antwortet: \newline  \newline Frau Königin, ihr seid die Schönste hier.",(S (KON Und) (NP (ART der) (PN (NN Spiegel))) (VVFIN antwortet)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Dann ist sie zufrieden.,(S (ADV Dann) (VAFIN ist) (PPER sie) (ADJD zufrieden)) ($. .),1,0,0
+Denn der Spiegel darf nicht lügen.,(S (KON Denn) (NP (ART der) (PN (NN Spiegel))) (VMFIN darf) (PTKNEG nicht) (VVINF lügen)) ($. .),1,0,0
+Schnee-wittchen wird groß.,(S (NN Schnee-wittchen) (VAFIN wird) (ADJD groß)) ($. .),1,0,0
+Auch wird sie immer schöner.,(S (ADV Auch) (VAFIN wird) (PPER sie) (AP (ADV immer) (ADJD schöner))) ($. .),1,0,0
+Mit 7 Jahre ist sie so schöner als die Königin.,(S (PP (APPR Mit) (CARD 7) (NN Jahre)) (VAFIN ist) (PPER sie) (AP (AVP (ADV so)) (ADJD schöner) (NP (KOKOM als) (ART die) (NN Königin)))) ($. .),1,1,0
+"Die Königin fragt ihren Spiegel: \newline  \newline Spieglein, Spieglein an der Wand.",(S (NP (ART Die) (NN Königin)) (VVFIN fragt) (NP (PPOSAT ihren) (NN Spiegel))) ($. :) (FM \newline) (FM  ) (XY \newline),1,0,0
+Wer ist die Schönste im ganzen Land?,(S (PWS Wer) (VAFIN ist) (NP (ART die) (NN Schönste) (PP (APPRART im) (ADJA ganzen) (NN Land)))) ($. ?),1,1,0
+"Da antwortet der Spiegel: \newline  \newline Frau Königin, ihr seid die Schönste hier.",(S (ADV Da) (VVFIN antwortet) (NP (ART der) (PN (NN Spiegel)))) ($. :) (FM \newline) (XY  ) (FM \newline),1,0,0
+Aber Schnee-wittchen ist 1000-mal schöner als ihr.,(S (KON Aber) (NE Schnee-wittchen) (VAFIN ist) (AP (ADV 1000-mal) (ADJD schöner) (NP (KOKOM als) (PPER ihr)))) ($. .),1,0,0
+Die Königin erschrickt.,(S (NP (ART Die) (NN Königin)) (VVFIN erschrickt)) ($. .),1,0,0
+Und ist sehr wütend.,(S (KON Und) (VAFIN ist) (AP (ADV sehr) (ADJD wütend))) ($. .),1,0,0
+Die Eifersucht wächst in ihrem Herzen wie ein Un-kraut.,(S (NP (ART Die) (NN Eifersucht)) (VVFIN wächst) (PP (APPR in) (PPOSAT ihrem) (NN Herzen)) (NP (KOKOM wie) (ART ein) (NN Un-kraut))) ($. .),1,1,0
+Sie ruft einen Jäger zu sich.,(S (PPER Sie) (VVFIN ruft) (NP (ART einen) (NN Jäger)) (PP (APPR zu) (PRF sich))) ($. .),1,0,0
+Und sagt zu ihm: \newline  \newline Führe das Kind in den Wald!,(S (KON Und) (VVFIN sagt) (PP (APPR zu) (PPER ihm))) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Damit sie den Weg nicht mehr nach Hause findet.,(S (KOUS Damit) (PPER sie) (NP (ART den) (NN Weg)) (AVP (PTKNEG nicht) (ADV mehr)) (PP (APPR nach) (NN Hause)) (VVFIN findet)) ($. .),1,0,0
+Der Jäger gehorcht.,(S (NP (ART Der) (NN Jäger)) (VVFIN gehorcht)) ($. .),1,0,0
+Er fährt Schnee-wittchen in den Wald.,(S (PPER Er) (VVFIN fährt) (NN Schnee-wittchen) (PP (APPR in) (ART den) (NN Wald))) ($. .),1,0,0
+Dort lässt er sie zurück.,(S (ADV Dort) (VVFIN lässt) (PPER er) (PPER sie) (PTKVZ zurück)) ($. .),1,0,0
+Schnee-wittchen ist nun allein \newline Und muss sich selbst helfen.,(NN Schnee-wittchen) (VAFIN ist) (ADV nun) (ADV allein) (FM \newline),0,0,0
+Am Abend kommt sie an ein kleines Haus.,(S (PP (APPRART Am) (NN Abend)) (VVFIN kommt) (PPER sie) (PP (APPR an) (ART ein) (ADJA kleines) (NN Haus))) ($. .),1,0,1
+Dort ruht sie sich aus.,(S (ADV Dort) (VVFIN ruht) (PPER sie) (PRF sich) (PTKVZ aus)) ($. .),1,0,0
+In dem Haus ist alles klein.,(S (PP (APPR In) (ART dem) (NN Haus)) (VAFIN ist) (PIS alles) (ADJD klein)) ($. .),1,0,0
+Dort steht ein weiß gedeckter kleiner Tisch.,(S (ADV Dort) (VVFIN steht) (NP (ART ein) (AP (ADJD weiß) (ADJA gedeckter)) (ADJA kleiner) (NN Tisch))) ($. .),1,1,0
+Und an der Wand sind 7 kleine Betten.,(S (KON Und) (PP (APPR an) (ART der) (NN Wand)) (VAFIN sind) (NP (CARD 7) (ADJA kleine) (NN Betten))) ($. .),1,1,0
+Diese sind mit sehr weißen Lein-tuch bezogen.,(S (PDS Diese) (VAFIN sind) (VP (PP (APPR mit) (AP (ADV sehr) (ADJA weißen)) (NN Lein-tuch)) (VVPP bezogen))) ($. .),1,0,1
+Schnee-wittchen ist sehr hungrig.,(S (NN Schnee-wittchen) (VAFIN ist) (AP (ADV sehr) (ADJD hungrig))) ($. .),1,0,0
+Und durstig ist sie auch.,(S (KON Und) (ADJD durstig) (VAFIN ist) (PPER sie) (ADV auch)) ($. .),1,0,0
+So isst sie von jedem Teller.,(S (ADV So) (VVFIN isst) (PPER sie) (PP (APPR von) (PIAT jedem) (NN Teller))) ($. .),1,0,0
+Und trinkt aus jedem Becher.,(S (KON Und) (VVFIN trinkt) (PP (APPR aus) (PIAT jedem) (NN Becher))) ($. .),1,0,0
+Dann ist sie müde.,(S (ADV Dann) (VAFIN ist) (PPER sie) (ADJD müde)) ($. .),1,0,0
+Sie legt sich in ein Bett.,(S (PPER Sie) (VVFIN legt) (PRF sich) (PP (APPR in) (ART ein) (NN Bett))) ($. .),1,0,0
+Und schläft ein.,(S (KON Und) (VVFIN schläft) (PTKVZ ein)) ($. .),1,0,0
+Es ist ganz dunkel.,(S (PPER Es) (VAFIN ist) (AP (ADV ganz) (ADJD dunkel))) ($. .),1,0,0
+Die Bewohner des kleinen Hauses kommen nach-hause.,(S (NP (ART Die) (NN Bewohner) (NP (ART des) (ADJA kleinen) (NN Hauses))) (VVFIN kommen) (NN nach-hause)) ($. .),1,2,0
+Es sind die 7 Zwerge.,(S (PPER Es) (VAFIN sind) (NP (ART die) (CARD 7) (NN Zwerge))) ($. .),1,1,0
+Sie graben in den Bergen nach Erz.,(S (PPER Sie) (VVFIN graben) (PP (APPR in) (ART den) (NN Bergen)) (PP (APPR nach) (NN Erz))) ($. .),1,0,0
+Sie zünden ihre 7 kleine Lichter an.,(S (PPER Sie) (VVFIN zünden) (NP (PPOSAT ihre) (CARD 7) (ADJA kleine) (NN Lichter)) (PTKVZ an)) ($. .),1,1,0
+Und es ist hell im kleinen Haus.,(S (KON Und) (PPER es) (VAFIN ist) (ADJD hell) (PP (APPRART im) (ADJA kleinen) (NN Haus))) ($. .),1,0,0
+"Da sehen sie, etwas ist anders als sonst.","(S (ADV Da) (VVFIN sehen) (PPER sie)) ($, ,) (S (PIS etwas) (VAFIN ist) (AVP (ADV anders) (AVP (KOKOM als) (ADV sonst)))) ($. .)",1,0,0
+Und sie sagen nacheinander: \newline  \newline Wer hat auf meinem Stühlchen gesessen?,(S (KON Und) (PPER sie) (VVFIN sagen) (ADV nacheinander)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Wer hat von meinem Tellerchen gegessen?,(S (PWS Wer) (VAFIN hat) (VP (PP (APPR von) (PPOSAT meinem) (NN Tellerchen)) (VVPP gegessen))) ($. ?),1,0,0
+Wer hat aus meinem Becherchen getrunken?,(S (PWS Wer) (VAFIN hat) (VP (PP (APPR aus) (PPOSAT meinem) (NN Becherchen)) (VVPP getrunken))) ($. ?),1,0,0
+Da sehen sie Schnee-wittchen schlafen.,(S (ADV Da) (VVFIN sehen) (PPER sie) (VP (NN Schnee-wittchen) (VVINF schlafen))) ($. .),1,0,0
+"Sie rufen: \newline  \newline Oh, ist das ein liebes Kind!",(S (PPER Sie) (VVFIN rufen)) ($. :) (FM \newline) (XY  ) (FM \newline),1,0,0
+Die Freude ist groß.,(S (NP (ART Die) (NN Freude)) (VAFIN ist) (ADJD groß)) ($. .),1,0,0
+Trotzdem wecken sie Schnee-wittchen nicht auf.,(S (PROAV Trotzdem) (VVFIN wecken) (PPER sie) (NN Schnee-wittchen) (PTKNEG nicht) (PTKVZ auf)) ($. .),1,0,0
+Sondern lassen sie im kleinen Bett weiter schlafen.,(S (KON Sondern) (VVFIN lassen) (PPER sie) (VP (PP (APPRART im) (ADJA kleinen) (NN Bett)) (ADV weiter) (VVINF schlafen))) ($. .),1,0,0
+Am Morgen wacht Schnee-wittchen auf.,(S (PP (APPRART Am) (NN Morgen)) (VVFIN wacht) (NN Schnee-wittchen) (PTKVZ auf)) ($. .),1,0,0
+Und sieht die 7 Zwerge.,(S (KON Und) (VVFIN sieht) (NP (ART die) (CARD 7) (NN Zwerge))) ($. .),1,1,0
+Und sie erschrickt.,(S (KON Und) (PPER sie) (VVFIN erschrickt)) ($. .),1,0,0
+Die Zwerge sind freundlich.,(S (NP (ART Die) (NN Zwerge)) (VAFIN sind) (ADJD freundlich)) ($. .),1,0,0
+Und fragen: \newline  \newline Wie heißt du?,(S (KON Und) (VVFIN fragen)) ($. :) (FM \newline) (XY  ) (XY \newline),1,0,0
+Da erzählt sie ihnen alles.,(S (ADV Da) (VVFIN erzählt) (PPER sie) (PPER ihnen) (PIS alles)) ($. .),1,0,0
+Meine Stief-mutter will mich nicht mehr bei sich haben.,(S (NP (PPOSAT Meine) (NN Stief-mutter)) (VMFIN will) (PPER mich) (AVP (PTKNEG nicht) (ADV mehr)) (VP (PP (APPR bei) (PRF sich)) (VAINF haben))) ($. .),1,0,0
+Und der Jäger hat mich im Wald ausgesetzt.,(S (KON Und) (NP (ART der) (NN Jäger)) (VAFIN hat) (VP (PPER mich) (PP (APPRART im) (NN Wald)) (VVPP ausgesetzt))) ($. .),1,0,0
+"Die Zwerge sagen: \newline  \newline Wenn du im Haus arbeitest, während wir arbeiten, \newline dann kannst du bei uns bleiben.",(S (NP (ART Die) (NN Zwerge)) (VVFIN sagen)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Du bekommst alles von uns.,(S (PPER Du) (VVFIN bekommst) (PIS alles) (PP (APPR von) (PPER uns))) ($. .),1,0,0
+"Schnee-wittchen antwortet: \newline  \newline Ja, von Herzen gern.",(S (NE Schnee-wittchen) (VVFIN antwortet)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+"Immer wenn die Zwerge zur Arbeit gehen, \newline dann sagen sie zu ihr: \newline  \newline Pass auf vor deiner Stief-mutter.","(S (ADV Immer) (KOUS wenn) (NP (ART die) (NN Zwerge)) (PP (APPRART zur) (NN Arbeit)) (VVFIN gehen)) ($, ,) (S (ADV \newline) (ADV dann) (VVFIN sagen) (PPER sie) (PP (APPR zu) (PPER ihr))) ($. :) (FM \newline) (FM  ) (FM \newline)",1,0,0
+Und lass niemanden herein!,(S (KON Und) (VVIMP lass) (PIS niemanden) (PTKVZ herein)) ($. !),1,0,0
+Die Königin im Schloss denkt: \newline  \newline Ich bin wieder die Schönste.,(S (NP (ART Die) (NN Königin) (PP (APPRART im) (NN Schloss))) (VVFIN denkt)) ($. :) (FM \newline) (FM  ) (FM \newline),1,1,0
+Und geht zu ihrem Spiegel.,(S (KON Und) (VVFIN geht) (PP (APPR zu) (PPOSAT ihrem) (NN Spiegel))) ($. .),1,0,0
+"Und spricht: \newline  \newline Spieglein, Spieglein an der Wand.",(S (KON Und) (VVFIN spricht)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Wer ist die Schönste im ganzen Land?,(S (PWS Wer) (VAFIN ist) (NP (ART die) (NN Schönste) (PP (APPRART im) (ADJA ganzen) (NN Land)))) ($. ?),1,1,0
+"Da antwortet der Spiegel: \newline  \newline Frau Königin, ihr seid die Schönste hier.",(S (ADV Da) (VVFIN antwortet) (NP (ART der) (PN (NN Spiegel)))) ($. :) (FM \newline) (XY  ) (FM \newline),1,0,0
+"Aber Schnee-wittchen über den 7 Bergen, \newline bei den 7 Zwergen ist 1000-mal schöner als ihr.","(KON Aber) (NN Schnee-wittchen) (PP (APPR über) (ART den) (CARD 7) (NN Bergen)) ($, ,) (S (NP (FM \newline) (PP (APPR bei) (ART den) (CARD 7) (NN Zwergen))) (VAFIN ist) (AP (ADV 1000-mal) (ADJD schöner) (NP (KOKOM als) (PPER ihr)))) ($. .)",1,1,2
+Da erschrickt sie.,(S (ADV Da) (VVFIN erschrickt) (PPER sie)) ($. .),1,0,0
+Und weiß: \newline Der Spiegel muss immer die Wahrheit sagen.,(S (KON Und) (VVFIN weiß)) ($. :) (XY \newline),1,0,0
+Und Schnee-wittchen ist noch am Leben.,(S (KON Und) (NN Schnee-wittchen) (VAFIN ist) (ADV noch) (PP (APPRART am) (NN Leben))) ($. .),1,0,0
+Sie zittert und bebt vor Zorn.,(CS (S (PPER Sie) (VVFIN zittert)) (KON und) (S (VVFIN bebt) (PP (APPR vor) (NN Zorn)))) ($. .),1,0,0
+Sie ruft: \newline  \newline Schnee-wittchen muss sterben.,(S (PPER Sie) (VVFIN ruft)) ($. :) (FM \newline) (XY  ) (FM \newline),1,0,0
+Und wenn es meine letzte Tat ist.,(S (KON Und) (KOUS wenn) (PPER es) (NP (PPOSAT meine) (ADJA letzte) (NN Tat)) (VAFIN ist)) ($. .),1,1,0
+Also vergiftet sie einen Apfel.,(S (ADV Also) (VVFIN vergiftet) (PPER sie) (NP (ART einen) (NN Apfel))) ($. .),1,0,0
+Der Apfel sieht sehr appetitlich aus.,(S (NP (ART Der) (NN Apfel)) (VVFIN sieht) (AP (ADV sehr) (ADJD appetitlich)) (PTKVZ aus)) ($. .),1,0,0
+"Wenn man aber ein Stück davon isst, \newline dann muss man sterben.","(AVP (S (KOUS Wenn) (PIS man) (ADV aber) (NP (ART ein) (NN Stück) (PROAV davon)) (VVFIN isst))) ($, ,) (FM \newline) (S (ADV dann) (VMFIN muss) (PIS man) (VVINF sterben)) ($. .)",1,1,0
+Die Königin verkleidet sich als eine Bäuerin.,(S (NP (ART Die) (NN Königin)) (VVFIN verkleidet) (PRF sich) (PP (APPR als) (ART eine) (NN Bäuerin))) ($. .),1,0,0
+Und ging über die 7 Berge zum 7 Zwerge Haus.,(S (KON Und) (VVFIN ging) (PP (APPR über) (ART die) (CARD 7) (NN Berge)) (PP (APPRART zum) (CARD 7) (NN Zwerge) (NN Haus))) ($. .),1,0,2
+Sie klopft an die Türe.,(S (PPER Sie) (VVFIN klopft) (PP (APPR an) (ART die) (NN Türe))) ($. .),1,0,0
+Schnee-wittchen sieht zum Fenster heraus.,(S (NN Schnee-wittchen) (VVFIN sieht) (PP (APPRART zum) (NN Fenster)) (PTKVZ heraus)) ($. .),1,0,0
+Und spricht: \newline  \newline Ich werde keinen Menschen einlassen.,(S (KON Und) (VVFIN spricht)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Da antwortet die Bäuerin: \newline  \newline Mir auch recht \newline Ich will ich dir einen Apfel schenken.,(S (ADV Da) (VVFIN antwortet) (NP (ART die) (NN Bäuerin))) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Schnee-wittchen streckt die Hand hinaus.,(S (NN Schnee-wittchen) (VVFIN streckt) (NP (ART die) (NN Hand)) (PTKVZ hinaus)) ($. .),1,0,0
+Und nahm den Apfel.,(S (KON Und) (VVFIN nahm) (NP (ART den) (NN Apfel))) ($. .),1,0,0
+"Als sie aber einen Bissen in ihren Mund hat, \newline fällt sie auf den Boden.","(S (KOUS Als) (PPER sie) (ADV aber) (NP (ART einen) (NN Bissen)) (PP (APPR in) (PPOSAT ihren) (NN Mund)) (VAFIN hat)) ($, ,) (S (NE \newline) (VVFIN fällt) (PPER sie) (PP (APPR auf) (ART den) (NN Boden))) ($. .)",1,0,0
+Da lacht die Königin.,(S (ADV Da) (VVFIN lacht) (NP (ART die) (NN Königin))) ($. .),1,0,0
+"Und als sie daheim den Spiegel fragt: \newline  \newline Spieglein, Spieglein an der Wand.","(KON Und) (S (KOUS als) (PPER sie) (ADV daheim) (NP (ART den) (NN Spiegel)) (VVFIN fragt)) ($. :) (FM \newline) (XY  ) (PN (FM \newline) (NE Spieglein)) ($, ,) (NP (NE Spieglein) (PP (APPR an) (ART der) (NN Wand))) ($. .)",1,1,0
+Wer ist die Schönste im ganzen Land?,(S (PWS Wer) (VAFIN ist) (NP (ART die) (NN Schönste) (PP (APPRART im) (ADJA ganzen) (NN Land)))) ($. ?),1,1,0
+"So antwortet dieser: \newline  \newline Frau Königin, ihr seid die Schönste im Land.",(S (AVP (ADV So)) (VVFIN antwortet) (PDS dieser)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Am Abend kommen die Zwerge nach Hause.,(S (PP (APPRART Am) (NN Abend)) (VVFIN kommen) (NP (ART die) (NN Zwerge)) (PP (APPR nach) (NN Hause))) ($. .),1,0,0
+Da sehen sie Schnee-wittchen auf dem Boden liegen.,(S (ADV Da) (VVFIN sehen) (PPER sie) (NN Schnee-wittchen) (VP (PP (APPR auf) (ART dem) (NN Boden)) (VVINF liegen))) ($. .),1,0,0
+Sie legen sie auf eine Trag-bahre.,(S (PPER Sie) (VVFIN legen) (PPER sie) (PP (APPR auf) (ART eine) (NN Trag-bahre))) ($. .),1,0,0
+Und alle 7 Zwerge sitzen daneben.,(S (KON Und) (NP (PIAT alle) (CARD 7) (NN Zwerge)) (VVFIN sitzen) (PROAV daneben)) ($. .),1,1,0
+Und trauern um sie.,(S (KON Und) (VVFIN trauern) (PP (APPR um) (PPER sie))) ($. .),1,0,0
+Sie weinen 3 Tage lang.,(S (PPER Sie) (VVFIN weinen) (AP (NP (CARD 3) (NN Tage)) (ADJD lang))) ($. .),1,0,0
+Die Zwerge wollen sie begraben.,(S (NP (ART Die) (NN Zwerge)) (VMFIN wollen) (VP (PPER sie) (VVINF begraben))) ($. .),1,0,0
+Aber Schnee-wittchen sieht noch aus als sei sie lebendig.,(S (KON Aber) (NE Schnee-wittchen) (VVFIN sieht) (ADV noch) (PTKVZ aus) (S (KOKOM als) (VAFIN sei) (PPER sie) (ADJD lebendig))) ($. .),1,0,0
+Sie hat noch ihre schönen roten Backen.,(S (PPER Sie) (VAFIN hat) (ADV noch) (NP (PPOSAT ihre) (ADJA schönen) (ADJA roten) (NN Backen))) ($. .),1,1,0
+Die Zwerge sagen: \newline  \newline Wir können sie nicht einfach in die schwarze Erde begraben.,(S (NP (ART Die) (NN Zwerge)) (VVFIN sagen)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Darum legen die Zwerge sie in einen Glas-sarg.,(S (PROAV Darum) (VVFIN legen) (NP (ART die) (NN Zwerge)) (PPER sie) (PP (APPR in) (ART einen) (NN Glas-sarg))) ($. .),1,0,0
+So kann man es von allen Seiten sehen.,(S (ADV So) (VMFIN kann) (PIS man) (VP (PPER es) (PP (APPR von) (PIAT allen) (NN Seiten)) (VVINF sehen))) ($. .),1,0,0
+Dann legen die Zwerge sie hinein.,(S (ADV Dann) (VVFIN legen) (NP (ART die) (NN Zwerge)) (PPER sie) (PTKVZ hinein)) ($. .),1,0,0
+Und mit goldenen Buchstaben schreiben sie ihren Namen darauf.,(S (KON Und) (PP (APPR mit) (ADJA goldenen) (NN Buchstaben)) (VVFIN schreiben) (PPER sie) (NP (PPOSAT ihren) (NN Namen)) (PROAV darauf)) ($. .),1,0,0
+Dann tragen sie den Sarg auf den Berg.,(S (ADV Dann) (VVFIN tragen) (PPER sie) (NP (ART den) (NN Sarg)) (PP (APPR auf) (ART den) (NN Berg))) ($. .),1,0,0
+Einer von ihnen bleibt immer bei ihr.,(S (NP (PIS Einer) (PP (APPR von) (PPER ihnen))) (VVFIN bleibt) (ADV immer) (PP (APPR bei) (PPER ihr))) ($. .),1,1,0
+Und bewacht sie.,(S (KON Und) (VVFIN bewacht) (PPER sie)) ($. .),1,0,0
+Nun liegt Schnee-wittchen lange Zeit in dem Sarg.,(S (ADV Nun) (VVFIN liegt) (NE Schnee-wittchen) (NP (ADJA lange) (NN Zeit)) (PP (APPR in) (ART dem) (NN Sarg))) ($. .),1,0,0
+"Sie sieht aus, als ob sie nur schläft.","(S (PPER Sie) (VVFIN sieht) (PTKVZ aus)) ($, ,) (S (KOKOM als) (KOUS ob) (PPER sie) (ADV nur) (VVFIN schläft)) ($. .)",1,0,0
+Sie ist immer noch so weiß wie Schnee.,(S (PPER Sie) (VAFIN ist) (AVP (ADV immer) (ADV noch)) (AP (AVP (ADV so)) (ADJD weiß) (NP (KOKOM wie) (NN Schnee)))) ($. .),1,0,0
+Ist so rot wie Blut.,(S (VAFIN Ist) (AP (AVP (ADV so)) (ADJD rot) (NP (KOKOM wie) (NN Blut)))) ($. .),1,0,0
+Ein Königs-sohn verirrt sich im Wald.,(S (NP (ART Ein) (NN Königs-sohn)) (VVFIN verirrt) (PRF sich) (PP (APPRART im) (NN Wald))) ($. .),1,0,0
+Er sieht den Sarg auf dem Berg.,(S (PPER Er) (VVFIN sieht) (NP (ART den) (NN Sarg)) (PP (APPR auf) (ART dem) (NN Berg))) ($. .),1,0,0
+Und das schöne Schnee-wittchen liegt darin.,(S (KON Und) (NP (ART das) (ADJA schöne) (NN Schnee-wittchen)) (VVFIN liegt) (PROAV darin)) ($. .),1,1,0
+Da sagt er zu den Zwergen: \newline  \newline Gebt mir den Sarg.,(S (ADV Da) (VVFIN sagt) (PPER er) (PP (APPR zu) (ART den) (NN Zwergen))) ($. :),1,0,0
+"Ich gebe euch dafür, was ihr wollt.","(S (PPER Ich) (VVFIN gebe) (PPER euch) (PP (PROAV dafür))) ($, ,) (S (PWS was) (PPER ihr) (VMFIN wollt)) ($. .)",1,0,0
+Aber die Zwerge antworten: \newline  \newline Wir geben ihn nicht für alles Gold der Welt.,(S (KON Aber) (NP (ART die) (NN Zwerge)) (VVFIN antworten)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+Da sagt er: \newline  \newline So schenkt sie mir.,(S (ADV Da) (VVFIN sagt) (PPER er)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+"Weil ich kann nicht mehr leben, ohne Schnee-wittchen zu sehen.","(S (KOUS Weil) (PPER ich) (VMFIN kann) (AVP (PTKNEG nicht) (ADV mehr)) (VP (VVINF leben))) ($, ,) (VP (KOUI ohne) (NN Schnee-wittchen) (VZ (PTKZU zu) (VVINF sehen))) ($. .)",1,0,0
+"Ich will sie hoch achten, wie mein Liebstes.","(S (PPER Ich) (VMFIN will) (VP (PPER sie) (ADJD hoch) (VVINF achten))) ($, ,) (NP (KOKOM wie) (PPOSAT mein) (NN Liebstes)) ($. .)",1,1,0
+Die Zwerge haben Mitleid mit ihm.,(S (NP (ART Die) (NN Zwerge)) (VAFIN haben) (NP (NN Mitleid) (PP (APPR mit) (PPER ihm)))) ($. .),1,1,0
+Und sie geben dem Königs-sohn den Sarg.,(S (KON Und) (PPER sie) (VVFIN geben) (NP (ART dem) (NN Königs-sohn)) (NP (ART den) (NN Sarg))) ($. .),1,0,0
+Aber beim Tragen stolpern sie über einen Strauch.,(S (KON Aber) (PP (APPRART beim) (NN Tragen)) (VVFIN stolpern) (PPER sie) (PP (APPR über) (ART einen) (NN Strauch))) ($. .),1,0,0
+Und der Sarg wackelt heftig.,(S (KON Und) (NP (ART der) (NN Sarg)) (VVFIN wackelt) (ADJD heftig)) ($. .),1,0,0
+Da fällt das giftige Apfel-stück aus Schnee-wittchens Hals.,(ADV Da) (VVFIN fällt) (ART das) (ADJA giftige) (NN Apfel-stück) (PP (APPR aus) (NE Schnee-wittchens) (NN Hals)) ($. .),0,0,0
+Da öffnet sie die Augen.,(S (ADV Da) (VVFIN öffnet) (PPER sie) (NP (ART die) (NN Augen))) ($. .),1,0,0
+Sie hebt den Deckel vom Sarg.,(S (PPER Sie) (VVFIN hebt) (NP (ART den) (NN Deckel)) (PP (APPRART vom) (NN Sarg))) ($. .),1,0,0
+Dann setzt sie sich auf.,(S (ADV Dann) (VVFIN setzt) (PPER sie) (PRF sich) (PTKVZ auf)) ($. .),1,0,0
+"Sie ruft: \newline  \newline Ach, wo bin ich denn?",(S (PPER Sie) (VVFIN ruft)) ($. :) (FM \newline) (XY  ) (FM \newline),1,0,0
+Der Königs-sohn sagte voll Freude: \newline  \newline Du bist bei mir.,(S (NP (ART Der) (NN Königs-sohn)) (VVFIN sagte) (PP (APPR voll) (NN Freude))) ($. :) (FM \newline) ($.  ) (FM \newline),1,0,0
+"Ich erzähle dir alles, was geschehen ist.","(S (PPER Ich) (VVFIN erzähle) (PPER dir) (PIS alles)) ($, ,) (NP (S (PRELS was) (VVPP geschehen) (VAFIN ist))) ($. .)",1,1,0
+Ich habe dich lieber als alles auf der Welt!,(S (PPER Ich) (VAFIN habe) (PPER dich) (AP (ADJD lieber) (NP (KOKOM als) (PIS alles) (PP (APPR auf) (ART der) (NN Welt))))) ($. !),1,1,0
+Komm mit mir in meines Vaters Schloss!,(S (VVIMP Komm) (PP (APPR mit) (PPER mir)) (PP (APPR in) (NP (PPOSAT meines) (NN Vaters)) (NN Schloss))) ($. !),1,0,1
+Auch sie verliebt sich in ihn.,(S (NP (ADV Auch) (PPER sie)) (VVFIN verliebt) (PRF sich) (PP (APPR in) (PPER ihn))) ($. .),1,0,0
+Und so geht sie mit ihm.,(S (KON Und) (ADV so) (VVFIN geht) (PPER sie) (PP (APPR mit) (PPER ihm))) ($. .),1,0,0
+Und zur Hochzeit laden sie alle ein.,(S (KON Und) (PP (APPRART zur) (NN Hochzeit)) (VVFIN laden) (PPER sie) (PIS alle) (PTKVZ ein)) ($. .),1,0,0
+Es gibt verschiedene Größen für Schneiderpuppen.,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Größen) (PP (APPR für) (NN Schneiderpuppen)))) ($. .),1,1,0
+Manche sind genau so groß wie ein Mensch.,(S (PIS Manche) (VAFIN sind) (AP (AVP (ADJD genau) (ADV so)) (ADJD groß) (NP (KOKOM wie) (ART ein) (NN Mensch)))) ($. .),1,1,0
+Eine Schneiderpuppe ist ein Torso.,(S (NP (ART Eine) (NN Schneiderpuppe)) (VAFIN ist) (NP (ART ein) (NN Torso))) ($. .),1,0,0
+Die meisten sind ohne Arme und Beine.,(S (NP (ART Die) (PIS meisten)) (VAFIN sind) (PP (APPR ohne) (CNP (NN Arme) (KON und) (NN Beine)))) ($. .),1,0,1
+An die Schneiderpuppe kann man Kleider-Teile mit einer Nadeln stecken.,(S (PP (APPR An) (ART die) (NN Schneiderpuppe)) (VMFIN kann) (PIS man) (VP (NN Kleider-Teile) (PP (APPR mit) (ART einer) (NN Nadeln)) (VVINF stecken))) ($. .),1,0,0
+Schneiderpuppen helfen beim Herstellen von Kleider.,(S (NN Schneiderpuppen) (VVFIN helfen) (PP (APPRART beim) (NN Herstellen) (PP (APPR von) (NN Kleider)))) ($. .),1,0,1
+Um Schuhe zu machen gibt es auch eine Hilfe.,(S (VP (KOUI Um) (NN Schuhe) (VZ (PTKZU zu) (VVINF machen))) (VVFIN gibt) (PPER es) (ADV auch) (NP (ART eine) (NN Hilfe))) ($. .),1,0,0
+Es hat 2 Wörter: • Schneider (das ist ein Beruf),(S (PPER Es) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) (XY •) (NE Schneider) ($LRB -LRB-) (NP (S (PDS das) (VAFIN ist) (NP (ART ein) (NN Beruf)))) ($LRB -RRB-),1,1,0
+Es hat 2 Wörter: • Puppe (sieht aus wie ein Mensch),(S (PPER Es) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) (XY •) (NE Puppe) ($LRB -LRB-) (NP (S (VVFIN sieht) (PTKVZ aus) (NP (KOKOM wie) (ART ein) (NN Mensch)))) ($LRB -RRB-),1,2,0
+Eine Schneiderpuppe ist eine Puppe.,(S (NP (ART Eine) (NN Schneiderpuppe)) (VAFIN ist) (NP (ART eine) (NN Puppe))) ($. .),1,0,0
+Sie wird benutzt um Kleider an zu ziehen.,(S (PPER Sie) (VAFIN wird) (VP (VVPP benutzt) (VP (KOUI um) (NN Kleider) (PTKVZ an) (VZ (PTKZU zu) (VVINF ziehen))))) ($. .),1,0,0
+Das heißt: \newline mit der Puppe sieht man ob Kleider passen.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (PP (FM \newline) (APPR mit) (ART der) (NN Puppe)) (VVFIN sieht) (PIS man) (S (KOUS ob) (NN Kleider) (VVFIN passen))) ($. .),1,0,1
+Beim Schnell-lesen können manche Menschen 1000 Wörter in einer Minute lesen.,(S (PP (APPRART Beim) (NN Schnell-lesen)) (VMFIN können) (NP (PIAT manche) (NN Menschen)) (VP (NP (CARD 1000) (NN Wörter)) (PP (APPR in) (ART einer) (NN Minute)) (VVINF lesen))) ($. .),1,0,0
+Die Person die Schnell-lesen kann heißt: Schnell­le­ser.,(S (NP (ART Die) (NN Person)) (VP (ART die) (VVINF Schnell-lesen)) (VMFIN kann) (VVINF heißt)) ($. :) (NN Schnell­le­ser) ($. .),1,0,0
+Schnell-lesen sagt man nur wenn: der Schnell­-le­ser den Text auch verstande hat.,(S (VP (VVINF Schnell-lesen)) (VVFIN sagt) (PIS man) (ADV nur) (KOUS wenn)) ($. :) (S (NP (ART der) (NN Schnell­-le­ser)) (VP (NP (ART den) (NN Text)) (ADV auch) (VVPP verstande)) (VAFIN hat)) ($. .),1,0,0
+Beim Schnell-lesen werden nicht alle Wörter gelesen.,(S (PP (APPRART Beim) (NN Schnell-lesen)) (VAFIN werden) (PTKNEG nicht) (NP (PIAT alle) (NN Wörter)) (VP (VVPP gelesen))) ($. .),1,0,0
+Schnell-lesen hat 2 Wörter: • Schnell (das Gegenteil von schnell ist: langsam),(S (VP (VVINF Schnell-lesen)) (VAFIN hat) (NP (CARD 2) (NN Wörter))) ($. :),1,0,0
+Schnell-lesen hat 2 Wörter: • Lesen,(S (VP (VVINF Schnell-lesen)) (VAFIN hat) (NP (CARD 2) (NN Wörter))) ($. :),1,0,0
+Das Wort Schnelllesen ist ein Verb.,(S (NP (ART Das) (NN Wort) (NN Schnelllesen)) (VAFIN ist) (NP (ART ein) (NN Verb))) ($. .),1,1,0
+Beim Schnelllesen wird ein Text sehr schnell gelesen.,(S (PP (APPRART Beim) (NN Schnelllesen)) (VAFIN wird) (NP (ART ein) (NN Text)) (VP (AP (ADV sehr) (ADJD schnell)) (VVPP gelesen))) ($. .),1,0,0
+Schnick-schnack ist überflüssig.,(S (NN Schnick-schnack) (VAFIN ist) (ADJD überflüssig)) ($. .),1,0,0
+Es ist nichts Wichtiges.,(S (PPER Es) (VAFIN ist) (NP (PIAT nichts) (NN Wichtiges))) ($. .),1,0,0
+Schnickschnack sind un-wichtige Sachen.,(S (NN Schnickschnack) (VAFIN sind) (NP (ADJA un-wichtige) (NN Sachen))) ($. .),1,0,0
+Schnick-schnack können Wörter und Sätze sein.,(S (NN Schnick-schnack) (VMFIN können) (CNP (NN Wörter) (KON und) (NN Sätze)) (VP (VAINF sein))) ($. .),1,0,0
+Und Schnick-schnack können Gegenstände sein.,(S (KON Und) (NN Schnick-schnack) (VMFIN können) (VP (NN Gegenstände) (VAINF sein))) ($. .),1,0,0
+Zum Beispiel ein Gerät das un-wichtig ist.,(S (PP (APPRART Zum) (NN Beispiel)) (ART ein) (NN Gerät) (S (PRELS das) (ADJD un-wichtig) (VAFIN ist))) ($. .),1,0,0
+Das Schnitzel bei Schniposa ist meistens ein Wiener Schnitzel.,(S (NP (ART Das) (NN Schnitzel) (PP (APPR bei) (NE Schniposa))) (VAFIN ist) (ADV meistens) (NP (ART ein) (ADJA Wiener) (NN Schnitzel))) ($. .),1,2,0
+Schniposa ist das Kurzwort für ein Essen.,(S (NN Schniposa) (VAFIN ist) (NP (ART das) (NN Kurzwort) (PP (APPR für) (ART ein) (NN Essen)))) ($. .),1,1,0
+"Schniposa ist: \newline Schnitzel, Pommes und Salat.","(S (NN Schniposa) (VAFIN ist)) ($. :) (NP (ADJA \newline) (CNP (NN Schnitzel))) ($, ,) (NN Pommes) (KON und) (NN Salat) ($. .)",1,0,0
+Das Wort Schnorrer ist ein Substantiv.,(S (NP (ART Das) (NN Wort) (NN Schnorrer)) (VAFIN ist) (NP (ART ein) (NN Substantiv))) ($. .),1,1,0
+Ein Schnorrer tut schnorren.,(S (NP (ART Ein) (NN Schnorrer)) (VVFIN tut) (PTKVZ schnorren)) ($. .),1,0,0
+Das Wort schnorren ist das Verb.,(S (NP (ART Das) (NN Wort) (VVINF schnorren)) (VAFIN ist) (NP (ART das) (NN Verb))) ($. .),1,1,0
+Ein Schnorrer ist eine Person.,(S (NP (ART Ein) (NN Schnorrer)) (VAFIN ist) (NP (ART eine) (NN Person))) ($. .),1,0,0
+Ein Schnorrer möchte von anderen etwas haben.,(S (NP (ART Ein) (NN Schnorrer)) (VMFIN möchte) (VP (PP (APPR von) (PIS anderen)) (PIS etwas) (VAINF haben))) ($. .),1,0,0
+Er möchte sehr oft etwas (von anderen) haben.,(S (PPER Er) (VMFIN möchte) (AVP (ADV sehr) (ADV oft)) (PIAT etwas)) ($LRB -LRB-) (NP (PP (APPR von) (PIS anderen))) ($LRB -RRB-) (VP (VAINF haben)) ($. .),1,0,0
+Ein Schoko-kuss ist eine Süßware.,(S (NP (ART Ein) (NN Schoko-kuss)) (VAFIN ist) (NP (ART eine) (NN Süßware))) ($. .),1,0,0
+Er ist innen aus Schaum-zucker.,(S (PPER Er) (VAFIN ist) (ADV innen) (PP (APPR aus) (ADJD Schaum-zucker))) ($. .),1,0,0
+Hat unten eine Waffel.,(S (VAFIN Hat) (ADV unten) (NP (ART eine) (NN Waffel))) ($. .),1,0,0
+Und hat außen eine Schokoladen-schicht.,(S (KON Und) (VAFIN hat) (ADV außen) (ART eine) (ADV Schokoladen-schicht)) ($. .),1,0,0
+Es gibt verschiedene Schokokuss-arten.,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Schokokuss-arten))) ($. .),1,0,0
+Ein Schoko-kuss kann man essen.,(S (NP (ART Ein) (NN Schoko-kuss)) (VMFIN kann) (PIS man) (VP (VVINF essen))) ($. .),1,0,0
+Er hat einen süßen Geschmack.,(S (PPER Er) (VAFIN hat) (NP (ART einen) (ADJA süßen) (NN Geschmack))) ($. .),1,1,0
+Im Jahr 1932: \newline Aldous Huxley schreibt den Science-fiction-Roman Schöne neue Welt.,(PP (APPRART Im) (NN Jahr) (CARD 1932)),0,0,0
+Die Gesellschafts-ordnung ist geregelt.,(S (NP (ART Die) (NN Gesellschafts-ordnung)) (VAFIN ist) (VVPP geregelt)) ($. .),1,0,0
+Und darf sich nicht verändern.,(S (KON Und) (VMFIN darf) (PRF sich) (PTKNEG nicht) (VP (VVINF verändern))) ($. .),1,0,0
+Die Ordnung soll bleiben wie sie ist.,(S (NP (ART Die) (NN Ordnung)) (VMFIN soll) (VP (VVINF bleiben) (S (PWAV wie) (PPER sie) (VAFIN ist)))) ($. .),1,0,0
+Damit sie so bleibt gibt es: • Manipulation,(S (S (KOUS Damit) (PPER sie) (ADV so) (VVFIN bleibt)) (VVFIN gibt) (PPER es)) ($. :) (XY •) (NN Manipulation),1,0,0
+Damit sie so bleibt gibt es: • Konsum,(S (S (KOUS Damit) (PPER sie) (ADV so) (VVFIN bleibt)) (VVFIN gibt) (PPER es)) ($. :) (XY •) (NN Konsum),1,0,0
+Damit sie so bleibt gibt es: • Drogen,(S (S (KOUS Damit) (PPER sie) (ADV so) (VVFIN bleibt)) (VVFIN gibt) (PPER es)) ($. :) (XY •) (NN Drogen),1,0,0
+Schöne neue Welt ist ein Vorbild für viele andere Schrift-steller.,(S (NP (ADJA Schöne) (ADJA neue) (NN Welt)) (VAFIN ist) (NP (ART ein) (NN Vorbild) (PP (APPR für) (PIAT viele) (ADJA andere) (NN Schrift-steller)))) ($. .),1,2,1
+Schöne neue Welt ist der Name von einem Roman.,(S (PN (NP (ADJA Schöne) (ADJA neue) (NN Welt))) (VAFIN ist) (NP (ART der) (NN Name) (PP (APPR von) (ART einem) (NN Roman)))) ($. .),1,2,0
+Es ist eine Dystopie.,(S (PPER Es) (VAFIN ist) (NP (ART eine) (NN Dystopie))) ($. .),1,0,0
+Aldous Huxley hat den Roman geschrieben.,(S (PN (NE Aldous) (NE Huxley)) (VAFIN hat) (VP (NP (ART den) (NN Roman)) (VVPP geschrieben))) ($. .),1,0,0
+Eine Schönheitsoperation ist eine Operation.,(S (NP (ART Eine) (NN Schönheitsoperation)) (VAFIN ist) (NP (ART eine) (NN Operation))) ($. .),1,0,0
+Eine Schönheitsoperation ist eine Veränderung des menschlichen Körpers.,(S (NP (ART Eine) (NN Schönheitsoperation)) (VAFIN ist) (NP (ART eine) (NN Veränderung) (NP (ART des) (ADJA menschlichen) (NN Körpers)))) ($. .),1,2,0
+"Jemand der so etwas machen lässt, \newline möchte anders aussehen.","(NP (PIS Jemand) (S (PRELS der) (VP (NP (ADV so) (PIS etwas)) (VVINF machen)) (VVFIN lässt))) ($, ,) (S (NE \newline) (VMFIN möchte) (VP (ADV anders) (VVINF aussehen))) ($. .)",1,1,0
+Diese Schredder gibt es: • Auto-Schredder (damit werden Autos zer-kleinert),(S (NP (PDAT Diese) (NN Schredder)) (VVFIN gibt) (PPER es)) ($. :) (XY •),1,0,0
+Diese Schredder gibt es: • Garten-Schredder (zum Beispiel ein Buschhacker),(S (PDAT Diese) (NN Schredder) (VVFIN gibt) (PPER es)) ($. :) (XY •) (NN Garten-Schredder) ($LRB -LRB-) (NP (NP (PP (APPRART zum) (NN Beispiel)) (ART ein) (NN Buschhacker))) ($LRB -RRB-),1,2,0
+Diese Schredder gibt es: • Büro-Schredder,(S (NP (PDAT Diese) (NN Schredder)) (VVFIN gibt) (PPER es)) ($. :) (XY •),1,0,0
+Diese Schredder gibt es: • Tier-Schredder (beim Tier-Schredder werden Tiere von einer Maschine getötet),(S (NP (PDAT Diese) (NN Schredder)) (VVFIN gibt) (PPER es)) ($. :),1,0,0
+Ein Schredder ist eine Maschine die Sachen klein-schneidet.,(S (NP (ART Ein) (NN Schredder)) (VAFIN ist) (NP (NP (ART eine) (NN Maschine)) (NP (ART die) (NN Sachen))) (VVFIN klein-schneidet)) ($. .),1,1,0
+Schrift-dolmetscher sind eine Hilfe.,(S (NN Schrift-dolmetscher) (VAFIN sind) (NP (ART eine) (NN Hilfe))) ($. .),1,0,0
+Eine Hilfe für Menschen die schlecht hören oder taub sind.,(ART Eine) (NN Hilfe) (APPR für) (NN Menschen) (S (PRELS die) (ADJD schlecht) (VVFIN hören)) (KON oder) (S (ADJD taub) (VAFIN sind)) ($. .),1,0,0
+Zum Beispiel weil diese Menschen nicht so gut Gebärdensprache können.,(S (PP (APPRART Zum) (NN Beispiel)) (KOUS weil) (NP (PDAT diese) (NN Menschen)) (PTKNEG nicht) (AP (ADV so) (ADJD gut)) (NN Gebärdensprache) (VMFIN können)) ($. .),1,0,0
+Aber gut Schrift-sprache lesen können.,(S (KON Aber) (VP (ADJD gut) (VP (NN Schrift-sprache) (VVINF lesen)) (VMINF können))) ($. .),1,0,0
+Diese Menschen haben ein Recht auf einen Schriftdolmetscher.,(S (NP (PDAT Diese) (NN Menschen)) (VAFIN haben) (NP (ART ein) (NN Recht) (PP (APPR auf) (ART einen) (NN Schriftdolmetscher)))) ($. .),1,1,0
+Beim Mit-schreiben wird der Text auf einem Bildschirm gezeigt.,(S (PP (APPRART Beim) (NN Mit-schreiben)) (VAFIN wird) (NP (ART der) (NN Text)) (VP (PP (APPR auf) (ART einem) (NN Bildschirm)) (VVPP gezeigt))) ($. .),1,0,0
+Damit die Leute mit-lesen können was gesprochen wird.,(S (KOUS Damit) (NP (ART die) (NN Leute)) (VP (VVINF mit-lesen)) (VMFIN können) (S (PWS was) (VVPP gesprochen) (VAFIN wird))) ($. .),1,0,0
+Das Mit-schreiben heißt: Schriftdolmetschen.,(S (NP (ART Das) (NN Mit-schreiben)) (VVFIN heißt)) ($. :) (NN Schriftdolmetschen) ($. .),1,0,0
+Schriftdolmetscher ist ein Beruf.,(S (NN Schriftdolmetscher) (VAFIN ist) (NP (ART ein) (NN Beruf))) ($. .),1,0,0
+Ein Schrift-dolmetscher schreibt gesprochene Sprache auf.,(S (NP (ART Ein) (NN Schrift-dolmetscher)) (VVFIN schreibt) (NP (ADJA gesprochene) (NN Sprache)) (PTKVZ auf)) ($. .),1,0,0
+Andere können dann mit-lesen was andere sprechen.,(S (PIS Andere) (VMFIN können) (ADV dann) (VP (VP (VVINF mit-lesen)) (S (PWS was) (PIS andere) (VVFIN sprechen)))) ($. .),1,0,0
+Ein Mensch hat vielleicht eine Hirn-schädigung.,(S (NP (ART Ein) (NN Mensch)) (VAFIN hat) (ADV vielleicht) (NP (ART eine) (NN Hirn-schädigung))) ($. .),1,0,0
+Der Mensch hat dann vielleicht Probleme mit der Schrift-sprache.,(S (NP (ART Der) (NN Mensch)) (VAFIN hat) (ADV dann) (ADV vielleicht) (NP (NN Probleme) (PP (APPR mit) (ART der) (NN Schrift-sprache)))) ($. .),1,1,0
+Schrift-sprache ist lesen und schreiben.,(S (NN Schrift-sprache) (VAFIN ist) (CVP (VVINF lesen) (KON und) (VVINF schreiben))) ($. .),1,0,0
+Der Mensch hat vielleicht Probleme beim Lesen.,(S (NP (ART Der) (NN Mensch)) (VAFIN hat) (ADV vielleicht) (NP (NN Probleme) (PP (APPRART beim) (NN Lesen)))) ($. .),1,1,0
+Das nennt man auch Dyslexie.,(S (PDS Das) (VVFIN nennt) (PIS man) (ADV auch) (NN Dyslexie)) ($. .),1,0,0
+Der Mensch hat vielleicht Probleme beim Schreiben.,(S (NP (ART Der) (NN Mensch)) (VAFIN hat) (ADV vielleicht) (NP (NN Probleme) (PP (APPRART beim) (NN Schreiben)))) ($. .),1,1,0
+Das nennt man auch Dysgraphie.,(S (PDS Das) (VVFIN nennt) (PIS man) (ADV auch) (NN Dysgraphie)) ($. .),1,0,0
+Viele Menschen mit einer Schrift-sprach-störung haben auch eine Aphasie.,(S (NP (PIAT Viele) (NN Menschen) (PP (APPR mit) (ART einer) (NN Schrift-sprach-störung))) (VAFIN haben) (ADV auch) (NP (ART eine) (NN Aphasie))) ($. .),1,1,0
+Manche Menschen haben Probleme mit der Schrift-sprache.,(S (NP (PIAT Manche) (NN Menschen)) (VAFIN haben) (NP (NN Probleme) (PP (APPR mit) (ART der) (NN Schrift-sprache)))) ($. .),1,1,0
+Schrift-sprache ist lesen und schreiben.,(S (NN Schrift-sprache) (VAFIN ist) (CVP (VVINF lesen) (KON und) (VVINF schreiben))) ($. .),1,0,0
+Viele Schriftsteller sind in Schriftstellerverbänden.,(S (NP (PIAT Viele) (NN Schriftsteller)) (VAFIN sind) (PP (APPR in) (NN Schriftstellerverbänden))) ($. .),1,0,0
+Schriftsteller ist ein Beruf.,(S (NN Schriftsteller) (VAFIN ist) (NP (ART ein) (NN Beruf))) ($. .),1,0,0
+Ein Schriftsteller schreibt Bücher.,(S (NP (ART Ein) (NN Schriftsteller)) (VVFIN schreibt) (NN Bücher)) ($. .),1,0,0
+Man kann Schrift lesen.,(S (PIS Man) (VMFIN kann) (VP (NN Schrift) (VVINF lesen))) ($. .),1,0,0
+Oder man kann Schrift schreiben.,(S (KON Oder) (PIS man) (VMFIN kann) (VP (NN Schrift) (VVINF schreiben))) ($. .),1,0,0
+Man kann auf Papier lesen.,(S (PIS Man) (VMFIN kann) (VP (PP (APPR auf) (NN Papier)) (VVINF lesen))) ($. .),1,0,0
+Oder man kann auf Papier schreiben.,(S (KON Oder) (PIS man) (VMFIN kann) (VP (PP (APPR auf) (NN Papier)) (VVINF schreiben))) ($. .),1,0,0
+Dazu braucht man ein Schreib-gerät.,(S (PROAV Dazu) (VVFIN braucht) (PIS man) (NP (ART ein) (NN Schreib-gerät))) ($. .),1,0,0
+Man kann Schrift auch auf einem Bild-schirm lesen.,(S (PIS Man) (VMFIN kann) (NN Schrift) (PP (ADV auch) (APPR auf) (ART einem) (NN Bild-schirm)) (VVINF lesen)) ($. .),1,0,1
+Man liest Schrift mit den Augen.,(S (PIS Man) (VVFIN liest) (NN Schrift) (PP (APPR mit) (ART den) (NN Augen))) ($. .),1,0,0
+Für blinde Menschen gibt esBraille-schrift.,(S (PP (APPR Für) (ADJA blinde) (NN Menschen)) (VVFIN gibt) (NN esBraille-schrift)) ($. .),1,0,0
+Braille-schrift kann man mit den Fingern fühlen.,(S (NN Braille-schrift) (VMFIN kann) (PIS man) (VP (PP (APPR mit) (ART den) (NN Fingern)) (VVINF fühlen))) ($. .),1,0,0
+Mit Schrift kann man anderen etwas erzählen \newline Oder etwas für später aufheben.,(S (PP (APPR Mit) (NN Schrift)) (VMFIN kann) (PIS man) (PIS anderen) (PIS etwas) (VVINF erzählen) (FM \newline)),1,0,0
+Oder Information weiter-geben.,(KON Oder) (NN Information) (VVINF weiter-geben) ($. .),0,0,0
+Oder Wissen weiter-geben.,(KON Oder) (NN Wissen) (VVINF weiter-geben) ($. .),0,0,0
+Schrift gibt es schon sehr lange.,(S (NN Schrift) (VVFIN gibt) (PPER es) (AVP (ADV schon) (ADV sehr) (ADV lange))) ($. .),1,0,0
+Es gibt diese Schriften: • Alphabet-schrift  die Zeichen sind vom Alphabet,(S (PPER Es) (VVFIN gibt) (NP (PDAT diese) (NN Schriften))) ($. :),1,0,0
+Es gibt diese Schriften: • Silben-schrift  ein Zeichen ist eine Silbe,(S (PPER Es) (VVFIN gibt) (NP (PDAT diese) (NN Schriften))) ($. :),1,0,0
+Es gibt diese Schriften: • Logo-gramme  ein Zeichen sist ein Wort,(S (PPER Es) (VVFIN gibt) (NP (PDAT diese) (NN Schriften))) ($. :),1,0,0
+Schrift sind • Zeichen,(S (NN Schrift) (VAFIN sind)) ($LRB •) (NN Zeichen),1,0,0
+Schrift sind • Buch-staben,(S (NN Schrift) (VAFIN sind)) ($LRB •) (NN Buch-staben),1,0,0
+Schrift sind • Wörter,(S (NN Schrift) (VAFIN sind)) ($LRB •) (NN Wörter),1,0,0
+Schrift sind • Sätze.,(S (NN Schrift) (VAFIN sind)) ($LRB •) (NN Sätze) ($. .),1,0,0
+Man kann damit Sprache auf-schreiben.,(S (PIS Man) (VMFIN kann) (PROAV damit) (VP (NN Sprache) (VVINF auf-schreiben))) ($. .),1,0,0
+Und andere können es lesen.,(S (KON Und) (PIS andere) (VMFIN können) (VP (PPER es) (VVINF lesen))) ($. .),1,0,0
+Eine Schub-karre hat 1 Rad.,(S (NP (ART Eine) (NN Schub-karre)) (VAFIN hat) (NP (CARD 1) (NN Rad))) ($. .),1,0,0
+An 2 Stangen hebt man die Karre hoch und schiebt sie.,(CS (S (PP (APPR An) (CARD 2) (NN Stangen)) (VVFIN hebt) (PIS man) (NP (ART die) (NN Karre)) (PTKVZ hoch)) (KON und) (S (VVFIN schiebt) (PPER sie))) ($. .),1,0,0
+Eine Schub-karre ist ein Hilfs-mittel.,(S (NP (ART Eine) (NN Schub-karre)) (VAFIN ist) (NP (ART ein) (NN Hilfs-mittel))) ($. .),1,0,0
+Damit kann man schwere Sachen transportieren.,(S (PROAV Damit) (VMFIN kann) (PIS man) (VP (NP (ADJA schwere) (NN Sachen)) (VVINF transportieren))) ($. .),1,0,0
+Schubkarren wurden in Griechenland erfunden.,(S (NN Schubkarren) (VAFIN wurden) (VP (PP (APPR in) (NE Griechenland)) (VVPP erfunden))) ($. .),1,0,0
+Früher waren Schub-karren meistens aus Holz.,(S (ADJD Früher) (VAFIN waren) (NN Schub-karren) (ADV meistens) (PP (APPR aus) (NN Holz))) ($. .),1,0,0
+Heute sind sie meistens aus Stahl.,(S (ADV Heute) (VAFIN sind) (PPER sie) (ADV meistens) (PP (APPR aus) (NN Stahl))) ($. .),1,0,0
+Es gibt auch Schub-karren mit einem Motor.,(S (PPER Es) (VVFIN gibt) (NP (ADV auch) (NN Schub-karren) (PP (APPR mit) (ART einem) (NN Motor)))) ($. .),1,1,0
+Das heißt: man muss nicht schieben.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (PIS man) (VMFIN muss) (PTKNEG nicht) (VVINF schieben)) ($. .),1,0,0
+Auf dem Bild ist eine Motor-schubkarre zu sehen,(S (PP (APPR Auf) (ART dem) (NN Bild)) (VAFIN ist) (NP (ART eine) (NN Motor-schubkarre)) (VP (VZ (PTKZU zu) (VVINF sehen)))),1,0,0
+Eine Schub-karre ist ein kleiner Wagen zum Schieben.,(S (NP (ART Eine) (NN Schub-karre)) (VAFIN ist) (NP (ART ein) (ADJA kleiner) (NN Wagen) (PP (APPRART zum) (NN Schieben)))) ($. .),1,1,0
+Der Name Schuh-plattler gibt es ungefähr seit dem Jahr 1850. \newline Der Schuh-plattler ist ein Paar-tanz.,(NP (ART Der) (NN Name) (NN Schuh-plattler)) (VVFIN gibt) (PPER es) (ADJD ungefähr) (APPR seit) (ART dem) (NN Jahr) ($. 1850.),0,1,0
+Die Frau hat ein Dirndl an.,(S (NP (ART Die) (NN Frau)) (VAFIN hat) (NP (ART ein) (NN Dirndl)) (PTKVZ an)) ($. .),1,0,0
+Der Mann hat bayrische Lederhosen an.,(S (NP (ART Der) (NN Mann)) (VAFIN hat) (NP (ADJA bayrische) (NN Lederhosen)) (PTKVZ an)) ($. .),1,0,0
+Das Paar tanzt einen Walzer.,(S (NP (ART Das) (NN Paar)) (VVFIN tanzt) (NP (ART einen) (NN Walzer))) ($. .),1,0,0
+Dann tanzt die Frau alleine Walzer.,(S (ADV Dann) (VVFIN tanzt) (NP (ART die) (NN Frau)) (ADV alleine) (NN Walzer)) ($. .),1,0,0
+Der Mann macht den Schuh-plattler.,(S (NP (ART Der) (NN Mann)) (VVFIN macht) (ART den) (ADJD Schuh-plattler)) ($. .),1,0,0
+Das heißt: \newline Der Mann macht zum Takt der Musik verschiedene Figuren.,(S (PDS Das) (VVFIN heißt)) ($. :) (NE \newline),1,0,0
+Zum Beispiel: \newline Er klopft sich auf die Schenkel und Beine.,(PP (APPRART Zum) (NN Beispiel)) ($. :) (NE \newline),0,0,0
+Oder fällt auf die Knie und springt wieder auf die Füße.,(CS (S (KON Oder) (VVFIN fällt) (PP (APPR auf) (ART die) (NN Knie))) (KON und) (S (VVFIN springt) (ADV wieder) (PP (APPR auf) (ART die) (NN Füße)))) ($. .),1,0,0
+Danach tanzt das Paar wieder zusammen den Walzer weiter.,(S (PROAV Danach) (VVFIN tanzt) (NP (ART das) (NN Paar)) (ADV wieder) (ADV zusammen) (NP (ART den) (NN Walzer)) (ADV weiter)) ($. .),1,0,0
+Schuh-­platt­ler ist der Name von einem Tanz.,(S (NN Schuh-­platt­ler) (VAFIN ist) (NP (ART der) (NN Name) (PP (APPR von) (ART einem) (NN Tanz)))) ($. .),1,1,0
+"Diesen Tanz gibt es in Bayern, Tirol und Kärnten.","(S (NP (PDAT Diesen) (NN Tanz)) (VVFIN gibt) (PPER es) (PP (APPR in) (CNP (NE Bayern)))) ($, ,) (NE Tirol) (KON und) (NE Kärnten) ($. .)",1,0,0
+Ein Schuh ist eine Fuß-bekleidung.,(S (NP (ART Ein) (NN Schuh)) (VAFIN ist) (NP (ART eine) (NN Fuß-bekleidung))) ($. .),1,0,0
+Ein Schuh hat ein Ober-teil.,(S (NP (ART Ein) (NN Schuh)) (VAFIN hat) (NP (ART ein) (NN Ober-teil))) ($. .),1,0,0
+Das Ober-teil ist an einer festen Unter-lage fest gemacht.,(S (NP (ART Das) (NN Ober-teil)) (VAFIN ist) (VP (PP (APPR an) (ART einer) (ADJA festen) (NN Unter-lage)) (ADJD fest) (VVPP gemacht))) ($. .),1,0,1
+Die Unter-lage heißt Schuh-sohle.,(S (NP (ART Die) (NN Unter-lage)) (VVFIN heißt) (NN Schuh-sohle)) ($. .),1,0,0
+Die Schuh-sohle gibt es aus verschiedenen Materialien.,(S (NP (ART Die) (NN Schuh-sohle)) (VVFIN gibt) (PPER es) (PP (APPR aus) (ADJA verschiedenen) (NN Materialien))) ($. .),1,0,0
+Die Schuh-sohle schüzt die Fuß-sohle.,(ART Die) (ADV Schuh-sohle) (VVFIN schüzt) (NP (ART die) (ADV Fuß-sohle)) ($. .),0,0,0
+Schuhe gibt es immer als Paare.,(S (NN Schuhe) (VVFIN gibt) (PPER es) (ADV immer) (PP (APPR als) (NN Paare))) ($. .),1,0,0
+Es gibt für verschiedene Sachen Schuhe.,(S (PPER Es) (VVFIN gibt) (PP (APPR für) (ADJA verschiedene) (NN Sachen)) (NN Schuhe)) ($. .),1,0,0
+Es gibt verschiedene Schuh-arten.,(S (PPER Es) (VVFIN gibt) (NP (ADJA verschiedene) (NN Schuh-arten))) ($. .),1,0,0
+Ein Schuh ist ein Kleidungs-stück.,(S (NP (ART Ein) (NN Schuh)) (VAFIN ist) (NP (ART ein) (NN Kleidungs-stück))) ($. .),1,0,0
+Eine Schul-begleitung bekommen meistens Kinder die Förderung brauchen.,(S (NP (ART Eine) (NN Schul-begleitung)) (VVFIN bekommen) (ADV meistens) (NN Kinder) (VP (NP (ART die) (NN Förderung)) (VVINF brauchen))) ($. .),1,0,0
+Die Kinder gehen auf eine normale Schule.,(S (NP (ART Die) (NN Kinder)) (VVFIN gehen) (PP (APPR auf) (ART eine) (ADJA normale) (NN Schule))) ($. .),1,0,1
+Schul-begleitung heißt:  \newline Eine Person geht mit einem Kind zur Schule.,(S (NN Schul-begleitung) (VVFIN heißt)) ($. :) ($.  ) (NE \newline),1,0,0
+Die Person heißt Schul-begleiter.,(S (NP (ART Die) (NN Person)) (VVFIN heißt) (NN Schul-begleiter)) ($. .),1,0,0
+Meistens hat das Kind eine Behinderung.,(S (ADV Meistens) (VAFIN hat) (NP (ART das) (NN Kind)) (NP (ART eine) (NN Behinderung))) ($. .),1,0,0
+Und braucht mehr Hilfe als die anderen Kinder.,(S (KON Und) (VVFIN braucht) (NP (AP (PIAT mehr)) (NN Hilfe) (NP (KOKOM als) (ART die) (ADJA anderen) (NN Kinder)))) ($. .),1,2,0
+Der Schul-begleiter kann diesem Kind dann helfen.,(S (NP (ART Der) (NN Schul-begleiter)) (VMFIN kann) (NP (PDAT diesem) (NN Kind)) (ADV dann) (VP (VVINF helfen))) ($. .),1,0,0
+Schulen gibt es überall auf der Welt.,(S (NN Schulen) (VVFIN gibt) (PPER es) (PP (ADV überall) (APPR auf) (ART der) (NN Welt))) ($. .),1,0,1
+In manchen Ländern gehen Kinder viele Jahre in die Schule.,(S (PP (APPR In) (PIAT manchen) (NN Ländern)) (VVFIN gehen) (NN Kinder) (NP (PIAT viele) (NN Jahre)) (PP (APPR in) (ART die) (NN Schule))) ($. .),1,0,0
+In Deutschland geht man mindestens 9 Jahre lang in die Schule.,(S (PP (APPR In) (NE Deutschland)) (VVFIN geht) (PIS man) (AP (NP (AP (ADV mindestens) (CARD 9)) (NN Jahre)) (ADJD lang)) (PP (APPR in) (ART die) (NN Schule))) ($. .),1,1,0
+Es gibt eine Schul-pflicht.,(S (PPER Es) (VVFIN gibt) (NP (ART eine) (NN Schul-pflicht))) ($. .),1,0,0
+"Die Schul-pflicht gilt, bis man 18 Jahre alt ist.","(S (NP (ART Die) (NN Schul-pflicht)) (VVFIN gilt)) ($, ,) (S (KOUS bis) (PIS man) (AP (NP (CARD 18) (NN Jahre)) (ADJD alt)) (VAFIN ist)) ($. .)",1,0,0
+Man soll dort alles Wichtige Lernen.,(S (PIS Man) (VMFIN soll) (VP (ADV dort) (NP (PIAT alles) (NN Wichtige)) (VVINF Lernen))) ($. .),1,0,0
+Zum Beispiel Lesen lernen.,(VP (NP (PP (APPRART Zum) (NN Beispiel)) (NN Lesen)) (VVINF lernen)) ($. .),0,1,0
+"Die Menschen, die an einer Schule lernen, \newline nennt man Schüler.","(ART Die) (NN Menschen) ($, ,) (NP (S (PRELS die) (PP (APPR an) (ART einer) (NN Schule)) (VVFIN lernen))) ($, ,) (S (PDS \newline) (VVFIN nennt) (PIS man) (NN Schüler)) ($. .)",1,1,0
+Lehrer helfen den Schülern beim Lernen.,(S (NN Lehrer) (VVFIN helfen) (NP (ART den) (NN Schülern)) (PP (APPRART beim) (NN Lernen))) ($. .),1,0,0
+Sie machen Unterricht.,(S (PPER Sie) (VVFIN machen) (NN Unterricht)) ($. .),1,0,0
+Alle Kinder müssen und dürfen in die Schule.,(CS (S (NP (PIAT Alle) (NN Kinder)) (VMFIN müssen)) (KON und) (S (VMFIN dürfen) (PP (APPR in) (ART die) (NN Schule)))) ($. .),1,0,0
+"Egal ob die Kinder • arm,","(S (ADV Egal) (KOUS ob) (NP (ART die) (NN Kinder))) ($LRB •) (ADJD arm) ($, ,)",0,0,0
+"Egal ob die Kinder • reich,","(S (ADV Egal) (KOUS ob) (NP (ART die) (NN Kinder))) ($LRB •) (ADJD reich) ($, ,)",0,0,0
+Egal ob die Kinder • Junge oder,(S (ADV Egal) (S (KOUS ob) (NP (ART die) (CNP (NN Kinder))))) ($LRB •) (NN Junge) (KON oder),0,0,0
+Egal ob die Kinder • Mädchen sind.,(ADV Egal) (KOUS ob) (NP (ART die) (NN Kinder)) ($LRB •) (S (NN Mädchen) (VAFIN sind)) ($. .),1,0,0
+Die Schul-pflicht beginnt wenn das Kind 6 Jahre alt ist.,(S (NP (ART Die) (NN Schul-pflicht)) (VVFIN beginnt) (S (KOUS wenn) (NP (ART das) (NN Kind)) (AP (NP (CARD 6) (NN Jahre)) (ADJD alt)) (VAFIN ist))) ($. .),1,0,0
+Die Schul-pflicht dauert bis zur 9. oder 10. Klasse.,(S (NP (ART Die) (NN Schul-pflicht)) (VVFIN dauert) (PP (APPR bis) (APPRART zur) (CAP (ADJA 9.) (KON oder) (ADJA 10.)) (NN Klasse))) ($. .),1,0,1
+Die Schul-pflicht hört auf • wenn man 18 Jahre alt ist,(S (NP (ART Die) (NN Schul-pflicht)) (VVFIN hört) (PTKVZ auf)) ($LRB •) (S (KOUS wenn) (PIS man) (AP (NP (CARD 18) (NN Jahre)) (ADJD alt)) (VAFIN ist)),1,0,0
+Danach muss man eine Berufsausbildung machen.,(S (PROAV Danach) (VMFIN muss) (PIS man) (VP (NP (ART eine) (NN Berufsausbildung)) (VVINF machen))) ($. .),1,0,0
+Oder zum Beispiel das Gymnasium besuchen.,(S (KON Oder) (VP (NP (PP (APPRART zum) (NN Beispiel)) (ART das) (NN Gymnasium)) (VVINF besuchen))) ($. .),1,1,0
+Das ist die Berufsschulpflicht.,(S (PDS Das) (VAFIN ist) (NP (ART die) (NN Berufsschulpflicht))) ($. .),1,0,0
+Die Schul-pflicht für Kinder mit Lernbehinderungen gibt es erst seit den 1970er Jahren.,(S (NP (ART Die) (NN Schul-pflicht) (PP (APPR für) (NN Kinder) (PP (APPR mit) (NN Lernbehinderungen)))) (VVFIN gibt) (PPER es) (PP (ADV erst) (APPR seit) (ART den) (ADJA 1970er) (NN Jahren))) ($. .),1,1,2
+In Deutschland gibt es die Schul-pflicht.,(S (PP (APPR In) (NE Deutschland)) (VVFIN gibt) (PPER es) (NP (ART die) (NN Schul-pflicht))) ($. .),1,0,0
+"Das heisst,  \newline alle Kinder müssen in die Schule gehen.","(CS (S (PDS Das) (VVFIN heisst))) ($, ,) ($.  ) (S (XY \newline) (S (NP (PIAT alle) (NN Kinder)) (VMFIN müssen) (VP (PP (APPR in) (ART die) (NN Schule)) (VVINF gehen)))) ($. .)",1,0,0
+Ein Kind das neu in die Schule kommt.,(ART Ein) (NN Kind) (S (PRELS das) (ADJD neu) (PP (APPR in) (ART die) (NN Schule)) (VVFIN kommt)) ($. .),1,0,0
+Schultüten kann man fertig kaufen (mit Geschenken drin).,(S (NN Schultüten) (VMFIN kann) (PIS man) (VP (ADJD fertig) (VVINF kaufen))) ($LRB -LRB-) (NP (PP (APPR mit) (NN Geschenken) (ADV drin))) ($LRB -RRB-) ($. .),1,1,0
+"Das Wort Schultüte hat 2 Wörter: • Schul (damit ist die Schule, wo man lernt gemeint)","(S (NP (ART Das) (NN Wort) (NN Schultüte)) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) ($LRB •) (NN Schul) ($LRB -LRB-) (NP (S (PROAV damit) (VAFIN ist) (ART die) (NN Schule))) ($, ,) (NP (S (PWAV wo) (PIS man) (VVFIN lernt) (VP (VVPP gemeint)))) ($LRB -RRB-)",1,3,0
+Das Wort Schultüte hat 2 Wörter: • Tüte (in eine Tüte kann man etwas hinein machen),(S (NP (ART Das) (NN Wort) (NN Schultüte)) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) (XY •) (NN Tüte),1,1,0
+Schultüten zu verschenken ist ein Brauch.,(S (VP (NN Schultüten) (VZ (PTKZU zu) (VVINF verschenken))) (VAFIN ist) (NP (ART ein) (NN Brauch))) ($. .),1,0,0
+Eine Schultüte ist eine Tüte mit Geschenken drin.,(S (NP (ART Eine) (NN Schultüte)) (VAFIN ist) (NP (ART eine) (NN Tüte) (PP (APPR mit) (NN Geschenken) (ADV drin)))) ($. .),1,1,0
+Alle Kinder müssen und dürfen ab einem bestimmten Alter in die Schule.,(CS (S (NP (PIAT Alle) (NN Kinder)) (VMFIN müssen)) (KON und) (S (VMFIN dürfen) (PP (APPR ab) (ART einem) (ADJA bestimmten) (NN Alter)) (PP (APPR in) (ART die) (NN Schule)))) ($. .),1,0,1
+"Egal, ob die Kinder arm oder reich, Junge oder Mädchen sind.","(S (ADV Egal)) ($, ,) (KOUS ob) (NP (ART die) (NN Kinder)) (CAP (ADJD arm) (KON oder) (ADJD reich)) ($, ,) (S (CNP (NN Junge) (KON oder) (NN Mädchen)) (VAFIN sind)) ($. .)",1,0,0
+"Die Schulpflicht beginnt, wenn das Kind 6 Jahre alt ist.","(S (NP (ART Die) (NN Schulpflicht)) (VVFIN beginnt)) ($, ,) (S (KOUS wenn) (NP (ART das) (NN Kind)) (AP (NP (CARD 6) (NN Jahre)) (ADJD alt)) (VAFIN ist)) ($. .)",1,0,0
+"Erst wenn man 18 Jahre alt ist, ist man nicht mehr schulpflichtig.","(S (ADV Erst) (KOUS wenn) (PIS man) (AP (NP (CARD 18) (NN Jahre)) (ADJD alt)) (VAFIN ist)) ($, ,) (S (VAFIN ist) (PIS man) (AVP (PTKNEG nicht) (ADV mehr)) (ADJD schulpflichtig)) ($. .)",1,0,0
+"Die Pflicht, die Schule zu besuchen, dauert bis zur 9. oder 10. Klasse.","(ART Die) (NN Pflicht) ($, ,) (NP (VP (NP (ART die) (NN Schule)) (VZ (PTKZU zu) (VVINF besuchen)))) ($, ,) (S (VVFIN dauert) (PP (APPR bis) (APPRART zur) (CAP (ADJA 9.) (KON oder) (ADJA 10.)) (NN Klasse))) ($. .)",1,1,1
+"Wenn man einen Schulabschluss gemacht hat, ist man nicht mehr schulpflichtig.","(S (KOUS Wenn) (PIS man) (VP (NP (ART einen) (NN Schulabschluss)) (VVPP gemacht)) (VAFIN hat)) ($, ,) (S (VAFIN ist) (PIS man) (AVP (PTKNEG nicht) (ADV mehr)) (ADJD schulpflichtig)) ($. .)",1,0,0
+"Danach muss man eine Berufsausbildung machen, oder zum Beispiel das Gymnasium besuchen.","(S (PROAV Danach) (VMFIN muss) (PIS man) (CVP (VP (NP (ART eine) (NN Berufsausbildung)) (VVINF machen)))) ($, ,) (KON oder) (VP (PP (APPRART zum) (NN Beispiel)) (NP (ART das) (NN Gymnasium)) (VVINF besuchen)) ($. .)",1,0,0
+Das ist die Berufsschulpflicht.,(S (PDS Das) (VAFIN ist) (NP (ART die) (NN Berufsschulpflicht))) ($. .),1,0,0
+Die Schulpflicht für Kinder mit Lernbehinderungen gibt es erst seit den 70er Jahren.,(S (NP (ART Die) (NN Schulpflicht) (PP (APPR für) (NN Kinder) (PP (APPR mit) (NN Lernbehinderungen)))) (VVFIN gibt) (PPER es) (PP (ADV erst) (APPR seit) (ART den) (ADJA 70er) (NN Jahren))) ($. .),1,1,2
+Schulzwang ist ein anderes Wort für Schulpflicht.,(S (NN Schulzwang) (VAFIN ist) (NP (ART ein) (ADJA anderes) (NN Wort) (PP (APPR für) (NN Schulpflicht)))) ($. .),1,1,0
+In Deutschland gibt es die Schulpflicht.,(S (PP (APPR In) (NE Deutschland)) (VVFIN gibt) (PPER es) (NP (ART die) (NN Schulpflicht))) ($. .),1,0,0
+"Das heisst, dass alle Eltern ihre Kinder in die Schule schicken müssen.","(S (PDS Das) (VVFIN heisst)) ($, ,) (S (KOUS dass) (NP (PIAT alle) (NN Eltern)) (VP (NP (PPOSAT ihre) (NN Kinder)) (PP (APPR in) (ART die) (NN Schule)) (VVINF schicken)) (VMFIN müssen)) ($. .)",1,0,0
+Man macht eine Schutz-behauptung zum schützen.,(S (PIS Man) (VVFIN macht) (NP (ART eine) (NN Schutz-behauptung)) (PP (APPRART zum) (NN schützen))) ($. .),1,0,0
+Man möchte sich damit vor einer Strafe schützen.,(S (PIS Man) (VMFIN möchte) (PRF sich) (PROAV damit) (VP (PP (APPR vor) (ART einer) (NN Strafe)) (VVINF schützen))) ($. .),1,0,0
+"Eine Schutzbehauptung ist,  \newline wenn man etwas falsches sagt.","(S (NP (ART Eine) (NN Schutzbehauptung)) (VAFIN ist)) ($, ,) ($.  ) (FM \newline) (S (KOUS wenn) (PIS man) (NP (PIAT etwas) (ADJA falsches)) (VVFIN sagt)) ($. .)",1,0,0
+"Man macht eine Schutz-behauptung,  \newline damit man etwas nicht zugeben muss.","(S (PIS Man) (VVFIN macht) (NP (ART eine) (NN Schutz-behauptung))) ($, ,) ($.  ) (S (ADV \newline) (PROAV damit) (PIS man) (PIS etwas) (PTKNEG nicht) (VP (VVINF zugeben)) (VMFIN muss)) ($. .)",1,0,0
+Zum Beispiel wenn man eine Lüge gemacht hat.,(S (PP (APPRART Zum) (NN Beispiel)) (KOUS wenn) (PIS man) (VP (NP (ART eine) (NN Lüge)) (VVPP gemacht)) (VAFIN hat)) ($. .),1,0,0
+In manchen Schutz-hütten kann man übernachten.,(S (PP (APPR In) (PIAT manchen) (NN Schutz-hütten)) (VMFIN kann) (PIS man) (VP (VVINF übernachten))) ($. .),1,0,0
+Oder man kann Essen und Trinken.,(S (KON Oder) (PIS man) (VMFIN kann) (CVP (NN Essen) (KON und) (VVINF Trinken))) ($. .),1,0,0
+Eine Schutz-hütte ist ein kleines Häuschen.,(S (NP (ART Eine) (NN Schutz-hütte)) (VAFIN ist) (NP (ART ein) (ADJA kleines) (NN Häuschen))) ($. .),1,1,0
+Eine Schutz-hütte ist ein Schutz vor Un-wetter.,(S (NP (ART Eine) (NN Schutz-hütte)) (VAFIN ist) (NP (ART ein) (NN Schutz) (PP (APPR vor) (NN Un-wetter)))) ($. .),1,1,0
+Die SS wurde im Jahr 1925 gegründet.,(S (NP (ART Die) (NE SS)) (VAFIN wurde) (VP (PP (APPRART im) (NN Jahr) (CARD 1925)) (VVPP gegründet))) ($. .),1,0,0
+"Ihre erste Aufgabe war es,  \newline den Chef der Nazi-Partei Adolf Hitler zu schützen.","(S (NP (PPOSAT Ihre) (ADJA erste) (NN Aufgabe)) (VAFIN war) (NP (PPER es))) ($, ,) ($.  ) (NE \newline) (NP (ART den) (NN Chef) (NP (ART der) (NN Nazi-Partei)) (PN (NE Adolf) (NE Hitler))) (VZ (PTKZU zu) (VVINF schützen)) ($. .)",1,2,0
+Ab dem Jahr 1933 war die SS für den Geheimdienst verantworlich.,(S (PP (APPR Ab) (ART dem) (NN Jahr) (CARD 1933)) (VAFIN war) (NP (ART die) (NE SS)) (AP (PP (APPR für) (ART den) (NN Geheimdienst)) (ADJD verantworlich))) ($. .),1,0,1
+Der Geheimdienst war die Gestapo.,(S (NP (ART Der) (NN Geheimdienst)) (VAFIN war) (NP (ART die) (NN Gestapo))) ($. .),1,0,0
+Die SS hat der Polizei Befehle gegeben.,(S (NP (ART Die) (NE SS)) (VAFIN hat) (VP (NP (ART der) (NN Polizei)) (NN Befehle) (VVPP gegeben))) ($. .),1,0,0
+Die SS hat Völkermord an den Juden gemacht.,(S (NP (ART Die) (NE SS)) (VAFIN hat) (VP (NP (NN Völkermord) (PP (APPR an) (ART den) (NN Juden))) (VVPP gemacht))) ($. .),1,1,0
+Sie haben Millionen Menschen in Konzentrationslagern ermordet.,(S (PPER Sie) (VAFIN haben) (VP (NP (NN Millionen) (NN Menschen)) (PP (APPR in) (NN Konzentrationslagern)) (VVPP ermordet))) ($. .),1,0,0
+Nur Männer waren Mitglied in der SS. \newline Die Männer durften keine jüdischen Verwandten haben.,(S (NP (ADV Nur) (NN Männer)) (VAFIN waren) (NP (NN Mitglied) (PP (APPR in) (ART der) (NE SS)))) ($. .),1,1,0
+Im Jahr 1929 hatte die SS 280 Mitglieder \newline Im Jahr 1933 hatte die SS mehr als 200 Tausend Mitglieder.,(S (PP (APPRART Im) (NN Jahr) (CARD 1929)) (VAFIN hatte) (NP (ART die) (NE SS)) (NP (CARD 280) (NN Mitglieder)) (ADV \newline)),1,0,0
+Im Jahr 1945 wurde die SS wegen der Verbrechen verboten.,(S (PP (APPRART Im) (NN Jahr) (CARD 1945)) (VAFIN wurde) (NP (ART die) (NE SS)) (VP (PP (APPR wegen) (ART der) (NN Verbrechen)) (VVPP verboten))) ($. .),1,0,0
+Und manche Mitglieder der SS wurden bestraft.,(S (KON Und) (NP (PIAT manche) (NN Mitglieder) (NP (ART der) (NE SS))) (VAFIN wurden) (VVPP bestraft)) ($. .),1,1,0
+Einige Mitglieder wurden zum Tode verurteilt.,(S (NP (PIAT Einige) (NN Mitglieder)) (VAFIN wurden) (VP (PP (APPRART zum) (NN Tode)) (VVPP verurteilt))) ($. .),1,0,0
+Die SS war vor allem für die Konzentrations-lager verantwortlich.,(S (NP (ART Die) (NE SS)) (VAFIN war) (AP (PP (PP (APPR vor) (PIS allem)) (APPR für) (ART die) (NN Konzentrations-lager)) (ADJD verantwortlich))) ($. .),1,0,1
+Die SS wurde im Jahr 1945 verboten.,(S (NP (ART Die) (NE SS)) (VAFIN wurde) (VP (PP (APPRART im) (NN Jahr) (CARD 1945)) (VVPP verboten))) ($. .),1,0,0
+Das Fallen-lassen macht der Spieler absichtlich.,(S (NP (ART Das) (NN Fallen-lassen)) (VVFIN macht) (NP (ART der) (NN Spieler)) (ADJD absichtlich)) ($. .),1,0,0
+Der Spieler sieht dabei aus wie eine Schwalbe.,(S (NP (ART Der) (NN Spieler)) (VVFIN sieht) (PROAV dabei) (PTKVZ aus) (NP (KOKOM wie) (ART eine) (NN Schwalbe))) ($. .),1,1,0
+Wenn der Schiedsrichter sieht das der Spieler eine Schwalbe macht:  \newline bekommt der Spieler eine: Gelbe Karte.,(S (KOUS Wenn) (NP (ART der) (NN Schiedsrichter)) (VVFIN sieht) (PDS das) (NP (ART der) (NN Spieler)) (NP (ART eine) (NN Schwalbe)) (VVFIN macht)) ($. :),1,0,0
+In der Sport-art Basketball gibt es das auch.,(S (PP (APPR In) (ART der) (NN Sport-art) (NN Basketball)) (VVFIN gibt) (PPER es) (PDS das) (ADV auch)) ($. .),1,0,1
+Es heißt dort: Flop,(S (PPER Es) (VVFIN heißt) (ADV dort)) ($. :) (NN Flop),1,0,0
+Dabei möchte ein Spieler ein Foul bekommen.,(S (PROAV Dabei) (VMFIN möchte) (NP (ART ein) (NN Spieler)) (VP (NP (ART ein) (NN Foul)) (VVINF bekommen))) ($. .),1,0,0
+Er lässt sich mit Absicht hin-fallen.,(S (PPER Er) (VVFIN lässt) (PRF sich) (PP (APPR mit) (NN Absicht)) (VP (VVINF hin-fallen))) ($. .),1,0,0
+Obwohl nichts passiert ist.,(S (KOUS Obwohl) (PIS nichts) (VP (VVPP passiert)) (VAFIN ist)) ($. .),1,0,0
+Damit der Schiedsrichter denkt es war ein Foul.,(S (PROAV Damit) (NP (ART der) (NN Schiedsrichter)) (VVFIN denkt) (PPER es) (VAFIN war) (NP (ART ein) (NN Foul))) ($. .),1,0,0
+"Den Schwanger-schafts-test für Zuhause, kann man kaufen.","(NP (ART Den) (NN Schwanger-schafts-test) (PP (APPR für) (NN Zuhause))) ($, ,) (S (VMFIN kann) (PIS man) (VP (VVINF kaufen))) ($. .)",1,1,0
+Der Test ist ein Stäbchen oder Streifen.,(S (NP (ART Der) (NN Test)) (VAFIN ist) (NP (ART ein) (CNP (NN Stäbchen) (KON oder) (NN Streifen)))) ($. .),1,1,0
+Man hält das Stächen in den Urin.,(S (PIS Man) (VVFIN hält) (NP (ART das) (NN Stächen)) (PP (APPR in) (ART den) (NN Urin))) ($. .),1,0,0
+Auf den Stäbchen erscheinen dann zum Beispiel Streifen.,(S (PP (APPR Auf) (ART den) (NN Stäbchen)) (VVFIN erscheinen) (ADV dann) (NP (PP (APPRART zum) (NN Beispiel)) (NN Streifen))) ($. .),1,1,0
+Zum Beispiel: \newline 1 Streifen heißt:  \newline die Frau ist nicht schwanger.,(PP (APPRART Zum) (NN Beispiel)) ($. :) (S (NP (FM \newline) (CARD 1) (NN Streifen)) (VVFIN heißt)) ($. :) ($.  ) (XY \newline) (S (NP (ART die) (NN Frau)) (VAFIN ist) (PTKNEG nicht) (ADJD schwanger)) ($. .),1,1,0
+2 Streifen heißen:  \newline Die Frau ist schwanger.,(S (NP (CARD 2) (NN Streifen)) (VVFIN heißen)) ($. :) ($.  ) (NE \newline),1,0,0
+"Ein Schwanger-schafts-test zeigt, ob eine Frau ein Baby bekommt.","(S (NP (ART Ein) (NN Schwanger-schafts-test)) (VVFIN zeigt)) ($, ,) (S (KOUS ob) (NP (ART eine) (NN Frau)) (NP (ART ein) (NN Baby)) (VVFIN bekommt)) ($. .)",1,0,0
+Beim Frauen-arzt kann man einen Schwanger-schafts-test machen.,(S (PP (APPRART Beim) (NN Frauen-arzt)) (VMFIN kann) (PIS man) (VP (NP (ART einen) (NN Schwanger-schafts-test)) (VVINF machen))) ($. .),1,0,0
+Man kann einen Schwanger-schafts-test auch Zuhause machen.,(S (PIS Man) (VMFIN kann) (VP (NP (ART einen) (NN Schwanger-schafts-test)) (AVP (ADV auch) (ADV Zuhause)) (VVINF machen))) ($. .),1,0,0
+Den Schwanger-schafts-test für Zuhause gibt es in der Apotheke.,(S (NP (ART Den) (NN Schwanger-schafts-test) (PP (APPR für) (NN Zuhause))) (VVFIN gibt) (PPER es) (PP (APPR in) (ART der) (NN Apotheke))) ($. .),1,1,0
+Eine Schwangerschaft dauert von Anfang bis Ende ungefähr 267 Tage.,(S (NP (ART Eine) (NN Schwangerschaft)) (VVFIN dauert) (PP (APPR von) (NN Anfang)) (PP (APPR bis) (NN Ende)) (NP (AP (ADJD ungefähr) (CARD 267)) (NN Tage))) ($. .),1,1,0
+267 Tage sind fast 40 Wochen.,(S (NP (CARD 267) (NN Tage)) (VAFIN sind) (NP (AP (ADV fast) (CARD 40)) (NN Wochen))) ($. .),1,1,0
+Am Anfang einer Schwangerschaft ist das Baby kleiner als ein Reiskorn.,(S (PP (APPRART Am) (NN Anfang) (NP (ART einer) (NN Schwangerschaft))) (VAFIN ist) (NP (ART das) (NN Baby)) (AP (ADJD kleiner) (NP (KOKOM als) (ART ein) (NN Reiskorn)))) ($. .),1,1,1
+Bei der Geburt kann es mehr als 50 Zentimeter gross sein.,(S (PP (APPR Bei) (ART der) (NN Geburt)) (VMFIN kann) (PPER es) (VP (AP (NP (AP (PIAT mehr) (AP (KOKOM als) (CARD 50))) (NN Zentimeter)) (ADJD gross)) (VAINF sein))) ($. .),1,1,0
+In den ersten 9 Wochen einer Schwangerschaft nennt man das Baby Embryo.,(S (PP (APPR In) (ART den) (ADJA ersten) (CARD 9) (NN Wochen) (NP (ART einer) (NN Schwangerschaft))) (VVFIN nennt) (PIS man) (NP (ART das) (NN Baby)) (NN Embryo)) ($. .),1,0,1
+Ab der 10. bis zur 40. Woche sagt man dann Fötus.,(S (PP (APPR Ab) (ART der) (ADJA 10.)) (PP (APPR bis) (APPRART zur) (ADJA 40.) (NN Woche)) (VVFIN sagt) (PIS man) (ADV dann) (NN Fötus)) ($. .),1,0,1
+"Wenn eine Frau schwanger ist, bedeutet dies, dass in ihrem Bauch ein Baby wächst.","(S (KOUS Wenn) (NP (ART eine) (NN Frau)) (ADJD schwanger) (VAFIN ist)) ($, ,) (S (VVFIN bedeutet) (PDS dies)) ($, ,) (S (KOUS dass) (PP (APPR in) (PPOSAT ihrem) (NN Bauch)) (NP (ART ein) (NN Baby)) (VVFIN wächst)) ($. .)",1,0,0
+Man sagt dazu auch Schwangerschaft.,(S (PIS Man) (VVFIN sagt) (PROAV dazu) (NP (ADV auch) (NN Schwangerschaft))) ($. .),1,0,0
+"Wer arbeiten geht, bekommt Geld.","(S (PWS Wer) (VVINF arbeiten) (VVFIN geht)) ($, ,) (S (VVFIN bekommt) (NN Geld)) ($. .)",1,0,0
+Manche Leute wollen das ganze Geld behalten.,(S (NP (PIAT Manche) (NN Leute)) (VMFIN wollen) (VP (NP (ART das) (ADJA ganze) (NN Geld)) (VVINF behalten))) ($. .),1,1,0
+"Wer das ganze Geld behält, \newline arbeitet schwarz.","(S (PWS Wer) (NP (ART das) (ADJA ganze) (NN Geld)) (VVFIN behält)) ($, ,) (S (NE \newline) (VVFIN arbeitet) (ADJD schwarz)) ($. .)",1,1,0
+Das Geld für die Arbeit wird bar ausbezahlt.,(S (NP (ART Das) (NN Geld) (PP (APPR für) (ART die) (NN Arbeit))) (VAFIN wird) (VP (ADJD bar) (VVPP ausbezahlt))) ($. .),1,1,0
+Schwarz-arbeit ist:  \newline arbeiten ohne Steuern zahlen.,(S (NN Schwarz-arbeit) (VAFIN ist)) ($. :) ($.  ) (S (FM \newline) (VVFIN arbeiten) (VP (PP (APPR ohne) (NN Steuern)) (VVINF zahlen))) ($. .),1,0,0
+In einem schwarzen Loch gibt es kein Licht.,(S (PP (APPR In) (ART einem) (ADJA schwarzen) (NN Loch)) (VVFIN gibt) (PPER es) (NP (PIAT kein) (NN Licht))) ($. .),1,0,1
+Weil die Gravitation zu stark ist.,(S (KOUS Weil) (NP (ART die) (NN Gravitation)) (AP (PTKA zu) (ADJD stark)) (VAFIN ist)) ($. .),1,0,0
+Ein Schwarzes Loch ist im Universum.,(S (NP (ART Ein) (ADJA Schwarzes) (NN Loch)) (VAFIN ist) (PP (APPRART im) (NN Universum))) ($. .),1,1,0
+Es ist ein schwarzer Körper.,(S (PPER Es) (VAFIN ist) (NP (ART ein) (ADJA schwarzer) (NN Körper))) ($. .),1,1,0
+"Es ist schwarz,  \newline weil alles Licht darin verschwindet.","(S (PPER Es) (VAFIN ist) (ADJD schwarz)) ($, ,) ($.  ) (NE \newline)",1,0,0
+Schwarze Löcher können durch Sterne entstehen.,(S (NP (ADJA Schwarze) (NN Löcher)) (VMFIN können) (VP (PP (APPR durch) (NN Sterne)) (VVINF entstehen))) ($. .),1,0,0
+Wenn Sterne explodieren.,(S (KOUS Wenn) (NN Sterne) (VVFIN explodieren)) ($. .),1,0,0
+In der Mitte von der Milch-strasse ist ein schwarzes Loch.,(S (PP (APPR In) (ART der) (NN Mitte) (PP (APPR von) (ART der) (NN Milch-strasse))) (VAFIN ist) (NP (ART ein) (ADJA schwarzes) (NN Loch))) ($. .),1,1,1
+Der Baum-stamm ist ein-geschnitten.,(ART Der) (NN Baum-stamm) (VAFIN ist) (VP (VVPP ein-geschnitten)) ($. .),0,0,0
+Dort zündet man das Schweden-feuer an.,(S (ADV Dort) (VVFIN zündet) (PIS man) (NP (ART das) (NN Schweden-feuer)) (PTKVZ an)) ($. .),1,0,0
+Man kann es auch zum Kochen benutzen.,(S (PIS Man) (VMFIN kann) (VP (PPER es) (PP (ADV auch) (APPRART zum) (NN Kochen)) (VVINF benutzen))) ($. .),1,0,0
+Man kann einen Topf darauf stellen.,(S (PIS Man) (VMFIN kann) (VP (NP (ART einen) (NN Topf)) (PROAV darauf) (VVINF stellen))) ($. .),1,0,0
+Für ein Schweden-feuer braucht man einen Baum-stamm.,(S (PP (APPR Für) (ART ein) (NN Schweden-feuer)) (VVFIN braucht) (PIS man) (NP (ART einen) (NN Baum-stamm))) ($. .),1,0,0
+Der Baum-stamm sollte eine Tanne sein.,(S (NP (ART Der) (NN Baum-stamm)) (VMFIN sollte) (VP (NP (ART eine) (NN Tanne)) (VAINF sein))) ($. .),1,0,0
+Der Baum-stamm muss ein-geschnitten werden.,(ART Der) (NN Baum-stamm) (VMFIN muss) (VP (VVPP ein-geschnitten) (VAINF werden)) ($. .),0,0,0
+Man kann 2 Schnitte machen.,(S (PIS Man) (VMFIN kann) (VP (NP (CARD 2) (NN Schnitte)) (VVINF machen))) ($. .),1,0,0
+Ein Schweden-feuer kann lange brennen.,(S (NP (ART Ein) (NN Schweden-feuer)) (VMFIN kann) (VP (ADV lange) (VVINF brennen))) ($. .),1,0,0
+Ein Schweden-feuer ist ein Feuer.,(S (NP (ART Ein) (NN Schweden-feuer)) (VAFIN ist) (NP (ART ein) (NN Feuer))) ($. .),1,0,0
+Das Feuer ist in einem Baum-stamm.,(S (NP (ART Das) (NN Feuer)) (VAFIN ist) (PP (APPR in) (ART einem) (NN Baum-stamm))) ($. .),1,0,0
