@@ -113,12 +113,21 @@ if __name__ == "__main__":
         nlp.add_pipe("benepar", config={"model": "benepar_de2"})
 
     # parse all sentences in the dataframe
-    results = []
+    tree_as_string_list = []
+    is_sent_list = []
     for sent in tqdm(df["phrase"]):
         tree_as_string, is_sent = parse_sent_w_spacy(nlp, sent)
-        results.append((sent, tree_as_string, is_sent))
+        tree_as_string_list.append(tree_as_string)
+        is_sent_list.append(is_sent)
 
-    benepar_res = pd.DataFrame(results, columns=["sentence", "tree", "is_sent"])
+    # make a copy of df, keep only needed columns
+    if args.dataset == "eval":
+        benepar_res = df[["sent-id", "phrase"]].copy()
+    else:
+        benepar_res = df[["sent-id", "phrase", "num_statements", "statement_spans"]].copy()
+
+    benepar_res["tree"] = tree_as_string_list
+    benepar_res["is_sent"] = is_sent_list
     # transform all tree strings to workable format
     tree_strs  = ["(" + tree + ")" for tree in benepar_res["tree"]]
     
