@@ -1,417 +1,417 @@
-sentence,tree,is_sent,big_np_count,big_pp_count
-Louis Braille wurde am 4. Januar 1809 geboren.,(S (PN (NE Louis) (NE Braille)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 4.) (NN Januar) (CARD 1809)) (VVPP geboren))) ($. .),1,0,1
-"Das war in Coupvray, Frankreich.","(S (PDS Das) (VAFIN war) (APPR in) (NE Coupvray)) ($, ,) (PP (NE Frankreich)) ($. .)",1,0,0
-Er ist am 6. Januar 1852 gestorben.,(S (PPER Er) (VAFIN ist) (VP (PP (APPRART am) (ADJA 6.) (NN Januar) (CARD 1852)) (VVPP gestorben))) ($. .),1,0,1
-"Das war in Paris, Frankreich.","(S (PDS Das) (VAFIN war) (APPR in) (NE Paris)) ($, ,) (PP (NE Frankreich)) ($. .)",1,0,0
-"Als Louis Braille 3 Jahre alt war, \newline hat er in der Werk-statt von seinem Vater gespielt.","(S (KOUS Als) (PN (NE Louis) (NE Braille)) (AP (NP (CARD 3) (NN Jahre)) (ADJD alt)) (VAFIN war)) ($, ,) (S (ADV \newline) (VAFIN hat) (PPER er) (VP (PP (APPR in) (ART der) (PP (APPR Werk-statt) (APPR von) (PPOSAT seinem) (NN Vater))) (VVPP gespielt))) ($. .)",1,0,2
-Er hat mit einer Ahle gespielt.,(S (PPER Er) (VAFIN hat) (VP (PP (APPR mit) (ART einer) (NN Ahle)) (VVPP gespielt))) ($. .),1,0,0
-Mit der Ahle hat er sich ein Auge schwer verletzt.,(S (PP (APPR Mit) (ART der) (NN Ahle)) (VAFIN hat) (PPER er) (VP (PRF sich) (NP (ART ein) (NN Auge)) (ADJD schwer) (VVPP verletzt))) ($. .),1,0,0
-Das verletzte Auge hat sich entzündet.,(S (NP (ART Das) (ADJA verletzte) (NN Auge)) (VAFIN hat) (VP (PRF sich) (VVPP entzündet))) ($. .),1,1,0
-Und dann das andere Auge angesteckt.,(S (KON Und) (ADV dann) (NP (ART das) (ADJA andere) (NN Auge)) (VP (VVPP angesteckt))) ($. .),1,1,0
-Danach war Louis Braille blind.,(S (PROAV Danach) (VAFIN war) (PN (NE Louis) (NE Braille)) (ADJD blind)) ($. .),1,0,0
-Louis Braille ging zur ersten Blinden-schule der Welt.,(S (PN (NE Louis) (NE Braille)) (VVFIN ging) (PP (APPRART zur) (ADJA ersten) (NN Blinden-schule) (NP (ART der) (NN Welt)))) ($. .),1,0,1
-Das war die Schule von Valentin Haüy.,(S (PDS Das) (VAFIN war) (NP (ART die) (NN Schule) (PP (APPR von) (PN (NE Valentin) (NE Haüy))))) ($. .),1,1,0
-Valentin Haüy hat verschiedene Geräte gebaut.,(S (PN (NE Valentin) (NE Haüy)) (VAFIN hat) (VP (NP (ADJA verschiedene) (NN Geräte)) (VVPP gebaut))) ($. .),1,0,0
-"Zum Beispiel ein Gerät, \newline dass Musik-noten auf Papier prägen konnte.","(PP (APPRART Zum) (NN Beispiel)) (ART ein) (NN Gerät) ($, ,) (NP (S (NE \newline) (PRELS dass) (VP (NN Musik-noten) (PP (APPR auf) (NN Papier)) (VVINF prägen)) (VMFIN konnte))) ($. .)",1,1,0
-So konnte man die Noten mit den Fingern fühlen.,(S (ADV So) (VMFIN konnte) (PIS man) (VP (NP (ART die) (NN Noten)) (PP (APPR mit) (ART den) (NN Fingern)) (VVINF fühlen))) ($. .),1,0,0
-Louis Braille fand die Idee gut.,(S (PN (NE Louis) (NE Braille)) (VVFIN fand) (NP (ART die) (NN Idee)) (ADJD gut)) ($. .),1,0,0
-Er hat in der Werkstatt von seinem Vater verschiedene Sachen ausprobiert.,(S (PPER Er) (VAFIN hat) (VP (PP (APPR in) (ART der) (NN Werkstatt)) (PP (APPR von) (PPOSAT seinem) (NN Vater)) (NP (ADJA verschiedene) (NN Sachen)) (VVPP ausprobiert))) ($. .),1,0,0
-"Zum Beispiel Dreiecke, Quadrate und Kreise in Leder stanzen.","(NP (PP (APPRART Zum) (NN Beispiel)) (CNP (NN Dreiecke))) ($, ,) (S (NN Quadrate) (KON und) (NN Kreise) (PP (APPR in) (NN Leder)) (VVFIN stanzen)) ($. .)",1,1,0
-"Als Louis Braille 11 Jahr alt ist, \newline entdeckt er die Nacht-schrift.","(S (KOUS Als) (PN (NE Louis) (NE Braille)) (AP (NP (CARD 11) (NN Jahr)) (ADJD alt)) (VAFIN ist)) ($, ,) (S (NE \newline) (VVFIN entdeckt) (PPER er) (NP (ART die) (NN Nacht-schrift))) ($. .)",1,0,0
-Die Nacht-schrift hat der Hauptmann Charles Barbier erfunden.,(S (NP (ART Die) (NN Nacht-schrift)) (VAFIN hat) (NP (ART der) (NN Hauptmann) (PN (NE Charles) (NE Barbier))) (VP (VVPP erfunden))) ($. .),1,1,0
-Die Nacht-schrift ist kompliziert.,(S (NP (ART Die) (NN Nacht-schrift)) (VAFIN ist) (ADJD kompliziert)) ($. .),1,0,0
-Louis Braille macht die Nacht-schrift einfacher.,(S (PN (NE Louis) (NE Braille)) (VVFIN macht) (NP (ART die) (NN Nacht-schrift)) (ADJD einfacher)) ($. .),1,0,0
-Im Jahr 1825 ist Louis Braille fertig mit der Schrift.,(S (PP (APPRART Im) (NN Jahr) (CARD 1825)) (VAFIN ist) (PN (NE Louis) (NE Braille)) (AP (ADJD fertig) (PP (APPR mit) (ART der) (NN Schrift)))) ($. .),1,0,0
-Er hat die Blinden-schrift erfunden.,(S (PPER Er) (VAFIN hat) (VP (NP (ART die) (NN Blinden-schrift)) (VVPP erfunden))) ($. .),1,0,0
-Er ist jetzt 16 Jahre alt.,(S (PPER Er) (VAFIN ist) (ADV jetzt) (AP (NP (CARD 16) (NN Jahre)) (ADJD alt))) ($. .),1,0,0
-Louis Braille war ein Erfinder.,(S (PN (NE Louis) (NE Braille)) (VAFIN war) (NP (ART ein) (NN Erfinder))) ($. .),1,0,0
-Er hat die Schrift für blinde Menschen erfunden.,(S (PPER Er) (VAFIN hat) (VP (NP (ART die) (NN Schrift) (PP (APPR für) (ADJA blinde) (NN Menschen))) (VVPP erfunden))) ($. .),1,1,0
-Wegen der griechischen Staats-schulden-krise haben viele Menschen demonstriert.,(S (PP (APPR Wegen) (ART der) (ADJA griechischen) (NN Staats-schulden-krise)) (VAFIN haben) (NP (PIAT viele) (NN Menschen)) (VP (VVPP demonstriert))) ($. .),1,0,1
-Loukanikos war sehr oft dabei.,(S (NE Loukanikos) (VAFIN war) (AVP (ADV sehr) (ADV oft)) (PTKVZ dabei)) ($. .),1,0,0
-Dadurch wurde Loukanikos sehr bekannt.,(S (PROAV Dadurch) (VAFIN wurde) (NE Loukanikos) (AP (ADV sehr) (ADJD bekannt))) ($. .),1,0,0
-Viele Zeitungen haben über den Hund berichtet.,(S (NP (PIAT Viele) (NN Zeitungen)) (VAFIN haben) (VP (PP (APPR über) (ART den) (NN Hund)) (VVPP berichtet))) ($. .),1,0,0
-Loukanikos war ein Hund der auf der Straße gelebt hat.,(NE Loukanikos) (VAFIN war) (ART ein) (NN Hund) (PRELS der) (VP (PP (APPR auf) (ART der) (NN Straße)) (VVPP gelebt)) (VAFIN hat) ($. .),0,0,0
-Im Jahr 2011 wurde Loukanikos zur Person of the Year gewählt.,(S (PP (APPRART Im) (NN Jahr) (CARD 2011)) (VAFIN wurde) (NE Loukanikos) (VP (PP (APPRART zur) (CH (FM Person) (FM of) (FM the) (FM Year))) (VVPP gewählt))) ($. .),1,0,1
-Im Jahr 2012 hat ihn eine Familie aufgenommen.,(S (PP (APPRART Im) (NN Jahr) (CARD 2012)) (VAFIN hat) (PPER ihn) (NP (ART eine) (NN Familie)) (VP (VVPP aufgenommen))) ($. .),1,0,0
-Dort hat er bis zum Jahr 2014 gelebt.,(S (ADV Dort) (VAFIN hat) (PPER er) (VP (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 2014)) (VVPP gelebt))) ($. .),1,0,1
-Im Oktober 2014 ist Loukanikos gestorben.,(S (PP (APPRART Im) (NN Oktober) (CARD 2014)) (VAFIN ist) (NE Loukanikos) (VP (VVPP gestorben))) ($. .),1,0,0
-Viele sagen er hat sehr viel schlechte Mittel von den Polizisten eingeatmet.,(S (PIS Viele) (VVFIN sagen) (S (PPER er) (VAFIN hat) (VP (NP (AP (AVP (ADV sehr) (ADV viel)) (ADJA schlechte)) (NN Mittel)) (PP (APPR von) (ART den) (NN Polizisten)) (VVPP eingeatmet)))) ($. .),1,1,0
-Darum wurde er sehr krank.,(S (PROAV Darum) (VAFIN wurde) (PPER er) (AP (ADV sehr) (ADJD krank))) ($. .),1,0,0
-Loukanikos wurde 10 Jahre alt.,(S (NE Loukanikos) (VAFIN wurde) (AP (NP (CARD 10) (NN Jahre)) (ADJD alt))) ($. .),1,0,0
-Er ist auf einem Berg begraben worden.,(S (PPER Er) (VAFIN ist) (VP (VP (PP (APPR auf) (ART einem) (NN Berg)) (VVPP begraben)) (VAPP worden))) ($. .),1,0,0
-Loukanikos war ein bekannter Hund.,(S (NE Loukanikos) (VAFIN war) (NP (ART ein) (ADJA bekannter) (NN Hund))) ($. .),1,1,0
-Er war dabei als Menschen in Griechenland demonstriert haben.,(S (PPER Er) (VAFIN war) (VP (VP (PROAV dabei) (PP (APPR als) (NN Menschen)) (PP (APPR in) (NE Griechenland)) (VVPP demonstriert)) (VAINF haben))) ($. .),1,0,0
-Löwen haben ein Fell.,(S (NN Löwen) (VAFIN haben) (NP (ART ein) (NN Fell))) ($. .),1,0,0
-Das Fell ist gold-braun oder sand-farben.,(S (NP (ART Das) (NN Fell)) (VAFIN ist) (CAP (ADJD gold-braun) (KON oder) (ADJD sand-farben))) ($. .),1,0,0
-Ein männlicher Löwen hat eine Mähne.,(S (NP (ART Ein) (ADJA männlicher) (NN Löwen)) (VAFIN hat) (NP (ART eine) (NN Mähne))) ($. .),1,1,0
-Ein Männchen kann bis zu 250 kg wiegen.,(S (NP (ART Ein) (NN Männchen)) (VMFIN kann) (VP (NP (AP (ADV bis) (ADV zu) (CARD 250)) (NN kg)) (VVINF wiegen))) ($. .),1,1,0
-Löwen leben in Rudeln.,(S (NN Löwen) (VVFIN leben) (PP (APPR in) (NN Rudeln))) ($. .),1,0,0
-Ein Rudel ist eine Gruppe Tiere einer Art.,(S (NP (ART Ein) (NN Rudel)) (VAFIN ist) (NP (ART eine) (NN Gruppe) (NP (NN Tiere) (NP (ART einer) (NN Art))))) ($. .),1,2,0
-Löwen essen Fleisch.,(S (NN Löwen) (VVFIN essen) (NN Fleisch)) ($. .),1,0,0
-Sie jagen andere Tiere.,(S (PPER Sie) (VVFIN jagen) (NP (ADJA andere) (NN Tiere))) ($. .),1,0,0
-Löwen können schnell rennen.,(S (NN Löwen) (VMFIN können) (VP (ADJD schnell) (VVINF rennen))) ($. .),1,0,0
-Löwen sind nachtaktiv.,(S (NN Löwen) (VAFIN sind) (ADJD nachtaktiv)) ($. .),1,0,0
-Sie schlafen tagsüber.,(S (PPER Sie) (VVFIN schlafen) (ADV tagsüber)) ($. .),1,0,0
-Ein Löwe ist ein Tier.,(S (NP (ART Ein) (NN Löwe)) (VAFIN ist) (NP (ART ein) (NN Tier))) ($. .),1,0,0
-Genauer: Der Löwe ist ein Säuge-tier.,(ADJD Genauer) ($. :) (S (NP (ART Der) (NN Löwe)) (VAFIN ist) (NP (ART ein) (NN Säuge-tier))) ($. .),1,0,0
-Er gehört zu den Groß-katzen.,(S (PPER Er) (VVFIN gehört) (PP (APPR zu) (ART den) (NN Groß-katzen))) ($. .),1,0,0
-Der Löwe gehört zu der Familie der Katzen.,(S (NP (ART Der) (NN Löwe)) (VVFIN gehört) (PP (APPR zu) (ART der) (NN Familie) (NP (ART der) (NN Katzen)))) ($. .),1,0,1
-Löwen leben in Afrika.,(S (NN Löwen) (VVFIN leben) (PP (APPR in) (NE Afrika))) ($. .),1,0,0
-Und LSD macht nicht süchtig.,(S (KON Und) (NE LSD) (VVFIN macht) (PTKNEG nicht) (ADJD süchtig)) ($. .),1,0,0
-Viele von ihnen überprüfen ihre Glaubens-systeme.,(S (NP (PIS Viele) (PP (APPR von) (PPER ihnen))) (VVFIN überprüfen) (NP (PPOSAT ihre) (NN Glaubens-systeme))) ($. .),1,1,0
-Im Jahr 1971. \newline Die Vereinten Nationen verbieten LSD.,(APPRART Im) (NN Jahr) ($. 1971.),0,0,0
-Lyserg-säure-diethylamid ist ein künstlicher Wirk-stoff.,(S (NN Lyserg-säure-diethylamid) (VAFIN ist) (NP (ART ein) (ADJA künstlicher) (NN Wirk-stoff))) ($. .),1,1,0
-In natürlicher Form kommt LSD im Mutterkorn-alkaloiden vor.,(S (PP (APPR In) (ADJA natürlicher) (NN Form)) (VVFIN kommt) (NE LSD) (PP (APPRART im) (NN Mutterkorn-alkaloiden)) (PTKVZ vor)) ($. .),1,0,0
-Der LSD Wirk-stoff löst Halluzinationen aus.,(S (NP (ART Der) (NE LSD) (NN Wirk-stoff)) (VVFIN löst) (NN Halluzinationen) (PTKVZ aus)) ($. .),1,1,0
-LSD gilt als Droge.,(S (NE LSD) (VVFIN gilt) (PP (APPR als) (NN Droge))) ($. .),1,0,0
-Und ist durch das Betäubungs-mittel-gesetz verboten.,(S (KON Und) (VAFIN ist) (VP (PP (APPR durch) (ART das) (NN Betäubungs-mittel-gesetz)) (VVPP verboten))) ($. .),1,0,0
-"Menschen die an Luddismus glauben,  \newline nennt man Ludditen.","(NN Menschen) (NP (S (PRELS die) (PP (APPR an) (NN Luddismus)) (VVFIN glauben))) ($, ,) ($.  ) (S (PDS \newline) (VVFIN nennt) (PIS man) (NN Ludditen)) ($. .)",1,1,0
-Eine einzelene Person nennt man Luddist.,(S (NP (ART Eine) (ADJA einzelene) (NN Person)) (VVFIN nennt) (PIS man) (NN Luddist)) ($. .),1,1,0
-Ein Luddit möchte lieber ohne viel Technik leben.,(S (NP (ART Ein) (NN Luddit)) (VMFIN möchte) (ADV lieber) (VP (PP (APPR ohne) (PIAT viel) (NN Technik)) (VVINF leben))) ($. .),1,0,0
-Das Wort Luddismus gibt es seit dem 19. Jahr-hundert.,(S (NP (ART Das) (NN Wort) (NN Luddismus)) (VVFIN gibt) (PPER es) (APPR seit) (ART dem) (ADJA 19.) (CARD Jahr-hundert)) ($. .),1,1,0
-Und sie wollen Maschinen kaputt machen.,(S (KON Und) (PPER sie) (VMFIN wollen) (VP (NN Maschinen) (ADJD kaputt) (VVINF machen))) ($. .),1,0,0
-Und sie machen Proteste gegen Technik.,(S (KON Und) (PPER sie) (VVFIN machen) (NP (NN Proteste) (PP (APPR gegen) (NN Technik)))) ($. .),1,1,0
-Luddismus ist wenn man neue Technik schlecht findet.,(S (NN Luddismus) (VAFIN ist) (S (KOUS wenn) (PIS man) (NP (ADJA neue) (NN Technik)) (ADJD schlecht) (VVFIN findet))) ($. .),1,0,0
-Ludwig Lugmeier ist in Kochel geboren.,(S (PN (NE Ludwig) (NE Lugmeier)) (VAFIN ist) (VP (PP (APPR in) (NE Kochel)) (VVPP geboren))) ($. .),1,0,0
-Er ist am 31. Juli geboren.,(S (PPER Er) (VAFIN ist) (VP (PP (APPRART am) (ADJA 31.) (NN Juli)) (VVPP geboren))) ($. .),1,0,0
-Im Jahr 1949. \newline Ludwig Lugmeier ist 59 Jahre alt.,(APPRART Im) (NN Jahr) ($. 1949.),0,0,0
-Ludwig Lugmeier ist Schriftsteller.,(S (PN (NE Ludwig) (NE Lugmeier)) (VAFIN ist) (NN Schriftsteller)) ($. .),1,0,0
-Und er ist ein Millionen-dieb.,(S (KON Und) (PPER er) (VAFIN ist) (NP (ART ein) (NN Millionen-dieb))) ($. .),1,0,0
-Weil er sehr viel Geld geklaut hat.,(S (KOUS Weil) (PPER er) (VP (NP (AP (ADV sehr) (PIAT viel)) (NN Geld)) (VVPP geklaut)) (VAFIN hat)) ($. .),1,1,0
-Er hat mit anderen zusammen einen Geld-transport über-fallen.,(S (PPER Er) (VAFIN hat) (VP (PP (PP (APPR mit) (PIS anderen)) (ADV zusammen)) (NP (ART einen) (NN Geld-transport)) (VVPP über-fallen))) ($. .),1,0,0
-Er hat über 2 Millionen DM ge-klaut.,(S (PPER Er) (VAFIN hat) (VP (NP (AP (ADV über) (NM (CARD 2) (NN Millionen))) (NN DM)) (VVPP ge-klaut))) ($. .),1,1,0
-Für seine Über-fälle musste er ins Gefängnis.,(S (PP (APPR Für) (PPOSAT seine) (NN Über-fälle)) (VMFIN musste) (PPER er) (PP (APPRART ins) (NN Gefängnis))) ($. .),1,0,0
-Und viele Sachen ge-klaut.,(S (KON Und) (NP (PIAT viele) (NN Sachen)) (VP (VVPP ge-klaut))) ($. .),1,0,0
-Ludwig Lugmeier ist ein bekannter Mann.,(S (PN (NE Ludwig) (NE Lugmeier)) (VAFIN ist) (NP (ART ein) (ADJA bekannter) (NN Mann))) ($. .),1,1,0
-"Er ist bekannt, weil er viel Geld ge-klaut hat.","(S (PPER Er) (VAFIN ist) (ADJD bekannt)) ($, ,) (S (KOUS weil) (PPER er) (VP (NP (PIAT viel) (NN Geld)) (VVPP ge-klaut)) (VAFIN hat)) ($. .)",1,0,0
-Und weil er aus einem Fenster springt.,(KON Und) (S (KOUS weil) (PPER er) (PP (APPR aus) (ART einem) (NN Fenster)) (VVFIN springt)) ($. .),1,0,0
-Während er im Gerichts-saal eine Strafe bekommt.,(S (KOUS Während) (PPER er) (PP (APPRART im) (NN Gerichts-saal)) (NP (ART eine) (NN Strafe)) (VVFIN bekommt)) ($. .),1,0,0
-Nach dem Fenster-sprung flüchtet er.,(S (VP (APPR Nach) (ART dem) (VVPP Fenster-sprung)) (VVFIN flüchtet) (PPER er)) ($. .),1,0,0
-Ludwig Lugmeier schreibt Bücher.,(S (PN (NE Ludwig) (NE Lugmeier)) (VVFIN schreibt) (NN Bücher)) ($. .),1,0,0
-Bekannt sind die Bücher über sein Leben.,(S (ADJD Bekannt) (VAFIN sind) (NP (ART die) (NN Bücher) (PP (APPR über) (PPOSAT sein) (NN Leben)))) ($. .),1,1,0
-Ludwik Lejzer Zamenhof kommt am 15. Dezember 1859 auf die Welt.,(S (PN (NE Ludwik) (NE Lejzer) (NE Zamenhof)) (VVFIN kommt) (PP (APPRART am) (ADJA 15.) (NN Dezember) (CARD 1859)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,1
-"Er stirbt am 14. April 1917 in Warschau, Polen.","(S (PPER Er) (VVFIN stirbt) (PP (APPRART am) (ADJA 14.) (NN April) (CARD 1917)) (APPR in) (NE Warschau)) ($, ,) (PP (NE Polen)) ($. .)",1,0,1
-Im Jahr 1887. \newline Zamenhof gründet die Plan-sprache Esperanto.,(APPRART Im) (NN Jahr) ($. 1887.),0,0,0
-Er gebraucht das Pseudonym: \newline  \newline Doktoro Esperanto.,(S (PPER Er) (VVFIN gebraucht) (ART das) (NN Pseudonym)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
-Sie nenne ihn den Zamenhof-tag.,(S (PPER Sie) (VVFIN nenne) (PPER ihn) (NP (ART den) (NN Zamenhof-tag))) ($. .),1,0,0
-Zamenhof macht seine Menschheits-lehre bekannt.,(S (NE Zamenhof) (VVFIN macht) (NP (PPOSAT seine) (NN Menschheits-lehre)) (ADJD bekannt)) ($. .),1,0,0
-Und zeit-weise ist er ein Zionist.,(S (KON Und) (ADV zeit-weise) (VAFIN ist) (PPER er) (NP (ART ein) (NN Zionist))) ($. .),1,0,0
-Er verfasst eine frühe Grammatik.,(S (PPER Er) (VVFIN verfasst) (NP (ART eine) (ADJA frühe) (NN Grammatik))) ($. .),1,1,0
-Ludwik Lejzer Zamenhof war ein Augen-arzt.,(S (PN (NE Ludwik) (NE Lejzer) (NE Zamenhof)) (VAFIN war) (NP (ART ein) (NN Augen-arzt))) ($. .),1,0,0
-"Eine Luftmatratze ist zum drauf-liegen, drauf-sitzen oder schwimmen.","(S (NP (ART Eine) (NN Luftmatratze)) (VAFIN ist) (APPRART zum) (CVP (VVINF drauf-liegen))) ($, ,) (VVINF drauf-sitzen) (KON oder) (VVINF schwimmen) ($. .)",1,0,0
-Luftmatratzen sind meistens aus Gummi.,(S (NN Luftmatratzen) (VAFIN sind) (ADV meistens) (PP (APPR aus) (NN Gummi))) ($. .),1,0,0
-Sie haben ein Loch zum auf-blasen.,(S (PPER Sie) (VAFIN haben) (NP (ART ein) (NN Loch) (PP (APPRART zum) (NN auf-blasen)))) ($. .),1,1,0
-Das Wort Luftmatratze ist ein Substantiv.,(S (NP (ART Das) (NN Wort) (NN Luftmatratze)) (VAFIN ist) (NP (ART ein) (NN Substantiv))) ($. .),1,1,0
-Es hat 2 Wörter: • Luft (damit wird sie gefüllt  zum Beispiel durch pusten),(S (PPER Es) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) ($LRB •) (NN Luft) ($LRB -LRB-) (NP (S (PROAV damit) (VAFIN wird) (PPER sie) (VP (VVPP gefüllt) (PP (PP (APPRART  ) (PP (APPRART zum) (NN Beispiel))) (APPR durch) (NN pusten))))) ($LRB -RRB-),1,1,1
-Es hat 2 Wörter: • Matratze (zum drauf liegen),(S (PPER Es) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) ($LRB •) (NN Matratze) ($LRB -LRB-) (NP (NP (VP (APPRART zum) (PROAV drauf) (VVINF liegen)))) ($LRB -RRB-),1,2,0
-Eine Luftmatratze ist eine Matratze zum auf-blasen.,(S (NP (ART Eine) (NN Luftmatratze)) (VAFIN ist) (NP (ART eine) (NN Matratze) (PP (APPRART zum) (NN auf-blasen)))) ($. .),1,1,0
-Die Luft-polster-folie hat Luft-blasen.,(S (NP (ART Die) (NN Luft-polster-folie)) (VAFIN hat) (VP (VVPP Luft-blasen))) ($. .),1,0,0
-Dadurch ist sie besunders gut zum: • verpacken,(S (PROAV Dadurch) (VAFIN ist) (PPER sie) (ADV besunders) (AP (ADJD gut) (APPRART zum))) ($. :),1,0,0
-Dadurch ist sie besunders gut zum: • schützen,(S (PROAV Dadurch) (VAFIN ist) (PPER sie) (ADV besunders) (AP (ADJD gut) (APPRART zum))) ($. :),1,0,0
-Die Luftpolsterfolie wurde von diesen 2 Personen erfunden:,(S (NP (ART Die) (NN Luftpolsterfolie)) (VAFIN wurde) (VP (PP (APPR von) (PDAT diesen) (CARD 2) (NN Personen)) (VVPP erfunden))) ($. :),1,0,1
-Spielen mit Luftpolsterfolie macht Spaß.,(S (NP (NN Spielen) (PP (APPR mit) (NN Luftpolsterfolie))) (VVFIN macht) (NN Spaß)) ($. .),1,1,0
-Dabei werden die Blasen (mit Luft drinne) ausgedrückt.,(S (PROAV Dabei) (VAFIN werden) (ART die) (NN Blasen)) ($LRB -LRB-) (NP (PP (APPR mit) (NN Luft) (ADV drinne))) ($LRB -RRB-) (VP (VVPP ausgedrückt)) ($. .),1,1,0
-Das gibt einen Knall.,(S (PDS Das) (VVFIN gibt) (NP (ART einen) (NN Knall))) ($. .),1,0,0
-Für manche ist dieses Spiel Entspannung.,(S (PP (APPR Für) (PIS manche)) (VAFIN ist) (NP (PDAT dieses) (NN Spiel)) (NN Entspannung)) ($. .),1,0,0
-Kleider \newline Manche basteln sich aus Luftpolsterfolie Kleider zum anziehen.,(NN Kleider),0,0,0
-Eine Luftpolsterfolie wird benutzt um: • etwas zu verpacken (zum Beispiel in einem Karton),(S (NP (ART Eine) (NN Luftpolsterfolie)) (VAFIN wird) (VP (VVPP benutzt) (KOUI um))) ($. :) ($LRB •) (VP (PIS etwas) (VZ (PTKZU zu) (VVINF verpacken))) ($LRB -LRB-) (PP (PP (APPRART zum) (NN Beispiel)) (APPR in) (ART einem) (NN Karton)) ($LRB -RRB-),1,0,1
-Eine Luftpolsterfolie wird benutzt um: • etwas zu schützen (damit es nicht kaputt geht),(S (NP (ART Eine) (NN Luftpolsterfolie)) (VAFIN wird) (VP (VVPP benutzt) (KOUI um))) ($. :) ($LRB •) (VP (PIS etwas) (VZ (PTKZU zu) (VVINF schützen))) ($LRB -LRB-) (S (KOUS damit) (PPER es) (PTKNEG nicht) (ADJD kaputt) (VVFIN geht)) ($LRB -RRB-),1,0,0
-Wir brauchen Luft zum Atmen.,(S (PPER Wir) (VVFIN brauchen) (NP (NN Luft) (PP (APPRART zum) (NN Atmen)))) ($. .),1,1,0
-Diese Stoffe brauchen wir zum Über-leben.,(S (NP (PDAT Diese) (NN Stoffe)) (VVFIN brauchen) (PPER wir) (PP (APPRART zum) (NN Über-leben))) ($. .),1,0,0
-Luft kann man nicht sehen.,(S (NN Luft) (VMFIN kann) (PIS man) (PTKNEG nicht) (VP (VVINF sehen))) ($. .),1,0,0
-Luft ist überall um uns herum.,(S (NN Luft) (VAFIN ist) (ADV überall) (PP (APPR um) (PPER uns) (ADV herum))) ($. .),1,0,0
-Wir spüren die Luft als Wind.,(S (PPER Wir) (VVFIN spüren) (NP (ART die) (NN Luft)) (PP (APPR als) (NN Wind))) ($. .),1,0,0
-Das Wort wird oft von PEGIDA benutzt.,(S (NP (ART Das) (NN Wort)) (VAFIN wird) (VP (ADV oft) (PP (APPR von) (NE PEGIDA)) (VVPP benutzt))) ($. .),1,0,0
-PEGIDA sagt: alles was in der Zeitung über PEGIDA steht ist falsch.,(S (NE PEGIDA) (VVFIN sagt)) ($. :) (S (NP (PIS alles) (PRELS was) (PP (APPR in) (ART der) (NN Zeitung)) (PP (APPR über) (NE PEGIDA)) (VVFIN steht)) (VAFIN ist) (ADJD falsch)) ($. .),1,1,0
-Sie sagen: die Zeitungen wollen etwas verstecken.,(S (PPER Sie) (VVFIN sagen)) ($. :) (S (NP (ART die) (NN Zeitungen)) (VMFIN wollen) (VP (PIS etwas) (VVINF verstecken))) ($. .),1,0,0
-Darum sagen sie: Lügen-presse.,(S (PROAV Darum) (VVFIN sagen) (PPER sie)) ($. :) (NN Lügen-presse) ($. .),1,0,0
-Das Wort wird oft beim Thema Nationalsozialismus benutzt.,(S (NP (ART Das) (NN Wort)) (VAFIN wird) (VP (ADV oft) (PP (APPRART beim) (NN Thema) (NN Nationalsozialismus)) (VVPP benutzt))) ($. .),1,0,0
-"Das heißt: jemand der etwas böses oder schlechtes macht, \newline möchte nicht das andere darüber schreiben.","(S (PDS Das) (VVFIN heißt)) ($. :) (PIS jemand) (S (PRELS der) (NP (PIS etwas) (CAP (ADJD böses) (KON oder) (ADJA schlechtes))) (VVFIN macht)) ($, ,) (S (NE \newline) (VMFIN möchte) (PTKNEG nicht) (VP (NP (ART das) (PIS andere)) (PROAV darüber) (VVINF schreiben))) ($. .)",1,1,0
-Darum benutzen solche Menschen manchmal das Wort Lügen-presse.,(PROAV Darum) (VVFIN benutzen) (NP (PIAT solche) (NN Menschen)) (ADV manchmal) (NP (ART das) (NN Wort) (NN Lügen-presse)) ($. .),0,1,0
-Lügenpresse ist ein Unwort.,(S (NN Lügenpresse) (VAFIN ist) (NP (ART ein) (NN Unwort))) ($. .),1,0,0
-Es heißt: was in der Zeitung steht ist falsch.,(S (PPER Es) (VVFIN heißt)) ($. :) (S (S (PWS was) (PP (APPR in) (ART der) (NN Zeitung)) (VVFIN steht)) (VAFIN ist) (ADJD falsch)) ($. .),1,0,0
-Eine Lüge ist: \newline Wenn Menschen den Inhalt vom Satz für falsch halten.,(S (NP (ART Eine) (NN Lüge)) (VAFIN ist)) ($. :) (NE \newline),1,0,0
-"Die Menschen denken dann, dass der Inhalt vom Satz mit Absicht falsch ist.","(S (NP (ART Die) (NN Menschen)) (VVFIN denken) (ADV dann)) ($, ,) (S (KOUS dass) (NP (ART der) (NN Inhalt) (PP (APPRART vom) (NN Satz))) (PP (APPR mit) (NN Absicht)) (ADJD falsch) (VAFIN ist)) ($. .)",1,1,0
-Man sagt auch: \newline Der Inhalt vom Satz ist gelogen.,(S (PIS Man) (VVFIN sagt) (ADV auch)) ($. :) (FM \newline),1,0,0
-"Wer entscheidet, was eine Lüge ist?","(S (PWS Wer) (VVFIN entscheidet)) ($, ,) (S (PWS was) (NP (ART eine) (NN Lüge)) (VAFIN ist)) ($. ?)",1,0,0
-"Wer entscheidet, was Wahrheit ist?","(S (PWS Wer) (VVFIN entscheidet)) ($, ,) (S (PWS was) (NN Wahrheit) (VAFIN ist)) ($. ?)",1,0,0
-Das hängt vom Glauben und vom Wissen der Menschen ab.,(S (PDS Das) (VVFIN hängt) (PP (CPP (PP (APPRART vom) (NN Glauben)) (KON und) (PP (APPRART vom) (NN Wissen))) (NP (ART der) (NN Menschen))) (PTKVZ ab)) ($. .),1,0,1
-Lügen sind zum Beispiel: • Gras ist blau.,(S (NN Lügen) (VAFIN sind) (PP (APPRART zum) (NN Beispiel))) ($. :) (XY •) (S (NE Gras) (VAFIN ist) (ADJD blau)) ($. .),1,0,0
- • Nach Montag kommt Mittwoch.,(XY  ) (XY •) (S (PP (APPR Nach) (NN Montag)) (VVFIN kommt) (NN Mittwoch)) ($. .),1,0,0
- • Schnee ist nicht weiß.,(XY  ) (XY •) (S (NN Schnee) (VAFIN ist) (PTKNEG nicht) (ADJD weiß)) ($. .),1,0,0
-Wer eine Lüge sagt oder schreibt weiß: \newline Das ist nicht die Wahrheit.,(CS (S (PWS Wer) (NP (ART eine) (NN Lüge)) (VVFIN sagt)) (KON oder) (S (VVFIN schreibt) (VVFIN weiß))) ($. :) (NE \newline),1,0,0
-Die Person lügt um andere Menschen zu täuschen.,(S (NP (ART Die) (NN Person)) (VVFIN lügt) (VP (KOUI um) (NP (ADJA andere) (NN Menschen)) (VZ (PTKZU zu) (VVINF täuschen)))) ($. .),1,0,0
-Man nennt die Person Lügner.,(S (PIS Man) (VVFIN nennt) (NP (ART die) (NN Person)) (NE Lügner)) ($. .),1,0,0
-In Märchen und Geschichten gibt es auch Lügner.,(S (PP (APPR In) (CNP (NN Märchen) (KON und) (NN Geschichten))) (VVFIN gibt) (PPER es) (NP (ADV auch) (NN Lügner))) ($. .),1,0,1
-Es gibt viele Gründe für Lügen.,(S (PPER Es) (VVFIN gibt) (NP (PIAT viele) (NN Gründe) (PP (APPR für) (NN Lügen)))) ($. .),1,1,0
-Eine Lüge ist eine absichtlich falsche Aussage.,(S (NP (ART Eine) (NN Lüge)) (VAFIN ist) (NP (ART eine) (AP (ADJD absichtlich) (ADJA falsche)) (NN Aussage))) ($. .),1,1,0
-Man will andere damit täuschen.,(S (PIS Man) (VMFIN will) (VP (PIS andere) (PROAV damit) (VVINF täuschen))) ($. .),1,0,0
-Viele sagen zu Luiz Inácio Lula da Silva einfach nur Lula.,(S (PIS Viele) (VVFIN sagen) (PP (APPR zu) (PN (NE Luiz) (NE Inácio) (NE Lula) (NE da) (NE Silva))) (ADV einfach) (NP (ADV nur) (NE Lula))) ($. .),1,0,1
-Lula kommt am 27. Oktober 1945 auf die Welt.,(S (NE Lula) (VVFIN kommt) (PP (APPRART am) (ADJA 27.) (NN Oktober) (CARD 1945)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,1
-"Das war in Caetés, Brasilien.","(S (PDS Das) (VAFIN war) (APPR in) (NE Caetés)) ($, ,) (PP (NE Brasilien)) ($. .)",1,0,0
-Aufgewachsen ist Lula in São Paulo.,(S (VP (VVPP Aufgewachsen)) (VAFIN ist) (NE Lula) (PP (APPR in) (PN (NE São) (NE Paulo)))) ($. .),1,0,0
-Seine Familie ist arm.,(S (NP (PPOSAT Seine) (NN Familie)) (VAFIN ist) (ADJD arm)) ($. .),1,0,0
-Sein Vater stirbt an Alkoholismus.,(S (NP (PPOSAT Sein) (NN Vater)) (VVFIN stirbt) (PP (APPR an) (NN Alkoholismus))) ($. .),1,0,0
-Alkoholismus heißt: Jemand ist süchtig nach Alkohol.,(S (NN Alkoholismus) (VVFIN heißt)) ($. :) (S (PIS Jemand) (VAFIN ist) (AP (ADJD süchtig) (PP (APPR nach) (NN Alkohol)))) ($. .),1,0,0
-Lula geht zur Schule.,(S (NE Lula) (VVFIN geht) (PP (APPRART zur) (NN Schule))) ($. .),1,0,0
-Aber nur bis zu der zweiten Klasse.,(PP (KON Aber) (ADV nur) (APPR bis) (APPR zu) (ART der) (ADJA zweiten) (NN Klasse)) ($. .),0,0,1
-Dann geht Lula nicht mehr zu Schule.,(S (ADV Dann) (VVFIN geht) (NE Lula) (AVP (PTKNEG nicht) (ADV mehr)) (PP (APPR zu) (NN Schule))) ($. .),1,0,0
-Lula geht arbeiten.,(S (NE Lula) (VVFIN geht) (VVINF arbeiten)) ($. .),1,0,0
-Damit er seiner Familie helfen kann.,(S (KOUS Damit) (PPER er) (VP (NP (PPOSAT seiner) (NN Familie)) (VVINF helfen)) (VMFIN kann)) ($. .),1,0,0
-Lesen lernt Lula erst mit 10 Jahren.,(S (NN Lesen) (VVFIN lernt) (NE Lula) (PP (ADV erst) (APPR mit) (CARD 10) (NN Jahren))) ($. .),1,0,1
-Später macht Lula eine Ausbildung als Metallarbeiter.,(S (ADJD Später) (VVFIN macht) (NE Lula) (NP (ART eine) (NN Ausbildung) (PP (APPR als) (NN Metallarbeiter)))) ($. .),1,1,0
-Im Jahr 1969 heiraten Lula und Maria de Lourdes.,(S (PP (APPRART Im) (NN Jahr) (CARD 1969)) (VVFIN heiraten) (CNP (NE Lula) (KON und) (PN (NE Maria) (NE de) (NE Lourdes)))) ($. .),1,0,0
-Im Jahr 1971 ist Maria de Lourdes schwanger.,(S (PP (APPRART Im) (NN Jahr) (CARD 1971)) (VAFIN ist) (PN (NE Maria) (NE de) (NE Lourdes)) (ADJD schwanger)) ($. .),1,0,0
-Maria ist krank.,(S (NE Maria) (VAFIN ist) (ADJD krank)) ($. .),1,0,0
-Sie hat eine Hepatitis-infektion.,(S (PPER Sie) (VAFIN hat) (NP (ART eine) (NN Hepatitis-infektion))) ($. .),1,0,0
-Die Familie hat kein Geld für einen Arzt.,(S (NP (ART Die) (NN Familie)) (VAFIN hat) (NP (PIAT kein) (NN Geld) (PP (APPR für) (ART einen) (NN Arzt)))) ($. .),1,1,0
-Deswegen stirbt Maria.,(S (PROAV Deswegen) (VVFIN stirbt) (NE Maria)) ($. .),1,0,0
-Im Jahr 1974 heirateten Lula und Marisa Letícia Rocco.,(S (PP (APPRART Im) (NN Jahr) (CARD 1974)) (VVFIN heirateten) (PN (NE Lula) (KON und) (PN (NE Marisa) (NE Letícia) (NE Rocco)))) ($. .),1,0,0
-Zusammen haben sie 5 Kinder.,(S (ADV Zusammen) (VAFIN haben) (PPER sie) (NP (CARD 5) (NN Kinder))) ($. .),1,0,0
-"Im Jahr 2022 heiraten Lula und Rosangela ""Janja"" Silva.","(S (PP (APPRART Im) (NN Jahr) (CARD 2022)) (VVFIN heiraten) (CNP (NE Lula) (KON und) (NE Rosangela))) ($LRB "") (NE Janja) ($LRB "") (NE Silva) ($. .)",1,0,0
-Als Metall-arbeiter geht Lula in die Gewerkschaft.,(S (PP (APPR Als) (NN Metall-arbeiter)) (VVFIN geht) (NE Lula) (PP (APPR in) (ART die) (NN Gewerkschaft))) ($. .),1,0,0
-Im Jahr 1969 wird Lula in den Vorstand gewählt.,(S (PP (APPRART Im) (NN Jahr) (CARD 1969)) (VAFIN wird) (NE Lula) (VP (PP (APPR in) (ART den) (NN Vorstand)) (VVPP gewählt))) ($. .),1,0,0
-Später wird er Generalsekretär in der Gewerkschaft.,(S (ADJD Später) (VAFIN wird) (PPER er) (NP (NN Generalsekretär) (PP (APPR in) (ART der) (NN Gewerkschaft)))) ($. .),1,1,0
-Und im Jahr 1975 wird er zum Vorsitzenden der Gewerkschaft gewählt.,(S (KON Und) (PP (APPRART im) (NN Jahr) (CARD 1975)) (VAFIN wird) (PPER er) (VP (PP (APPRART zum) (NN Vorsitzenden) (NP (ART der) (NN Gewerkschaft))) (VVPP gewählt))) ($. .),1,0,1
-Er bekommt bei der Wahl 92 Prozent der Stimmen.,(S (PPER Er) (VVFIN bekommt) (PP (APPR bei) (ART der) (NN Wahl)) (NP (CARD 92) (NN Prozent) (NP (ART der) (NN Stimmen)))) ($. .),1,1,0
-In der Gewerkschaft sind 100 Tausend Arbeiter.,(S (PP (APPR In) (ART der) (NN Gewerkschaft)) (VAFIN sind) (NP (NM (CARD 100) (NN Tausend)) (NN Arbeiter))) ($. .),1,1,0
-Während der 1970er Jahre organisiert Lula viele große Streiks.,(S (PP (APPR Während) (ART der) (ADJA 1970er) (NN Jahre)) (VVFIN organisiert) (NE Lula) (NP (PIAT viele) (ADJA große) (NN Streiks))) ($. .),1,1,1
-Damals war Brasilien eine Militärdiktatur.,(S (ADV Damals) (VAFIN war) (NE Brasilien) (NP (ART eine) (NN Militärdiktatur))) ($. .),1,0,0
-Die Auto-firma Volkswagen hat auch Fabriken in Brasilien.,(S (NP (ART Die) (NN Auto-firma) (NE Volkswagen)) (VAFIN hat) (NP (ADV auch) (NN Fabriken) (PP (APPR in) (NE Brasilien)))) ($. .),1,2,0
-Volkswagen spioniert Lula aus.,(S (NE Volkswagen) (VVFIN spioniert) (NE Lula) (PTKVZ aus)) ($. .),1,0,0
-Dann gibt Volkswagen die Informationen an die Polizei von der Militärdiktatur.,(S (ADV Dann) (VVFIN gibt) (NE Volkswagen) (NP (ART die) (NN Informationen)) (PP (APPR an) (ART die) (NN Polizei) (PP (APPR von) (ART der) (NN Militärdiktatur)))) ($. .),1,0,1
-Im Jahr 1980 muss Lula ins Gefängnis.,(S (PP (APPRART Im) (NN Jahr) (CARD 1980)) (VMFIN muss) (NE Lula) (PP (APPRART ins) (NN Gefängnis))) ($. .),1,0,0
-Nach 31 Tagen wird Lula wieder freigelassen.,(S (PP (APPR Nach) (CARD 31) (NN Tagen)) (VAFIN wird) (NE Lula) (VP (ADV wieder) (VVPP freigelassen))) ($. .),1,0,0
-Danach tut sich Lula mit anderen Gewerkschaften zusammen.,(S (PROAV Danach) (VVFIN tut) (PRF sich) (NE Lula) (PP (APPR mit) (ADJA anderen) (NN Gewerkschaften)) (PTKVZ zusammen)) ($. .),1,0,0
-Am 10. Februar 1980 gründen sie eine neue Partei.,(S (PP (APPRART Am) (ADJA 10.) (NN Februar) (CARD 1980)) (VVFIN gründen) (PPER sie) (NP (ART eine) (ADJA neue) (NN Partei))) ($. .),1,1,1
-Die Partei heißt Partido dos Trabalhadores.,(S (NP (ART Die) (NN Partei)) (VVFIN heißt) (PN (FM Partido) (NE dos) (FM Trabalhadores))) ($. .),1,0,0
-Die Partei hat 400 Tausend Mitglieder.,(S (NP (ART Die) (NN Partei)) (VAFIN hat) (NP (NM (CARD 400) (NN Tausend)) (NN Mitglieder))) ($. .),1,1,0
-Im Jahr 1986 ist Wahl in Brasilien.,(S (PP (APPRART Im) (NN Jahr) (CARD 1986)) (VAFIN ist) (NN Wahl) (PP (APPR in) (NE Brasilien))) ($. .),1,0,0
-Sehr viele Menschen wählen Lula.,(S (NP (AP (ADV Sehr) (PIAT viele)) (NN Menschen)) (VVFIN wählen) (NE Lula)) ($. .),1,1,0
-Lula wird in den Natrional-kongress gewählt.,(S (NE Lula) (VAFIN wird) (VP (PP (APPR in) (ART den) (NN Natrional-kongress)) (VVPP gewählt))) ($. .),1,0,0
-Er vertritt Bundes-staat São Paulo.,(S (PPER Er) (VVFIN vertritt) (NP (NN Bundes-staat) (PN (NE São) (NE Paulo)))) ($. .),1,1,0
-"Die Partei PT hilft mit, damit es eine neue Verfassung in Brasilien gibt.","(S (NP (ART Die) (NN Partei) (NE PT)) (VVFIN hilft) (PTKVZ mit)) ($, ,) (S (KOUS damit) (PPER es) (NP (ART eine) (ADJA neue) (NN Verfassung)) (PP (APPR in) (NE Brasilien)) (VVFIN gibt)) ($. .)",1,2,0
-Zum Beispiel: In der neuen Verfassung stehen viele Rechte für die Arbeiter.,(PP (APPRART Zum) (NN Beispiel)) ($. :) (S (PP (APPR In) (ART der) (ADJA neuen) (NN Verfassung)) (VVFIN stehen) (NP (PIAT viele) (NN Rechte) (PP (APPR für) (ART die) (NN Arbeiter)))) ($. .),1,1,1
-Im Jahr 1989 sind Wahlen in Brasilien.,(S (PP (APPRART Im) (NN Jahr) (CARD 1989)) (VAFIN sind) (NN Wahlen) (PP (APPR in) (NE Brasilien))) ($. .),1,0,0
-Der Präsident soll gewählt werden.,(S (NP (ART Der) (NN Präsident)) (VMFIN soll) (VP (VVPP gewählt) (VAINF werden))) ($. .),1,0,0
-Lula will Präsident werden.,(S (NE Lula) (VMFIN will) (VP (NN Präsident) (VAINF werden))) ($. .),1,0,0
-Viele Leute in Brasilien finden Lula gut.,(S (NP (PIAT Viele) (NN Leute) (PP (APPR in) (NE Brasilien))) (VVFIN finden) (NE Lula) (ADJD gut)) ($. .),1,1,0
-Manche Leute sagen aber: \newline Lula ist ein Sozialist.,(S (NP (PIAT Manche) (NN Leute)) (VVFIN sagen) (ADV aber)) ($. :) (S (PN (NE \newline) (NE Lula)) (VAFIN ist) (NP (ART ein) (NN Sozialist))) ($. .),1,0,0
-Deswegen ist Lula schlecht für die Industrie \newline Und die Banken.,(S (PROAV Deswegen) (VAFIN ist) (NE Lula) (ADJD schlecht) (PP (PP (APPR für) (ART die) (NN Industrie)) (FM \newline))),1,0,1
-Lula wird nicht gewählt.,(S (NE Lula) (VAFIN wird) (VP (PTKNEG nicht) (VVPP gewählt))) ($. .),1,0,0
-Im Jahr 2002 macht Lula wieder mit bei der Prösidenten-wahl.,(S (PP (APPRART Im) (NN Jahr) (CARD 2002)) (VVFIN macht) (NE Lula) (ADV wieder) (PTKVZ mit) (PP (APPR bei) (ART der) (NN Prösidenten-wahl))) ($. .),1,0,0
-Er zieht jetzt andere Kleider an.,(S (PPER Er) (VVFIN zieht) (ADV jetzt) (NP (ADJA andere) (NN Kleider)) (PTKVZ an)) ($. .),1,0,0
-Lula zieht einen Anzug und eine Krawatte an.,(S (NE Lula) (VVFIN zieht) (CNP (NP (ART einen) (NN Anzug)) (KON und) (NP (ART eine) (NN Krawatte))) (PTKVZ an)) ($. .),1,0,0
-Er sagt: \newline  \newline Hunger und Armut müssen weg.,(S (PPER Er) (VVFIN sagt)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
-Und die Menschen brauchen eine bessere Ausbildung.,(S (KON Und) (NP (ART die) (NN Menschen)) (VVFIN brauchen) (NP (ART eine) (ADJA bessere) (NN Ausbildung))) ($. .),1,1,0
-Am 27. Oktober 2002 wird Lula Präsident von Brasilien.,(S (PP (APPRART Am) (ADJA 27.) (NN Oktober) (CARD 2002)) (VAFIN wird) (NE Lula) (NP (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,1
-Und am 29. Oktober 2006 wird Lula wieder zum Präsidenten gewählt.,(S (KON Und) (PP (APPRART am) (ADJA 29.) (NN Oktober) (CARD 2006)) (VAFIN wird) (NE Lula) (VP (ADV wieder) (PP (APPRART zum) (NN Präsidenten)) (VVPP gewählt))) ($. .),1,0,1
-In Brasilien gibt es eine Verfassung.,(S (PP (APPR In) (NE Brasilien)) (VVFIN gibt) (PPER es) (NP (ART eine) (NN Verfassung))) ($. .),1,0,0
-In der Verfassung steht: \newline Man darf nur 2 mal hintereinander Präsident sein.,(S (PP (APPR In) (ART der) (NN Verfassung)) (VVFIN steht)) ($. :) (XY \newline),1,0,0
-Deswegen hat Lula bei der Wahl im Jahr 2010 nicht mit gemacht.,(S (PROAV Deswegen) (VAFIN hat) (NE Lula) (VP (PP (APPR bei) (ART der) (NN Wahl) (PP (APPRART im) (NN Jahr) (CARD 2010))) (PTKNEG nicht) (ADV mit) (VVPP gemacht))) ($. .),1,0,1
-Die Wahl gewinnt Dilma Rousseff.,(S (NP (ART Die) (NN Wahl)) (VVFIN gewinnt) (PN (NE Dilma) (NE Rousseff))) ($. .),1,0,0
-Seit dem 30. Oktober 2022 ist Lula wieder der Präsident von Brasilien.,(S (PP (APPR Seit) (ART dem) (ADJA 30.) (NN Oktober) (CARD 2022)) (VAFIN ist) (NE Lula) (ADV wieder) (NP (ART der) (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,1
-Luiz Inácio Lula da Silva ist der Präsident von Brasilien.,(S (PN (NE Luiz) (NE Inácio) (NE Lula) (NE da) (NE Silva)) (VAFIN ist) (NP (ART der) (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,0
-Er ist seit dem 30. Oktober 2022 der Präsident.,(S (PPER Er) (VAFIN ist) (PP (APPR seit) (ART dem) (ADJA 30.) (NN Oktober) (CARD 2022)) (NP (ART der) (NN Präsident))) ($. .),1,0,1
-Er war schon einmal Präsident von Brasilien.,(S (PPER Er) (VAFIN war) (AVP (ADV schon) (ADV einmal)) (NP (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,0
-Das war vom 1. Januar 2003 bis zum 1. Januar 2011.,(PDS Das) (VAFIN war) (PP (APPRART vom) (ADJA 1.) (NN Januar) (CARD 2003)) (APPR bis) (APPRART zum) (ADJA 1.) (NN Januar) ($. 2011.),0,0,1
-Mit einer Lupe \newline sieht man Sachen größer.,(PP (APPR Mit) (ART einer) (NN Lupe)),0,0,0
-Zum Beispiel kann man einen kleinen Text besser lesen.,(S (PP (APPRART Zum) (NN Beispiel)) (VMFIN kann) (PIS man) (VP (NP (ART einen) (ADJA kleinen) (NN Text)) (ADJD besser) (VVINF lesen))) ($. .),1,1,0
-Es gibt auch Redewendungen mit dem Wort Lupe.,(S (PPER Es) (VVFIN gibt) (NP (ADV auch) (NN Redewendungen) (PP (APPR mit) (ART dem) (NN Wort) (NN Lupe)))) ($. .),1,1,1
-"Eine Lupe ist ein Glas, \newline das zum Ver-größern benutzt wird.","(S (NP (ART Eine) (NN Lupe)) (VAFIN ist) (ART ein) (NN Glas)) ($, ,) (NP (FM \newline) (PRELS das)) (VP (PP (APPRART zum) (NN Ver-größern)) (VVPP benutzt)) (VAFIN wird) ($. .)",1,0,0
-Zum Beispiel: \newline um einen Text größer zu sehen,(PP (APPRART Zum) (NN Beispiel)) ($. :) (VP (NE \newline) (VP (KOUI um) (NP (ART einen) (NN Text)) (ADJD größer) (VZ (PTKZU zu) (VVINF sehen)))),0,0,0
-Das Wort Lurker sagt man im Internet oft als Schimpfwort.,(S (NP (ART Das) (NN Wort) (NN Lurker)) (VVFIN sagt) (PIS man) (PP (APPRART im) (NN Internet)) (ADV oft) (PP (APPR als) (NN Schimpfwort))) ($. .),1,1,0
-"Ein Lurker nimmt, \newline aber gibt nichts.","(CS (S (NP (ART Ein) (NN Lurker)) (VVFIN nimmt))) ($, ,) (S (NP (NE \newline) (ADV aber)) (VVFIN gibt) (PIS nichts)) ($. .)",1,0,0
-In einer Internet  Tauschbörse macht ein Lurker einen Download.,(S (PP (APPR In) (ART einer) (NN Internet) (NN  ) (NN Tauschbörse)) (VVFIN macht) (NP (ART ein) (NN Lurker)) (NP (ART einen) (NN Download))) ($. .),1,0,1
-Ein Luker macht in der Tauschbörse keinen Upload.,(S (NP (ART Ein) (NN Luker)) (VVFIN macht) (PP (APPR in) (ART der) (NN Tauschbörse)) (NP (PIAT keinen) (NN Upload))) ($. .),1,0,0
-Ein Lurker liest in einem Wiki.,(S (NP (ART Ein) (NN Lurker)) (VVFIN liest) (PP (APPR in) (ART einem) (NN Wiki))) ($. .),1,0,0
-Ein Lurker schreibt selbst keine Artikel in einem Wiki.,(S (NP (ART Ein) (NN Lurker)) (VVFIN schreibt) (ADV selbst) (NP (PIAT keine) (NN Artikel)) (PP (APPR in) (ART einem) (NN Wiki))) ($. .),1,0,0
-Lurker ist ein englisches Wort.,(S (NN Lurker) (VAFIN ist) (NP (ART ein) (ADJA englisches) (NN Wort))) ($. .),1,1,0
-Das Wort wird meistens im Internet benutzt.,(S (NP (ART Das) (NN Wort)) (VAFIN wird) (VP (ADV meistens) (PP (APPRART im) (NN Internet)) (VVPP benutzt))) ($. .),1,0,0
-"Zum Beispiel sind damit Internetbenutzer gemeint, \newline die in einem Forum nur lesen und beobachten.","(S (PP (APPRART Zum) (NN Beispiel)) (VAFIN sind) (PROAV damit) (NN Internetbenutzer) (VP (VVPP gemeint))) ($, ,) (NP (CS (S (FM \newline) (S (PRELS die) (PP (APPR in) (ART einem) (NN Forum)) (ADV nur) (VVFIN lesen))) (KON und) (S (VVFIN beobachten)))) ($. .)",1,1,0
-Ein Lurker diskutiert nicht mit.,(S (NP (ART Ein) (NN Lurker)) (VVFIN diskutiert) (PTKNEG nicht) (PTKVZ mit)) ($. .),1,0,0
-Ein Lurker bleibt lieber versteckt.,(S (NP (ART Ein) (NN Lurker)) (VVFIN bleibt) (ADV lieber) (VVPP versteckt)) ($. .),1,0,0
-In eine Maß passt 1 Liter Bier.,(S (PP (APPR In) (ART eine) (NN Maß)) (VVFIN passt) (NP (CARD 1) (NN Liter) (NN Bier))) ($. .),1,1,0
-Besonders bekannt ist die Maß beim Oktoberfest.,(S (AP (ADV Besonders) (ADJD bekannt)) (VAFIN ist) (NP (ART die) (NN Maß) (PP (APPRART beim) (NN Oktoberfest)))) ($. .),1,1,0
-Eine Maß ist ein sehr großes Glas.,(S (NP (ART Eine) (NN Maß)) (VAFIN ist) (NP (ART ein) (AP (ADV sehr) (ADJA großes)) (NN Glas))) ($. .),1,1,0
-Mac OS X gehört der Firma Apple.,(S (PN (NE Mac) (NE OS) (NE X)) (VVFIN gehört) (NP (ART der) (NN Firma) (NE Apple))) ($. .),1,1,0
-Mac OS X ist ein Betriebssystem für den Computer.,(S (PN (NE Mac) (NE OS) (NE X)) (VAFIN ist) (NP (ART ein) (NN Betriebssystem) (PP (APPR für) (ART den) (NN Computer)))) ($. .),1,1,0
-Es funktioniert nur auf Computern der Firma Apple.,(S (PPER Es) (VVFIN funktioniert) (PP (ADV nur) (APPR auf) (NN Computern) (NP (ART der) (NN Firma) (NE Apple)))) ($. .),1,1,1
-Machthaber können auch mehrere Personen sein.,(S (NN Machthaber) (VMFIN können) (NP (ADV auch) (PIAT mehrere) (NN Personen)) (VP (VAINF sein))) ($. .),1,1,0
-Beispiele für Deutschland: \newline Der Bundeskanzler ist ein Machthaber.,(S (NP (NN Beispiele) (PP (APPR für) (NE Deutschland)))) ($. :) (XY \newline),0,1,0
-Die Bundesregierung ist ein Machthaber.,(S (NP (ART Die) (NN Bundesregierung)) (VAFIN ist) (NP (ART ein) (NN Machthaber))) ($. .),1,0,0
-Das Wort Machthaber ist nicht immer gut gemeint.,(S (NP (ART Das) (NN Wort) (NN Machthaber)) (VAFIN ist) (VP (AVP (PTKNEG nicht) (ADV immer)) (ADJD gut) (VVPP gemeint))) ($. .),1,1,0
-"Die meisten, die das Wort benutzen,  \newline meinen damit einen ""schlechten oder bösen Chef"".","(ART Die) (PIS meisten) ($, ,) (NP (S (PRELS die) (NP (ART das) (NN Wort)) (VVFIN benutzen))) ($, ,) (NN  ) (FM \newline) (VVFIN meinen) (PROAV damit) (ART einen) ($LRB "") (NP (CAP (ADJA schlechten) (KON oder) (ADJA bösen)) (NN Chef)) ($LRB "") ($. .)",1,2,0
-"Ein Machthaber ist jemand, der die Macht hat, ein Chef.","(S (NP (ART Ein) (NN Machthaber)) (VAFIN ist) (PIS jemand)) ($, ,) (S (PRELS der) (NP (ART die) (NN Macht)) (VAFIN hat)) ($, ,) (NP (NP (ART ein) (NN Chef))) ($. .)",1,0,0
-Macht ist eine Fähigkeit von Menschen.,(S (NN Macht) (VAFIN ist) (NP (ART eine) (NN Fähigkeit) (PP (APPR von) (NN Menschen)))) ($. .),1,1,0
-Ein Mensch mit Macht beeinflusst andere Menschen.,(S (NP (ART Ein) (NN Mensch) (PP (APPR mit) (NN Macht))) (VVFIN beeinflusst) (NP (ADJA andere) (NN Menschen))) ($. .),1,1,0
-Macht ist manchmal gut und manchmal schlecht.,(S (NN Macht) (VAFIN ist) (CAP (AP (ADV manchmal) (ADJD gut)) (KON und) (AP (ADV manchmal) (ADJD schlecht)))) ($. .),1,0,0
-Das Wort benutzt man bei Politik.,(S (NP (ART Das) (NN Wort)) (VVFIN benutzt) (PIS man) (PP (APPR bei) (NN Politik))) ($. .),1,0,0
-Menschen haben unterschiedlich viel Macht.,(S (NN Menschen) (VAFIN haben) (NP (AP (ADJD unterschiedlich) (PIAT viel)) (NN Macht))) ($. .),1,1,0
-Jeder Mensch hat eine Macke.,(S (NP (PIAT Jeder) (NN Mensch)) (VAFIN hat) (NP (ART eine) (NN Macke))) ($. .),1,0,0
-"Eine Macke kann ein Tick sein, eine Eigenart oder eine Behinderung.","(S (NP (ART Eine) (NN Macke)) (VMFIN kann) (VP (CNP (NP (ART ein) (NN Tick))) (VAINF sein))) ($, ,) (NP (ART eine) (NN Eigenart)) (KON oder) (NP (ART eine) (NN Behinderung)) ($. .)",1,0,0
-Viele Menschen haben die-selben Macken.,(S (NP (PIAT Viele) (NN Menschen)) (VAFIN haben) (NP (PDAT die-selben) (NN Macken))) ($. .),1,0,0
-Sie unterscheiden sich nicht besonders.,(S (PPER Sie) (VVFIN unterscheiden) (PRF sich) (PTKNEG nicht) (ADV besonders)) ($. .),1,0,0
-Manche Menschen haben besondere Macken.,(S (NP (PIAT Manche) (NN Menschen)) (VAFIN haben) (NP (ADJA besondere) (NN Macken))) ($. .),1,0,0
-Eine Macke macht jemand einzigartig.,(S (NP (ART Eine) (NN Macke)) (VVFIN macht) (PIS jemand) (ADJD einzigartig)) ($. .),1,0,0
-"Man kann jemand besonders mögen, weil er eine Macke hat.","(S (PIS Man) (VMFIN kann) (VP (PIS jemand) (ADV besonders) (VVINF mögen))) ($, ,) (S (KOUS weil) (PPER er) (NP (ART eine) (NN Macke)) (VAFIN hat)) ($. .)",1,0,0
-"Je mehr Menschen stolz sind auf ihre Macken,  \newline um so normaler wird es,  \newline eine Macke zu haben.","(S (AP (NP (AP (ADV Je) (PIAT mehr)) (NN Menschen)) (AP (ADJD stolz))) (VAFIN sind) (PP (APPR auf) (PPOSAT ihre) (NN Macken))) ($, ,) ($.  ) (ADV \newline) (AP (AVP (AVP (KOUI um) (ADV so))) (ADJD normaler)) (VAFIN wird) (NP (PPER es)) ($, ,) (VP ($.  ) (ADV \newline) (NP (ART eine) (NN Macke)) (VZ (PTKZU zu) (VAINF haben))) ($. .)",1,1,0
-Eine Macke ist ein Kratzer oder eine Delle.,(S (NP (ART Eine) (NN Macke)) (VAFIN ist) (CNP (NP (ART ein) (NN Kratzer)) (KON oder) (NP (ART eine) (NN Delle)))) ($. .),1,0,0
-Bei Menschen ist eine Macke eine Besonderheit.,(S (PP (APPR Bei) (NN Menschen)) (VAFIN ist) (NP (ART eine) (NN Macke)) (NP (ART eine) (NN Besonderheit))) ($. .),1,0,0
-Der Mac ist eine Art von Computer.,(S (NP (ART Der) (NN Mac)) (VAFIN ist) (NP (ART eine) (NN Art) (PP (APPR von) (NN Computer)))) ($. .),1,1,0
-"Das wird so gesprochen: ""Mäck"".","(S (PDS Das) (VAFIN wird) (VP (AVP (ADV so)) (VVPP gesprochen))) ($. :) ($LRB "") (NN Mäck) ($LRB "") ($. .)",1,0,0
-Die Firma Apple verkauft die Computer.,(S (NP (ART Die) (NN Firma) (NE Apple)) (VVFIN verkauft) (NP (ART die) (NN Computer))) ($. .),1,1,0
-Eine Frau hat bei ihrer Geburt den gleichen Nach-namen wie ihre Eltern.,(S (NP (ART Eine) (NN Frau)) (VAFIN hat) (PP (APPR bei) (PPOSAT ihrer) (NN Geburt)) (NP (ART den) (AP (ADJA gleichen)) (NN Nach-namen) (NP (KOKOM wie) (PPOSAT ihre) (NN Eltern)))) ($. .),1,2,0
-Später heiratet sie vielleicht einen Mann.,(S (ADJD Später) (VVFIN heiratet) (PPER sie) (ADV vielleicht) (NP (ART einen) (NN Mann))) ($. .),1,0,0
-Dann bekommt sie meistens den Nach-namen von ihrem Mann.,(S (ADV Dann) (VVFIN bekommt) (PPER sie) (ADV meistens) (NP (ART den) (NN Nach-namen)) (PP (APPR von) (PPOSAT ihrem) (NN Mann))) ($. .),1,0,0
-Ihr alter Nach-name ist dann ihr Mädchen-name.,(S (NP (PPOSAT Ihr) (ADJA alter) (NN Nach-name)) (VAFIN ist) (ADV dann) (NP (PPOSAT ihr) (NN Mädchen-name))) ($. .),1,1,0
-"Der Mädchen-name ist der Nach-name, den sie als Mädchen hatte.","(S (NP (ART Der) (NN Mädchen-name)) (VAFIN ist) (ART der) (NN Nach-name)) ($, ,) (NP (S (PRELS den) (PPER sie) (PP (APPR als) (NN Mädchen)) (VAFIN hatte))) ($. .)",1,1,0
-Der Mädchen-name kann auch eine andere Bedeutung haben.,(S (NP (ART Der) (NN Mädchen-name)) (VMFIN kann) (VP (NP (ADV auch) (ART eine) (ADJA andere) (NN Bedeutung)) (VAINF haben))) ($. .),1,1,0
-Manche meinen mit Mädchen-name einen weiblichen Vornamen.,(S (PIS Manche) (VVFIN meinen) (PP (APPR mit) (NN Mädchen-name)) (NP (ART einen) (ADJA weiblichen) (NN Vornamen))) ($. .),1,1,0
-Der Mädchen-name ist der Nach-name von einer Frau.,(S (NP (ART Der) (NN Mädchen-name)) (VAFIN ist) (NP (ART der) (NN Nach-name) (PP (APPR von) (ART einer) (NN Frau)))) ($. .),1,1,0
-Bevor sie einen Mann heiratet.,(S (KOUS Bevor) (PPER sie) (NP (ART einen) (NN Mann)) (VVFIN heiratet)) ($. .),1,0,0
-"Madonna wurde am 16. August 1958 in Bay City, USA geboren.","(S (NE Madonna) (VAFIN wurde) (PP (APPRART am) (ADJA 16.) (NN August) (CARD 1958)) (APPR in) (PN (NE Bay) (NE City))) ($, ,) (VP (PP (NE USA)) (VVPP geboren)) ($. .)",1,0,1
-Vom Jahr 1985 bis zum Jahr 1989 war sie mit Sean Penn verheiratet.,(S (PP (APPRART Vom) (NN Jahr) (CARD 1985)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 1989)) (VAFIN war) (PPER sie) (VP (PP (APPR mit) (PN (NE Sean) (NE Penn))) (VVPP verheiratet))) ($. .),1,0,1
-Vom 2000 bis zum Jahr 2008 war sie mit Guy Ritchie verheiratet.,(S (PP (APPRART Vom) (CARD 2000)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 2008)) (VAFIN war) (PPER sie) (VP (PP (APPR mit) (PN (NE Guy) (NE Ritchie))) (VVPP verheiratet))) ($. .),1,0,1
-Zusammen mit Carlos Leon hat sie eine Tochter.,(S (PP (ADV Zusammen) (APPR mit) (PN (NE Carlos) (NE Leon))) (VAFIN hat) (PPER sie) (NP (ART eine) (NN Tochter))) ($. .),1,0,1
-Sie ist am 14. Oktober 1996 geboren worden.,(S (PPER Sie) (VAFIN ist) (VP (VP (PP (APPRART am) (ADJA 14.) (NN Oktober) (CARD 1996)) (VVPP geboren)) (VAPP worden))) ($. .),1,0,1
-Sie heißt: Lourdes Maria Ciccone Leon.,(S (PPER Sie) (VVFIN heißt)) ($. :) (PN (NE Lourdes) (NE Maria) (NE Ciccone) (NE Leon)) ($. .),1,0,0
-Zusammen mit Guy Ritchie hat sie einen Sohn.,(S (PP (ADV Zusammen) (APPR mit) (PN (NE Guy) (NE Ritchie))) (VAFIN hat) (PPER sie) (NP (ART einen) (NN Sohn))) ($. .),1,0,1
-Er ist am 11. August 2000 geboren worden.,(S (PPER Er) (VAFIN ist) (VP (VP (PP (APPRART am) (ADJA 11.) (NN August) (CARD 2000)) (VVPP geboren)) (VAPP worden))) ($. .),1,0,1
-Er heißt: Rocco John Ciccone Ritchie.,(S (PPER Er) (VVFIN heißt)) ($. :) (PN (NE Rocco) (NE John) (NE Ciccone) (NE Ritchie)) ($. .),1,0,0
-Außerdem hat Madonna 2 Kinder adoptiert.,(S (PROAV Außerdem) (VAFIN hat) (NE Madonna) (VP (NP (CARD 2) (NN Kinder)) (VVPP adoptiert))) ($. .),1,0,0
-Die Kinder sind aus Malawi.,(S (NP (ART Die) (NN Kinder)) (VAFIN sind) (PP (APPR aus) (NE Malawi))) ($. .),1,0,0
-Madonna hat 300 Millionen Ton-träger verkauft.,(S (NE Madonna) (VAFIN hat) (VP (NP (NM (CARD 300) (NN Millionen)) (NN Ton-träger)) (VVPP verkauft))) ($. .),1,1,0
-Das heißt: Madonna ist die erfolgreichste Sängerin der Welt.,(S (PDS Das) (VVFIN heißt)) ($. :) (S (NE Madonna) (VAFIN ist) (NP (ART die) (ADJA erfolgreichste) (NN Sängerin) (NP (ART der) (NN Welt)))) ($. .),1,1,0
-Seit dem Jahr 1983 gibt es Musik Alben von Madonna.,(S (PP (APPR Seit) (ART dem) (NN Jahr) (CARD 1983)) (VVFIN gibt) (PPER es) (NN Musik) (NP (NN Alben) (PP (APPR von) (NE Madonna)))) ($. .),1,1,1
-Alle Alben waren in den Charts.,(S (NP (PIAT Alle) (NN Alben)) (VAFIN waren) (PP (APPR in) (ART den) (NN Charts))) ($. .),1,0,0
-Madonna ist auch Schauspielerin.,(S (NE Madonna) (VAFIN ist) (NP (ADV auch) (NN Schauspielerin))) ($. .),1,0,0
-Sie hat in verschiedenen Filmen mitgespielt.,(S (PPER Sie) (VAFIN hat) (VP (PP (APPR in) (ADJA verschiedenen) (NN Filmen)) (VVPP mitgespielt))) ($. .),1,0,0
-Madonna ist auch Autorin.,(S (NE Madonna) (VAFIN ist) (NP (ADV auch) (NN Autorin))) ($. .),1,0,0
-Sie hat Kinder-bücher gemacht.,(S (PPER Sie) (VAFIN hat) (VP (NN Kinder-bücher) (VVPP gemacht))) ($. .),1,0,0
-Madonna ist der Name für die Mutter Gottes im Christentum.,(S (NE Madonna) (VAFIN ist) (NP (ART der) (NN Name) (PP (APPR für) (ART die) (NN Mutter) (NN Gottes) (PP (APPRART im) (NN Christentum))))) ($. .),1,1,1
-Das war über sehr lange Zeit der einzige Gebrauch dieses Namens.,(S (PDS Das) (VAFIN war) (PP (APPR über) (AP (ADV sehr) (ADJA lange)) (NN Zeit)) (NP (ART der) (ADJA einzige) (NN Gebrauch) (NP (PDAT dieses) (NN Namens)))) ($. .),1,1,1
-"Als eine Sängerin sich vor einigen Jahren so genannt hat, haben sich viele Christen sehr geärgert.","(S (KOUS Als) (NP (ART eine) (NN Sängerin)) (VP (PRF sich) (PP (APPR vor) (PIAT einigen) (NN Jahren)) (ADV so) (VVPP genannt)) (VAFIN hat)) ($, ,) (S (VAFIN haben) (PRF sich) (NP (PIAT viele) (NN Christen)) (VP (ADV sehr) (VVPP geärgert))) ($. .)",1,0,0
-Aber das hat die Sängerin nicht gestört.,(S (KON Aber) (PDS das) (VAFIN hat) (VP (NP (ART die) (NN Sängerin)) (PTKNEG nicht) (VVPP gestört))) ($. .),1,0,0
-Madonna ist eine Sängerin.,(S (NE Madonna) (VAFIN ist) (NP (ART eine) (NN Sängerin))) ($. .),1,0,0
-"Sie ist auch eine • Song-schreiberin,","(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Song-schreiberin)) ($, ,)",1,0,0
-"Sie ist auch eine • Schauspielerin,","(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Schauspielerin)) ($, ,)",1,0,0
-"Sie ist auch eine • Autorin,","(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Autorin)) ($, ,)",1,0,0
-"Sie ist auch eine • Regisseurin,","(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Regisseurin)) ($, ,)",1,0,0
-Sie ist auch eine • Produzentin,(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Produzentin)),1,0,0
-Sie ist auch eine • und Designerin.,(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (KON und) (NN Designerin) ($. .),1,0,0
-Madonna kann verschiedene Bedeutungen haben.,(S (NE Madonna) (VMFIN kann) (VP (NP (ADJA verschiedene) (NN Bedeutungen)) (VAINF haben))) ($. .),1,0,0
-" • Mit Madonna ist Maria, die Mutter von Jesus gemeint: Maria (Mutter Jesu)","(XY  ) (XY •) (S (PP (APPR Mit) (NE Madonna)) (VAFIN ist) (NE Maria)) ($, ,) (ART die) (NN Mutter) (PP (APPR von) (NE Jesus)) (VP (VVPP gemeint)) ($. :) (NE Maria) ($LRB -LRB-) (NP (NP (NP (NN Mutter) (NE Jesu)))) ($LRB -RRB-)",1,0,0
-"Magenknurren kann zum Beispiel enstehen,  \newline wenn man einen leeren Magen hat.","(S (NN Magenknurren) (VMFIN kann) (PP (APPRART zum) (NN Beispiel)) (VVINF enstehen)) ($, ,) ($.  ) (NE \newline)",1,0,0
-Also wenn wir Hunger haben.,(S (ADV Also) (KOUS wenn) (PPER wir) (NN Hunger) (VAFIN haben)) ($. .),1,0,0
-Die Geräusche entstehen durch die leere Bewegung des Darms.,(S (NP (ART Die) (NN Geräusche)) (VVFIN entstehen) (PP (APPR durch) (ART die) (ADJA leere) (NN Bewegung) (NP (ART des) (NN Darms)))) ($. .),1,0,1
-"Wenn Luft und Flüssigkeit bewegt werden, gibt es Geräusche.","(S (KOUS Wenn) (CNP (NN Luft) (KON und) (NN Flüssigkeit)) (VVPP bewegt) (VAFIN werden)) ($, ,) (S (VVFIN gibt) (PPER es) (NN Geräusche)) ($. .)",1,0,0
-Magenknurren ist ein Geräusch aus dem Bauch.,(S (NN Magenknurren) (VAFIN ist) (NP (ART ein) (NN Geräusch) (PP (APPR aus) (ART dem) (NN Bauch)))) ($. .),1,1,0
-Die Maghreb-staaten sind in Afrika.,(S (NP (ART Die) (NN Maghreb-staaten)) (VAFIN sind) (PP (APPR in) (NE Afrika))) ($. .),1,0,0
-Bei den Maghreb-staaten sind manche Sachen gleich.,(S (PP (APPR Bei) (ART den) (NN Maghreb-staaten)) (VAFIN sind) (NP (PIAT manche) (NN Sachen)) (ADJD gleich)) ($. .),1,0,0
-Zum Beispiel: • die Länder haben alle ein ähnliches Klima,(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (ART die) (NN Länder) (VAFIN haben) (NP (PIS alle)) (NP (ART ein) (ADJA ähnliches) (NN Klima))),1,1,0
-Zum Beispiel: • die Länder liegen am Mittel-meer (außer Mauretanien),(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (NP (ART die) (NN Länder)) (VVFIN liegen) (APPRART am) (NN Mittel-meer)) ($LRB -LRB-) (PP (PP (APPR außer) (NE Mauretanien))) ($LRB -RRB-),1,0,0
-Zum Beispiel: • in den Ländern sprechen die Menschen meistens Maghrebinisches Arabisch,(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (PP (APPR in) (ART den) (NN Ländern)) (VVFIN sprechen) (NP (ART die) (NN Menschen)) (ADV meistens) (NP (ADJA Maghrebinisches) (NN Arabisch))),1,0,0
-Zum Beispiel: • die Länder haben eine ähnliche Geschichte,(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (NP (ART die) (NN Länder)) (VAFIN haben) (NP (ART eine) (ADJA ähnliche) (NN Geschichte))),1,1,0
-Mit Maghreb sind 3 Länder zusammen gemeint.,(S (PP (APPR Mit) (NE Maghreb)) (VAFIN sind) (NP (CARD 3) (NN Länder)) (VP (ADV zusammen) (VVPP gemeint))) ($. .),1,0,0
-Magnus Carlsen wurde am 30. November 1990 in geboren.,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 30.) (NN November) (CARD 1990)) (APPR in) (VVPP geboren))) ($. .),1,0,1
-"Das war in Tønsberg, Norwegen.","(S (PDS Das) (VAFIN war) (APPR in) (NE Tønsberg)) ($, ,) (PP (NE Norwegen)) ($. .)",1,0,0
-Magnus Carlsens Vater hat ihm die Spiel-regeln für Schach beigebracht.,(S (NP (PN (NE Magnus) (NE Carlsens)) (NN Vater)) (VAFIN hat) (VP (PPER ihm) (NP (ART die) (NN Spiel-regeln) (PP (APPR für) (NE Schach))) (VVPP beigebracht))) ($. .),1,2,0
-Da war Magnus Carlsen 5 Jahre alt.,(S (ADV Da) (VAFIN war) (PN (NE Magnus) (NE Carlsen)) (AP (NP (CARD 5) (NN Jahre)) (ADJD alt))) ($. .),1,0,0
-"Seit er 9 Jahre alt ist, \newline macht er bei Schach-Turnieren mit.","(S (KOUS Seit) (PPER er) (AP (NP (CARD 9) (NN Jahre)) (ADJD alt)) (VAFIN ist)) ($, ,) (S (FM \newline) (VVFIN macht) (PPER er) (PP (APPR bei) (NN Schach-Turnieren)) (PTKVZ mit)) ($. .)",1,0,0
-Er hat den Titel: Schach-Großmeister.,(S (PPER Er) (VAFIN hat) (ART den) (NN Titel)) ($. :) (NP (NN Schach-Großmeister)) ($. .),1,0,0
-Seit dem 22. November 2013 ist er Schachweltmeister.,(S (PP (APPR Seit) (ART dem) (ADJA 22.) (NN November) (CARD 2013)) (VAFIN ist) (PPER er) (NN Schachweltmeister)) ($. .),1,0,1
-Magnus Carlsen ist einer der besten Schachspieler der Welt.,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN ist) (NP (PIS einer) (NP (ART der) (ADJA besten) (NN Schachspieler) (NP (ART der) (NN Welt))))) ($. .),1,2,0
-Für Schachspieler gibt es eine Weltrangliste.,(S (PP (APPR Für) (NN Schachspieler)) (VVFIN gibt) (PPER es) (NP (ART eine) (NN Weltrangliste))) ($. .),1,0,0
-Im Februar 2013 hatte er in dieser Liste 2872 Punkte.,(S (PP (APPRART Im) (NN Februar) (CARD 2013)) (VAFIN hatte) (PPER er) (PP (APPR in) (PDAT dieser) (NN Liste)) (NP (CARD 2872) (NN Punkte))) ($. .),1,0,0
-So viele Punkte hat noch niemand vor ihm gehabt.,(S (NP (AP (ADV So) (PIAT viele)) (NN Punkte)) (VAFIN hat) (NP (ADV noch) (PIS niemand)) (VP (PP (APPR vor) (PPER ihm)) (VAPP gehabt))) ($. .),1,1,0
-Bis dahin hatte Garri Kimowitsch Kasparow die meisten Punkte in der Liste.,(S (PP (APPR Bis) (PROAV dahin)) (VAFIN hatte) (PN (NE Garri) (NE Kimowitsch) (NE Kasparow)) (NP (ART die) (PIAT meisten) (NN Punkte) (PP (APPR in) (ART der) (NN Liste)))) ($. .),1,1,0
-Garri Kasparow hatte im Juli 1999 in dieser Liste 2851 Punkte.,(S (PN (NE Garri) (NE Kasparow)) (VAFIN hatte) (PP (APPRART im) (NN Juli) (CARD 1999)) (PP (APPR in) (PDAT dieser) (NN Liste)) (NP (CARD 2851) (NN Punkte))) ($. .),1,0,0
-Magnus Carlsen ist auch ein Model.,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN ist) (NP (ADV auch) (ART ein) (NN Model))) ($. .),1,1,0
-Das heißt er arbeitet auch für die Kleider-Firma G-Star.,(S (PDS Das) (VVFIN heißt) (S (PPER er) (VVFIN arbeitet) (PP (ADV auch) (APPR für) (ART die) (NN Kleider-Firma) (NE G-Star)))) ($. .),1,0,1
-Er zieht die Kleider von der Firma an.,(S (PPER Er) (VVFIN zieht) (NP (ART die) (NN Kleider)) (PP (APPR von) (ART der) (NN Firma)) (PTKVZ an)) ($. .),1,0,0
-"So können andere sehen, wie die Kleider aussehen.","(S (ADV So) (VMFIN können) (PIS andere) (VP (VVINF sehen))) ($, ,) (S (PWAV wie) (NP (ART die) (NN Kleider)) (VVFIN aussehen)) ($. .)",1,0,0
-Magnus Carlsen ist ein Schach-spieler.,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN ist) (NP (ART ein) (NN Schach-spieler))) ($. .),1,0,0
-Mahatma Gandhi wurde am 2. Oktober 1869 geboren.,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 2.) (NN Oktober) (CARD 1869)) (VVPP geboren))) ($. .),1,0,1
-"Das war in Porbandar, Indien.","(S (PDS Das) (VAFIN war) (APPR in) (NE Porbandar)) ($, ,) (PP (NE Indien)) ($. .)",1,0,0
-Er ist gestorben.,(S (PPER Er) (VAFIN ist) (VVPP gestorben)) ($. .),1,0,0
-Mahatma Gandhi war mit Kasturba Makthaji verheiratet.,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN war) (VP (PP (APPR mit) (PN (NE Kasturba) (NE Makthaji))) (VVPP verheiratet))) ($. .),1,0,0
-Zusammen hatten sie 4 Kinder.,(S (ADV Zusammen) (VAFIN hatten) (PPER sie) (NP (CARD 4) (NN Kinder))) ($. .),1,0,0
-Sein richtiger Name ist Mohandas Karamchand Gandhi.,(S (NP (PPOSAT Sein) (ADJA richtiger) (NN Name)) (VAFIN ist) (PN (NE Mohandas) (NE Karamchand) (NE Gandhi))) ($. .),1,1,0
-Die meisten Leute sagen aber Mahatma Gandhi.,(S (NP (ART Die) (PIAT meisten) (NN Leute)) (VVFIN sagen) (ADV aber) (PN (NE Mahatma) (NE Gandhi))) ($. .),1,1,0
-Sanskrit ist eine indische Sprache.,(S (NN Sanskrit) (VAFIN ist) (NP (ART eine) (ADJA indische) (NN Sprache))) ($. .),1,1,0
-"In Sanskrit heißt Mahatma ""Große Seele"".","(S (PP (APPR In) (NE Sanskrit)) (VVFIN heißt) (NE Mahatma)) ($LRB "") (NP (ADJA Große) (NN Seele)) ($LRB "") ($. .)",1,0,0
-Nach der Schule ging Mahatma Gandhi nach Großbritannien.,(S (PP (APPR Nach) (ART der) (NN Schule)) (VVFIN ging) (PN (NE Mahatma) (NE Gandhi)) (PP (APPR nach) (NE Großbritannien))) ($. .),1,0,0
-In Großbritannien hat er studiert.,(S (PP (APPR In) (NE Großbritannien)) (VAFIN hat) (PPER er) (VP (VVPP studiert))) ($. .),1,0,0
-Er hat das Fach Jura studiert.,(S (PPER Er) (VAFIN hat) (VP (NP (ART das) (NN Fach) (NN Jura)) (VVPP studiert))) ($. .),1,1,0
-Er wurde Rechts-anwalt.,(S (PPER Er) (VAFIN wurde) (NN Rechts-anwalt)) ($. .),1,0,0
-"Nach dem Studium, \newline ist er zurück nach Süd-afrika und nach Indien.","(PP (APPR Nach) (ART dem) (NN Studium)) ($, ,) (S (ADV \newline) (VAFIN ist) (PPER er) (ADV zurück) (CPP (PP (APPR nach) (NE Süd-afrika)) (KON und) (PP (APPR nach) (NE Indien)))) ($. .)",1,0,0
-Süd-afrika und Indien waren damals eine Kolonie von Großbritannien.,(S (CNP (NE Süd-afrika) (KON und) (NE Indien)) (VAFIN waren) (ADV damals) (NP (ART eine) (NN Kolonie) (PP (APPR von) (NE Großbritannien)))) ($. .),1,1,0
-Die Engländer haben die Gesetze in Indien gemacht.,(S (NP (ART Die) (NN Engländer)) (VAFIN haben) (VP (NP (ART die) (NN Gesetze)) (PP (APPR in) (NE Indien)) (VVPP gemacht))) ($. .),1,0,0
-Die Gesetze waren für viele Inder schlecht.,(S (NP (ART Die) (NN Gesetze)) (VAFIN waren) (AP (PP (APPR für) (PIAT viele) (NN Inder)) (ADJD schlecht))) ($. .),1,0,0
-Die Gesetze waren ungerecht.,(S (NP (ART Die) (NN Gesetze)) (VAFIN waren) (ADJD ungerecht)) ($. .),1,0,0
-Die Inder sind unterdrückt worden.,(S (NP (ART Die) (NN Inder)) (VAFIN sind) (VP (VVPP unterdrückt) (VAPP worden))) ($. .),1,0,0
-Und sie sind ausgebeutet worden.,(S (KON Und) (PPER sie) (VAFIN sind) (VP (VVPP ausgebeutet) (VAPP worden))) ($. .),1,0,0
-"Mahatma Gandhi wollte, \newline dass Indien unabhängig wird.","(S (PN (NE Mahatma) (NE Gandhi)) (VMFIN wollte)) ($, ,) (FM \newline) (S (KOUS dass) (NE Indien) (ADJD unabhängig) (VAFIN wird)) ($. .)",1,0,0
-Und dass die Inder selbst über ihr Land entscheiden können.,(S (KON Und) (KOUS dass) (NP (ART die) (NN Inder)) (VP (ADV selbst) (PP (APPR über) (PPOSAT ihr) (NN Land)) (VVINF entscheiden)) (VMFIN können)) ($. .),1,0,0
-Er hat gesagt.,(S (PPER Er) (VAFIN hat) (VP (VVPP gesagt))) ($. .),1,0,0
-Die Inder sollen ungehorsam sein.,(S (NP (ART Die) (NN Inder)) (VMFIN sollen) (VP (ADJD ungehorsam) (VAINF sein))) ($. .),1,0,0
-Sie sollen den Engländern nicht gehorchen.,(S (PPER Sie) (VMFIN sollen) (NP (ART den) (NN Engländern)) (PTKNEG nicht) (VP (VVINF gehorchen))) ($. .),1,0,0
-Und sie sollen sich nicht an die ungerechten Gesetze halten.,(S (KON Und) (PPER sie) (VMFIN sollen) (PRF sich) (PTKNEG nicht) (VP (PP (APPR an) (ART die) (ADJA ungerechten) (NN Gesetze)) (VVINF halten))) ($. .),1,0,1
-Die Engländer haben gesagt.,(S (NP (ART Die) (NN Engländer)) (VAFIN haben) (VP (VVPP gesagt))) ($. .),1,0,0
-Die Inder müssen für Salz eine Steuer zahlen.,(S (NP (ART Die) (NN Inder)) (VMFIN müssen) (VP (PP (APPR für) (NN Salz)) (NP (ART eine) (NN Steuer)) (VVINF zahlen))) ($. .),1,0,0
-Inder durften selbst kein Salz machen.,(S (NN Inder) (VMFIN durften) (ADV selbst) (VP (NP (PIAT kein) (NN Salz)) (VVINF machen))) ($. .),1,0,0
-Er ist zusammen mit anderen an das Meer marschiert.,(S (PPER Er) (VAFIN ist) (VP (PP (ADV zusammen) (APPR mit) (PIS anderen)) (PP (APPR an) (ART das) (NN Meer)) (VVPP marschiert))) ($. .),1,0,0
-Sie sind 24 Tage lang marschiert.,(S (PPER Sie) (VAFIN sind) (VP (AP (NP (CARD 24) (NN Tage)) (ADJD lang)) (VVPP marschiert))) ($. .),1,0,0
-Viele sagen dazu: Salz-marsch.,(S (PIS Viele) (VVFIN sagen) (PROAV dazu)) ($. :) (NN Salz-marsch) ($. .),1,0,0
-"Am Meer haben die Inder aus Salz-wasser, \newline Salz gemacht.","(S (PP (APPRART Am) (NN Meer)) (VAFIN haben) (NP (ART die) (NN Inder)) (PP (APPR aus) (NN Salz-wasser))) ($, ,) (VP (NP (FM \newline) (NN Salz)) (VVPP gemacht)) ($. .)",1,0,0
-Sie haben das Salz verkauft.,(S (PPER Sie) (VAFIN haben) (VP (NP (ART das) (NN Salz)) (VVPP verkauft))) ($. .),1,0,0
-Sie haben keine Steuern gezahlt.,(S (PPER Sie) (VAFIN haben) (VP (NP (PIAT keine) (NN Steuern)) (VVPP gezahlt))) ($. .),1,0,0
-Mahatma Gandhi hat noch andere Aktionen gemacht.,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN hat) (VP (NP (ADV noch) (ADJA andere) (NN Aktionen)) (VVPP gemacht))) ($. .),1,1,0
-Für die Aktionen haben die Engländer ihn immer wieder ins Gefängnis gebracht.,(S (PP (APPR Für) (ART die) (NN Aktionen)) (VAFIN haben) (NP (ART die) (NN Engländer)) (VP (PPER ihn) (AVP (ADV immer) (ADV wieder)) (PP (APPRART ins) (NN Gefängnis)) (VVPP gebracht))) ($. .),1,0,0
-Insgesamt war Mahatma Gandhi 8 Jahre im Gefängnis.,(S (ADV Insgesamt) (VAFIN war) (PN (NE Mahatma) (NE Gandhi)) (NP (CARD 8) (NN Jahre)) (PP (APPRART im) (NN Gefängnis))) ($. .),1,0,0
-Am 3. Juni 1947 wurde Indien unabhängig.,(S (PP (APPRART Am) (ADJA 3.) (NN Juni) (CARD 1947)) (VAFIN wurde) (NE Indien) (ADJD unabhängig)) ($. .),1,0,1
-Indien wurde in 2 Staaten geteilt.,(S (NE Indien) (VAFIN wurde) (VP (PP (APPR in) (CARD 2) (NN Staaten)) (VVPP geteilt))) ($. .),1,0,0
-Am 30. Januar 1948 hat ein Attentäter Mahatma Gandhi erschossen.,(S (PP (APPRART Am) (ADJA 30.) (NN Januar) (CARD 1948)) (VAFIN hat) (NP (ART ein) (NN Attentäter)) (VP (PN (NE Mahatma) (NE Gandhi)) (VVPP erschossen))) ($. .),1,0,1
-Das war in der Stadt New Delhi.,(S (PDS Das) (VAFIN war) (PP (APPR in) (ART der) (NN Stadt) (PN (NE New) (NE Delhi)))) ($. .),1,0,1
-Mahatma Gandhi wurde eingeäschert.,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN wurde) (VVPP eingeäschert)) ($. .),1,0,0
-Viele sagen er wurde verbrannt.,(S (PIS Viele) (VVFIN sagen) (S (PPER er) (VAFIN wurde) (VVPP verbrannt))) ($. .),1,0,0
-Die Asche wurde im Fluss Ganges verstreut.,(S (NP (ART Die) (NN Asche)) (VAFIN wurde) (VP (PP (APPRART im) (NN Fluss) (NN Ganges)) (VVPP verstreut))) ($. .),1,0,0
-Mahatma Gandhi war ein indischer Rechts-anwalt.,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN war) (NP (ART ein) (ADJA indischer) (NN Rechts-anwalt))) ($. .),1,1,0
-Er hat in Indien gelebt.,(S (PPER Er) (VAFIN hat) (VP (PP (APPR in) (NE Indien)) (VVPP gelebt))) ($. .),1,0,0
-Er hat vom Jahr 1869 bis zum Jahr 1948 gelebt.,(S (PPER Er) (VAFIN hat) (VP (PP (APPRART vom) (NN Jahr) (CARD 1869)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 1948)) (VVPP gelebt))) ($. .),1,0,1
-"Er war auch ein Widerstands-kämpfer, Publizist, Politiker, Asket und Pazifist.","(S (PPER Er) (VAFIN war) (NP (ADV auch) (ART ein) (CNP (NN Widerstands-kämpfer)))) ($, ,) (NN Publizist) ($, ,) (NN Politiker) ($, ,) (NN Asket) (KON und) (NN Pazifist) ($. .)",1,1,0
-Er hat für die Rechte und die Befreiung seines Volkes gekämpft.,(S (PPER Er) (VAFIN hat) (VP (PP (APPR für) (CNP (NP (ART die) (NN Rechte)) (KON und) (NP (ART die) (NN Befreiung))) (NP (PPOSAT seines) (NN Volkes))) (VVPP gekämpft))) ($. .),1,0,1
-Das hat er ohne Gewalt gemacht.,(S (PDS Das) (VAFIN hat) (PPER er) (VP (PP (APPR ohne) (NN Gewalt)) (VVPP gemacht))) ($. .),1,0,0
-Deshalb ist er für viele ein Vorbild.,(S (PROAV Deshalb) (VAFIN ist) (PPER er) (PP (APPR für) (PIS viele)) (NP (ART ein) (NN Vorbild))) ($. .),1,0,0
-Ein Vorbild für gewaltfreien Widerstand.,(NP (ART Ein) (NN Vorbild) (PP (APPR für) (ADJA gewaltfreien) (NN Widerstand))) ($. .),0,1,0
-Mail gehört zu dem Betriebssystem Mac OS X.,(NN Mail) (VVFIN gehört) (APPR zu) (ART dem) (NN Betriebssystem) (NE Mac) (NE OS) ($. X.),0,0,0
-Mail ist ein E-Mail-Programm.,(S (NN Mail) (VAFIN ist) (NP (ART ein) (NN E-Mail-Programm))) ($. .),1,0,0
-Es wurde von dem Unternehmen Apple hergestellt.,(S (PPER Es) (VAFIN wurde) (VP (PP (APPR von) (ART dem) (NN Unternehmen) (NE Apple)) (VVPP hergestellt))) ($. .),1,0,1
-Mail ist englisch.,(S (NN Mail) (VAFIN ist) (ADJD englisch)) ($. .),1,0,0
-"Auf deutsch heißt Mail ""Post"".","(S (PP (APPR Auf) (ADJD deutsch)) (VVFIN heißt) (NN Mail)) ($LRB "") (NN Post) ($LRB "") ($. .)",1,0,0
-Das Wort Mail kann verschiedene Bedeutungen haben.,(S (NP (ART Das) (NN Wort) (NN Mail)) (VMFIN kann) (VP (NP (ADJA verschiedene) (NN Bedeutungen)) (VAINF haben))) ($. .),1,1,0
-Es gibt die elektronische Post.,(S (PPER Es) (VVFIN gibt) (NP (ART die) (ADJA elektronische) (NN Post))) ($. .),1,1,0
-Informationen findet man unter E-Mail.,(S (NN Informationen) (VVFIN findet) (PIS man) (PP (APPR unter) (NN E-Mail))) ($. .),1,0,0
-Es gibt ein E-Mail-Programm.,(S (PPER Es) (VVFIN gibt) (NP (ART ein) (NN E-Mail-Programm))) ($. .),1,0,0
-Informationen findet man unter Mail (Apple).,(S (NN Informationen) (VVFIN findet) (PIS man) (APPR unter) (NN Mail)) ($LRB -LRB-) (PP (NE Apple)) ($LRB -RRB-) ($. .),1,0,0
-Main-stream ist der Geschmack von vielen Menschen.,(S (FM Main-stream) (VAFIN ist) (NP (ART der) (NN Geschmack) (PP (APPR von) (PIAT vielen) (NN Menschen)))) ($. .),1,1,0
-"Das heißt, \newline sehr viele Menschen finden etwas gut oder schlecht.","(S (PDS Das) (VVFIN heißt)) ($, ,) (S (ADV \newline) (NP (AP (ADV sehr) (PIAT viele)) (NN Menschen)) (VVFIN finden) (PIS etwas) (CAP (ADJD gut) (KON oder) (ADJD schlecht))) ($. .)",1,1,0
-Wenn es sehr viele Menschen sind ist es ein Main-stream.,(S (KOUS Wenn) (PPER es) (NP (AP (ADV sehr) (PIAT viele)) (NN Menschen)) (VAFIN sind) (VAFIN ist) (PPER es) (NP (ART ein) (NN Main-stream))) ($. .),1,1,0
-"Main-stream kann zum Beispiel Musik, eine Zeitung oder ein Fernseh-programm sein.","(S (NN Main-stream) (VMFIN kann) (NP (PP (APPRART zum) (NN Beispiel)) (CNP (NN Musik)))) ($, ,) (VP (NP (ART eine) (NN Zeitung)) (KON oder) (NP (ART ein) (NN Fernseh-programm)) (VP (VAINF sein))) ($. .)",1,1,0
-Das Gegenteil von einem Main-stream ist eine Sub-kultur.,(S (NP (ART Das) (NN Gegenteil) (PP (APPR von) (ART einem) (NN Main-stream))) (VAFIN ist) (NP (ART eine) (NN Sub-kultur))) ($. .),1,1,0
-Das Wort Main-stream ist ein Substantiv.,(S (NP (ART Das) (NN Wort) (FM Main-stream)) (VAFIN ist) (NP (ART ein) (NN Substantiv))) ($. .),1,1,0
-Es hat die 2 englischen Wörter: • Main (heißt auf Deutsch Haupt  damit sind viele Menschen gemeint),(S (PPER Es) (VAFIN hat) (ART die) (CARD 2) (ADJA englischen) (NN Wörter)) ($. :) ($LRB •) (FM Main) ($LRB -LRB-) (NP (S (VVFIN heißt) (PP (APPR auf) (NN Deutsch)) (NN Haupt) (PROAV  ) (PROAV damit) (VAFIN sind) (NP (PIAT viele) (NN Menschen)) (VP (VVPP gemeint)))) ($LRB -RRB-),1,1,0
-Es hat die 2 englischen Wörter: • Stream (heißt auf Deutsch Strom  damit ist ein bestimmter Geschmack gemeint),(S (PPER Es) (VAFIN hat) (NP (ART die) (CARD 2) (ADJA englischen) (NN Wörter))) ($. :),1,1,0
-"Wenn viele Menschen das gleiche gut finden, \newline gehören sie zum Mainstream.","(S (KOUS Wenn) (NP (PIAT viele) (NN Menschen)) (NP (ART das) (ADJA gleiche)) (ADJD gut) (VVFIN finden)) ($, ,) (S (FM \newline) (VVFIN gehören) (PPER sie) (PP (APPRART zum) (NN Mainstream))) ($. .)",1,0,0
-Main-stream ist alles was sehr viele gut finden.,(S (FM Main-stream) (VAFIN ist) (PIS alles)),1,0,0
-Aus den Mais-körnern kann man verschiedene Sachen machen.,(S (PP (APPR Aus) (ART den) (NN Mais-körnern)) (VMFIN kann) (PIS man) (VP (NP (ADJA verschiedene) (NN Sachen)) (VVINF machen))) ($. .),1,0,0
-Mais kann auch Tier-futter sein.,(S (KON Mais) (VMFIN kann) (VP (NP (ADV auch) (NN Tier-futter)) (VAINF sein))) ($. .),1,0,0
-Aus Mais kann man auch Bio-ethanol machen.,(S (PP (APPR Aus) (NN Mais)) (VMFIN kann) (PIS man) (ADV auch) (VP (NN Bio-ethanol) (VVINF machen))) ($. .),1,0,0
-Mais ist eine Getreide-pflanze.,(S (NN Mais) (VAFIN ist) (NP (ART eine) (NN Getreide-pflanze))) ($. .),1,0,0
-Mais kommt aus Mittel-amerika.,(S (NN Mais) (VVFIN kommt) (PP (APPR aus) (NE Mittel-amerika))) ($. .),1,0,0
-Mais ist eine hoch-wachsende Pflanze.,(S (NN Mais) (VAFIN ist) (NP (ART eine) (ADJA hoch-wachsende) (NN Pflanze))) ($. .),1,1,0
-Mais hat lange und breite Blätter.,(S (NE Mais) (VAFIN hat) (NP (CAP (ADJA lange) (KON und) (ADJA breite)) (NN Blätter))) ($. .),1,1,0
-Die Mais-pflanze ist grün.,(S (NP (ART Die) (NN Mais-pflanze)) (VAFIN ist) (ADJD grün)) ($. .),1,0,0
-An der Pflanze wachsen Kolben.,(S (PP (APPR An) (ART der) (NN Pflanze)) (VVFIN wachsen) (NN Kolben)) ($. .),1,0,0
-Im Mais-kolben sind gelbe Körner.,(S (PP (APPRART Im) (NN Mais-kolben)) (VAFIN sind) (NP (ADJA gelbe) (NN Körner))) ($. .),1,0,0
+sent-id,phrase,num_statements,statement_spans,tree,is_sent,big_np_count,big_pp_count
+29217,Louis Braille wurde am 4. Januar 1809 geboren.,1,,(S (PN (NE Louis) (NE Braille)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 4.) (NN Januar) (CARD 1809)) (VVPP geboren))) ($. .),1,0,1
+29218,"Das war in Coupvray, Frankreich.",2,"[[3], [4]]","(S (PDS Das) (VAFIN war) (APPR in) (NE Coupvray)) ($, ,) (PP (NE Frankreich)) ($. .)",1,0,0
+29219,Er ist am 6. Januar 1852 gestorben.,1,,(S (PPER Er) (VAFIN ist) (VP (PP (APPRART am) (ADJA 6.) (NN Januar) (CARD 1852)) (VVPP gestorben))) ($. .),1,0,1
+29220,"Das war in Paris, Frankreich.",2,"[[3], [4]]","(S (PDS Das) (VAFIN war) (APPR in) (NE Paris)) ($, ,) (PP (NE Frankreich)) ($. .)",1,0,0
+29221,"Als Louis Braille 3 Jahre alt war, \newline hat er in der Werk-statt von seinem Vater gespielt.",4,"[[0, 1, 2, 3, 4, 5, 6], [8, 9, 16], [10, 12], [12, 13, 14, 15]]","(S (KOUS Als) (PN (NE Louis) (NE Braille)) (AP (NP (CARD 3) (NN Jahre)) (ADJD alt)) (VAFIN war)) ($, ,) (S (ADV \newline) (VAFIN hat) (PPER er) (VP (PP (APPR in) (ART der) (PP (APPR Werk-statt) (APPR von) (PPOSAT seinem) (NN Vater))) (VVPP gespielt))) ($. .)",1,0,2
+29222,Er hat mit einer Ahle gespielt.,2,"[[2, 4], [0, 1, 5]]",(S (PPER Er) (VAFIN hat) (VP (PP (APPR mit) (ART einer) (NN Ahle)) (VVPP gespielt))) ($. .),1,0,0
+29223,Mit der Ahle hat er sich ein Auge schwer verletzt.,4,"[[0, 2], [3, 4, 5, 9], [7], [8]]",(S (PP (APPR Mit) (ART der) (NN Ahle)) (VAFIN hat) (PPER er) (VP (PRF sich) (NP (ART ein) (NN Auge)) (ADJD schwer) (VVPP verletzt))) ($. .),1,0,0
+29224,Das verletzte Auge hat sich entzündet.,2,"[[1], [2, 3, 4, 5]]",(S (NP (ART Das) (ADJA verletzte) (NN Auge)) (VAFIN hat) (VP (PRF sich) (VVPP entzündet))) ($. .),1,1,0
+29225,Und dann das andere Auge angesteckt.,1,,(S (KON Und) (ADV dann) (NP (ART das) (ADJA andere) (NN Auge)) (VP (VVPP angesteckt))) ($. .),1,1,0
+29226,Danach war Louis Braille blind.,1,,(S (PROAV Danach) (VAFIN war) (PN (NE Louis) (NE Braille)) (ADJD blind)) ($. .),1,0,0
+29227,Louis Braille ging zur ersten Blinden-schule der Welt.,1,,(S (PN (NE Louis) (NE Braille)) (VVFIN ging) (PP (APPRART zur) (ADJA ersten) (NN Blinden-schule) (NP (ART der) (NN Welt)))) ($. .),1,0,1
+29228,Das war die Schule von Valentin Haüy.,1,,(S (PDS Das) (VAFIN war) (NP (ART die) (NN Schule) (PP (APPR von) (PN (NE Valentin) (NE Haüy))))) ($. .),1,1,0
+29229,Valentin Haüy hat verschiedene Geräte gebaut.,1,,(S (PN (NE Valentin) (NE Haüy)) (VAFIN hat) (VP (NP (ADJA verschiedene) (NN Geräte)) (VVPP gebaut))) ($. .),1,0,0
+29230,"Zum Beispiel ein Gerät, \newline dass Musik-noten auf Papier prägen konnte.",1,,"(PP (APPRART Zum) (NN Beispiel)) (ART ein) (NN Gerät) ($, ,) (NP (S (NE \newline) (PRELS dass) (VP (NN Musik-noten) (PP (APPR auf) (NN Papier)) (VVINF prägen)) (VMFIN konnte))) ($. .)",1,1,0
+29231,So konnte man die Noten mit den Fingern fühlen.,1,,(S (ADV So) (VMFIN konnte) (PIS man) (VP (NP (ART die) (NN Noten)) (PP (APPR mit) (ART den) (NN Fingern)) (VVINF fühlen))) ($. .),1,0,0
+29232,Louis Braille fand die Idee gut.,1,,(S (PN (NE Louis) (NE Braille)) (VVFIN fand) (NP (ART die) (NN Idee)) (ADJD gut)) ($. .),1,0,0
+29233,Er hat in der Werkstatt von seinem Vater verschiedene Sachen ausprobiert.,3,"[[0, 1, 8, 9, 10], [2, 4], [5, 6, 7]]",(S (PPER Er) (VAFIN hat) (VP (PP (APPR in) (ART der) (NN Werkstatt)) (PP (APPR von) (PPOSAT seinem) (NN Vater)) (NP (ADJA verschiedene) (NN Sachen)) (VVPP ausprobiert))) ($. .),1,0,0
+29234,"Zum Beispiel Dreiecke, Quadrate und Kreise in Leder stanzen.",3,"[[2], [3], [5]]","(NP (PP (APPRART Zum) (NN Beispiel)) (CNP (NN Dreiecke))) ($, ,) (S (NN Quadrate) (KON und) (NN Kreise) (PP (APPR in) (NN Leder)) (VVFIN stanzen)) ($. .)",1,1,0
+29235,"Als Louis Braille 11 Jahr alt ist, \newline entdeckt er die Nacht-schrift.",2,"[[0, 1, 2, 3, 4, 5, 6], [8, 9, 11]]","(S (KOUS Als) (PN (NE Louis) (NE Braille)) (AP (NP (CARD 11) (NN Jahr)) (ADJD alt)) (VAFIN ist)) ($, ,) (S (NE \newline) (VVFIN entdeckt) (PPER er) (NP (ART die) (NN Nacht-schrift))) ($. .)",1,0,0
+29236,Die Nacht-schrift hat der Hauptmann Charles Barbier erfunden.,2,"[[4], [5, 6]]",(S (NP (ART Die) (NN Nacht-schrift)) (VAFIN hat) (NP (ART der) (NN Hauptmann) (PN (NE Charles) (NE Barbier))) (VP (VVPP erfunden))) ($. .),1,1,0
+29237,Die Nacht-schrift ist kompliziert.,1,,(S (NP (ART Die) (NN Nacht-schrift)) (VAFIN ist) (ADJD kompliziert)) ($. .),1,0,0
+29238,Louis Braille macht die Nacht-schrift einfacher.,1,,(S (PN (NE Louis) (NE Braille)) (VVFIN macht) (NP (ART die) (NN Nacht-schrift)) (ADJD einfacher)) ($. .),1,0,0
+29239,Im Jahr 1825 ist Louis Braille fertig mit der Schrift.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 9]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1825)) (VAFIN ist) (PN (NE Louis) (NE Braille)) (AP (ADJD fertig) (PP (APPR mit) (ART der) (NN Schrift)))) ($. .),1,0,0
+29240,Er hat die Blinden-schrift erfunden.,1,,(S (PPER Er) (VAFIN hat) (VP (NP (ART die) (NN Blinden-schrift)) (VVPP erfunden))) ($. .),1,0,0
+29241,Er ist jetzt 16 Jahre alt.,1,,(S (PPER Er) (VAFIN ist) (ADV jetzt) (AP (NP (CARD 16) (NN Jahre)) (ADJD alt))) ($. .),1,0,0
+29242,Louis Braille war ein Erfinder.,1,,(S (PN (NE Louis) (NE Braille)) (VAFIN war) (NP (ART ein) (NN Erfinder))) ($. .),1,0,0
+29243,Er hat die Schrift für blinde Menschen erfunden.,1,,(S (PPER Er) (VAFIN hat) (VP (NP (ART die) (NN Schrift) (PP (APPR für) (ADJA blinde) (NN Menschen))) (VVPP erfunden))) ($. .),1,1,0
+29244,Wegen der griechischen Staats-schulden-krise haben viele Menschen demonstriert.,2,"[[0, 2, 3], [4, 5, 6, 7]]",(S (PP (APPR Wegen) (ART der) (ADJA griechischen) (NN Staats-schulden-krise)) (VAFIN haben) (NP (PIAT viele) (NN Menschen)) (VP (VVPP demonstriert))) ($. .),1,0,1
+29245,Loukanikos war sehr oft dabei.,1,,(S (NE Loukanikos) (VAFIN war) (AVP (ADV sehr) (ADV oft)) (PTKVZ dabei)) ($. .),1,0,0
+29246,Dadurch wurde Loukanikos sehr bekannt.,1,,(S (PROAV Dadurch) (VAFIN wurde) (NE Loukanikos) (AP (ADV sehr) (ADJD bekannt))) ($. .),1,0,0
+29247,Viele Zeitungen haben über den Hund berichtet.,1,,(S (NP (PIAT Viele) (NN Zeitungen)) (VAFIN haben) (VP (PP (APPR über) (ART den) (NN Hund)) (VVPP berichtet))) ($. .),1,0,0
+29248,Loukanikos war ein Hund der auf der Straße gelebt hat.,2,"[[0, 1, 3], [5, 7, 8, 9]]",(NE Loukanikos) (VAFIN war) (ART ein) (NN Hund) (PRELS der) (VP (PP (APPR auf) (ART der) (NN Straße)) (VVPP gelebt)) (VAFIN hat) ($. .),0,0,0
+29249,Im Jahr 2011 wurde Loukanikos zur Person of the Year gewählt.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8, 9, 10]]",(S (PP (APPRART Im) (NN Jahr) (CARD 2011)) (VAFIN wurde) (NE Loukanikos) (VP (PP (APPRART zur) (CH (FM Person) (FM of) (FM the) (FM Year))) (VVPP gewählt))) ($. .),1,0,1
+29250,Im Jahr 2012 hat ihn eine Familie aufgenommen.,2,"[[0, 1, 2], [3, 4, 6, 7]]",(S (PP (APPRART Im) (NN Jahr) (CARD 2012)) (VAFIN hat) (PPER ihn) (NP (ART eine) (NN Familie)) (VP (VVPP aufgenommen))) ($. .),1,0,0
+29251,Dort hat er bis zum Jahr 2014 gelebt.,1,,(S (ADV Dort) (VAFIN hat) (PPER er) (VP (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 2014)) (VVPP gelebt))) ($. .),1,0,1
+29252,Im Oktober 2014 ist Loukanikos gestorben.,1,,(S (PP (APPRART Im) (NN Oktober) (CARD 2014)) (VAFIN ist) (NE Loukanikos) (VP (VVPP gestorben))) ($. .),1,0,0
+29253,Viele sagen er hat sehr viel schlechte Mittel von den Polizisten eingeatmet.,2,"[[2, 3, 4, 5, 6, 11], [8, 10]]",(S (PIS Viele) (VVFIN sagen) (S (PPER er) (VAFIN hat) (VP (NP (AP (AVP (ADV sehr) (ADV viel)) (ADJA schlechte)) (NN Mittel)) (PP (APPR von) (ART den) (NN Polizisten)) (VVPP eingeatmet)))) ($. .),1,1,0
+29254,Darum wurde er sehr krank.,1,,(S (PROAV Darum) (VAFIN wurde) (PPER er) (AP (ADV sehr) (ADJD krank))) ($. .),1,0,0
+29255,Loukanikos wurde 10 Jahre alt.,1,,(S (NE Loukanikos) (VAFIN wurde) (AP (NP (CARD 10) (NN Jahre)) (ADJD alt))) ($. .),1,0,0
+29256,Er ist auf einem Berg begraben worden.,1,,(S (PPER Er) (VAFIN ist) (VP (VP (PP (APPR auf) (ART einem) (NN Berg)) (VVPP begraben)) (VAPP worden))) ($. .),1,0,0
+29258,Loukanikos war ein bekannter Hund.,1,,(S (NE Loukanikos) (VAFIN war) (NP (ART ein) (ADJA bekannter) (NN Hund))) ($. .),1,1,0
+29259,Er war dabei als Menschen in Griechenland demonstriert haben.,2,"[[0, 1, 2, 3, 4, 7, 8], [5, 6]]",(S (PPER Er) (VAFIN war) (VP (VP (PROAV dabei) (PP (APPR als) (NN Menschen)) (PP (APPR in) (NE Griechenland)) (VVPP demonstriert)) (VAINF haben))) ($. .),1,0,0
+29260,Löwen haben ein Fell.,1,,(S (NN Löwen) (VAFIN haben) (NP (ART ein) (NN Fell))) ($. .),1,0,0
+29261,Das Fell ist gold-braun oder sand-farben.,2,"[[3], [5]]",(S (NP (ART Das) (NN Fell)) (VAFIN ist) (CAP (ADJD gold-braun) (KON oder) (ADJD sand-farben))) ($. .),1,0,0
+29262,Ein männlicher Löwen hat eine Mähne.,1,,(S (NP (ART Ein) (ADJA männlicher) (NN Löwen)) (VAFIN hat) (NP (ART eine) (NN Mähne))) ($. .),1,1,0
+29263,Ein Männchen kann bis zu 250 kg wiegen.,1,,(S (NP (ART Ein) (NN Männchen)) (VMFIN kann) (VP (NP (AP (ADV bis) (ADV zu) (CARD 250)) (NN kg)) (VVINF wiegen))) ($. .),1,1,0
+29264,Löwen leben in Rudeln.,1,,(S (NN Löwen) (VVFIN leben) (PP (APPR in) (NN Rudeln))) ($. .),1,0,0
+29265,Ein Rudel ist eine Gruppe Tiere einer Art.,2,"[[1, 2, 4], [5, 7]]",(S (NP (ART Ein) (NN Rudel)) (VAFIN ist) (NP (ART eine) (NN Gruppe) (NP (NN Tiere) (NP (ART einer) (NN Art))))) ($. .),1,2,0
+29266,Löwen essen Fleisch.,1,,(S (NN Löwen) (VVFIN essen) (NN Fleisch)) ($. .),1,0,0
+29267,Sie jagen andere Tiere.,1,,(S (PPER Sie) (VVFIN jagen) (NP (ADJA andere) (NN Tiere))) ($. .),1,0,0
+29268,Löwen können schnell rennen.,1,,(S (NN Löwen) (VMFIN können) (VP (ADJD schnell) (VVINF rennen))) ($. .),1,0,0
+29269,Löwen sind nachtaktiv.,1,,(S (NN Löwen) (VAFIN sind) (ADJD nachtaktiv)) ($. .),1,0,0
+29270,Sie schlafen tagsüber.,1,,(S (PPER Sie) (VVFIN schlafen) (ADV tagsüber)) ($. .),1,0,0
+29271,Ein Löwe ist ein Tier.,1,,(S (NP (ART Ein) (NN Löwe)) (VAFIN ist) (NP (ART ein) (NN Tier))) ($. .),1,0,0
+29272,Genauer: Der Löwe ist ein Säuge-tier.,1,,(ADJD Genauer) ($. :) (S (NP (ART Der) (NN Löwe)) (VAFIN ist) (NP (ART ein) (NN Säuge-tier))) ($. .),1,0,0
+29273,Er gehört zu den Groß-katzen.,1,,(S (PPER Er) (VVFIN gehört) (PP (APPR zu) (ART den) (NN Groß-katzen))) ($. .),1,0,0
+29274,Der Löwe gehört zu der Familie der Katzen.,1,,(S (NP (ART Der) (NN Löwe)) (VVFIN gehört) (PP (APPR zu) (ART der) (NN Familie) (NP (ART der) (NN Katzen)))) ($. .),1,0,1
+29276,Löwen leben in Afrika.,1,,(S (NN Löwen) (VVFIN leben) (PP (APPR in) (NE Afrika))) ($. .),1,0,0
+29279,Und LSD macht nicht süchtig.,1,,(S (KON Und) (NE LSD) (VVFIN macht) (PTKNEG nicht) (ADJD süchtig)) ($. .),1,0,0
+29283,Viele von ihnen überprüfen ihre Glaubens-systeme.,1,,(S (NP (PIS Viele) (PP (APPR von) (PPER ihnen))) (VVFIN überprüfen) (NP (PPOSAT ihre) (NN Glaubens-systeme))) ($. .),1,1,0
+29284,Im Jahr 1971. \newline Die Vereinten Nationen verbieten LSD.,2,"[[0, 1, 2], [5, 6, 7, 8]]",(APPRART Im) (NN Jahr) ($. 1971.),0,0,0
+29285,Lyserg-säure-diethylamid ist ein künstlicher Wirk-stoff.,1,,(S (NN Lyserg-säure-diethylamid) (VAFIN ist) (NP (ART ein) (ADJA künstlicher) (NN Wirk-stoff))) ($. .),1,1,0
+29286,In natürlicher Form kommt LSD im Mutterkorn-alkaloiden vor.,2,"[[0, 1, 2], [3, 4, 5, 6, 7]]",(S (PP (APPR In) (ADJA natürlicher) (NN Form)) (VVFIN kommt) (NE LSD) (PP (APPRART im) (NN Mutterkorn-alkaloiden)) (PTKVZ vor)) ($. .),1,0,0
+29287,Der LSD Wirk-stoff löst Halluzinationen aus.,1,,(S (NP (ART Der) (NE LSD) (NN Wirk-stoff)) (VVFIN löst) (NN Halluzinationen) (PTKVZ aus)) ($. .),1,1,0
+29288,LSD gilt als Droge.,1,,(S (NE LSD) (VVFIN gilt) (PP (APPR als) (NN Droge))) ($. .),1,0,0
+29289,Und ist durch das Betäubungs-mittel-gesetz verboten.,2,"[[1, 5], [2, 4]]",(S (KON Und) (VAFIN ist) (VP (PP (APPR durch) (ART das) (NN Betäubungs-mittel-gesetz)) (VVPP verboten))) ($. .),1,0,0
+29290,"Menschen die an Luddismus glauben,  \newline nennt man Ludditen.",2,"[[0, 7, 8, 9], [1, 2, 3, 4]]","(NN Menschen) (NP (S (PRELS die) (PP (APPR an) (NN Luddismus)) (VVFIN glauben))) ($, ,) ($.  ) (S (PDS \newline) (VVFIN nennt) (PIS man) (NN Ludditen)) ($. .)",1,1,0
+29291,Eine einzelene Person nennt man Luddist.,1,,(S (NP (ART Eine) (ADJA einzelene) (NN Person)) (VVFIN nennt) (PIS man) (NN Luddist)) ($. .),1,1,0
+29293,Ein Luddit möchte lieber ohne viel Technik leben.,1,,(S (NP (ART Ein) (NN Luddit)) (VMFIN möchte) (ADV lieber) (VP (PP (APPR ohne) (PIAT viel) (NN Technik)) (VVINF leben))) ($. .),1,0,0
+29295,Das Wort Luddismus gibt es seit dem 19. Jahr-hundert.,1,,(S (NP (ART Das) (NN Wort) (NN Luddismus)) (VVFIN gibt) (PPER es) (APPR seit) (ART dem) (ADJA 19.) (CARD Jahr-hundert)) ($. .),1,1,0
+29297,Und sie wollen Maschinen kaputt machen.,1,,(S (KON Und) (PPER sie) (VMFIN wollen) (VP (NN Maschinen) (ADJD kaputt) (VVINF machen))) ($. .),1,0,0
+29298,Und sie machen Proteste gegen Technik.,1,,(S (KON Und) (PPER sie) (VVFIN machen) (NP (NN Proteste) (PP (APPR gegen) (NN Technik)))) ($. .),1,1,0
+29299,Luddismus ist wenn man neue Technik schlecht findet.,2,"[[0, 1], [2, 3, 4, 5, 6, 7]]",(S (NN Luddismus) (VAFIN ist) (S (KOUS wenn) (PIS man) (NP (ADJA neue) (NN Technik)) (ADJD schlecht) (VVFIN findet))) ($. .),1,0,0
+29300,Ludwig Lugmeier ist in Kochel geboren.,1,,(S (PN (NE Ludwig) (NE Lugmeier)) (VAFIN ist) (VP (PP (APPR in) (NE Kochel)) (VVPP geboren))) ($. .),1,0,0
+29301,Er ist am 31. Juli geboren.,1,,(S (PPER Er) (VAFIN ist) (VP (PP (APPRART am) (ADJA 31.) (NN Juli)) (VVPP geboren))) ($. .),1,0,0
+29302,Im Jahr 1949. \newline Ludwig Lugmeier ist 59 Jahre alt.,2,"[[0, 1, 2], [4, 5, 6, 7, 8, 9]]",(APPRART Im) (NN Jahr) ($. 1949.),0,0,0
+29303,Ludwig Lugmeier ist Schriftsteller.,1,,(S (PN (NE Ludwig) (NE Lugmeier)) (VAFIN ist) (NN Schriftsteller)) ($. .),1,0,0
+29304,Und er ist ein Millionen-dieb.,1,,(S (KON Und) (PPER er) (VAFIN ist) (NP (ART ein) (NN Millionen-dieb))) ($. .),1,0,0
+29305,Weil er sehr viel Geld geklaut hat.,1,,(S (KOUS Weil) (PPER er) (VP (NP (AP (ADV sehr) (PIAT viel)) (NN Geld)) (VVPP geklaut)) (VAFIN hat)) ($. .),1,1,0
+29306,Er hat mit anderen zusammen einen Geld-transport über-fallen.,2,"[[0, 1, 6, 7], [2, 3, 4]]",(S (PPER Er) (VAFIN hat) (VP (PP (PP (APPR mit) (PIS anderen)) (ADV zusammen)) (NP (ART einen) (NN Geld-transport)) (VVPP über-fallen))) ($. .),1,0,0
+29307,Er hat über 2 Millionen DM ge-klaut.,1,,(S (PPER Er) (VAFIN hat) (VP (NP (AP (ADV über) (NM (CARD 2) (NN Millionen))) (NN DM)) (VVPP ge-klaut))) ($. .),1,1,0
+29308,Für seine Über-fälle musste er ins Gefängnis.,2,"[[0, 1, 2], [3, 4, 5, 6]]",(S (PP (APPR Für) (PPOSAT seine) (NN Über-fälle)) (VMFIN musste) (PPER er) (PP (APPRART ins) (NN Gefängnis))) ($. .),1,0,0
+29311,Und viele Sachen ge-klaut.,1,,(S (KON Und) (NP (PIAT viele) (NN Sachen)) (VP (VVPP ge-klaut))) ($. .),1,0,0
+29312,Ludwig Lugmeier ist ein bekannter Mann.,1,,(S (PN (NE Ludwig) (NE Lugmeier)) (VAFIN ist) (NP (ART ein) (ADJA bekannter) (NN Mann))) ($. .),1,1,0
+29313,"Er ist bekannt, weil er viel Geld ge-klaut hat.",2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]","(S (PPER Er) (VAFIN ist) (ADJD bekannt)) ($, ,) (S (KOUS weil) (PPER er) (VP (NP (PIAT viel) (NN Geld)) (VVPP ge-klaut)) (VAFIN hat)) ($. .)",1,0,0
+29314,Und weil er aus einem Fenster springt.,1,,(KON Und) (S (KOUS weil) (PPER er) (PP (APPR aus) (ART einem) (NN Fenster)) (VVFIN springt)) ($. .),1,0,0
+29315,Während er im Gerichts-saal eine Strafe bekommt.,2,"[[0, 1, 5, 6], [2, 3]]",(S (KOUS Während) (PPER er) (PP (APPRART im) (NN Gerichts-saal)) (NP (ART eine) (NN Strafe)) (VVFIN bekommt)) ($. .),1,0,0
+29316,Nach dem Fenster-sprung flüchtet er.,1,,(S (VP (APPR Nach) (ART dem) (VVPP Fenster-sprung)) (VVFIN flüchtet) (PPER er)) ($. .),1,0,0
+29317,Ludwig Lugmeier schreibt Bücher.,1,,(S (PN (NE Ludwig) (NE Lugmeier)) (VVFIN schreibt) (NN Bücher)) ($. .),1,0,0
+29318,Bekannt sind die Bücher über sein Leben.,1,,(S (ADJD Bekannt) (VAFIN sind) (NP (ART die) (NN Bücher) (PP (APPR über) (PPOSAT sein) (NN Leben)))) ($. .),1,1,0
+29319,Ludwik Lejzer Zamenhof kommt am 15. Dezember 1859 auf die Welt.,1,,(S (PN (NE Ludwik) (NE Lejzer) (NE Zamenhof)) (VVFIN kommt) (PP (APPRART am) (ADJA 15.) (NN Dezember) (CARD 1859)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,1
+29321,"Er stirbt am 14. April 1917 in Warschau, Polen.",3,"[[2, 3, 4, 5], [6, 7], [6, 8]]","(S (PPER Er) (VVFIN stirbt) (PP (APPRART am) (ADJA 14.) (NN April) (CARD 1917)) (APPR in) (NE Warschau)) ($, ,) (PP (NE Polen)) ($. .)",1,0,1
+29322,Im Jahr 1887. \newline Zamenhof gründet die Plan-sprache Esperanto.,2,"[[0, 1, 2], [4, 5, 7, 8]]",(APPRART Im) (NN Jahr) ($. 1887.),0,0,0
+29323,Er gebraucht das Pseudonym: \newline  \newline Doktoro Esperanto.,1,,(S (PPER Er) (VVFIN gebraucht) (ART das) (NN Pseudonym)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+29325,Sie nenne ihn den Zamenhof-tag.,1,,(S (PPER Sie) (VVFIN nenne) (PPER ihn) (NP (ART den) (NN Zamenhof-tag))) ($. .),1,0,0
+29326,Zamenhof macht seine Menschheits-lehre bekannt.,1,,(S (NE Zamenhof) (VVFIN macht) (NP (PPOSAT seine) (NN Menschheits-lehre)) (ADJD bekannt)) ($. .),1,0,0
+29328,Und zeit-weise ist er ein Zionist.,1,,(S (KON Und) (ADV zeit-weise) (VAFIN ist) (PPER er) (NP (ART ein) (NN Zionist))) ($. .),1,0,0
+29329,Er verfasst eine frühe Grammatik.,1,,(S (PPER Er) (VVFIN verfasst) (NP (ART eine) (ADJA frühe) (NN Grammatik))) ($. .),1,1,0
+29331,Ludwik Lejzer Zamenhof war ein Augen-arzt.,1,,(S (PN (NE Ludwik) (NE Lejzer) (NE Zamenhof)) (VAFIN war) (NP (ART ein) (NN Augen-arzt))) ($. .),1,0,0
+29333,"Eine Luftmatratze ist zum drauf-liegen, drauf-sitzen oder schwimmen.",3,"[[4], [5], [7]]","(S (NP (ART Eine) (NN Luftmatratze)) (VAFIN ist) (APPRART zum) (CVP (VVINF drauf-liegen))) ($, ,) (VVINF drauf-sitzen) (KON oder) (VVINF schwimmen) ($. .)",1,0,0
+29334,Luftmatratzen sind meistens aus Gummi.,1,,(S (NN Luftmatratzen) (VAFIN sind) (ADV meistens) (PP (APPR aus) (NN Gummi))) ($. .),1,0,0
+29335,Sie haben ein Loch zum auf-blasen.,2,"[[0, 1], [4, 5]]",(S (PPER Sie) (VAFIN haben) (NP (ART ein) (NN Loch) (PP (APPRART zum) (NN auf-blasen)))) ($. .),1,1,0
+29336,Das Wort Luftmatratze ist ein Substantiv.,2,"[[1], [5]]",(S (NP (ART Das) (NN Wort) (NN Luftmatratze)) (VAFIN ist) (NP (ART ein) (NN Substantiv))) ($. .),1,1,0
+29337,Es hat 2 Wörter: • Luft (damit wird sie gefüllt  zum Beispiel durch pusten),3,"[[0, 1, 2, 3, 5], [6, 7, 8, 9], [11, 12, 13, 14]]",(S (PPER Es) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) ($LRB •) (NN Luft) ($LRB -LRB-) (NP (S (PROAV damit) (VAFIN wird) (PPER sie) (VP (VVPP gefüllt) (PP (PP (APPRART  ) (PP (APPRART zum) (NN Beispiel))) (APPR durch) (NN pusten))))) ($LRB -RRB-),1,1,1
+29338,Es hat 2 Wörter: • Matratze (zum drauf liegen),2,"[[0, 1, 2, 3, 4], [6, 7, 8]]",(S (PPER Es) (VAFIN hat) (CARD 2) (NN Wörter)) ($. :) ($LRB •) (NN Matratze) ($LRB -LRB-) (NP (NP (VP (APPRART zum) (PROAV drauf) (VVINF liegen)))) ($LRB -RRB-),1,2,0
+29339,Eine Luftmatratze ist eine Matratze zum auf-blasen.,2,"[[4], [5, 6]]",(S (NP (ART Eine) (NN Luftmatratze)) (VAFIN ist) (NP (ART eine) (NN Matratze) (PP (APPRART zum) (NN auf-blasen)))) ($. .),1,1,0
+29340,Die Luft-polster-folie hat Luft-blasen.,1,,(S (NP (ART Die) (NN Luft-polster-folie)) (VAFIN hat) (VP (VVPP Luft-blasen))) ($. .),1,0,0
+29341,Dadurch ist sie besunders gut zum: • verpacken,1,,(S (PROAV Dadurch) (VAFIN ist) (PPER sie) (ADV besunders) (AP (ADJD gut) (APPRART zum))) ($. :),1,0,0
+29342,Dadurch ist sie besunders gut zum: • schützen,1,,(S (PROAV Dadurch) (VAFIN ist) (PPER sie) (ADV besunders) (AP (ADJD gut) (APPRART zum))) ($. :),1,0,0
+29343,Die Luftpolsterfolie wurde von diesen 2 Personen erfunden:,1,,(S (NP (ART Die) (NN Luftpolsterfolie)) (VAFIN wurde) (VP (PP (APPR von) (PDAT diesen) (CARD 2) (NN Personen)) (VVPP erfunden))) ($. :),1,0,1
+29347,Spielen mit Luftpolsterfolie macht Spaß.,1,,(S (NP (NN Spielen) (PP (APPR mit) (NN Luftpolsterfolie))) (VVFIN macht) (NN Spaß)) ($. .),1,1,0
+29348,Dabei werden die Blasen (mit Luft drinne) ausgedrückt.,2,"[[0, 1, 3, 7], [4, 5, 6]]",(S (PROAV Dabei) (VAFIN werden) (ART die) (NN Blasen)) ($LRB -LRB-) (NP (PP (APPR mit) (NN Luft) (ADV drinne))) ($LRB -RRB-) (VP (VVPP ausgedrückt)) ($. .),1,1,0
+29349,Das gibt einen Knall.,1,,(S (PDS Das) (VVFIN gibt) (NP (ART einen) (NN Knall))) ($. .),1,0,0
+29350,Für manche ist dieses Spiel Entspannung.,1,,(S (PP (APPR Für) (PIS manche)) (VAFIN ist) (NP (PDAT dieses) (NN Spiel)) (NN Entspannung)) ($. .),1,0,0
+29351,Kleider \newline Manche basteln sich aus Luftpolsterfolie Kleider zum anziehen.,2,"[[5, 6], [7, 8, 9]]",(NN Kleider),0,0,0
+29352,Eine Luftpolsterfolie wird benutzt um: • etwas zu verpacken (zum Beispiel in einem Karton),3,"[[1, 2, 3], [4, 6, 7, 8], [9, 10, 11, 13]]",(S (NP (ART Eine) (NN Luftpolsterfolie)) (VAFIN wird) (VP (VVPP benutzt) (KOUI um))) ($. :) ($LRB •) (VP (PIS etwas) (VZ (PTKZU zu) (VVINF verpacken))) ($LRB -LRB-) (PP (PP (APPRART zum) (NN Beispiel)) (APPR in) (ART einem) (NN Karton)) ($LRB -RRB-),1,0,1
+29353,Eine Luftpolsterfolie wird benutzt um: • etwas zu schützen (damit es nicht kaputt geht),3,"[[1, 2, 3], [4, 6, 7, 8], [9, 10, 11, 12, 13]]",(S (NP (ART Eine) (NN Luftpolsterfolie)) (VAFIN wird) (VP (VVPP benutzt) (KOUI um))) ($. :) ($LRB •) (VP (PIS etwas) (VZ (PTKZU zu) (VVINF schützen))) ($LRB -LRB-) (S (KOUS damit) (PPER es) (PTKNEG nicht) (ADJD kaputt) (VVFIN geht)) ($LRB -RRB-),1,0,0
+29354,Wir brauchen Luft zum Atmen.,1,,(S (PPER Wir) (VVFIN brauchen) (NP (NN Luft) (PP (APPRART zum) (NN Atmen)))) ($. .),1,1,0
+29357,Diese Stoffe brauchen wir zum Über-leben.,1,,(S (NP (PDAT Diese) (NN Stoffe)) (VVFIN brauchen) (PPER wir) (PP (APPRART zum) (NN Über-leben))) ($. .),1,0,0
+29358,Luft kann man nicht sehen.,1,,(S (NN Luft) (VMFIN kann) (PIS man) (PTKNEG nicht) (VP (VVINF sehen))) ($. .),1,0,0
+29359,Luft ist überall um uns herum.,2,"[[2], [3, 4, 5]]",(S (NN Luft) (VAFIN ist) (ADV überall) (PP (APPR um) (PPER uns) (ADV herum))) ($. .),1,0,0
+29360,Wir spüren die Luft als Wind.,1,,(S (PPER Wir) (VVFIN spüren) (NP (ART die) (NN Luft)) (PP (APPR als) (NN Wind))) ($. .),1,0,0
+29361,Das Wort wird oft von PEGIDA benutzt.,1,,(S (NP (ART Das) (NN Wort)) (VAFIN wird) (VP (ADV oft) (PP (APPR von) (NE PEGIDA)) (VVPP benutzt))) ($. .),1,0,0
+29362,PEGIDA sagt: alles was in der Zeitung über PEGIDA steht ist falsch.,3,"[[0, 1], [2, 3, 4, 6, 7, 8, 9], [2, 10, 11]]",(S (NE PEGIDA) (VVFIN sagt)) ($. :) (S (NP (PIS alles) (PRELS was) (PP (APPR in) (ART der) (NN Zeitung)) (PP (APPR über) (NE PEGIDA)) (VVFIN steht)) (VAFIN ist) (ADJD falsch)) ($. .),1,1,0
+29363,Sie sagen: die Zeitungen wollen etwas verstecken.,2,"[[0, 1], [3, 4, 5, 6]]",(S (PPER Sie) (VVFIN sagen)) ($. :) (S (NP (ART die) (NN Zeitungen)) (VMFIN wollen) (VP (PIS etwas) (VVINF verstecken))) ($. .),1,0,0
+29364,Darum sagen sie: Lügen-presse.,1,,(S (PROAV Darum) (VVFIN sagen) (PPER sie)) ($. :) (NN Lügen-presse) ($. .),1,0,0
+29365,Das Wort wird oft beim Thema Nationalsozialismus benutzt.,1,,(S (NP (ART Das) (NN Wort)) (VAFIN wird) (VP (ADV oft) (PP (APPRART beim) (NN Thema) (NN Nationalsozialismus)) (VVPP benutzt))) ($. .),1,0,0
+29366,"Das heißt: jemand der etwas böses oder schlechtes macht, \newline möchte nicht das andere darüber schreiben.",4,"[[2, 10, 11], [12, 13, 14, 15], [3, 4, 5, 8], [3, 4, 7, 8]]","(S (PDS Das) (VVFIN heißt)) ($. :) (PIS jemand) (S (PRELS der) (NP (PIS etwas) (CAP (ADJD böses) (KON oder) (ADJA schlechtes))) (VVFIN macht)) ($, ,) (S (NE \newline) (VMFIN möchte) (PTKNEG nicht) (VP (NP (ART das) (PIS andere)) (PROAV darüber) (VVINF schreiben))) ($. .)",1,1,0
+29367,Darum benutzen solche Menschen manchmal das Wort Lügen-presse.,1,,(PROAV Darum) (VVFIN benutzen) (NP (PIAT solche) (NN Menschen)) (ADV manchmal) (NP (ART das) (NN Wort) (NN Lügen-presse)) ($. .),0,1,0
+29368,Lügenpresse ist ein Unwort.,1,,(S (NN Lügenpresse) (VAFIN ist) (NP (ART ein) (NN Unwort))) ($. .),1,0,0
+29369,Es heißt: was in der Zeitung steht ist falsch.,2,"[[1, 2, 5, 6], [7, 8]]",(S (PPER Es) (VVFIN heißt)) ($. :) (S (S (PWS was) (PP (APPR in) (ART der) (NN Zeitung)) (VVFIN steht)) (VAFIN ist) (ADJD falsch)) ($. .),1,0,0
+29370,Eine Lüge ist: \newline Wenn Menschen den Inhalt vom Satz für falsch halten.,2,"[[1, 2], [4, 5, 7, 8, 9, 10, 11, 12]]",(S (NP (ART Eine) (NN Lüge)) (VAFIN ist)) ($. :) (NE \newline),1,0,0
+29371,"Die Menschen denken dann, dass der Inhalt vom Satz mit Absicht falsch ist.",1,,"(S (NP (ART Die) (NN Menschen)) (VVFIN denken) (ADV dann)) ($, ,) (S (KOUS dass) (NP (ART der) (NN Inhalt) (PP (APPRART vom) (NN Satz))) (PP (APPR mit) (NN Absicht)) (ADJD falsch) (VAFIN ist)) ($. .)",1,1,0
+29372,Man sagt auch: \newline Der Inhalt vom Satz ist gelogen.,1,,(S (PIS Man) (VVFIN sagt) (ADV auch)) ($. :) (FM \newline),1,0,0
+29373,"Wer entscheidet, was eine Lüge ist?",2,"[[0, 1], [2, 4, 5]]","(S (PWS Wer) (VVFIN entscheidet)) ($, ,) (S (PWS was) (NP (ART eine) (NN Lüge)) (VAFIN ist)) ($. ?)",1,0,0
+29374,"Wer entscheidet, was Wahrheit ist?",2,"[[0, 1], [2, 3, 4]]","(S (PWS Wer) (VVFIN entscheidet)) ($, ,) (S (PWS was) (NN Wahrheit) (VAFIN ist)) ($. ?)",1,0,0
+29375,Das hängt vom Glauben und vom Wissen der Menschen ab.,2,"[[2, 3], [5, 6]]",(S (PDS Das) (VVFIN hängt) (PP (CPP (PP (APPRART vom) (NN Glauben)) (KON und) (PP (APPRART vom) (NN Wissen))) (NP (ART der) (NN Menschen))) (PTKVZ ab)) ($. .),1,0,1
+29376,Lügen sind zum Beispiel: • Gras ist blau.,2,"[[0, 1, 2, 3], [5, 6, 7]]",(S (NN Lügen) (VAFIN sind) (PP (APPRART zum) (NN Beispiel))) ($. :) (XY •) (S (NE Gras) (VAFIN ist) (ADJD blau)) ($. .),1,0,0
+29377, • Nach Montag kommt Mittwoch.,1,,(XY  ) (XY •) (S (PP (APPR Nach) (NN Montag)) (VVFIN kommt) (NN Mittwoch)) ($. .),1,0,0
+29378, • Schnee ist nicht weiß.,1,,(XY  ) (XY •) (S (NN Schnee) (VAFIN ist) (PTKNEG nicht) (ADJD weiß)) ($. .),1,0,0
+29379,Wer eine Lüge sagt oder schreibt weiß: \newline Das ist nicht die Wahrheit.,4,"[[0, 2, 3], [0, 2, 5], [6], [8, 9, 10, 12]]",(CS (S (PWS Wer) (NP (ART eine) (NN Lüge)) (VVFIN sagt)) (KON oder) (S (VVFIN schreibt) (VVFIN weiß))) ($. :) (NE \newline),1,0,0
+29380,Die Person lügt um andere Menschen zu täuschen.,2,"[[1, 2], [3, 4, 5, 6, 7]]",(S (NP (ART Die) (NN Person)) (VVFIN lügt) (VP (KOUI um) (NP (ADJA andere) (NN Menschen)) (VZ (PTKZU zu) (VVINF täuschen)))) ($. .),1,0,0
+29381,Man nennt die Person Lügner.,1,,(S (PIS Man) (VVFIN nennt) (NP (ART die) (NN Person)) (NE Lügner)) ($. .),1,0,0
+29382,In Märchen und Geschichten gibt es auch Lügner.,2,"[[1], [3]]",(S (PP (APPR In) (CNP (NN Märchen) (KON und) (NN Geschichten))) (VVFIN gibt) (PPER es) (NP (ADV auch) (NN Lügner))) ($. .),1,0,1
+29387,Es gibt viele Gründe für Lügen.,1,,(S (PPER Es) (VVFIN gibt) (NP (PIAT viele) (NN Gründe) (PP (APPR für) (NN Lügen)))) ($. .),1,1,0
+29391,Eine Lüge ist eine absichtlich falsche Aussage.,2,"[[1, 2, 6], [4]]",(S (NP (ART Eine) (NN Lüge)) (VAFIN ist) (NP (ART eine) (AP (ADJD absichtlich) (ADJA falsche)) (NN Aussage))) ($. .),1,1,0
+29392,Man will andere damit täuschen.,1,,(S (PIS Man) (VMFIN will) (VP (PIS andere) (PROAV damit) (VVINF täuschen))) ($. .),1,0,0
+29393,Viele sagen zu Luiz Inácio Lula da Silva einfach nur Lula.,1,,(S (PIS Viele) (VVFIN sagen) (PP (APPR zu) (PN (NE Luiz) (NE Inácio) (NE Lula) (NE da) (NE Silva))) (ADV einfach) (NP (ADV nur) (NE Lula))) ($. .),1,0,1
+29394,Lula kommt am 27. Oktober 1945 auf die Welt.,1,,(S (NE Lula) (VVFIN kommt) (PP (APPRART am) (ADJA 27.) (NN Oktober) (CARD 1945)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,1
+29395,"Das war in Caetés, Brasilien.",2,"[[3], [4]]","(S (PDS Das) (VAFIN war) (APPR in) (NE Caetés)) ($, ,) (PP (NE Brasilien)) ($. .)",1,0,0
+29396,Aufgewachsen ist Lula in São Paulo.,1,,(S (VP (VVPP Aufgewachsen)) (VAFIN ist) (NE Lula) (PP (APPR in) (PN (NE São) (NE Paulo)))) ($. .),1,0,0
+29397,Seine Familie ist arm.,1,,(S (NP (PPOSAT Seine) (NN Familie)) (VAFIN ist) (ADJD arm)) ($. .),1,0,0
+29398,Sein Vater stirbt an Alkoholismus.,1,,(S (NP (PPOSAT Sein) (NN Vater)) (VVFIN stirbt) (PP (APPR an) (NN Alkoholismus))) ($. .),1,0,0
+29399,Alkoholismus heißt: Jemand ist süchtig nach Alkohol.,1,,(S (NN Alkoholismus) (VVFIN heißt)) ($. :) (S (PIS Jemand) (VAFIN ist) (AP (ADJD süchtig) (PP (APPR nach) (NN Alkohol)))) ($. .),1,0,0
+29400,Lula geht zur Schule.,1,,(S (NE Lula) (VVFIN geht) (PP (APPRART zur) (NN Schule))) ($. .),1,0,0
+29401,Aber nur bis zu der zweiten Klasse.,1,,(PP (KON Aber) (ADV nur) (APPR bis) (APPR zu) (ART der) (ADJA zweiten) (NN Klasse)) ($. .),0,0,1
+29402,Dann geht Lula nicht mehr zu Schule.,1,,(S (ADV Dann) (VVFIN geht) (NE Lula) (AVP (PTKNEG nicht) (ADV mehr)) (PP (APPR zu) (NN Schule))) ($. .),1,0,0
+29403,Lula geht arbeiten.,1,,(S (NE Lula) (VVFIN geht) (VVINF arbeiten)) ($. .),1,0,0
+29404,Damit er seiner Familie helfen kann.,1,,(S (KOUS Damit) (PPER er) (VP (NP (PPOSAT seiner) (NN Familie)) (VVINF helfen)) (VMFIN kann)) ($. .),1,0,0
+29405,Lesen lernt Lula erst mit 10 Jahren.,1,,(S (NN Lesen) (VVFIN lernt) (NE Lula) (PP (ADV erst) (APPR mit) (CARD 10) (NN Jahren))) ($. .),1,0,1
+29406,Später macht Lula eine Ausbildung als Metallarbeiter.,1,,(S (ADJD Später) (VVFIN macht) (NE Lula) (NP (ART eine) (NN Ausbildung) (PP (APPR als) (NN Metallarbeiter)))) ($. .),1,1,0
+29407,Im Jahr 1969 heiraten Lula und Maria de Lourdes.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1969)) (VVFIN heiraten) (CNP (NE Lula) (KON und) (PN (NE Maria) (NE de) (NE Lourdes)))) ($. .),1,0,0
+29408,Im Jahr 1971 ist Maria de Lourdes schwanger.,2,"[[0, 1, 2], [3, 4, 5, 6, 7]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1971)) (VAFIN ist) (PN (NE Maria) (NE de) (NE Lourdes)) (ADJD schwanger)) ($. .),1,0,0
+29409,Maria ist krank.,1,,(S (NE Maria) (VAFIN ist) (ADJD krank)) ($. .),1,0,0
+29410,Sie hat eine Hepatitis-infektion.,1,,(S (PPER Sie) (VAFIN hat) (NP (ART eine) (NN Hepatitis-infektion))) ($. .),1,0,0
+29411,Die Familie hat kein Geld für einen Arzt.,2,"[[1, 2, 3], [5, 7]]",(S (NP (ART Die) (NN Familie)) (VAFIN hat) (NP (PIAT kein) (NN Geld) (PP (APPR für) (ART einen) (NN Arzt)))) ($. .),1,1,0
+29412,Deswegen stirbt Maria.,1,,(S (PROAV Deswegen) (VVFIN stirbt) (NE Maria)) ($. .),1,0,0
+29413,Im Jahr 1974 heirateten Lula und Marisa Letícia Rocco.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1974)) (VVFIN heirateten) (PN (NE Lula) (KON und) (PN (NE Marisa) (NE Letícia) (NE Rocco)))) ($. .),1,0,0
+29414,Zusammen haben sie 5 Kinder.,1,,(S (ADV Zusammen) (VAFIN haben) (PPER sie) (NP (CARD 5) (NN Kinder))) ($. .),1,0,0
+29416,"Im Jahr 2022 heiraten Lula und Rosangela ""Janja"" Silva.",2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]","(S (PP (APPRART Im) (NN Jahr) (CARD 2022)) (VVFIN heiraten) (CNP (NE Lula) (KON und) (NE Rosangela))) ($LRB "") (NE Janja) ($LRB "") (NE Silva) ($. .)",1,0,0
+29417,Als Metall-arbeiter geht Lula in die Gewerkschaft.,2,"[[0, 1], [4, 6]]",(S (PP (APPR Als) (NN Metall-arbeiter)) (VVFIN geht) (NE Lula) (PP (APPR in) (ART die) (NN Gewerkschaft))) ($. .),1,0,0
+29418,Im Jahr 1969 wird Lula in den Vorstand gewählt.,2,"[[0, 1, 2], [3, 4, 5, 7, 8]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1969)) (VAFIN wird) (NE Lula) (VP (PP (APPR in) (ART den) (NN Vorstand)) (VVPP gewählt))) ($. .),1,0,0
+29420,Später wird er Generalsekretär in der Gewerkschaft.,1,,(S (ADJD Später) (VAFIN wird) (PPER er) (NP (NN Generalsekretär) (PP (APPR in) (ART der) (NN Gewerkschaft)))) ($. .),1,1,0
+29421,Und im Jahr 1975 wird er zum Vorsitzenden der Gewerkschaft gewählt.,2,"[[1, 2, 3], [4, 5, 6, 7, 9, 10]]",(S (KON Und) (PP (APPRART im) (NN Jahr) (CARD 1975)) (VAFIN wird) (PPER er) (VP (PP (APPRART zum) (NN Vorsitzenden) (NP (ART der) (NN Gewerkschaft))) (VVPP gewählt))) ($. .),1,0,1
+29422,Er bekommt bei der Wahl 92 Prozent der Stimmen.,1,,(S (PPER Er) (VVFIN bekommt) (PP (APPR bei) (ART der) (NN Wahl)) (NP (CARD 92) (NN Prozent) (NP (ART der) (NN Stimmen)))) ($. .),1,1,0
+29423,In der Gewerkschaft sind 100 Tausend Arbeiter.,1,,(S (PP (APPR In) (ART der) (NN Gewerkschaft)) (VAFIN sind) (NP (NM (CARD 100) (NN Tausend)) (NN Arbeiter))) ($. .),1,1,0
+29424,Während der 1970er Jahre organisiert Lula viele große Streiks.,2,"[[0, 2, 3], [4, 5, 6, 7, 8]]",(S (PP (APPR Während) (ART der) (ADJA 1970er) (NN Jahre)) (VVFIN organisiert) (NE Lula) (NP (PIAT viele) (ADJA große) (NN Streiks))) ($. .),1,1,1
+29425,Damals war Brasilien eine Militärdiktatur.,1,,(S (ADV Damals) (VAFIN war) (NE Brasilien) (NP (ART eine) (NN Militärdiktatur))) ($. .),1,0,0
+29426,Die Auto-firma Volkswagen hat auch Fabriken in Brasilien.,2,"[[5], [6, 7]]",(S (NP (ART Die) (NN Auto-firma) (NE Volkswagen)) (VAFIN hat) (NP (ADV auch) (NN Fabriken) (PP (APPR in) (NE Brasilien)))) ($. .),1,2,0
+29427,Volkswagen spioniert Lula aus.,1,,(S (NE Volkswagen) (VVFIN spioniert) (NE Lula) (PTKVZ aus)) ($. .),1,0,0
+29428,Dann gibt Volkswagen die Informationen an die Polizei von der Militärdiktatur.,2,"[[0, 1, 2, 4, 5], [8, 10]]",(S (ADV Dann) (VVFIN gibt) (NE Volkswagen) (NP (ART die) (NN Informationen)) (PP (APPR an) (ART die) (NN Polizei) (PP (APPR von) (ART der) (NN Militärdiktatur)))) ($. .),1,0,1
+29429,Im Jahr 1980 muss Lula ins Gefängnis.,2,"[[0, 1, 2], [3, 4, 5, 6]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1980)) (VMFIN muss) (NE Lula) (PP (APPRART ins) (NN Gefängnis))) ($. .),1,0,0
+29430,Nach 31 Tagen wird Lula wieder freigelassen.,2,"[[0, 1, 2], [3, 4, 5, 6]]",(S (PP (APPR Nach) (CARD 31) (NN Tagen)) (VAFIN wird) (NE Lula) (VP (ADV wieder) (VVPP freigelassen))) ($. .),1,0,0
+29431,Danach tut sich Lula mit anderen Gewerkschaften zusammen.,1,,(S (PROAV Danach) (VVFIN tut) (PRF sich) (NE Lula) (PP (APPR mit) (ADJA anderen) (NN Gewerkschaften)) (PTKVZ zusammen)) ($. .),1,0,0
+29432,Am 10. Februar 1980 gründen sie eine neue Partei.,2,"[[0, 1, 2, 3], [4, 5, 7, 8]]",(S (PP (APPRART Am) (ADJA 10.) (NN Februar) (CARD 1980)) (VVFIN gründen) (PPER sie) (NP (ART eine) (ADJA neue) (NN Partei))) ($. .),1,1,1
+29433,Die Partei heißt Partido dos Trabalhadores.,1,,(S (NP (ART Die) (NN Partei)) (VVFIN heißt) (PN (FM Partido) (NE dos) (FM Trabalhadores))) ($. .),1,0,0
+29435,Die Partei hat 400 Tausend Mitglieder.,1,,(S (NP (ART Die) (NN Partei)) (VAFIN hat) (NP (NM (CARD 400) (NN Tausend)) (NN Mitglieder))) ($. .),1,1,0
+29436,Im Jahr 1986 ist Wahl in Brasilien.,1,,(S (PP (APPRART Im) (NN Jahr) (CARD 1986)) (VAFIN ist) (NN Wahl) (PP (APPR in) (NE Brasilien))) ($. .),1,0,0
+29437,Sehr viele Menschen wählen Lula.,1,,(S (NP (AP (ADV Sehr) (PIAT viele)) (NN Menschen)) (VVFIN wählen) (NE Lula)) ($. .),1,1,0
+29438,Lula wird in den Natrional-kongress gewählt.,1,,(S (NE Lula) (VAFIN wird) (VP (PP (APPR in) (ART den) (NN Natrional-kongress)) (VVPP gewählt))) ($. .),1,0,0
+29439,Er vertritt Bundes-staat São Paulo.,1,,(S (PPER Er) (VVFIN vertritt) (NP (NN Bundes-staat) (PN (NE São) (NE Paulo)))) ($. .),1,1,0
+29440,"Die Partei PT hilft mit, damit es eine neue Verfassung in Brasilien gibt.",2,"[[1, 2, 3, 4], [5, 6, 8, 9, 10, 11, 12]]","(S (NP (ART Die) (NN Partei) (NE PT)) (VVFIN hilft) (PTKVZ mit)) ($, ,) (S (KOUS damit) (PPER es) (NP (ART eine) (ADJA neue) (NN Verfassung)) (PP (APPR in) (NE Brasilien)) (VVFIN gibt)) ($. .)",1,2,0
+29441,Zum Beispiel: In der neuen Verfassung stehen viele Rechte für die Arbeiter.,2,"[[2, 5, 6, 7, 8, 9, 11], [4]]",(PP (APPRART Zum) (NN Beispiel)) ($. :) (S (PP (APPR In) (ART der) (ADJA neuen) (NN Verfassung)) (VVFIN stehen) (NP (PIAT viele) (NN Rechte) (PP (APPR für) (ART die) (NN Arbeiter)))) ($. .),1,1,1
+29442,Im Jahr 1989 sind Wahlen in Brasilien.,1,,(S (PP (APPRART Im) (NN Jahr) (CARD 1989)) (VAFIN sind) (NN Wahlen) (PP (APPR in) (NE Brasilien))) ($. .),1,0,0
+29443,Der Präsident soll gewählt werden.,1,,(S (NP (ART Der) (NN Präsident)) (VMFIN soll) (VP (VVPP gewählt) (VAINF werden))) ($. .),1,0,0
+29444,Lula will Präsident werden.,1,,(S (NE Lula) (VMFIN will) (VP (NN Präsident) (VAINF werden))) ($. .),1,0,0
+29445,Viele Leute in Brasilien finden Lula gut.,1,,(S (NP (PIAT Viele) (NN Leute) (PP (APPR in) (NE Brasilien))) (VVFIN finden) (NE Lula) (ADJD gut)) ($. .),1,1,0
+29446,Manche Leute sagen aber: \newline Lula ist ein Sozialist.,2,"[[0, 1, 2], [5, 6, 8]]",(S (NP (PIAT Manche) (NN Leute)) (VVFIN sagen) (ADV aber)) ($. :) (S (PN (NE \newline) (NE Lula)) (VAFIN ist) (NP (ART ein) (NN Sozialist))) ($. .),1,0,0
+29447,Deswegen ist Lula schlecht für die Industrie \newline Und die Banken.,2,"[[4, 6], [10]]",(S (PROAV Deswegen) (VAFIN ist) (NE Lula) (ADJD schlecht) (PP (PP (APPR für) (ART die) (NN Industrie)) (FM \newline))),1,0,1
+29449,Lula wird nicht gewählt.,1,,(S (NE Lula) (VAFIN wird) (VP (PTKNEG nicht) (VVPP gewählt))) ($. .),1,0,0
+29450,Im Jahr 2002 macht Lula wieder mit bei der Prösidenten-wahl.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 9]]",(S (PP (APPRART Im) (NN Jahr) (CARD 2002)) (VVFIN macht) (NE Lula) (ADV wieder) (PTKVZ mit) (PP (APPR bei) (ART der) (NN Prösidenten-wahl))) ($. .),1,0,0
+29451,Er zieht jetzt andere Kleider an.,1,,(S (PPER Er) (VVFIN zieht) (ADV jetzt) (NP (ADJA andere) (NN Kleider)) (PTKVZ an)) ($. .),1,0,0
+29452,Lula zieht einen Anzug und eine Krawatte an.,2,"[[3], [6]]",(S (NE Lula) (VVFIN zieht) (CNP (NP (ART einen) (NN Anzug)) (KON und) (NP (ART eine) (NN Krawatte))) (PTKVZ an)) ($. .),1,0,0
+29453,Er sagt: \newline  \newline Hunger und Armut müssen weg.,3,"[[0, 1], [5, 8, 9], [7, 8, 9]]",(S (PPER Er) (VVFIN sagt)) ($. :) (FM \newline) (FM  ) (FM \newline),1,0,0
+29454,Und die Menschen brauchen eine bessere Ausbildung.,2,"[[2, 3], [5]]",(S (KON Und) (NP (ART die) (NN Menschen)) (VVFIN brauchen) (NP (ART eine) (ADJA bessere) (NN Ausbildung))) ($. .),1,1,0
+29455,Am 27. Oktober 2002 wird Lula Präsident von Brasilien.,3,"[[0, 1, 2, 3], [4, 5, 6], [6, 7, 8]]",(S (PP (APPRART Am) (ADJA 27.) (NN Oktober) (CARD 2002)) (VAFIN wird) (NE Lula) (NP (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,1
+29456,Und am 29. Oktober 2006 wird Lula wieder zum Präsidenten gewählt.,2,"[[1, 2, 3, 4], [5, 6, 7, 8, 9, 10]]",(S (KON Und) (PP (APPRART am) (ADJA 29.) (NN Oktober) (CARD 2006)) (VAFIN wird) (NE Lula) (VP (ADV wieder) (PP (APPRART zum) (NN Präsidenten)) (VVPP gewählt))) ($. .),1,0,1
+29457,In Brasilien gibt es eine Verfassung.,1,,(S (PP (APPR In) (NE Brasilien)) (VVFIN gibt) (PPER es) (NP (ART eine) (NN Verfassung))) ($. .),1,0,0
+29458,In der Verfassung steht: \newline Man darf nur 2 mal hintereinander Präsident sein.,3,"[[0, 2, 3], [5, 6, 7, 8, 11, 12], [8, 9, 10]]",(S (PP (APPR In) (ART der) (NN Verfassung)) (VVFIN steht)) ($. :) (XY \newline),1,0,0
+29459,Deswegen hat Lula bei der Wahl im Jahr 2010 nicht mit gemacht.,2,"[[0, 1, 2, 3, 5, 9, 10, 11], [6, 7, 8]]",(S (PROAV Deswegen) (VAFIN hat) (NE Lula) (VP (PP (APPR bei) (ART der) (NN Wahl) (PP (APPRART im) (NN Jahr) (CARD 2010))) (PTKNEG nicht) (ADV mit) (VVPP gemacht))) ($. .),1,0,1
+29460,Die Wahl gewinnt Dilma Rousseff.,1,,(S (NP (ART Die) (NN Wahl)) (VVFIN gewinnt) (PN (NE Dilma) (NE Rousseff))) ($. .),1,0,0
+29462,Seit dem 30. Oktober 2022 ist Lula wieder der Präsident von Brasilien.,3,"[[0, 2, 3, 4], [9], [10, 11]]",(S (PP (APPR Seit) (ART dem) (ADJA 30.) (NN Oktober) (CARD 2022)) (VAFIN ist) (NE Lula) (ADV wieder) (NP (ART der) (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,1
+29463,Luiz Inácio Lula da Silva ist der Präsident von Brasilien.,2,"[[7], [8, 9]]",(S (PN (NE Luiz) (NE Inácio) (NE Lula) (NE da) (NE Silva)) (VAFIN ist) (NP (ART der) (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,0
+29464,Er ist seit dem 30. Oktober 2022 der Präsident.,1,,(S (PPER Er) (VAFIN ist) (PP (APPR seit) (ART dem) (ADJA 30.) (NN Oktober) (CARD 2022)) (NP (ART der) (NN Präsident))) ($. .),1,0,1
+29465,Er war schon einmal Präsident von Brasilien.,1,,(S (PPER Er) (VAFIN war) (AVP (ADV schon) (ADV einmal)) (NP (NN Präsident) (PP (APPR von) (NE Brasilien)))) ($. .),1,1,0
+29466,Das war vom 1. Januar 2003 bis zum 1. Januar 2011.,2,"[[2, 3, 4, 5], [6, 7, 8, 9, 10]]",(PDS Das) (VAFIN war) (PP (APPRART vom) (ADJA 1.) (NN Januar) (CARD 2003)) (APPR bis) (APPRART zum) (ADJA 1.) (NN Januar) ($. 2011.),0,0,1
+29467,Mit einer Lupe \newline sieht man Sachen größer.,1,,(PP (APPR Mit) (ART einer) (NN Lupe)),0,0,0
+29468,Zum Beispiel kann man einen kleinen Text besser lesen.,2,"[[0, 1, 2, 3, 7, 8], [5]]",(S (PP (APPRART Zum) (NN Beispiel)) (VMFIN kann) (PIS man) (VP (NP (ART einen) (ADJA kleinen) (NN Text)) (ADJD besser) (VVINF lesen))) ($. .),1,1,0
+29470,Es gibt auch Redewendungen mit dem Wort Lupe.,1,,(S (PPER Es) (VVFIN gibt) (NP (ADV auch) (NN Redewendungen) (PP (APPR mit) (ART dem) (NN Wort) (NN Lupe)))) ($. .),1,1,1
+29474,"Eine Lupe ist ein Glas, \newline das zum Ver-größern benutzt wird.",2,"[[1, 2, 4], [6, 7, 8, 9, 10]]","(S (NP (ART Eine) (NN Lupe)) (VAFIN ist) (ART ein) (NN Glas)) ($, ,) (NP (FM \newline) (PRELS das)) (VP (PP (APPRART zum) (NN Ver-größern)) (VVPP benutzt)) (VAFIN wird) ($. .)",1,0,0
+29475,Zum Beispiel: \newline um einen Text größer zu sehen,2,"[[0, 1, 3, 5, 6, 7], [6]]",(PP (APPRART Zum) (NN Beispiel)) ($. :) (VP (NE \newline) (VP (KOUI um) (NP (ART einen) (NN Text)) (ADJD größer) (VZ (PTKZU zu) (VVINF sehen)))),0,0,0
+29476,Das Wort Lurker sagt man im Internet oft als Schimpfwort.,2,"[[5, 6], [7, 8, 9]]",(S (NP (ART Das) (NN Wort) (NN Lurker)) (VVFIN sagt) (PIS man) (PP (APPRART im) (NN Internet)) (ADV oft) (PP (APPR als) (NN Schimpfwort))) ($. .),1,1,0
+29477,"Ein Lurker nimmt, \newline aber gibt nichts.",2,"[[1, 2], [4, 5, 6]]","(CS (S (NP (ART Ein) (NN Lurker)) (VVFIN nimmt))) ($, ,) (S (NP (NE \newline) (ADV aber)) (VVFIN gibt) (PIS nichts)) ($. .)",1,0,0
+29480,In einer Internet  Tauschbörse macht ein Lurker einen Download.,2,"[[0, 2, 4], [5, 7, 9]]",(S (PP (APPR In) (ART einer) (NN Internet) (NN  ) (NN Tauschbörse)) (VVFIN macht) (NP (ART ein) (NN Lurker)) (NP (ART einen) (NN Download))) ($. .),1,0,1
+29481,Ein Luker macht in der Tauschbörse keinen Upload.,2,"[[1, 2, 6, 7], [3, 5]]",(S (NP (ART Ein) (NN Luker)) (VVFIN macht) (PP (APPR in) (ART der) (NN Tauschbörse)) (NP (PIAT keinen) (NN Upload))) ($. .),1,0,0
+29483,Ein Lurker liest in einem Wiki.,1,,(S (NP (ART Ein) (NN Lurker)) (VVFIN liest) (PP (APPR in) (ART einem) (NN Wiki))) ($. .),1,0,0
+29484,Ein Lurker schreibt selbst keine Artikel in einem Wiki.,2,"[[1, 2, 3, 4, 5], [6, 8]]",(S (NP (ART Ein) (NN Lurker)) (VVFIN schreibt) (ADV selbst) (NP (PIAT keine) (NN Artikel)) (PP (APPR in) (ART einem) (NN Wiki))) ($. .),1,0,0
+29485,Lurker ist ein englisches Wort.,1,,(S (NN Lurker) (VAFIN ist) (NP (ART ein) (ADJA englisches) (NN Wort))) ($. .),1,1,0
+29486,Das Wort wird meistens im Internet benutzt.,1,,(S (NP (ART Das) (NN Wort)) (VAFIN wird) (VP (ADV meistens) (PP (APPRART im) (NN Internet)) (VVPP benutzt))) ($. .),1,0,0
+29487,"Zum Beispiel sind damit Internetbenutzer gemeint, \newline die in einem Forum nur lesen und beobachten.",3,"[[0, 1, 2, 3, 5], [7, 8, 10, 11, 12], [7, 8, 10, 11, 14]]","(S (PP (APPRART Zum) (NN Beispiel)) (VAFIN sind) (PROAV damit) (NN Internetbenutzer) (VP (VVPP gemeint))) ($, ,) (NP (CS (S (FM \newline) (S (PRELS die) (PP (APPR in) (ART einem) (NN Forum)) (ADV nur) (VVFIN lesen))) (KON und) (S (VVFIN beobachten)))) ($. .)",1,1,0
+29488,Ein Lurker diskutiert nicht mit.,1,,(S (NP (ART Ein) (NN Lurker)) (VVFIN diskutiert) (PTKNEG nicht) (PTKVZ mit)) ($. .),1,0,0
+29489,Ein Lurker bleibt lieber versteckt.,1,,(S (NP (ART Ein) (NN Lurker)) (VVFIN bleibt) (ADV lieber) (VVPP versteckt)) ($. .),1,0,0
+29490,In eine Maß passt 1 Liter Bier.,1,,(S (PP (APPR In) (ART eine) (NN Maß)) (VVFIN passt) (NP (CARD 1) (NN Liter) (NN Bier))) ($. .),1,1,0
+29491,Besonders bekannt ist die Maß beim Oktoberfest.,2,"[[0, 1, 2, 4], [5, 6]]",(S (AP (ADV Besonders) (ADJD bekannt)) (VAFIN ist) (NP (ART die) (NN Maß) (PP (APPRART beim) (NN Oktoberfest)))) ($. .),1,1,0
+29492,Eine Maß ist ein sehr großes Glas.,1,,(S (NP (ART Eine) (NN Maß)) (VAFIN ist) (NP (ART ein) (AP (ADV sehr) (ADJA großes)) (NN Glas))) ($. .),1,1,0
+29494,Mac OS X gehört der Firma Apple.,1,,(S (PN (NE Mac) (NE OS) (NE X)) (VVFIN gehört) (NP (ART der) (NN Firma) (NE Apple))) ($. .),1,1,0
+29495,Mac OS X ist ein Betriebssystem für den Computer.,2,"[[5], [6, 8]]",(S (PN (NE Mac) (NE OS) (NE X)) (VAFIN ist) (NP (ART ein) (NN Betriebssystem) (PP (APPR für) (ART den) (NN Computer)))) ($. .),1,1,0
+29496,Es funktioniert nur auf Computern der Firma Apple.,1,,(S (PPER Es) (VVFIN funktioniert) (PP (ADV nur) (APPR auf) (NN Computern) (NP (ART der) (NN Firma) (NE Apple)))) ($. .),1,1,1
+29497,Machthaber können auch mehrere Personen sein.,1,,(S (NN Machthaber) (VMFIN können) (NP (ADV auch) (PIAT mehrere) (NN Personen)) (VP (VAINF sein))) ($. .),1,1,0
+29498,Beispiele für Deutschland: \newline Der Bundeskanzler ist ein Machthaber.,1,,(S (NP (NN Beispiele) (PP (APPR für) (NE Deutschland)))) ($. :) (XY \newline),0,1,0
+29499,Die Bundesregierung ist ein Machthaber.,1,,(S (NP (ART Die) (NN Bundesregierung)) (VAFIN ist) (NP (ART ein) (NN Machthaber))) ($. .),1,0,0
+29500,Das Wort Machthaber ist nicht immer gut gemeint.,1,,(S (NP (ART Das) (NN Wort) (NN Machthaber)) (VAFIN ist) (VP (AVP (PTKNEG nicht) (ADV immer)) (ADJD gut) (VVPP gemeint))) ($. .),1,1,0
+29501,"Die meisten, die das Wort benutzen,  \newline meinen damit einen ""schlechten oder bösen Chef"".",4,"[[1, 8, 9, 14], [11], [13], [2, 4, 5]]","(ART Die) (PIS meisten) ($, ,) (NP (S (PRELS die) (NP (ART das) (NN Wort)) (VVFIN benutzen))) ($, ,) (NN  ) (FM \newline) (VVFIN meinen) (PROAV damit) (ART einen) ($LRB "") (NP (CAP (ADJA schlechten) (KON oder) (ADJA bösen)) (NN Chef)) ($LRB "") ($. .)",1,2,0
+29502,"Ein Machthaber ist jemand, der die Macht hat, ein Chef.",2,"[[3, 4, 6, 7], [9]]","(S (NP (ART Ein) (NN Machthaber)) (VAFIN ist) (PIS jemand)) ($, ,) (S (PRELS der) (NP (ART die) (NN Macht)) (VAFIN hat)) ($, ,) (NP (NP (ART ein) (NN Chef))) ($. .)",1,0,0
+29504,Macht ist eine Fähigkeit von Menschen.,1,,(S (NN Macht) (VAFIN ist) (NP (ART eine) (NN Fähigkeit) (PP (APPR von) (NN Menschen)))) ($. .),1,1,0
+29505,Ein Mensch mit Macht beeinflusst andere Menschen.,1,,(S (NP (ART Ein) (NN Mensch) (PP (APPR mit) (NN Macht))) (VVFIN beeinflusst) (NP (ADJA andere) (NN Menschen))) ($. .),1,1,0
+29506,Macht ist manchmal gut und manchmal schlecht.,2,"[[2, 3], [5, 6]]",(S (NN Macht) (VAFIN ist) (CAP (AP (ADV manchmal) (ADJD gut)) (KON und) (AP (ADV manchmal) (ADJD schlecht)))) ($. .),1,0,0
+29507,Das Wort benutzt man bei Politik.,1,,(S (NP (ART Das) (NN Wort)) (VVFIN benutzt) (PIS man) (PP (APPR bei) (NN Politik))) ($. .),1,0,0
+29508,Menschen haben unterschiedlich viel Macht.,1,,(S (NN Menschen) (VAFIN haben) (NP (AP (ADJD unterschiedlich) (PIAT viel)) (NN Macht))) ($. .),1,1,0
+29509,Jeder Mensch hat eine Macke.,1,,(S (NP (PIAT Jeder) (NN Mensch)) (VAFIN hat) (NP (ART eine) (NN Macke))) ($. .),1,0,0
+29510,"Eine Macke kann ein Tick sein, eine Eigenart oder eine Behinderung.",3,"[[4], [7], [10]]","(S (NP (ART Eine) (NN Macke)) (VMFIN kann) (VP (CNP (NP (ART ein) (NN Tick))) (VAINF sein))) ($, ,) (NP (ART eine) (NN Eigenart)) (KON oder) (NP (ART eine) (NN Behinderung)) ($. .)",1,0,0
+29511,Viele Menschen haben die-selben Macken.,1,,(S (NP (PIAT Viele) (NN Menschen)) (VAFIN haben) (NP (PDAT die-selben) (NN Macken))) ($. .),1,0,0
+29512,Sie unterscheiden sich nicht besonders.,1,,(S (PPER Sie) (VVFIN unterscheiden) (PRF sich) (PTKNEG nicht) (ADV besonders)) ($. .),1,0,0
+29513,Manche Menschen haben besondere Macken.,1,,(S (NP (PIAT Manche) (NN Menschen)) (VAFIN haben) (NP (ADJA besondere) (NN Macken))) ($. .),1,0,0
+29514,Eine Macke macht jemand einzigartig.,1,,(S (NP (ART Eine) (NN Macke)) (VVFIN macht) (PIS jemand) (ADJD einzigartig)) ($. .),1,0,0
+29515,"Man kann jemand besonders mögen, weil er eine Macke hat.",2,"[[0, 1, 2, 3, 4], [5, 6, 8, 9]]","(S (PIS Man) (VMFIN kann) (VP (PIS jemand) (ADV besonders) (VVINF mögen))) ($, ,) (S (KOUS weil) (PPER er) (NP (ART eine) (NN Macke)) (VAFIN hat)) ($. .)",1,0,0
+29516,"Je mehr Menschen stolz sind auf ihre Macken,  \newline um so normaler wird es,  \newline eine Macke zu haben.",3,"[[0, 1, 2, 3, 4, 5, 6, 7], [10, 11, 12, 13, 14], [18, 19, 20]]","(S (AP (NP (AP (ADV Je) (PIAT mehr)) (NN Menschen)) (AP (ADJD stolz))) (VAFIN sind) (PP (APPR auf) (PPOSAT ihre) (NN Macken))) ($, ,) ($.  ) (ADV \newline) (AP (AVP (AVP (KOUI um) (ADV so))) (ADJD normaler)) (VAFIN wird) (NP (PPER es)) ($, ,) (VP ($.  ) (ADV \newline) (NP (ART eine) (NN Macke)) (VZ (PTKZU zu) (VAINF haben))) ($. .)",1,1,0
+29517,Eine Macke ist ein Kratzer oder eine Delle.,2,"[[4], [7]]",(S (NP (ART Eine) (NN Macke)) (VAFIN ist) (CNP (NP (ART ein) (NN Kratzer)) (KON oder) (NP (ART eine) (NN Delle)))) ($. .),1,0,0
+29518,Bei Menschen ist eine Macke eine Besonderheit.,1,,(S (PP (APPR Bei) (NN Menschen)) (VAFIN ist) (NP (ART eine) (NN Macke)) (NP (ART eine) (NN Besonderheit))) ($. .),1,0,0
+29519,Der Mac ist eine Art von Computer.,1,,(S (NP (ART Der) (NN Mac)) (VAFIN ist) (NP (ART eine) (NN Art) (PP (APPR von) (NN Computer)))) ($. .),1,1,0
+29520,"Das wird so gesprochen: ""Mäck"".",1,,"(S (PDS Das) (VAFIN wird) (VP (AVP (ADV so)) (VVPP gesprochen))) ($. :) ($LRB "") (NN Mäck) ($LRB "") ($. .)",1,0,0
+29521,Die Firma Apple verkauft die Computer.,1,,(S (NP (ART Die) (NN Firma) (NE Apple)) (VVFIN verkauft) (NP (ART die) (NN Computer))) ($. .),1,1,0
+29522,Eine Frau hat bei ihrer Geburt den gleichen Nach-namen wie ihre Eltern.,2,"[[1, 2, 7, 8, 9, 10, 11], [3, 4, 5]]",(S (NP (ART Eine) (NN Frau)) (VAFIN hat) (PP (APPR bei) (PPOSAT ihrer) (NN Geburt)) (NP (ART den) (AP (ADJA gleichen)) (NN Nach-namen) (NP (KOKOM wie) (PPOSAT ihre) (NN Eltern)))) ($. .),1,2,0
+29523,Später heiratet sie vielleicht einen Mann.,1,,(S (ADJD Später) (VVFIN heiratet) (PPER sie) (ADV vielleicht) (NP (ART einen) (NN Mann))) ($. .),1,0,0
+29524,Dann bekommt sie meistens den Nach-namen von ihrem Mann.,1,,(S (ADV Dann) (VVFIN bekommt) (PPER sie) (ADV meistens) (NP (ART den) (NN Nach-namen)) (PP (APPR von) (PPOSAT ihrem) (NN Mann))) ($. .),1,0,0
+29525,Ihr alter Nach-name ist dann ihr Mädchen-name.,1,,(S (NP (PPOSAT Ihr) (ADJA alter) (NN Nach-name)) (VAFIN ist) (ADV dann) (NP (PPOSAT ihr) (NN Mädchen-name))) ($. .),1,1,0
+29526,"Der Mädchen-name ist der Nach-name, den sie als Mädchen hatte.",2,"[[1, 2, 4], [5, 6, 7, 8, 9]]","(S (NP (ART Der) (NN Mädchen-name)) (VAFIN ist) (ART der) (NN Nach-name)) ($, ,) (NP (S (PRELS den) (PPER sie) (PP (APPR als) (NN Mädchen)) (VAFIN hatte))) ($. .)",1,1,0
+29527,Der Mädchen-name kann auch eine andere Bedeutung haben.,1,,(S (NP (ART Der) (NN Mädchen-name)) (VMFIN kann) (VP (NP (ADV auch) (ART eine) (ADJA andere) (NN Bedeutung)) (VAINF haben))) ($. .),1,1,0
+29528,Manche meinen mit Mädchen-name einen weiblichen Vornamen.,1,,(S (PIS Manche) (VVFIN meinen) (PP (APPR mit) (NN Mädchen-name)) (NP (ART einen) (ADJA weiblichen) (NN Vornamen))) ($. .),1,1,0
+29529,Der Mädchen-name ist der Nach-name von einer Frau.,2,"[[4], [5, 7]]",(S (NP (ART Der) (NN Mädchen-name)) (VAFIN ist) (NP (ART der) (NN Nach-name) (PP (APPR von) (ART einer) (NN Frau)))) ($. .),1,1,0
+29530,Bevor sie einen Mann heiratet.,1,,(S (KOUS Bevor) (PPER sie) (NP (ART einen) (NN Mann)) (VVFIN heiratet)) ($. .),1,0,0
+29531,"Madonna wurde am 16. August 1958 in Bay City, USA geboren.",3,"[[2, 3, 4, 5], [6, 7, 8], [6, 9]]","(S (NE Madonna) (VAFIN wurde) (PP (APPRART am) (ADJA 16.) (NN August) (CARD 1958)) (APPR in) (PN (NE Bay) (NE City))) ($, ,) (VP (PP (NE USA)) (VVPP geboren)) ($. .)",1,0,1
+29532,Vom Jahr 1985 bis zum Jahr 1989 war sie mit Sean Penn verheiratet.,2,"[[0, 1, 2], [3, 4, 5, 6]]",(S (PP (APPRART Vom) (NN Jahr) (CARD 1985)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 1989)) (VAFIN war) (PPER sie) (VP (PP (APPR mit) (PN (NE Sean) (NE Penn))) (VVPP verheiratet))) ($. .),1,0,1
+29533,Vom 2000 bis zum Jahr 2008 war sie mit Guy Ritchie verheiratet.,2,"[[0, 1], [2, 3, 4, 5]]",(S (PP (APPRART Vom) (CARD 2000)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 2008)) (VAFIN war) (PPER sie) (VP (PP (APPR mit) (PN (NE Guy) (NE Ritchie))) (VVPP verheiratet))) ($. .),1,0,1
+29534,Zusammen mit Carlos Leon hat sie eine Tochter.,2,"[[0, 1, 2, 3], [4, 5, 7]]",(S (PP (ADV Zusammen) (APPR mit) (PN (NE Carlos) (NE Leon))) (VAFIN hat) (PPER sie) (NP (ART eine) (NN Tochter))) ($. .),1,0,1
+29535,Sie ist am 14. Oktober 1996 geboren worden.,1,,(S (PPER Sie) (VAFIN ist) (VP (VP (PP (APPRART am) (ADJA 14.) (NN Oktober) (CARD 1996)) (VVPP geboren)) (VAPP worden))) ($. .),1,0,1
+29536,Sie heißt: Lourdes Maria Ciccone Leon.,1,,(S (PPER Sie) (VVFIN heißt)) ($. :) (PN (NE Lourdes) (NE Maria) (NE Ciccone) (NE Leon)) ($. .),1,0,0
+29537,Zusammen mit Guy Ritchie hat sie einen Sohn.,2,"[[0, 1, 2, 3], [4, 5, 7]]",(S (PP (ADV Zusammen) (APPR mit) (PN (NE Guy) (NE Ritchie))) (VAFIN hat) (PPER sie) (NP (ART einen) (NN Sohn))) ($. .),1,0,1
+29538,Er ist am 11. August 2000 geboren worden.,1,,(S (PPER Er) (VAFIN ist) (VP (VP (PP (APPRART am) (ADJA 11.) (NN August) (CARD 2000)) (VVPP geboren)) (VAPP worden))) ($. .),1,0,1
+29539,Er heißt: Rocco John Ciccone Ritchie.,1,,(S (PPER Er) (VVFIN heißt)) ($. :) (PN (NE Rocco) (NE John) (NE Ciccone) (NE Ritchie)) ($. .),1,0,0
+29540,Außerdem hat Madonna 2 Kinder adoptiert.,1,,(S (PROAV Außerdem) (VAFIN hat) (NE Madonna) (VP (NP (CARD 2) (NN Kinder)) (VVPP adoptiert))) ($. .),1,0,0
+29541,Die Kinder sind aus Malawi.,1,,(S (NP (ART Die) (NN Kinder)) (VAFIN sind) (PP (APPR aus) (NE Malawi))) ($. .),1,0,0
+29542,Madonna hat 300 Millionen Ton-träger verkauft.,1,,(S (NE Madonna) (VAFIN hat) (VP (NP (NM (CARD 300) (NN Millionen)) (NN Ton-träger)) (VVPP verkauft))) ($. .),1,1,0
+29543,Das heißt: Madonna ist die erfolgreichste Sängerin der Welt.,1,,(S (PDS Das) (VVFIN heißt)) ($. :) (S (NE Madonna) (VAFIN ist) (NP (ART die) (ADJA erfolgreichste) (NN Sängerin) (NP (ART der) (NN Welt)))) ($. .),1,1,0
+29544,Seit dem Jahr 1983 gibt es Musik Alben von Madonna.,3,"[[0, 2, 3], [4, 5, 6, 7], [6, 7, 8, 9]]",(S (PP (APPR Seit) (ART dem) (NN Jahr) (CARD 1983)) (VVFIN gibt) (PPER es) (NN Musik) (NP (NN Alben) (PP (APPR von) (NE Madonna)))) ($. .),1,1,1
+29545,Alle Alben waren in den Charts.,1,,(S (NP (PIAT Alle) (NN Alben)) (VAFIN waren) (PP (APPR in) (ART den) (NN Charts))) ($. .),1,0,0
+29550,Madonna ist auch Schauspielerin.,1,,(S (NE Madonna) (VAFIN ist) (NP (ADV auch) (NN Schauspielerin))) ($. .),1,0,0
+29551,Sie hat in verschiedenen Filmen mitgespielt.,1,,(S (PPER Sie) (VAFIN hat) (VP (PP (APPR in) (ADJA verschiedenen) (NN Filmen)) (VVPP mitgespielt))) ($. .),1,0,0
+29558,Madonna ist auch Autorin.,1,,(S (NE Madonna) (VAFIN ist) (NP (ADV auch) (NN Autorin))) ($. .),1,0,0
+29559,Sie hat Kinder-bücher gemacht.,1,,(S (PPER Sie) (VAFIN hat) (VP (NN Kinder-bücher) (VVPP gemacht))) ($. .),1,0,0
+29563,Madonna ist der Name für die Mutter Gottes im Christentum.,3,"[[0, 1], [4, 6, 7], [8, 9]]",(S (NE Madonna) (VAFIN ist) (NP (ART der) (NN Name) (PP (APPR für) (ART die) (NN Mutter) (NN Gottes) (PP (APPRART im) (NN Christentum))))) ($. .),1,1,1
+29564,Das war über sehr lange Zeit der einzige Gebrauch dieses Namens.,2,"[[0, 1, 7, 8, 9, 10], [2, 3, 4, 5]]",(S (PDS Das) (VAFIN war) (PP (APPR über) (AP (ADV sehr) (ADJA lange)) (NN Zeit)) (NP (ART der) (ADJA einzige) (NN Gebrauch) (NP (PDAT dieses) (NN Namens)))) ($. .),1,1,1
+29565,"Als eine Sängerin sich vor einigen Jahren so genannt hat, haben sich viele Christen sehr geärgert.",3,"[[0, 2, 3, 7, 8, 9], [4, 5, 6], [10, 11, 12, 13, 14, 15]]","(S (KOUS Als) (NP (ART eine) (NN Sängerin)) (VP (PRF sich) (PP (APPR vor) (PIAT einigen) (NN Jahren)) (ADV so) (VVPP genannt)) (VAFIN hat)) ($, ,) (S (VAFIN haben) (PRF sich) (NP (PIAT viele) (NN Christen)) (VP (ADV sehr) (VVPP geärgert))) ($. .)",1,0,0
+29566,Aber das hat die Sängerin nicht gestört.,1,,(S (KON Aber) (PDS das) (VAFIN hat) (VP (NP (ART die) (NN Sängerin)) (PTKNEG nicht) (VVPP gestört))) ($. .),1,0,0
+29567,Madonna ist eine Sängerin.,1,,(S (NE Madonna) (VAFIN ist) (NP (ART eine) (NN Sängerin))) ($. .),1,0,0
+29568,"Sie ist auch eine • Song-schreiberin,",1,,"(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Song-schreiberin)) ($, ,)",1,0,0
+29569,"Sie ist auch eine • Schauspielerin,",1,,"(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Schauspielerin)) ($, ,)",1,0,0
+29570,"Sie ist auch eine • Autorin,",1,,"(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Autorin)) ($, ,)",1,0,0
+29571,"Sie ist auch eine • Regisseurin,",1,,"(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Regisseurin)) ($, ,)",1,0,0
+29572,Sie ist auch eine • Produzentin,1,,(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (NP (NN Produzentin)),1,0,0
+29573,Sie ist auch eine • und Designerin.,1,,(S (PPER Sie) (VAFIN ist) (ADV auch) (ART eine)) ($LRB •) (KON und) (NN Designerin) ($. .),1,0,0
+29574,Madonna kann verschiedene Bedeutungen haben.,1,,(S (NE Madonna) (VMFIN kann) (VP (NP (ADJA verschiedene) (NN Bedeutungen)) (VAINF haben))) ($. .),1,0,0
+29575," • Mit Madonna ist Maria, die Mutter von Jesus gemeint: Maria (Mutter Jesu)",4,"[[2, 3, 4, 5, 10], [6, 7, 8, 9], [11], [12, 13]]","(XY  ) (XY •) (S (PP (APPR Mit) (NE Madonna)) (VAFIN ist) (NE Maria)) ($, ,) (ART die) (NN Mutter) (PP (APPR von) (NE Jesus)) (VP (VVPP gemeint)) ($. :) (NE Maria) ($LRB -LRB-) (NP (NP (NP (NN Mutter) (NE Jesu)))) ($LRB -RRB-)",1,0,0
+29577,"Magenknurren kann zum Beispiel enstehen,  \newline wenn man einen leeren Magen hat.",2,"[[0, 1, 4], [7, 8, 10, 11, 12]]","(S (NN Magenknurren) (VMFIN kann) (PP (APPRART zum) (NN Beispiel)) (VVINF enstehen)) ($, ,) ($.  ) (NE \newline)",1,0,0
+29578,Also wenn wir Hunger haben.,1,,(S (ADV Also) (KOUS wenn) (PPER wir) (NN Hunger) (VAFIN haben)) ($. .),1,0,0
+29579,Die Geräusche entstehen durch die leere Bewegung des Darms.,2,"[[1, 2, 3, 7, 8], [5]]",(S (NP (ART Die) (NN Geräusche)) (VVFIN entstehen) (PP (APPR durch) (ART die) (ADJA leere) (NN Bewegung) (NP (ART des) (NN Darms)))) ($. .),1,0,1
+29581,"Wenn Luft und Flüssigkeit bewegt werden, gibt es Geräusche.",3,"[[0, 1, 4, 5], [0, 3, 4, 5], [6, 7, 8]]","(S (KOUS Wenn) (CNP (NN Luft) (KON und) (NN Flüssigkeit)) (VVPP bewegt) (VAFIN werden)) ($, ,) (S (VVFIN gibt) (PPER es) (NN Geräusche)) ($. .)",1,0,0
+29582,Magenknurren ist ein Geräusch aus dem Bauch.,2,"[[0, 1, 3], [4, 6]]",(S (NN Magenknurren) (VAFIN ist) (NP (ART ein) (NN Geräusch) (PP (APPR aus) (ART dem) (NN Bauch)))) ($. .),1,1,0
+29583,Die Maghreb-staaten sind in Afrika.,1,,(S (NP (ART Die) (NN Maghreb-staaten)) (VAFIN sind) (PP (APPR in) (NE Afrika))) ($. .),1,0,0
+29585,Bei den Maghreb-staaten sind manche Sachen gleich.,1,,(S (PP (APPR Bei) (ART den) (NN Maghreb-staaten)) (VAFIN sind) (NP (PIAT manche) (NN Sachen)) (ADJD gleich)) ($. .),1,0,0
+29586,Zum Beispiel: • die Länder haben alle ein ähnliches Klima,1,,(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (ART die) (NN Länder) (VAFIN haben) (NP (PIS alle)) (NP (ART ein) (ADJA ähnliches) (NN Klima))),1,1,0
+29587,Zum Beispiel: • die Länder liegen am Mittel-meer (außer Mauretanien),2,"[[4, 5, 6, 7], [8, 9]]",(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (NP (ART die) (NN Länder)) (VVFIN liegen) (APPRART am) (NN Mittel-meer)) ($LRB -LRB-) (PP (PP (APPR außer) (NE Mauretanien))) ($LRB -RRB-),1,0,0
+29588,Zum Beispiel: • in den Ländern sprechen die Menschen meistens Maghrebinisches Arabisch,1,,(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (PP (APPR in) (ART den) (NN Ländern)) (VVFIN sprechen) (NP (ART die) (NN Menschen)) (ADV meistens) (NP (ADJA Maghrebinisches) (NN Arabisch))),1,0,0
+29589,Zum Beispiel: • die Länder haben eine ähnliche Geschichte,1,,(PP (APPRART Zum) (NN Beispiel)) ($. :) ($LRB •) (S (NP (ART die) (NN Länder)) (VAFIN haben) (NP (ART eine) (ADJA ähnliche) (NN Geschichte))),1,1,0
+29597,Mit Maghreb sind 3 Länder zusammen gemeint.,1,,(S (PP (APPR Mit) (NE Maghreb)) (VAFIN sind) (NP (CARD 3) (NN Länder)) (VP (ADV zusammen) (VVPP gemeint))) ($. .),1,0,0
+29604,Magnus Carlsen wurde am 30. November 1990 in geboren.,1,,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 30.) (NN November) (CARD 1990)) (APPR in) (VVPP geboren))) ($. .),1,0,1
+29605,"Das war in Tønsberg, Norwegen.",2,"[[3], [4]]","(S (PDS Das) (VAFIN war) (APPR in) (NE Tønsberg)) ($, ,) (PP (NE Norwegen)) ($. .)",1,0,0
+29606,Magnus Carlsens Vater hat ihm die Spiel-regeln für Schach beigebracht.,1,,(S (NP (PN (NE Magnus) (NE Carlsens)) (NN Vater)) (VAFIN hat) (VP (PPER ihm) (NP (ART die) (NN Spiel-regeln) (PP (APPR für) (NE Schach))) (VVPP beigebracht))) ($. .),1,2,0
+29607,Da war Magnus Carlsen 5 Jahre alt.,1,,(S (ADV Da) (VAFIN war) (PN (NE Magnus) (NE Carlsen)) (AP (NP (CARD 5) (NN Jahre)) (ADJD alt))) ($. .),1,0,0
+29608,"Seit er 9 Jahre alt ist, \newline macht er bei Schach-Turnieren mit.",2,"[[0, 1, 2, 3, 4, 5], [7, 8, 9, 10, 11]]","(S (KOUS Seit) (PPER er) (AP (NP (CARD 9) (NN Jahre)) (ADJD alt)) (VAFIN ist)) ($, ,) (S (FM \newline) (VVFIN macht) (PPER er) (PP (APPR bei) (NN Schach-Turnieren)) (PTKVZ mit)) ($. .)",1,0,0
+29609,Er hat den Titel: Schach-Großmeister.,1,,(S (PPER Er) (VAFIN hat) (ART den) (NN Titel)) ($. :) (NP (NN Schach-Großmeister)) ($. .),1,0,0
+29610,Seit dem 22. November 2013 ist er Schachweltmeister.,2,"[[0, 2, 3, 4], [5, 6, 7]]",(S (PP (APPR Seit) (ART dem) (ADJA 22.) (NN November) (CARD 2013)) (VAFIN ist) (PPER er) (NN Schachweltmeister)) ($. .),1,0,1
+29611,Magnus Carlsen ist einer der besten Schachspieler der Welt.,1,,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN ist) (NP (PIS einer) (NP (ART der) (ADJA besten) (NN Schachspieler) (NP (ART der) (NN Welt))))) ($. .),1,2,0
+29612,Für Schachspieler gibt es eine Weltrangliste.,1,,(S (PP (APPR Für) (NN Schachspieler)) (VVFIN gibt) (PPER es) (NP (ART eine) (NN Weltrangliste))) ($. .),1,0,0
+29613,Im Februar 2013 hatte er in dieser Liste 2872 Punkte.,3,"[[0, 1, 2], [3, 4, 8, 9], [5, 7]]",(S (PP (APPRART Im) (NN Februar) (CARD 2013)) (VAFIN hatte) (PPER er) (PP (APPR in) (PDAT dieser) (NN Liste)) (NP (CARD 2872) (NN Punkte))) ($. .),1,0,0
+29614,So viele Punkte hat noch niemand vor ihm gehabt.,1,,(S (NP (AP (ADV So) (PIAT viele)) (NN Punkte)) (VAFIN hat) (NP (ADV noch) (PIS niemand)) (VP (PP (APPR vor) (PPER ihm)) (VAPP gehabt))) ($. .),1,1,0
+29615,Bis dahin hatte Garri Kimowitsch Kasparow die meisten Punkte in der Liste.,1,,(S (PP (APPR Bis) (PROAV dahin)) (VAFIN hatte) (PN (NE Garri) (NE Kimowitsch) (NE Kasparow)) (NP (ART die) (PIAT meisten) (NN Punkte) (PP (APPR in) (ART der) (NN Liste)))) ($. .),1,1,0
+29616,Garri Kasparow hatte im Juli 1999 in dieser Liste 2851 Punkte.,3,"[[0, 1, 2, 9, 10], [3, 4, 5], [6, 7, 8]]",(S (PN (NE Garri) (NE Kasparow)) (VAFIN hatte) (PP (APPRART im) (NN Juli) (CARD 1999)) (PP (APPR in) (PDAT dieser) (NN Liste)) (NP (CARD 2851) (NN Punkte))) ($. .),1,0,0
+29617,Magnus Carlsen ist auch ein Model.,1,,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN ist) (NP (ADV auch) (ART ein) (NN Model))) ($. .),1,1,0
+29618,Das heißt er arbeitet auch für die Kleider-Firma G-Star.,2,"[[7], [8]]",(S (PDS Das) (VVFIN heißt) (S (PPER er) (VVFIN arbeitet) (PP (ADV auch) (APPR für) (ART die) (NN Kleider-Firma) (NE G-Star)))) ($. .),1,0,1
+29619,Er zieht die Kleider von der Firma an.,2,"[[0, 1, 7], [4, 6]]",(S (PPER Er) (VVFIN zieht) (NP (ART die) (NN Kleider)) (PP (APPR von) (ART der) (NN Firma)) (PTKVZ an)) ($. .),1,0,0
+29620,"So können andere sehen, wie die Kleider aussehen.",2,"[[0, 1, 2, 3], [4, 6, 7]]","(S (ADV So) (VMFIN können) (PIS andere) (VP (VVINF sehen))) ($, ,) (S (PWAV wie) (NP (ART die) (NN Kleider)) (VVFIN aussehen)) ($. .)",1,0,0
+29621,Magnus Carlsen ist ein Schach-spieler.,1,,(S (PN (NE Magnus) (NE Carlsen)) (VAFIN ist) (NP (ART ein) (NN Schach-spieler))) ($. .),1,0,0
+29622,Mahatma Gandhi wurde am 2. Oktober 1869 geboren.,1,,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN wurde) (VP (PP (APPRART am) (ADJA 2.) (NN Oktober) (CARD 1869)) (VVPP geboren))) ($. .),1,0,1
+29623,"Das war in Porbandar, Indien.",2,"[[3], [4]]","(S (PDS Das) (VAFIN war) (APPR in) (NE Porbandar)) ($, ,) (PP (NE Indien)) ($. .)",1,0,0
+29624,Er ist gestorben.,1,,(S (PPER Er) (VAFIN ist) (VVPP gestorben)) ($. .),1,0,0
+29626,Mahatma Gandhi war mit Kasturba Makthaji verheiratet.,1,,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN war) (VP (PP (APPR mit) (PN (NE Kasturba) (NE Makthaji))) (VVPP verheiratet))) ($. .),1,0,0
+29627,Zusammen hatten sie 4 Kinder.,1,,(S (ADV Zusammen) (VAFIN hatten) (PPER sie) (NP (CARD 4) (NN Kinder))) ($. .),1,0,0
+29628,Sein richtiger Name ist Mohandas Karamchand Gandhi.,1,,(S (NP (PPOSAT Sein) (ADJA richtiger) (NN Name)) (VAFIN ist) (PN (NE Mohandas) (NE Karamchand) (NE Gandhi))) ($. .),1,1,0
+29630,Die meisten Leute sagen aber Mahatma Gandhi.,1,,(S (NP (ART Die) (PIAT meisten) (NN Leute)) (VVFIN sagen) (ADV aber) (PN (NE Mahatma) (NE Gandhi))) ($. .),1,1,0
+29631,Sanskrit ist eine indische Sprache.,1,,(S (NN Sanskrit) (VAFIN ist) (NP (ART eine) (ADJA indische) (NN Sprache))) ($. .),1,1,0
+29632,"In Sanskrit heißt Mahatma ""Große Seele"".",2,"[[0, 1, 2, 3], [4, 5]]","(S (PP (APPR In) (NE Sanskrit)) (VVFIN heißt) (NE Mahatma)) ($LRB "") (NP (ADJA Große) (NN Seele)) ($LRB "") ($. .)",1,0,0
+29633,Nach der Schule ging Mahatma Gandhi nach Großbritannien.,2,"[[0, 2], [6, 7]]",(S (PP (APPR Nach) (ART der) (NN Schule)) (VVFIN ging) (PN (NE Mahatma) (NE Gandhi)) (PP (APPR nach) (NE Großbritannien))) ($. .),1,0,0
+29634,In Großbritannien hat er studiert.,1,,(S (PP (APPR In) (NE Großbritannien)) (VAFIN hat) (PPER er) (VP (VVPP studiert))) ($. .),1,0,0
+29635,Er hat das Fach Jura studiert.,1,,(S (PPER Er) (VAFIN hat) (VP (NP (ART das) (NN Fach) (NN Jura)) (VVPP studiert))) ($. .),1,1,0
+29636,Er wurde Rechts-anwalt.,1,,(S (PPER Er) (VAFIN wurde) (NN Rechts-anwalt)) ($. .),1,0,0
+29637,"Nach dem Studium, \newline ist er zurück nach Süd-afrika und nach Indien.",3,"[[0, 2], [4, 5, 6, 7, 8], [4, 5, 6, 10, 11]]","(PP (APPR Nach) (ART dem) (NN Studium)) ($, ,) (S (ADV \newline) (VAFIN ist) (PPER er) (ADV zurück) (CPP (PP (APPR nach) (NE Süd-afrika)) (KON und) (PP (APPR nach) (NE Indien)))) ($. .)",1,0,0
+29638,Süd-afrika und Indien waren damals eine Kolonie von Großbritannien.,3,"[[0, 3, 4], [2, 3, 4], [7, 8]]",(S (CNP (NE Süd-afrika) (KON und) (NE Indien)) (VAFIN waren) (ADV damals) (NP (ART eine) (NN Kolonie) (PP (APPR von) (NE Großbritannien)))) ($. .),1,1,0
+29639,Die Engländer haben die Gesetze in Indien gemacht.,2,"[[1, 2, 4, 7], [5, 6]]",(S (NP (ART Die) (NN Engländer)) (VAFIN haben) (VP (NP (ART die) (NN Gesetze)) (PP (APPR in) (NE Indien)) (VVPP gemacht))) ($. .),1,0,0
+29640,Die Gesetze waren für viele Inder schlecht.,1,,(S (NP (ART Die) (NN Gesetze)) (VAFIN waren) (AP (PP (APPR für) (PIAT viele) (NN Inder)) (ADJD schlecht))) ($. .),1,0,0
+29641,Die Gesetze waren ungerecht.,1,,(S (NP (ART Die) (NN Gesetze)) (VAFIN waren) (ADJD ungerecht)) ($. .),1,0,0
+29642,Die Inder sind unterdrückt worden.,1,,(S (NP (ART Die) (NN Inder)) (VAFIN sind) (VP (VVPP unterdrückt) (VAPP worden))) ($. .),1,0,0
+29643,Und sie sind ausgebeutet worden.,1,,(S (KON Und) (PPER sie) (VAFIN sind) (VP (VVPP ausgebeutet) (VAPP worden))) ($. .),1,0,0
+29644,"Mahatma Gandhi wollte, \newline dass Indien unabhängig wird.",2,"[[0, 1, 2], [4, 5, 6, 7]]","(S (PN (NE Mahatma) (NE Gandhi)) (VMFIN wollte)) ($, ,) (FM \newline) (S (KOUS dass) (NE Indien) (ADJD unabhängig) (VAFIN wird)) ($. .)",1,0,0
+29645,Und dass die Inder selbst über ihr Land entscheiden können.,2,"[[0, 1, 3, 4, 8, 9], [5, 6, 7]]",(S (KON Und) (KOUS dass) (NP (ART die) (NN Inder)) (VP (ADV selbst) (PP (APPR über) (PPOSAT ihr) (NN Land)) (VVINF entscheiden)) (VMFIN können)) ($. .),1,0,0
+29646,Er hat gesagt.,1,,(S (PPER Er) (VAFIN hat) (VP (VVPP gesagt))) ($. .),1,0,0
+29647,Die Inder sollen ungehorsam sein.,1,,(S (NP (ART Die) (NN Inder)) (VMFIN sollen) (VP (ADJD ungehorsam) (VAINF sein))) ($. .),1,0,0
+29648,Sie sollen den Engländern nicht gehorchen.,1,,(S (PPER Sie) (VMFIN sollen) (NP (ART den) (NN Engländern)) (PTKNEG nicht) (VP (VVINF gehorchen))) ($. .),1,0,0
+29649,Und sie sollen sich nicht an die ungerechten Gesetze halten.,1,,(S (KON Und) (PPER sie) (VMFIN sollen) (PRF sich) (PTKNEG nicht) (VP (PP (APPR an) (ART die) (ADJA ungerechten) (NN Gesetze)) (VVINF halten))) ($. .),1,0,1
+29651,Die Engländer haben gesagt.,1,,(S (NP (ART Die) (NN Engländer)) (VAFIN haben) (VP (VVPP gesagt))) ($. .),1,0,0
+29652,Die Inder müssen für Salz eine Steuer zahlen.,1,,(S (NP (ART Die) (NN Inder)) (VMFIN müssen) (VP (PP (APPR für) (NN Salz)) (NP (ART eine) (NN Steuer)) (VVINF zahlen))) ($. .),1,0,0
+29654,Inder durften selbst kein Salz machen.,1,,(S (NN Inder) (VMFIN durften) (ADV selbst) (VP (NP (PIAT kein) (NN Salz)) (VVINF machen))) ($. .),1,0,0
+29656,Er ist zusammen mit anderen an das Meer marschiert.,2,"[[0, 1, 5, 7, 8], [2, 3, 4]]",(S (PPER Er) (VAFIN ist) (VP (PP (ADV zusammen) (APPR mit) (PIS anderen)) (PP (APPR an) (ART das) (NN Meer)) (VVPP marschiert))) ($. .),1,0,0
+29657,Sie sind 24 Tage lang marschiert.,1,,(S (PPER Sie) (VAFIN sind) (VP (AP (NP (CARD 24) (NN Tage)) (ADJD lang)) (VVPP marschiert))) ($. .),1,0,0
+29658,Viele sagen dazu: Salz-marsch.,1,,(S (PIS Viele) (VVFIN sagen) (PROAV dazu)) ($. :) (NN Salz-marsch) ($. .),1,0,0
+29659,"Am Meer haben die Inder aus Salz-wasser, \newline Salz gemacht.",3,"[[0, 1], [2, 4, 8, 9], [5, 6]]","(S (PP (APPRART Am) (NN Meer)) (VAFIN haben) (NP (ART die) (NN Inder)) (PP (APPR aus) (NN Salz-wasser))) ($, ,) (VP (NP (FM \newline) (NN Salz)) (VVPP gemacht)) ($. .)",1,0,0
+29660,Sie haben das Salz verkauft.,1,,(S (PPER Sie) (VAFIN haben) (VP (NP (ART das) (NN Salz)) (VVPP verkauft))) ($. .),1,0,0
+29661,Sie haben keine Steuern gezahlt.,1,,(S (PPER Sie) (VAFIN haben) (VP (NP (PIAT keine) (NN Steuern)) (VVPP gezahlt))) ($. .),1,0,0
+29662,Mahatma Gandhi hat noch andere Aktionen gemacht.,1,,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN hat) (VP (NP (ADV noch) (ADJA andere) (NN Aktionen)) (VVPP gemacht))) ($. .),1,1,0
+29663,Für die Aktionen haben die Engländer ihn immer wieder ins Gefängnis gebracht.,1,,(S (PP (APPR Für) (ART die) (NN Aktionen)) (VAFIN haben) (NP (ART die) (NN Engländer)) (VP (PPER ihn) (AVP (ADV immer) (ADV wieder)) (PP (APPRART ins) (NN Gefängnis)) (VVPP gebracht))) ($. .),1,0,0
+29664,Insgesamt war Mahatma Gandhi 8 Jahre im Gefängnis.,1,,(S (ADV Insgesamt) (VAFIN war) (PN (NE Mahatma) (NE Gandhi)) (NP (CARD 8) (NN Jahre)) (PP (APPRART im) (NN Gefängnis))) ($. .),1,0,0
+29665,Am 3. Juni 1947 wurde Indien unabhängig.,2,"[[0, 1, 2, 3], [4, 5, 6]]",(S (PP (APPRART Am) (ADJA 3.) (NN Juni) (CARD 1947)) (VAFIN wurde) (NE Indien) (ADJD unabhängig)) ($. .),1,0,1
+29666,Indien wurde in 2 Staaten geteilt.,1,,(S (NE Indien) (VAFIN wurde) (VP (PP (APPR in) (CARD 2) (NN Staaten)) (VVPP geteilt))) ($. .),1,0,0
+29668,Am 30. Januar 1948 hat ein Attentäter Mahatma Gandhi erschossen.,2,"[[0, 1, 2, 3], [4, 6, 7, 8, 9]]",(S (PP (APPRART Am) (ADJA 30.) (NN Januar) (CARD 1948)) (VAFIN hat) (NP (ART ein) (NN Attentäter)) (VP (PN (NE Mahatma) (NE Gandhi)) (VVPP erschossen))) ($. .),1,0,1
+29669,Das war in der Stadt New Delhi.,1,,(S (PDS Das) (VAFIN war) (PP (APPR in) (ART der) (NN Stadt) (PN (NE New) (NE Delhi)))) ($. .),1,0,1
+29670,Mahatma Gandhi wurde eingeäschert.,1,,(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN wurde) (VVPP eingeäschert)) ($. .),1,0,0
+29671,Viele sagen er wurde verbrannt.,1,,(S (PIS Viele) (VVFIN sagen) (S (PPER er) (VAFIN wurde) (VVPP verbrannt))) ($. .),1,0,0
+29672,Die Asche wurde im Fluss Ganges verstreut.,2,"[[1, 2, 6], [3, 4, 5]]",(S (NP (ART Die) (NN Asche)) (VAFIN wurde) (VP (PP (APPRART im) (NN Fluss) (NN Ganges)) (VVPP verstreut))) ($. .),1,0,0
+29673,Mahatma Gandhi war ein indischer Rechts-anwalt.,2,"[[0, 1, 2, 5], [4]]",(S (PN (NE Mahatma) (NE Gandhi)) (VAFIN war) (NP (ART ein) (ADJA indischer) (NN Rechts-anwalt))) ($. .),1,1,0
+29674,Er hat in Indien gelebt.,1,,(S (PPER Er) (VAFIN hat) (VP (PP (APPR in) (NE Indien)) (VVPP gelebt))) ($. .),1,0,0
+29675,Er hat vom Jahr 1869 bis zum Jahr 1948 gelebt.,2,"[[2, 3, 4], [5, 6, 7, 8]]",(S (PPER Er) (VAFIN hat) (VP (PP (APPRART vom) (NN Jahr) (CARD 1869)) (PP (APPR bis) (APPRART zum) (NN Jahr) (CARD 1948)) (VVPP gelebt))) ($. .),1,0,1
+29676,"Er war auch ein Widerstands-kämpfer, Publizist, Politiker, Asket und Pazifist.",5,"[[4], [5], [6], [7], [9]]","(S (PPER Er) (VAFIN war) (NP (ADV auch) (ART ein) (CNP (NN Widerstands-kämpfer)))) ($, ,) (NN Publizist) ($, ,) (NN Politiker) ($, ,) (NN Asket) (KON und) (NN Pazifist) ($. .)",1,1,0
+29677,Er hat für die Rechte und die Befreiung seines Volkes gekämpft.,2,"[[4], [7]]",(S (PPER Er) (VAFIN hat) (VP (PP (APPR für) (CNP (NP (ART die) (NN Rechte)) (KON und) (NP (ART die) (NN Befreiung))) (NP (PPOSAT seines) (NN Volkes))) (VVPP gekämpft))) ($. .),1,0,1
+29678,Das hat er ohne Gewalt gemacht.,1,,(S (PDS Das) (VAFIN hat) (PPER er) (VP (PP (APPR ohne) (NN Gewalt)) (VVPP gemacht))) ($. .),1,0,0
+29679,Deshalb ist er für viele ein Vorbild.,1,,(S (PROAV Deshalb) (VAFIN ist) (PPER er) (PP (APPR für) (PIS viele)) (NP (ART ein) (NN Vorbild))) ($. .),1,0,0
+29680,Ein Vorbild für gewaltfreien Widerstand.,2,"[[3], [4]]",(NP (ART Ein) (NN Vorbild) (PP (APPR für) (ADJA gewaltfreien) (NN Widerstand))) ($. .),0,1,0
+29681,Mail gehört zu dem Betriebssystem Mac OS X.,2,"[[4], [5, 6, 7]]",(NN Mail) (VVFIN gehört) (APPR zu) (ART dem) (NN Betriebssystem) (NE Mac) (NE OS) ($. X.),0,0,0
+29682,Mail ist ein E-Mail-Programm.,1,,(S (NN Mail) (VAFIN ist) (NP (ART ein) (NN E-Mail-Programm))) ($. .),1,0,0
+29683,Es wurde von dem Unternehmen Apple hergestellt.,1,,(S (PPER Es) (VAFIN wurde) (VP (PP (APPR von) (ART dem) (NN Unternehmen) (NE Apple)) (VVPP hergestellt))) ($. .),1,0,1
+29684,Mail ist englisch.,1,,(S (NN Mail) (VAFIN ist) (ADJD englisch)) ($. .),1,0,0
+29685,"Auf deutsch heißt Mail ""Post"".",1,,"(S (PP (APPR Auf) (ADJD deutsch)) (VVFIN heißt) (NN Mail)) ($LRB "") (NN Post) ($LRB "") ($. .)",1,0,0
+29686,Das Wort Mail kann verschiedene Bedeutungen haben.,1,,(S (NP (ART Das) (NN Wort) (NN Mail)) (VMFIN kann) (VP (NP (ADJA verschiedene) (NN Bedeutungen)) (VAINF haben))) ($. .),1,1,0
+29687,Es gibt die elektronische Post.,1,,(S (PPER Es) (VVFIN gibt) (NP (ART die) (ADJA elektronische) (NN Post))) ($. .),1,1,0
+29688,Informationen findet man unter E-Mail.,1,,(S (NN Informationen) (VVFIN findet) (PIS man) (PP (APPR unter) (NN E-Mail))) ($. .),1,0,0
+29689,Es gibt ein E-Mail-Programm.,1,,(S (PPER Es) (VVFIN gibt) (NP (ART ein) (NN E-Mail-Programm))) ($. .),1,0,0
+29690,Informationen findet man unter Mail (Apple).,2,"[[0, 1, 2, 3, 4], [5]]",(S (NN Informationen) (VVFIN findet) (PIS man) (APPR unter) (NN Mail)) ($LRB -LRB-) (PP (NE Apple)) ($LRB -RRB-) ($. .),1,0,0
+29691,Main-stream ist der Geschmack von vielen Menschen.,1,,(S (FM Main-stream) (VAFIN ist) (NP (ART der) (NN Geschmack) (PP (APPR von) (PIAT vielen) (NN Menschen)))) ($. .),1,1,0
+29692,"Das heißt, \newline sehr viele Menschen finden etwas gut oder schlecht.",2,"[[8], [10]]","(S (PDS Das) (VVFIN heißt)) ($, ,) (S (ADV \newline) (NP (AP (ADV sehr) (PIAT viele)) (NN Menschen)) (VVFIN finden) (PIS etwas) (CAP (ADJD gut) (KON oder) (ADJD schlecht))) ($. .)",1,1,0
+29693,Wenn es sehr viele Menschen sind ist es ein Main-stream.,2,"[[0, 1, 2, 3, 4, 5], [6, 7, 9]]",(S (KOUS Wenn) (PPER es) (NP (AP (ADV sehr) (PIAT viele)) (NN Menschen)) (VAFIN sind) (VAFIN ist) (PPER es) (NP (ART ein) (NN Main-stream))) ($. .),1,1,0
+29694,"Main-stream kann zum Beispiel Musik, eine Zeitung oder ein Fernseh-programm sein.",3,"[[4], [6], [9]]","(S (NN Main-stream) (VMFIN kann) (NP (PP (APPRART zum) (NN Beispiel)) (CNP (NN Musik)))) ($, ,) (VP (NP (ART eine) (NN Zeitung)) (KON oder) (NP (ART ein) (NN Fernseh-programm)) (VP (VAINF sein))) ($. .)",1,1,0
+29695,Das Gegenteil von einem Main-stream ist eine Sub-kultur.,1,,(S (NP (ART Das) (NN Gegenteil) (PP (APPR von) (ART einem) (NN Main-stream))) (VAFIN ist) (NP (ART eine) (NN Sub-kultur))) ($. .),1,1,0
+29696,Das Wort Main-stream ist ein Substantiv.,2,"[[1], [5]]",(S (NP (ART Das) (NN Wort) (FM Main-stream)) (VAFIN ist) (NP (ART ein) (NN Substantiv))) ($. .),1,1,0
+29697,Es hat die 2 englischen Wörter: • Main (heißt auf Deutsch Haupt  damit sind viele Menschen gemeint),3,"[[0, 1, 3, 4, 5, 7], [8, 9, 10, 11], [13, 14, 15, 16, 17]]",(S (PPER Es) (VAFIN hat) (ART die) (CARD 2) (ADJA englischen) (NN Wörter)) ($. :) ($LRB •) (FM Main) ($LRB -LRB-) (NP (S (VVFIN heißt) (PP (APPR auf) (NN Deutsch)) (NN Haupt) (PROAV  ) (PROAV damit) (VAFIN sind) (NP (PIAT viele) (NN Menschen)) (VP (VVPP gemeint)))) ($LRB -RRB-),1,1,0
+29698,Es hat die 2 englischen Wörter: • Stream (heißt auf Deutsch Strom  damit ist ein bestimmter Geschmack gemeint),3,"[[0, 1, 3, 4, 5, 7], [8, 9, 10, 11], [13, 14, 16, 17, 18]]",(S (PPER Es) (VAFIN hat) (NP (ART die) (CARD 2) (ADJA englischen) (NN Wörter))) ($. :),1,1,0
+29699,"Wenn viele Menschen das gleiche gut finden, \newline gehören sie zum Mainstream.",2,"[[0, 1, 2, 4, 5, 6], [8, 9, 10, 11]]","(S (KOUS Wenn) (NP (PIAT viele) (NN Menschen)) (NP (ART das) (ADJA gleiche)) (ADJD gut) (VVFIN finden)) ($, ,) (S (FM \newline) (VVFIN gehören) (PPER sie) (PP (APPRART zum) (NN Mainstream))) ($. .)",1,0,0
+29700,Main-stream ist alles was sehr viele gut finden.,2,"[[0, 1, 2], [3, 4, 5, 6, 7]]",(S (FM Main-stream) (VAFIN ist) (PIS alles)),1,0,0
+29702,Aus den Mais-körnern kann man verschiedene Sachen machen.,1,,(S (PP (APPR Aus) (ART den) (NN Mais-körnern)) (VMFIN kann) (PIS man) (VP (NP (ADJA verschiedene) (NN Sachen)) (VVINF machen))) ($. .),1,0,0
+29710,Mais kann auch Tier-futter sein.,1,,(S (KON Mais) (VMFIN kann) (VP (NP (ADV auch) (NN Tier-futter)) (VAINF sein))) ($. .),1,0,0
+29713,Aus Mais kann man auch Bio-ethanol machen.,1,,(S (PP (APPR Aus) (NN Mais)) (VMFIN kann) (PIS man) (ADV auch) (VP (NN Bio-ethanol) (VVINF machen))) ($. .),1,0,0
+29715,Mais ist eine Getreide-pflanze.,1,,(S (NN Mais) (VAFIN ist) (NP (ART eine) (NN Getreide-pflanze))) ($. .),1,0,0
+29716,Mais kommt aus Mittel-amerika.,1,,(S (NN Mais) (VVFIN kommt) (PP (APPR aus) (NE Mittel-amerika))) ($. .),1,0,0
+29717,Mais ist eine hoch-wachsende Pflanze.,1,,(S (NN Mais) (VAFIN ist) (NP (ART eine) (ADJA hoch-wachsende) (NN Pflanze))) ($. .),1,1,0
+29718,Mais hat lange und breite Blätter.,2,"[[2], [4]]",(S (NE Mais) (VAFIN hat) (NP (CAP (ADJA lange) (KON und) (ADJA breite)) (NN Blätter))) ($. .),1,1,0
+29719,Die Mais-pflanze ist grün.,1,,(S (NP (ART Die) (NN Mais-pflanze)) (VAFIN ist) (ADJD grün)) ($. .),1,0,0
+29720,An der Pflanze wachsen Kolben.,1,,(S (PP (APPR An) (ART der) (NN Pflanze)) (VVFIN wachsen) (NN Kolben)) ($. .),1,0,0
+29721,Im Mais-kolben sind gelbe Körner.,1,,(S (PP (APPRART Im) (NN Mais-kolben)) (VAFIN sind) (NP (ADJA gelbe) (NN Körner))) ($. .),1,0,0
