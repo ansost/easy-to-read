@@ -1,8 +1,25 @@
 import spacy
 import re
+import pandas as pd
 
+def check_date_entity(line):
+    date_entity_pattern = r'date-entity|date_entity'
+    if re.search(date_entity_pattern, line, re.IGNORECASE):
+        return True
+    return False
 
-def count_statements(text: str) -> int:
+def count_statements(text: str, split: str) -> int:
+    splits_dict = {"train": "../data/metrics/train_amr.csv", "test": "../data/metrics/test_amr.csv", "eval": "../data/metrics/eval_amr.csv"}
+
+    if split == "test":
+        df = pd.read_csv(splits_dict["test"])
+
+    if split == "train":
+        df = pd.read_csv(splits_dict["train"])
+
+    if split == "eval":
+        df = pd.read_csv(splits_dict["eval"])
+    amr = df[df["phrase"] == text]["amr"].values[0]
     nlp = spacy.load("de_core_news_sm")
     doc = nlp(text)
 
@@ -22,6 +39,9 @@ def count_statements(text: str) -> int:
 
     coordinating_conjunctions = ["und", "oder", "aber", "denn", "sondern", "doch"]
     subordinating_conjunctions = ["dass", "ob", "weil", "da", "wenn", "als", "nachdem", "damit", "um", "so dass", "sodass", "obwohl", "obgleich", "wobei", "während", "bevor", "ehe", "seit", "seitdem", "bis", "solange", "sobald", "sooft", "wie", "als ob", "als wenn", "indem", "ohne dass", "statt dass", "anstatt dass", "außer dass", "nur dass", "kaum dass", "geschweige denn", "es sei denn", "wenn auch", "wenngleich", "gleichwohl", "trotzdem", "ungeachtet dessen"]
+
+    if check_date_entity(amr):
+        statements += 1 # Date specifications
 
     for sent in doc.sents:
         clauses = []
@@ -54,8 +74,8 @@ def count_statements(text: str) -> int:
             if token.dep_ == "pobj" and token.head.pos_ == "ADP" and token.head.head.pos_ == "VERB":
                 statements -= 1  # Trivial prepositions
 
-            if token.ent_type_ == "DATE":
-                statements += 1  # Date and year specifications
+            # if token.ent_type_ == "DATE":
+            #     statements += 1  # Date and year specifications
 
             current_clause.append(token.text)
 
@@ -81,16 +101,16 @@ def count_statements(text: str) -> int:
                 if token.text in sein_verbforms:
                     has_sein_statement = True
             if has_sein_statement:
-                statements += 1            
+                statements += 1
 
-            
+
 
             if has_subject and has_verb:
                 statements += 1  # SVO combination forming a statement
             elif has_verb:
                 statements += 1  # Subclause with a verb forming a statement
 
-        if not any(token.pos_ == "VERB" for token in sent) and not has_sein_statement::
+        if not any(token.pos_ == "VERB" for token in sent) and not has_sein_statement:
             statements = 0  # 0-statement sentences
 
     return statements

@@ -1,8 +1,9 @@
 :- dynamic([item/2,depPath_fl/2,maxDepPath/2]).
 
-type(train).
+%type(train).
 %type(test).
 %type(augmented).
+type(eval).
 
 depTree:-
     retractall(item(_,_)),
@@ -16,6 +17,8 @@ depTree:-
         (type(test), open('../data/prologData/depTree_features_test.txt',write,Out) )
         ;
         (type(augmented), open('../data/prologData/depTree_features_augmented.txt',write,Out))
+        ;
+        (type(eval), open('../data/prologData/depTree_features_eval.txt',write,Out))
     ),
     output_file(Out),
     close(Out).
@@ -60,6 +63,10 @@ read_data:-
 read_data:-
     type(augmented),
     consult("../data/prologData/augmented_prolog_deptree.pl").
+
+read_data:-
+    type(eval),
+    consult("../data/prologData/eval_prolog_deptree.pl").
 
 generate_features:-
     retract(item(SentID,token(StartID,_,'ROOT',_,_,_))),

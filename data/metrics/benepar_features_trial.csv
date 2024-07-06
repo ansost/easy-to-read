@@ -1,27 +1,27 @@
-sentence,tree,is_sent,big_np_count,big_pp_count
-Diese Flugzeuge transportierten Nahrung und Brenn-material.,(S (NP (PDAT Diese) (NN Flugzeuge)) (VVFIN transportierten) (CNP (NN Nahrung) (KON und) (NN Brenn-material))) ($. .),1,0,0
-Man kann mit einem Fahr-stuhl nach oben fahren.,(S (PIS Man) (VMFIN kann) (VP (PP (APPR mit) (ART einem) (NN Fahr-stuhl)) (PP (APPR nach) (ADV oben)) (VVINF fahren))) ($. .),1,0,0
-Alex Honnold ist ein bekannter Free Solo Kletterer.,(S (PN (NE Alex) (NE Honnold)) (VAFIN ist) (NP (ART ein) (ADJA bekannter) (FM Free) (FM Solo) (NN Kletterer))) ($. .),1,1,0
-"Und neue, moderne Wohn-blöcke gebaut.","(KON Und) (CAP (ADJA neue)) ($, ,) (VP (NP (ADJA moderne) (NN Wohn-blöcke)) (VVPP gebaut)) ($. .)",0,0,0
-Die Siegermächte regierten ab sofort in ihrer eigenen Zone.,(S (NP (ART Die) (NN Siegermächte)) (VVFIN regierten) (PP (APPR ab) (ADV sofort)) (PP (APPR in) (PPOSAT ihrer) (ADJA eigenen) (NN Zone))) ($. .),1,0,1
-"Sie treffen sich,  \newline um gemeinsam kaputte Dinge zu reparieren.","(S (PPER Sie) (VVFIN treffen) (PRF sich)) ($, ,) ($.  ) (ADV \newline) (VP (KOUI um) (ADJD gemeinsam) (NP (ADJA kaputte) (NN Dinge)) (VZ (PTKZU zu) (VVINF reparieren))) ($. .)",1,0,0
-Manche sagen: \newline Die Elb-philharmonie ist ist gut.,(S (PIS Manche) (VVFIN sagen)) ($. :) (FM \newline),1,0,0
-Im Jahr 1877 heiraten Alexander Graham Bell und Mabel Hubbard.,(S (PP (APPRART Im) (NN Jahr) (CARD 1877)) (VVFIN heiraten) (CNP (PN (NE Alexander) (NE Graham) (NE Bell)) (KON und) (PN (NE Mabel) (NE Hubbard)))) ($. .),1,0,0
-In einem Berg-werk graben Menschen in der Erde.,(S (PP (APPR In) (ART einem) (NN Berg-werk)) (VVFIN graben) (NN Menschen) (PP (APPR in) (ART der) (NN Erde))) ($. .),1,0,0
-Der Berliner Fernsehturm ist ein Wahrzeichen der Stadt.,(S (NP (ART Der) (ADJA Berliner) (NN Fernsehturm)) (VAFIN ist) (NP (ART ein) (NN Wahrzeichen) (NP (ART der) (NN Stadt)))) ($. .),1,2,0
-Der Abfall kommt in Tonnen oder Säcke.,(S (NP (ART Der) (NN Abfall)) (VVFIN kommt) (PP (APPR in) (CNP (NN Tonnen) (KON oder) (NN Säcke)))) ($. .),1,0,1
-An der Universität Boston.,(PP (APPR An) (ART der) (NN Universität) (NE Boston)) ($. .),0,0,1
-Die Berlin-Blockade war vom 23. Juni 1948 bis zum 12. Mai 1949.,(NP (ART Die) (NN Berlin-Blockade)) (VAFIN war) (PP (APPRART vom) (ADJA 23.) (NN Juni) (CARD 1948)) (APPR bis) (APPRART zum) (ADJA 12.) (NN Mai) ($. 1949.),0,0,1
-Eine Arsch-Bombe ist ein Wasser-Sprung.,(S (NP (ART Eine) (NN Arsch-Bombe)) (VAFIN ist) (NP (ART ein) (NN Wasser-Sprung))) ($. .),1,0,0
-Der Unter-hosen-zettel ist ein Pflege-symbol.,(S (NP (ART Der) (NN Unter-hosen-zettel)) (VAFIN ist) (NP (ART ein) (NN Pflege-symbol))) ($. .),1,0,0
-Die Tochter kam am 17.5.2020 auf die Welt.,(S (NP (ART Die) (NN Tochter)) (VVFIN kam) (PP (APPRART am) (CARD 17.5.2020)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,0
-Ein Beispiel für so eine Person ist: Homer Simpson.,(S (NP (ART Ein) (NN Beispiel) (PP (APPR für) (AP (ADV so) (ART eine)) (NN Person))) (VAFIN ist)) ($. :) (PN (NE Homer) (NE Simpson)) ($. .),1,1,1
-Die Drachenschlucht ist in einem Natur-schutz-gebiet.,(S (NP (ART Die) (NN Drachenschlucht)) (VAFIN ist) (PP (APPR in) (ART einem) (NN Natur-schutz-gebiet))) ($. .),1,0,0
-In Deutschland ist die größte Japan-town in Düsseldorf.,(S (PP (APPR In) (NE Deutschland)) (VAFIN ist) (NP (ART die) (ADJA größte) (NN Japan-town)) (PP (APPR in) (NE Düsseldorf))) ($. .),1,1,0
-Die Reiter können zum Beispiel schlecht sehen.,(S (NP (ART Die) (NN Reiter)) (VMFIN können) (PP (APPRART zum) (NN Beispiel)) (VP (ADJD schlecht) (VVINF sehen))) ($. .),1,0,0
-Er hat an der Ludwig-Maximilians-Universität in München studiert.,(S (PPER Er) (VAFIN hat) (VP (PP (APPR an) (ART der) (NE Ludwig-Maximilians-Universität) (PP (APPR in) (NE München))) (VVPP studiert))) ($. .),1,0,1
-Ein Schoko-kuss ist eine Süßware.,(S (NP (ART Ein) (NN Schoko-kuss)) (VAFIN ist) (NP (ART eine) (NN Süßware))) ($. .),1,0,0
-Groot ist ein Außerirdischer.,(S (NE Groot) (VAFIN ist) (NP (ART ein) (NN Außerirdischer))) ($. .),1,0,0
-Endal war bei sehr vielen Hunde-wettbewerben dabei.,(S (NE Endal) (VAFIN war) (PP (APPR bei) (AP (ADV sehr) (PIAT vielen)) (NN Hunde-wettbewerben)) (PTKVZ dabei)) ($. .),1,0,1
-Das Ziel der Salamitaktik kann sein: • jemanden hin-halten,(S (NP (ART Das) (NN Ziel) (NP (ART der) (NN Salamitaktik))) (VMFIN kann) (VP (VAINF sein))) ($. :) ($LRB •) (VP (PIS jemanden) (VVINF hin-halten)),1,1,0
-"Leider bekomme ich keine Katze,","(S (ADV Leider) (VVFIN bekomme) (PPER ich) (NP (PIAT keine) (NN Katze))) ($, ,)",1,0,0
+sent-id,phrase,num_statements,statement_spans,tree,is_sent,big_np_count,big_pp_count
+5035,Diese Flugzeuge transportierten Nahrung und Brenn-material.,2,"[[3],[5]]",(S (NP (PDAT Diese) (NN Flugzeuge)) (VVFIN transportierten) (CNP (NN Nahrung) (KON und) (NN Brenn-material))) ($. .),1,0,0
+5064,Man kann mit einem Fahr-stuhl nach oben fahren.,2,"[[2,4],[5,6]] ",(S (PIS Man) (VMFIN kann) (VP (PP (APPR mit) (ART einem) (NN Fahr-stuhl)) (PP (APPR nach) (ADV oben)) (VVINF fahren))) ($. .),1,0,0
+1049,Alex Honnold ist ein bekannter Free Solo Kletterer.,2,"[[4],[5,6,7]]",(S (PN (NE Alex) (NE Honnold)) (VAFIN ist) (NP (ART ein) (ADJA bekannter) (FM Free) (FM Solo) (NN Kletterer))) ($. .),1,1,0
+1024,"Und neue, moderne Wohn-blöcke gebaut.",2,"[[1],[2]]","(KON Und) (CAP (ADJA neue)) ($, ,) (VP (NP (ADJA moderne) (NN Wohn-blöcke)) (VVPP gebaut)) ($. .)",0,0,0
+5049,Die Siegermächte regierten ab sofort in ihrer eigenen Zone.,2,"[[3,4],[5,6,7,8]] ",(S (NP (ART Die) (NN Siegermächte)) (VVFIN regierten) (PP (APPR ab) (ADV sofort)) (PP (APPR in) (PPOSAT ihrer) (ADJA eigenen) (NN Zone))) ($. .),1,0,1
+38789,"Sie treffen sich,  \newline um gemeinsam kaputte Dinge zu reparieren.",3,"[[0,1,2],[7,8,9,10],[6]]","(S (PPER Sie) (VVFIN treffen) (PRF sich)) ($, ,) ($.  ) (ADV \newline) (VP (KOUI um) (ADJD gemeinsam) (NP (ADJA kaputte) (NN Dinge)) (VZ (PTKZU zu) (VVINF reparieren))) ($. .)",1,0,0
+12729,Manche sagen: \newline Die Elb-philharmonie ist ist gut.,1,,(S (PIS Manche) (VVFIN sagen)) ($. :) (FM \newline),1,0,0
+1082,Im Jahr 1877 heiraten Alexander Graham Bell und Mabel Hubbard.,2,"[[0,1,2],[3,4,5,6,7,8,9]]",(S (PP (APPRART Im) (NN Jahr) (CARD 1877)) (VVFIN heiraten) (CNP (PN (NE Alexander) (NE Graham) (NE Bell)) (KON und) (PN (NE Mabel) (NE Hubbard)))) ($. .),1,0,0
+5002,In einem Berg-werk graben Menschen in der Erde.,1,,(S (PP (APPR In) (ART einem) (NN Berg-werk)) (VVFIN graben) (NN Menschen) (PP (APPR in) (ART der) (NN Erde))) ($. .),1,0,0
+5067,Der Berliner Fernsehturm ist ein Wahrzeichen der Stadt.,1,,(S (NP (ART Der) (ADJA Berliner) (NN Fernsehturm)) (VAFIN ist) (NP (ART ein) (NN Wahrzeichen) (NP (ART der) (NN Stadt)))) ($. .),1,2,0
+40,Der Abfall kommt in Tonnen oder Säcke.,2,"[[4],[6]]",(S (NP (ART Der) (NN Abfall)) (VVFIN kommt) (PP (APPR in) (CNP (NN Tonnen) (KON oder) (NN Säcke)))) ($. .),1,0,1
+1081,An der Universität Boston.,0,,(PP (APPR An) (ART der) (NN Universität) (NE Boston)) ($. .),0,0,1
+5040,Die Berlin-Blockade war vom 23. Juni 1948 bis zum 12. Mai 1949.,2,"[[3,4,5,6],[7,8,9,10,11]] ",(NP (ART Die) (NN Berlin-Blockade)) (VAFIN war) (PP (APPRART vom) (ADJA 23.) (NN Juni) (CARD 1948)) (APPR bis) (APPRART zum) (ADJA 12.) (NN Mai) ($. 1949.),0,0,1
+3009,Eine Arsch-Bombe ist ein Wasser-Sprung.,1,,(S (NP (ART Eine) (NN Arsch-Bombe)) (VAFIN ist) (NP (ART ein) (NN Wasser-Sprung))) ($. .),1,0,0
+3010,Der Unter-hosen-zettel ist ein Pflege-symbol.,1,,(S (NP (ART Der) (NN Unter-hosen-zettel)) (VAFIN ist) (NP (ART ein) (NN Pflege-symbol))) ($. .),1,0,0
+50753,Die Tochter kam am 17.5.2020 auf die Welt.,1,,(S (NP (ART Die) (NN Tochter)) (VVFIN kam) (PP (APPRART am) (CARD 17.5.2020)) (PP (APPR auf) (ART die) (NN Welt))) ($. .),1,0,0
+9441,Ein Beispiel für so eine Person ist: Homer Simpson.,1,,(S (NP (ART Ein) (NN Beispiel) (PP (APPR für) (AP (ADV so) (ART eine)) (NN Person))) (VAFIN ist)) ($. :) (PN (NE Homer) (NE Simpson)) ($. .),1,1,1
+11530,Die Drachenschlucht ist in einem Natur-schutz-gebiet.,1,,(S (NP (ART Die) (NN Drachenschlucht)) (VAFIN ist) (PP (APPR in) (ART einem) (NN Natur-schutz-gebiet))) ($. .),1,0,0
+48592,In Deutschland ist die größte Japan-town in Düsseldorf.,1,,(S (PP (APPR In) (NE Deutschland)) (VAFIN ist) (NP (ART die) (ADJA größte) (NN Japan-town)) (PP (APPR in) (NE Düsseldorf))) ($. .),1,1,0
+4790,Die Reiter können zum Beispiel schlecht sehen.,1,,(S (NP (ART Die) (NN Reiter)) (VMFIN können) (PP (APPRART zum) (NN Beispiel)) (VP (ADJD schlecht) (VVINF sehen))) ($. .),1,0,0
+10869,Er hat an der Ludwig-Maximilians-Universität in München studiert.,2,"[[2,4],[5,6]]",(S (PPER Er) (VAFIN hat) (VP (PP (APPR an) (ART der) (NE Ludwig-Maximilians-Universität) (PP (APPR in) (NE München))) (VVPP studiert))) ($. .),1,0,1
+41023,Ein Schoko-kuss ist eine Süßware.,1,,(S (NP (ART Ein) (NN Schoko-kuss)) (VAFIN ist) (NP (ART eine) (NN Süßware))) ($. .),1,0,0
+20010,Groot ist ein Außerirdischer.,1,,(S (NE Groot) (VAFIN ist) (NP (ART ein) (NN Außerirdischer))) ($. .),1,0,0
+13118,Endal war bei sehr vielen Hunde-wettbewerben dabei.,1,,(S (NE Endal) (VAFIN war) (PP (APPR bei) (AP (ADV sehr) (PIAT vielen)) (NN Hunde-wettbewerben)) (PTKVZ dabei)) ($. .),1,0,1
+40092,Das Ziel der Salamitaktik kann sein: • jemanden hin-halten,1,,(S (NP (ART Das) (NN Ziel) (NP (ART der) (NN Salamitaktik))) (VMFIN kann) (VP (VAINF sein))) ($. :) ($LRB •) (VP (PIS jemanden) (VVINF hin-halten)),1,1,0
+44334,"Leider bekomme ich keine Katze,",1,,"(S (ADV Leider) (VVFIN bekomme) (PPER ich) (NP (PIAT keine) (NN Katze))) ($, ,)",1,0,0

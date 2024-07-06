@@ -1,6 +1,7 @@
-type(train).
+%type(train).
 %type(test).
 %type(augmented).
+type(eval).
 
 % collect all indices
 transform_all:-
@@ -15,6 +16,8 @@ transform_all:-
         (type(test), open('../data/prologData/features_test.txt',write,Out))
         ;
         (type(augmented), open('../data/prologData/features_augmented.txt',write,Out))
+        ;
+        (type(eval), open('../data/prologData/features_eval.txt',write,Out))
     ),
     output_file(Out),
     close(Out).
@@ -27,6 +30,9 @@ read_amr(test):-
 
 read_amr(augmented):-
     consult("../data/prologData/augmented_for_prolog_amr.pl").
+
+read_amr(eval):-
+    consult("../data/prologData/eval_for_prolog_amr.pl").
 
 output_file(Out):-
     retract(features(N,L)),
