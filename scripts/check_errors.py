@@ -30,10 +30,10 @@ def get_error_df(predictions, sent_ids, y_gold):
     for i in range(len(predictions)):
         error_df.loc[i, "sent-id"] = sent_ids[i]
 
-        error_df.loc[i, "regression"] = predictions.iloc[i]["regression"]
-        error_df.loc[i, "SVM"] = predictions.iloc[i]["SVM"]
-        error_df.loc[i, "MLP"] = predictions.iloc[i]["MLP"]
-        error_df.loc[i, "RF"] = predictions.iloc[i]["RF"]
+        error_df.loc[i, "regression"] = predictions.iloc[i]["regression"] == y_gold[i]
+        error_df.loc[i, "SVM"] = predictions.iloc[i]["SVM"] == y_gold[i]
+        error_df.loc[i, "MLP"] = predictions.iloc[i]["MLP"] == y_gold[i]
+        error_df.loc[i, "RF"] = predictions.iloc[i]["RF"] == y_gold[i]
 
         pred_compare = [
             predictions.iloc[i]["regression"] == y_gold[i],
