@@ -46,17 +46,6 @@ def min_dep_length(phrase: str) -> int:
     """Return the minimum dependency length of a sentence."""
     return dependency_length(phrase)["min_dep_length"]
 
-
-def pos_onehot(doc: str):
-    """Return one-hot encoded POS tags of a sentence.
-    The vector always corresponds to the same order as the keys of the GLOSSARY."""
-    pos_onehot_vector = {pos: 0 for pos in GLOSSARY.keys()}
-    for token in doc:
-        pos_onehot_vector[token.pos_] = 1
-    arr = list(pos_onehot_vector.values())
-    return arr
-
-
 def counts(doc: str):
     """Count disjunctions, conjunctions and vesrbs in a sentence."""
     disj = 0
@@ -109,7 +98,6 @@ def flesh_reading_ease(phrase: str) -> float:
 def get_funcs(family: str) -> Generator[callable, None, None]:
     if family == "spacy":
         measure_funcs = {
-            pos_onehot,
             mean_dep_length,
             max_dep_length,
             min_dep_length,
@@ -161,7 +149,7 @@ if __name__ == "__main__":
     print(df.head())
     df.to_csv(f"../data/metrics/{args.dataset}_basics.csv", index=False)
 
-    stats = round(df.describe(percentiles=[]), 2)
-    stats = stats.drop(["count", "50%"])
-    stats = stats.reindex(["min", "max", "mean", "std"])
-    stats.to_csv(f"../data/metrics/{args.dataset}_basics_stats.csv")
+    #stats = round(df.describe(percentiles=[]), 2)
+    #stats = stats.drop(["count", "50%"])
+    #stats = stats.reindex(["min", "max", "mean", "std"])
+    #stats.to_csv(f"../data/metrics/{args.dataset}_basics_stats.csv")

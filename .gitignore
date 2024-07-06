@@ -1,4 +1,6 @@
 # Virtual environments
 easyV
-tests/__pycache__
+
+# Caches
 scripts/__pycache__
+pipeline/src/__pycache__
