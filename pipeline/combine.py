@@ -3,7 +3,7 @@ Scales everything using the standard scaler by scikit learn.
 Also generates five different splits from the combined data. 
 
 Usage:
-    python combine_data.py
+    python combine.py
 """
 
 import os
@@ -52,36 +52,45 @@ def combine_data(feature):
         data = pd.concat([train, test, trial])
     else:
         data = pd.concat([train, test], axis = 0)
-    amr_data = amr_data.query('num_statements != 0')
+    data = data.query('num_statements != 0')
+    data = data.drop("num_statements", axis = 1)
+    data = data.set_index("sent-id")
+    data = data.sort_index()
     return data
 
 if __name__ == "__main__":
-    amr_data = combine_data("amr")
+    #amr_data = combine_data("amr")
     basics_data = combine_data("basics")
     benepar_data = combine_data("benepar")
 
-    trial = pd.read_csv("../data/trial.csv")
-    train = pd.read_csv("../data/train.csv")
-    test = pd.read_csv("../data/test.csv")
-    datasets = pd.concat(["trial", "test", "train"])
+    trial = pd.read_csv("../data/trial.csv", usecols = ["sent-id", 'topic', 'phrase', 'phrase_number', 'genre', 'timestamp', 'user',
+       'phrase_tokenized', 'num_statements'])
+    train = pd.read_csv("../data/train.csv", usecols = ["sent-id", 'topic', 'phrase', 'phrase_number', 'genre', 'timestamp', 'user',
+       'phrase_tokenized', 'num_statements'])
+    test = pd.read_csv("../data/test.csv", usecols = ["sent-id", 'topic', 'phrase', 'phrase_number', 'genre', 'timestamp', 'user',
+       'phrase_tokenized', 'num_statements'])
+    datasets = pd.concat([trial, test, train])
     datasets = datasets.query('num_statements != 0')
-
-    assert len(amr_data) == len(basics_data) == len(benepar_data) == len(datasets)
-    combined = pd.concat([amr_data, basics_data, benepar_data, datasets], axis = 1)
+    datasets.set_index("sent-id", inplace=True)
+    datasets = datasets.sort_index()
+    combined = pd.concat([basics_data, benepar_data, datasets], axis = 1, sort = True)
     
     scaler = StandardScaler()
-    combined = pd.get_dummies(combined)
-    combined = pd.DataFrame(scaler.fit_transform(combined), columns=combined.columns)
+    #combined = pd.get_dummies(combined)
+    #combined = pd.DataFrame(scaler.fit_transform(combined), columns=combined.columns)
+    combined = combined[combined["num_statements"]<=5]
 
-    labels = combined[["num_statements", "sent-id"]]
+    labels = combined["num_statements"]
     train = combined.drop(columns=["num_statements"])
+    labels.to_csv("../data/labels.csv")
+    train.to_csv("../data/train_split.csv")
 
-    for i in range(0,5):
-        os.makedirs("../results/run_{i}", exist_ok=True)
+    for i in range(0,5): 
+        os.makedirs(f"../results/run_{i}", exist_ok=True)
         X_train, X_test, y_train, y_test = train_test_split(
-            train, labels, test_size=0.33, random_state=42, stratify=labels
+            train, labels, test_size=0.33, random_state=i, stratify=labels
         )
-        X_train.to_csv("../results/run_{i}/X_train.csv")
-        X_test.to_csv("../results/run_{i}/X_test.csv")
-        y_train.to_csv("../results/run_{i}/y_train.csv")
-        y_test.to_csv("../results/run_{i}/y_test.csv")
+        X_train.to_csv(f"../results/run_{i}/X_train.csv")
+        X_test.to_csv(f"../results/run_{i}/X_test.csv")
+        y_train.to_csv(f"../results/run_{i}/y_train.csv")
+        y_test.to_csv(f"../results/run_{i}/y_test.csv")
