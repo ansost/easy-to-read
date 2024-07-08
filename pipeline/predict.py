@@ -4,12 +4,36 @@ Usage:
     python predict.py
 """
 
+import spacy
+import re
 import argparse
 import pandas as pd
 from sklearn.metrics import classification_report
+from tqdm import tqdm
 
 from src.ml import *
 from src.parser import *
+
+tqdm.pandas()
+
+
+def init_parser():
+    """Pre-load variables needed for the parser."""
+    nlp = spacy.load("de_dep_news_trf")
+    special_cases_pattern = re.compile(r"(Das heißt|Manche sagen)")
+
+    sein_verbforms = {
+        "ist",
+        "sind",
+        "war",
+        "waren",
+        "bin",
+        "bist",
+        "ist",
+        "sind",
+        "seid",
+    }
+    return nlp, special_cases_pattern, sein_verbforms
 
 
 def load_data(run):
@@ -61,25 +85,41 @@ if __name__ == "__main__":
                 predictions = classifiers[classifier](
                     X_train.drop("phrase", axis=1),
                     X_test.drop("phrase", axis=1),
-                    y_train.drop("sent-id", axis = 1).values.ravel(),
+                    y_train.drop("sent-id", axis=1).values.ravel(),
                 )
-                temp = pd.DataFrame(predictions, columns = [classifier])
-                df = pd.concat([temp, df], axis =1)
+                temp = pd.DataFrame(predictions, columns=[classifier])
+                df = pd.concat([temp, df], axis=1)
 
-            #df["parser"] = X_test["phrase"].apply(count_statements)
+            nlp, date_entity_pattern, special_cases_pattern, sein_verbforms = (
+                init_parser()
+            )
+            df["parser"] = X_test["phrase"].progress_apply(
+                count_statements,
+                args=(nlp, special_cases_pattern, sein_verbforms),
+            )
             df.to_csv(f"../results/run_{run}/all_predictions.csv")
 
     if args.mode == "submission":
+        eval_data = pd.read_csv("../data/train.csv")
+
         submission = pd.DataFrame()
-        submission["sent-id"] = y_test["sent-id"]
+        submission["sent-id"] = eval_data["sent-id"]
         submission["statement_spans"] = ""
 
-        eval_data = pd.read_csv("../data/eval.csv")
-
-        if args.classifier == "parser":
-            submission["num_statements"] = X_test["phrase"].apply(count_statements)
+        if args.source == "parser":
+            nlp, special_cases_pattern, sein_verbforms = (
+                init_parser()
+            )
+            submission["num_statements"] = eval_data["phrase"].progress_apply(
+                count_statements,
+                args=(nlp, special_cases_pattern, sein_verbforms),
+            )
         else:
-            predictions = classifiers[classifier](X_train.drop("phrase", axis=1), X_test.drop("phrase", axis=1), y_train.drop("sent-id", axis = 1).values.ravel())
-            df = pd.DataFrame(predictions, columns = ["sent-id", "num_statements"])
+            predictions = classifiers[classifier](
+                X_train.drop("phrase", axis=1),
+                X_test.drop("phrase", axis=1),
+                y_train.drop("sent-id", axis=1).values.ravel(),
+            )
+            df = pd.DataFrame(predictions, columns=["sent-id", "num_statements"])
 
-        submission.to_csv(f"../results/{classifier}_submission.csv")
+        submission.to_csv(f"../results/{args.source}_submission.csv")
