@@ -1,5 +1,0 @@
-,sent-id,num_statements,disj_count,mean_dep_length,conj_count,max_dep_length,token_count,verb_count,min_dep_length,flesh_reading_ease,class_score,is_sent,big_np_count,big_pp_count
-min,29217.0,1.0,0.0,1.2,0.0,2.0,4.0,0.0,1.0,6.17,0.45,0.0,0.0,0.0
-max,29721.0,5.0,0.0,4.38,0.0,17.0,24.0,3.0,1.0,119.19,1.0,1.0,2.0,2.0
-mean,29462.69,1.48,0.0,2.25,0.0,5.48,8.61,0.81,1.0,82.38,0.97,0.97,0.3,0.14
-std,146.63,0.71,0.0,0.61,0.0,2.44,3.07,0.61,0.0,21.89,0.09,0.17,0.5,0.35
