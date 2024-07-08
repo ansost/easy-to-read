@@ -2,7 +2,7 @@ from openai import OpenAI
 import pandas as pd
 
 # API configuration
-api_key = "6dbb280fd71955606a00948b5b64b797"  # Replace with your API key
+api_key = "YOURAPIKEY"  # Replace with your API key
 base_url = "https://chat-ai.academiccloud.de/v1"  # This runs over resources provided by the University of Göttingen. See: https://kisski.gwdg.de/
 model = "meta-llama-3-70b-instruct"
 
