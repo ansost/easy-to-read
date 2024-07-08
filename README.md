@@ -4,10 +4,12 @@
 09.03.2024 - Trial data ready
 14.04.2024 - Train data ready
 18.05.2024 - Test data ready
-13.06.2024 - Evaluation start
-25.06.2024 - Evaluation end
-01.07.2024 - Paper submission due
-20.07.2024 - Camera ready due
+17.06.2024 - Evaluation 1st phase: Development (test data)
+28.06.2024 - Evaluation 2nd phase: Final (eval data)
+12.07.2024 - Evaluation end (last submissions possible)
+12.07.2024 - Paper submission due
+26.07.2024 - Acceptance notification
+02.08.2024 - Camera ready due
 13.09.2024 - Workshop date
 ```
 
@@ -18,7 +20,7 @@ Resources:
 
 # Docs
 
-## Download necessary data
+## To retrieve [Berkeley Neural Parser](https://github.com/nikitakit/self-attentive-parser) features
 
 ```python
 import benepar
@@ -28,8 +30,8 @@ benepar.download('benepar_de2')
 ```
 
 ```sh
-python -m spacy download de_core_news_sm
 python -m spacy download de_dep_news_trf
+python get_benepar_features.py --dataset train/trial ...
 ```
 
 ## Reproduce classifier results
