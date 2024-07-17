@@ -1,58 +1,40 @@
-model,train_data,features,MAE,MSE,macroF1,weightedF1,accuracy
-MLP,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.365,0.462,0.31,0.67,0.68
-MLP,"['train', 'trial', 'augmented']","['bert', 'amr', 'additional', 'depTree']",0.389,0.457,0.317,0.65,0.644
-SVM,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.305,0.387,0.28,0.69,0.733
-Naive Bayes,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.416,0.55,0.267,0.633,0.644
-dummy,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.483,0.733,0.153,0.475,0.62
-Random Forest,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.279,0.337,0.314,0.716,0.748
-Random Forest,"['train', 'trial', 'augmented']","['bert', 'amr', 'additional', 'depTree']",0.281,0.325,0.368,0.735,0.738
-Random Forest,"['train', 'trial']",['bert'],0.481,0.683,0.25,0.575,0.606
-Random Forest,"['train', 'trial']",['amr'],0.428,0.582,0.248,0.606,0.637
-Random Forest,"['train', 'trial']",['depTree'],0.308,0.385,0.303,0.701,0.728
-Random Forest,"['train', 'trial']",['additional'],0.296,0.344,0.345,0.706,0.726
-Random Forest 5 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.308,0.365,0.367,0.71,0.719
-Random Forest 15 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.274,0.308,0.369,0.727,0.743
-Random Forest 25 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.286,0.339,0.341,0.719,0.738
-Random Forest 35 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.267,0.315,0.35,0.736,0.755
-Random Forest 45 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.291,0.353,0.342,0.716,0.738
-Random Forest 55 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.281,0.339,0.326,0.72,0.745
-Random Forest 65 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.293,0.351,0.337,0.71,0.733
-Random Forest 75 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.291,0.344,0.331,0.711,0.733
-Random Forest 5 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.358,0.445,0.334,0.677,0.683
-Random Forest 10 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.303,0.332,0.345,0.699,0.709
-Random Forest 25 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.305,0.353,0.355,0.706,0.716
-Random Forest 50 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.274,0.308,0.382,0.73,0.743
-Random Forest 75 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.274,0.327,0.37,0.734,0.75
-Random Forest 100 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.272,0.315,0.378,0.735,0.75
-Random Forest 150 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.279,0.337,0.338,0.726,0.748
-Random Forest 200 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.276,0.334,0.347,0.727,0.75
-Random Forest 250 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.284,0.341,0.313,0.716,0.743
-Random Forest 500 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.262,0.315,0.334,0.736,0.762
-SVM 5 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.334,0.406,0.274,0.66,0.7
-SVM 15 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.329,0.397,0.273,0.659,0.702
-SVM 25 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.305,0.368,0.288,0.685,0.724
-SVM 35 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.305,0.377,0.278,0.687,0.728
-SVM 45 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.293,0.365,0.296,0.701,0.74
-SVM 55 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.298,0.37,0.293,0.695,0.736
-SVM 65 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.296,0.377,0.284,0.699,0.743
-SVM 75 most imp. feat. of each type,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.286,0.363,0.303,0.712,0.75
-SVM 5 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.303,0.341,0.334,0.685,0.714
-SVM 10 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.291,0.329,0.357,0.698,0.726
-SVM 25 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.284,0.332,0.361,0.713,0.738
-SVM 50 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.305,0.373,0.309,0.692,0.726
-SVM 75 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.303,0.38,0.293,0.694,0.733
-SVM 100 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.305,0.377,0.29,0.688,0.728
-SVM 150 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.293,0.365,0.282,0.697,0.74
-SVM 200 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.284,0.356,0.287,0.706,0.75
-SVM 250 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.286,0.353,0.285,0.702,0.745
-SVM 500 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.296,0.363,0.294,0.697,0.736
-MLP 5 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.286,0.315,0.355,0.71,0.726
-MLP 10 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.274,0.308,0.358,0.723,0.74
-MLP 25 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.279,0.332,0.348,0.729,0.745
-MLP 50 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.293,0.356,0.407,0.734,0.736
-MLP 75 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.3,0.363,0.352,0.72,0.728
-MLP 100 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.317,0.404,0.335,0.709,0.724
-MLP 150 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.322,0.409,0.393,0.704,0.716
-MLP 200 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.329,0.411,0.41,0.699,0.707
-MLP 250 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.329,0.401,0.396,0.705,0.707
-MLP 500 overall most imp. feat.,"['train', 'trial']","['bert', 'amr', 'additional', 'depTree']",0.325,0.416,0.34,0.71,0.719
+model,augmented,features,MAE,wF1,accuracy
+MLP,no,all,0.365,0.67,0.68
+MLP,yes,all,0.389,0.65,0.644
+SVM,no,all,0.305,0.69,0.733
+Naive Bayes,no,all,0.416,0.633,0.644
+Logistic Regression,no,all,0.351,0.676,0.685
+dummy,no,all,0.483,0.475,0.62
+Random Forest,no,all,0.279,0.716,0.748
+Random Forest,yes,all,0.281,0.735,0.738
+Random Forest,no,BERT,0.481,0.575,0.606
+Random Forest,no,AMR,0.428,0.606,0.637
+Random Forest,no,DepTree,0.308,0.701,0.728
+Random Forest,no,Add.,0.296,0.706,0.726
+SVM 5 most imp. feat. of each type,no,all,0.334,0.66,0.7
+SVM 25 most imp. feat. of each type,no,all,0.305,0.685,0.724
+SVM 50 most imp. feat. of each type,no,all,0.3,0.693,0.733
+SVM 75 most imp. feat. of each type,no,all,0.286,0.712,0.75
+SVM 5 overall most imp. feat. ,no,all,0.303,0.685,0.714
+SVM 25 overall most imp. feat. ,no,all,0.284,0.713,0.738
+SVM 50 overall most imp. feat. ,no,all,0.305,0.692,0.726
+SVM 75 overall most imp. feat. ,no,all,0.303,0.694,0.733
+SVM 100 overall most imp. feat. ,no,all,0.305,0.688,0.728
+SVM 200 overall most imp. feat. ,no,all,0.284,0.706,0.75
+SVM 500 overall most imp. feat. ,no,all,0.296,0.697,0.736
+SVM 5 most imp. feat. of each type,no,all,0.334,0.66,0.7
+SVM 15 most imp. feat. of each type,no,all,0.329,0.659,0.702
+SVM 25 most imp. feat. of each type,no,all,0.305,0.685,0.724
+SVM 35 most imp. feat. of each type,no,all,0.305,0.687,0.728
+SVM 45 most imp. feat. of each type,no,all,0.293,0.701,0.74
+SVM 55 most imp. feat. of each type,no,all,0.298,0.695,0.736
+SVM 65 most imp. feat. of each type,no,all,0.296,0.699,0.743
+SVM 75 most imp. feat. of each type,no,all,0.286,0.712,0.75
+MLP 5 overall most imp. feat.,no,all,0.286,0.707,0.724
+MLP 10 overall most imp. feat.,no,all,0.276,0.716,0.736
+MLP 50 overall most imp. feat.,no,all,0.272,0.75,0.757
+MLP 75 overall most imp. feat.,no,all,0.288,0.729,0.74
+MLP 100 overall most imp. feat.,no,all,0.305,0.714,0.724
+MLP 150 overall most imp. feat.,no,all,0.332,0.693,0.695
+MLP 200 overall most imp. feat.,no,all,0.317,0.721,0.731
+MLP 500 overall most imp. feat.,no,all,0.325,0.707,0.712
