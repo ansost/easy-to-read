@@ -27,7 +27,7 @@ def get_response(sentence, annotation_guidelines):
             },
             {
                 "role": "user",
-                "content": "Three example sentences: sentence: Eine sehr bekannte Alchemisten war Maria die Jüdin statements:1, statement spans: None; sentence: Im Jahr 1986 hat die UNESCO gesagt: Die Alt-stadt von Aleppo ist jetzt Welt-kultur-erbe. statements:4 , statement spans: [[0, 1, 2], [3, 5, 6], [9, 10, 11, 12, 14], [13]]; sentence:Er stirbt am  10. Februar 1837. In Sankt Petersburg, Russland.. statements: 3, statement spans: [[2, 3, 4, 5, 6], [8, 9, 10], [8, 11]] ;   The sentence you should is the following:",
+                "content": "Three example sentences: sentence: Eine sehr bekannte Alchemisten war Maria die Jüdin statements:1, statement spans: None; sentence: Im Jahr 1986 hat die UNESCO gesagt: Die Alt-stadt von Aleppo ist jetzt Welt-kultur-erbe. statements:4 , statement spans: [[0, 1, 2], [3, 5, 6], [9, 10, 11, 12, 14], [13]]; sentence:Er stirbt am  10. Februar 1837. In Sankt Petersburg, Russland.. statements: 3, statement spans: [[2, 3, 4, 5, 6], [8, 9, 10], [8, 11]] ;   The sentence you should annotate is the following:",
             },
             {"role": "user", "content": sentence},
             {"role": "user", "content": "Annotation guidelines:"},
