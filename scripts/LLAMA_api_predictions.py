@@ -23,7 +23,7 @@ def get_response(sentence, annotation_guidelines):
             },
             {
                 "role": "user",
-                "content": "Give the statement spans of the sentence below. For your decisions rely on the annotation guidelines provided below. Provide your output in form of an a nested list. Return nothing but that list or the string NONE if the sentence only has one statement or zero statements and thus doesn not need a statement span annotated. ",
+                "content": "Give the statement spans of the sentence below. For your decisions rely on the annotation guidelines provided below. Provide your output in form of an a nested list. Return nothing but that list or the string \"None\" if the sentence only has one statement or zero statements.",
             },
             {
                 "role": "user",
