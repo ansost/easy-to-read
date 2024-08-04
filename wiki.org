@@ -1,0 +1,9 @@
+#+TITLE: Wiki
+
+** Rule-based methods:
+https://www.linguistics.rub.de/konvens16/pub/35_konvensproc.pdf
+
+** Other methods:
+
+https://github.com/MiriUll/Language-Models-German-Simplification
+https://github.com/MSLars/German-Text-Simplification
