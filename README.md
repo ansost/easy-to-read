@@ -6,10 +6,10 @@ If you want to put this on main, you can just take the LLM folder from here. Eve
 the LLM analysis is in there. For the Readme, you can take this section below: 
 
 # LLM/ Llama 
-The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. We report all our prompts used and utilize seeds to ensure replicability. 
+The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. We report all our prompts and utilize seeds to ensure replicability. 
 > Note that the seed feature is stil in its beta. For more information on seeds, see OpenAI's [documentation](https://platform.openai.com/docs/api-reference/chat/create).
 
-To reproduce our results, you have to:
+To reproduce our results:
 
  1. Request an API key from Kisski [here](https://kisski.gwdg.de/leistungen/2-02-llm-service/) by clicking on "Buchen" (Booking).
 
@@ -31,6 +31,6 @@ api_key = "YOUR_API_KEY"  # Replace with your own API key
 5. Execute the script and check your results!
 
 
-We also experimented with Llama for subcases from the annotation guidelines with manual prompting over [Huggingchat](https://huggingface.co/chat/). You can find the prompts used and an example answer in ``Llama/prompts_subtasks.md``
+We also experimented with Llama for subcases from the annotation guidelines with manual prompting over [Huggingchat](https://huggingface.co/chat/). You can find the prompts used and an example answer in ``LLM/prompts_subtasks.md``
 
 
