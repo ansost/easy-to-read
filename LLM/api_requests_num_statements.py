@@ -2,6 +2,7 @@
 
 from openai import OpenAI
 import pandas as pd
+import os
 
 # API configuration
 api_key = "YOUR_API_KEY"  # Replace with your API key
@@ -42,13 +43,16 @@ def get_response(sentence, annotation_guidelines):
 
 
 def main():
-    # Read in test data and annotation guidelines.
-    filepath_testdata = (
-        "/home/emmastein/Documents/Studium/SS_24/GermEval KONVENS2024/test.csv"
-    )
-    df_test_data = pd.read_csv(filepath_testdata)
 
-    filepath_annotation_guidelines = "annotation_guidelines_clean.txt" # This is taken from the html of the annotation guidelines. Links and newlines etc. are removed.
+    # Define components of file paths
+    data_dir = "data"
+    test_filename = "test.csv"
+    llm_dir = "LLM"
+    annotation_guidelines_filename = "annotation_guidelines_cleaned.txt"
+
+    # Create the full file paths, independent of system.
+    filepath_testdata = os.path.join(data_dir, test_filename)
+    filepath_annotation_guidelines = os.path.join(llm_dir, annotation_guidelines_filename)
 
     with open(
         filepath_annotation_guidelines, "r"
