@@ -1,13 +1,12 @@
 # Code for the GermEval 2024 KlarTextCoders submission 
 
-Branch Emma
-
 Hey Akilesh :)
+
 If you want to put this on main, you can just take the LLM folder from here. Everything that belongs to 
-the LLM analysis is in there. For the Readme, you can take the section below: 
+the LLM analysis is in there. For the Readme, you can take this section below: 
 
 # LLM/ Llama 
-The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. Seeds were used for every query to ensure replicability. 
+The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. We report all our prompts used and utilize seeds to ensure replicability. 
 > Note that the seed feature is stil in its beta. For more information on seeds, see OpenAI's [documentation](https://platform.openai.com/docs/api-reference/chat/create).
 
 To reproduce our results, you have to:
