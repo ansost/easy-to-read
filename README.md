@@ -12,9 +12,11 @@ The LLM for our analysis was run over resources provided by [Kisski](https://kis
 
 To reproduce our results, you have to:
 
- 1. Request an API key from Kisski [here](https://kisski.gwdg.de/leistungen/2-02-llm-service/) by clicking on "Buchen" (Booking). The login requires an AcademicID. If you are a student or researcher from a German University you will be able to log in.
+ 1. Request an API key from Kisski [here](https://kisski.gwdg.de/leistungen/2-02-llm-service/) by clicking on "Buchen" (Booking).
 
-2. Add you API key to the script:
+ 2. You will be redirected to an AcademicID login. If you are a student or researcher from a German University you will be able to log in with your university credentials or create a new account and aqcuire the API key.
+
+4. Add you API key to the script:
 
 ```python
 
