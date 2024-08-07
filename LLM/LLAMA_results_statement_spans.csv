@@ -1,0 +1,596 @@
+sent-id,topic,phrase,num_statements,statement_spans,LLAMA predictions
+29217,louis-braille,Louis Braille wurde am 4. Januar 1809 geboren.,1,,"[[2, 3, 4, 5, 6]]"
+29218,louis-braille,"Das war in Coupvray, Frankreich.",2,"[[3], [4]]","[[0, 1, 2, 3, 4]]"
+29219,louis-braille,Er ist am 6. Januar 1852 gestorben.,1,,"[[2, 3, 4, 5, 6]]"
+29220,louis-braille,"Das war in Paris, Frankreich.",2,"[[3], [4]]","[[0, 1, 2]]"
+29221,louis-braille,"Als Louis Braille 3 Jahre alt war, \newline hat er in der Werk-statt von seinem Vater gespielt.",4,"[[0, 1, 2, 3, 4, 5, 6], [8, 9, 16], [10, 12], [12, 13, 14, 15]]","[[0, 1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11]]"
+29222,louis-braille,Er hat mit einer Ahle gespielt.,2,"[[2, 4], [0, 1, 5]]","[[0, 1, 2, 3, 4]]"
+29223,louis-braille,Mit der Ahle hat er sich ein Auge schwer verletzt.,4,"[[0, 2], [3, 4, 5, 9], [7], [8]]","[[1, 2, 3, 4, 5]]"
+29224,louis-braille,Das verletzte Auge hat sich entzündet.,2,"[[1], [2, 3, 4, 5]]","[[1, 2, 3, 4]]"
+29225,louis-braille,Und dann das andere Auge angesteckt.,1,,"[[1, 2, 3, 4, 5]]"
+29226,louis-braille,Danach war Louis Braille blind.,1,,"[[0, 1, 2]]"
+29227,louis-braille,Louis Braille ging zur ersten Blinden-schule der Welt.,1,,"[[1, 2, 3, 4, 5]]"
+29228,louis-braille,Das war die Schule von Valentin Haüy.,1,,"[[0, 1, 2, 3, 4]]"
+29229,louis-braille,Valentin Haüy hat verschiedene Geräte gebaut.,1,,"[[0, 1, 2, 3]]"
+29230,louis-braille,"Zum Beispiel ein Gerät, \newline dass Musik-noten auf Papier prägen konnte.",1,,"[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29231,louis-braille,So konnte man die Noten mit den Fingern fühlen.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29232,louis-braille,Louis Braille fand die Idee gut.,1,,"[[0, 1, 2, 3, 4]]"
+29233,louis-braille,Er hat in der Werkstatt von seinem Vater verschiedene Sachen ausprobiert.,3,"[[0, 1, 8, 9, 10], [2, 4], [5, 6, 7]]","[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]"
+29234,louis-braille,"Zum Beispiel Dreiecke, Quadrate und Kreise in Leder stanzen.",3,"[[2], [3], [5]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29235,louis-braille,"Als Louis Braille 11 Jahr alt ist, \newline entdeckt er die Nacht-schrift.",2,"[[0, 1, 2, 3, 4, 5, 6], [8, 9, 11]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29236,louis-braille,Die Nacht-schrift hat der Hauptmann Charles Barbier erfunden.,2,"[[4], [5, 6]]","[[1, 2, 3, 4, 5]]"
+29237,louis-braille,Die Nacht-schrift ist kompliziert.,1,,"[[0, 1]]"
+29238,louis-braille,Louis Braille macht die Nacht-schrift einfacher.,1,,"[[1, 2, 3, 4, 5]]"
+29239,louis-braille,Im Jahr 1825 ist Louis Braille fertig mit der Schrift.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 9]]","[[2, 3, 4, 5], [6, 7]]"
+29240,louis-braille,Er hat die Blinden-schrift erfunden.,1,,"[[0, 1, 2, 3]]"
+29241,louis-braille,Er ist jetzt 16 Jahre alt.,1,,"[[1, 2, 3, 4, 5]]"
+29242,louis-braille,Louis Braille war ein Erfinder.,1,,"[[0, 1, 2, 3]]"
+29243,louis-braille,Er hat die Schrift für blinde Menschen erfunden.,1,,"[[1, 2, 3, 4, 5]]"
+29244,loukanikos,Wegen der griechischen Staats-schulden-krise haben viele Menschen demonstriert.,2,"[[0, 2, 3], [4, 5, 6, 7]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29245,loukanikos,Loukanikos war sehr oft dabei.,1,,"[[0, 1, 2, 3, 4]]"
+29246,loukanikos,Dadurch wurde Loukanikos sehr bekannt.,1,,"[[0, 1, 2, 3, 4]]"
+29247,loukanikos,Viele Zeitungen haben über den Hund berichtet.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29248,loukanikos,Loukanikos war ein Hund der auf der Straße gelebt hat.,2,"[[0, 1, 3], [5, 7, 8, 9]]","[[1, 2, 3, 4, 5]]"
+29249,loukanikos,Im Jahr 2011 wurde Loukanikos zur Person of the Year gewählt.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8, 9, 10]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29250,loukanikos,Im Jahr 2012 hat ihn eine Familie aufgenommen.,2,"[[0, 1, 2], [3, 4, 6, 7]]","[[0, 1, 2, 3, 4, 5]]"
+29251,loukanikos,Dort hat er bis zum Jahr 2014 gelebt.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29252,loukanikos,Im Oktober 2014 ist Loukanikos gestorben.,1,,"[[1, 2, 3, 4, 5]]"
+29253,loukanikos,Viele sagen er hat sehr viel schlechte Mittel von den Polizisten eingeatmet.,2,"[[2, 3, 4, 5, 6, 11], [8, 10]]","[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11]]"
+29254,loukanikos,Darum wurde er sehr krank.,1,,"[[1, 2, 3, 4, 5]]"
+29255,loukanikos,Loukanikos wurde 10 Jahre alt.,1,,"[[0, 1, 2, 3, 4]]"
+29256,loukanikos,Er ist auf einem Berg begraben worden.,1,,"[[1, 2, 3, 4, 5]]"
+29258,loukanikos,Loukanikos war ein bekannter Hund.,1,,"[[0, 1, 2, 3, 4]]"
+29259,loukanikos,Er war dabei als Menschen in Griechenland demonstriert haben.,2,"[[0, 1, 2, 3, 4, 7, 8], [5, 6]]","[[1, 2, 3, 4, 5, 6]]"
+29260,lowe,Löwen haben ein Fell.,1,,"[[0, 1]]"
+29261,lowe,Das Fell ist gold-braun oder sand-farben.,2,"[[3], [5]]","[[0, 1, 2, 3, 4]]"
+29262,lowe,Ein männlicher Löwen hat eine Mähne.,1,,"[[1, 2, 3, 4]]"
+29263,lowe,Ein Männchen kann bis zu 250 kg wiegen.,1,,"[[1, 2, 3, 4, 5]]"
+29264,lowe,Löwen leben in Rudeln.,1,,"[[0, 1]]"
+29265,lowe,Ein Rudel ist eine Gruppe Tiere einer Art.,2,"[[1, 2, 4], [5, 7]]","[[0, 1, 2, 3, 4, 5]]"
+29266,lowe,Löwen essen Fleisch.,1,,"[[0, 1]]"
+29267,lowe,Sie jagen andere Tiere.,1,,"[[0, 1, 2]]"
+29268,lowe,Löwen können schnell rennen.,1,,"[[0, 1, 2]]"
+29269,lowe,Löwen sind nachtaktiv.,1,,NONE
+29270,lowe,Sie schlafen tagsüber.,1,,NONE
+29271,lowe,Ein Löwe ist ein Tier.,1,,"[[0, 1, 2]]"
+29272,lowe,Genauer: Der Löwe ist ein Säuge-tier.,1,,"[[1, 2], [3, 4]]"
+29273,lowe,Er gehört zu den Groß-katzen.,1,,"[[1, 2, 3, 4]]
+
+Explanation: The sentence ""Er gehört zu den Groß-katzen."" contains one statement, which is ""Er gehört zu den Groß-katzen."" The tokens in the sentence are:
+
+0: Er
+1: gehört
+2: zu
+3: den
+4: Groß-katzen
+
+According to the annotation guidelines, a sentence with only one statement does not need statement span annotations, so the output is NONE. However, I provided the tokenized sentence with the tokens numbered for clarity."
+29274,lowe,Der Löwe gehört zu der Familie der Katzen.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29276,lowe,Löwen leben in Afrika.,1,,"[[0, 1, 2]]"
+29279,lsd,Und LSD macht nicht süchtig.,1,,"[[1, 2, 3, 4]]"
+29283,lsd,Viele von ihnen überprüfen ihre Glaubens-systeme.,1,,"[[1, 2, 3, 4, 5]]"
+29284,lsd,Im Jahr 1971. \newline Die Vereinten Nationen verbieten LSD.,2,"[[0, 1, 2], [5, 6, 7, 8]]","Based on the annotation guidelines, I would annotate the sentence as follows:
+
+ Sentence: Im Jahr 1971. \newline Die Vereinten Nationen verbieten LSD.
+
+Number of statements: 2
+
+Statement spans: [[0, 1], [2, 3, 4, 5]]
+
+Explanation:
+
+* The sentence contains two separate statements: ""Im Jahr 1971"" and ""Die Vereinten Nationen verbieten LSD"".
+* The first statement ""Im Jahr 1971"" is a separate statement because it provides additional information about the year, which is a special case according to the guidelines.
+* The second statement ""Die Vereinten Nationen verbieten LSD"" is a separate statement because it contains a subject-verb-object combination.
+* The statement spans are annotated as [[0, 1], [2, 3, 4, 5]], where the first span corresponds to the first statement and the second span corresponds to the second statement."
+29285,lsd,Lyserg-säure-diethylamid ist ein künstlicher Wirk-stoff.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29286,lsd,In natürlicher Form kommt LSD im Mutterkorn-alkaloiden vor.,2,"[[0, 1, 2], [3, 4, 5, 6, 7]]","[[1, 2, 3, 4, 5]]"
+29287,lsd,Der LSD Wirk-stoff löst Halluzinationen aus.,1,,"[[0, 1, 2, 3]]"
+29288,lsd,LSD gilt als Droge.,1,,"[[0, 1, 2]]"
+29289,lsd,Und ist durch das Betäubungs-mittel-gesetz verboten.,2,"[[1, 5], [2, 4]]","[[0, 1, 2, 3, 4, 5]]"
+29290,luddismus,"Menschen die an Luddismus glauben,  \newline nennt man Ludditen.",2,"[[0, 7, 8, 9], [1, 2, 3, 4]]","[[0, 1, 2], [3, 4]]"
+29291,luddismus,Eine einzelene Person nennt man Luddist.,1,,"[[1, 2, 3, 4]]"
+29293,luddismus,Ein Luddit möchte lieber ohne viel Technik leben.,1,,"[[1, 2, 3, 4, 5]]"
+29295,luddismus,Das Wort Luddismus gibt es seit dem 19. Jahr-hundert.,1,,"[[1, 2, 3, 4, 5]]"
+29297,luddismus,Und sie wollen Maschinen kaputt machen.,1,,"[[0, 1, 2, 3, 4]]"
+29298,luddismus,Und sie machen Proteste gegen Technik.,1,,"[[1, 2, 3, 4, 5]]"
+29299,luddismus,Luddismus ist wenn man neue Technik schlecht findet.,2,"[[0, 1], [2, 3, 4, 5, 6, 7]]","[[1, 2, 3, 4, 5]]"
+29300,ludwig-lugmeier,Ludwig Lugmeier ist in Kochel geboren.,1,,"[[0, 1, 2, 3]]"
+29301,ludwig-lugmeier,Er ist am 31. Juli geboren.,1,,"[[1, 2, 3, 4, 5]]"
+29302,ludwig-lugmeier,Im Jahr 1949. \newline Ludwig Lugmeier ist 59 Jahre alt.,2,"[[0, 1, 2], [4, 5, 6, 7, 8, 9]]","[[0, 1], [2, 3, 4, 5, 6]]"
+29303,ludwig-lugmeier,Ludwig Lugmeier ist Schriftsteller.,1,,"[[0, 1]]"
+29304,ludwig-lugmeier,Und er ist ein Millionen-dieb.,1,,"[[1, 2, 3, 4, 5]]"
+29305,ludwig-lugmeier,Weil er sehr viel Geld geklaut hat.,1,,"[[1, 2, 3, 4, 5]]"
+29306,ludwig-lugmeier,Er hat mit anderen zusammen einen Geld-transport über-fallen.,2,"[[0, 1, 6, 7], [2, 3, 4]]","[[1, 2, 3, 4, 5]]"
+29307,ludwig-lugmeier,Er hat über 2 Millionen DM ge-klaut.,1,,"[[1, 2, 3, 4, 5]]"
+29308,ludwig-lugmeier,Für seine Über-fälle musste er ins Gefängnis.,2,"[[0, 1, 2], [3, 4, 5, 6]]","[[1, 2, 3, 4, 5]]"
+29311,ludwig-lugmeier,Und viele Sachen ge-klaut.,1,,"[[1, 2]]"
+29312,ludwig-lugmeier,Ludwig Lugmeier ist ein bekannter Mann.,1,,"[[0, 1, 2, 3]]"
+29313,ludwig-lugmeier,"Er ist bekannt, weil er viel Geld ge-klaut hat.",2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]","[[2, 3, 4, 5], [6, 7, 8]]"
+29314,ludwig-lugmeier,Und weil er aus einem Fenster springt.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29315,ludwig-lugmeier,Während er im Gerichts-saal eine Strafe bekommt.,2,"[[0, 1, 5, 6], [2, 3]]","[[1, 2, 3, 4, 5]]"
+29316,ludwig-lugmeier,Nach dem Fenster-sprung flüchtet er.,1,,"[[0, 1, 2]]"
+29317,ludwig-lugmeier,Ludwig Lugmeier schreibt Bücher.,1,,"[[0, 1, 2]]"
+29318,ludwig-lugmeier,Bekannt sind die Bücher über sein Leben.,1,,"[[0, 1, 2, 3, 4]]"
+29319,ludwik-lejzer-zamenhof,Ludwik Lejzer Zamenhof kommt am 15. Dezember 1859 auf die Welt.,1,,"[[2, 3, 4, 5, 6]]"
+29321,ludwik-lejzer-zamenhof,"Er stirbt am 14. April 1917 in Warschau, Polen.",3,"[[2, 3, 4, 5], [6, 7], [6, 8]]","[[2, 3, 4, 5, 6], [7, 8]]"
+29322,ludwik-lejzer-zamenhof,Im Jahr 1887. \newline Zamenhof gründet die Plan-sprache Esperanto.,2,"[[0, 1, 2], [4, 5, 7, 8]]","[[0, 1], [2, 3, 4, 5, 6]]"
+29323,ludwik-lejzer-zamenhof,Er gebraucht das Pseudonym: \newline  \newline Doktoro Esperanto.,1,,"[[0, 1, 2]]"
+29325,ludwik-lejzer-zamenhof,Sie nenne ihn den Zamenhof-tag.,1,,"[[0, 1, 2, 3, 4]]"
+29326,ludwik-lejzer-zamenhof,Zamenhof macht seine Menschheits-lehre bekannt.,1,,"[[0, 1, 2, 3, 4]]"
+29328,ludwik-lejzer-zamenhof,Und zeit-weise ist er ein Zionist.,1,,"[[1, 2, 3, 4, 5]]"
+29329,ludwik-lejzer-zamenhof,Er verfasst eine frühe Grammatik.,1,,"[[1, 2, 3, 4]]"
+29331,ludwik-lejzer-zamenhof,Ludwik Lejzer Zamenhof war ein Augen-arzt.,1,,"[[1, 2, 3, 4, 5]]"
+29333,luftmatratze,"Eine Luftmatratze ist zum drauf-liegen, drauf-sitzen oder schwimmen.",3,"[[4], [5], [7]]","[[0, 1, 2, 3], [4, 5, 6]]"
+29334,luftmatratze,Luftmatratzen sind meistens aus Gummi.,1,,"[[0, 1, 2]]"
+29335,luftmatratze,Sie haben ein Loch zum auf-blasen.,2,"[[0, 1], [4, 5]]","[[0, 1, 2, 3, 4]]"
+29336,luftmatratze,Das Wort Luftmatratze ist ein Substantiv.,2,"[[1], [5]]","[[1, 2, 3, 4]]"
+29337,luftmatratze,Es hat 2 Wörter: • Luft (damit wird sie gefüllt  zum Beispiel durch pusten),3,"[[0, 1, 2, 3, 5], [6, 7, 8, 9], [11, 12, 13, 14]]","Based on the annotation guidelines, I analyzed the sentence:
+
+""Es hat 2 Wörter: • Luft (damit wird sie gefüllt zum Beispiel durch pusten)""
+
+Here is the breakdown:
+
+* ""Es hat 2 Wörter"" is a statement about the number of words.
+* ""• Luft"" is a separate statement, as it provides additional information about one of the words.
+* ""(damit wird sie gefüllt zum Beispiel durch pusten)"" is a separate statement, as it provides additional information about the word ""Luft"".
+
+Therefore, the sentence contains 3 statements.
+
+Here is the output in the required format:
+
+[[0, 1, 2], [3, 4], [5, 6, 7, 8, 9]]"
+29338,luftmatratze,Es hat 2 Wörter: • Matratze (zum drauf liegen),2,"[[0, 1, 2, 3, 4], [6, 7, 8]]","[[0, 1], [2, 3, 4]]"
+29339,luftmatratze,Eine Luftmatratze ist eine Matratze zum auf-blasen.,2,"[[4], [5, 6]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29340,luftpolsterfolie,Die Luft-polster-folie hat Luft-blasen.,1,,"[[0, 1]]"
+29341,luftpolsterfolie,Dadurch ist sie besunders gut zum: • verpacken,1,,"[[2, 3, 4], [5, 6]]"
+29342,luftpolsterfolie,Dadurch ist sie besunders gut zum: • schützen,1,,"[[2, 3, 4], [5, 6]]"
+29343,luftpolsterfolie,Die Luftpolsterfolie wurde von diesen 2 Personen erfunden:,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29347,luftpolsterfolie,Spielen mit Luftpolsterfolie macht Spaß.,1,,"[[0, 1, 2, 3, 4]]"
+29348,luftpolsterfolie,Dabei werden die Blasen (mit Luft drinne) ausgedrückt.,2,"[[0, 1, 3, 7], [4, 5, 6]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29349,luftpolsterfolie,Das gibt einen Knall.,1,,"[[0, 1, 2, 3]]"
+29350,luftpolsterfolie,Für manche ist dieses Spiel Entspannung.,1,,"[[1, 2, 3, 4]]
+
+Explanation: The sentence ""Für manche ist dieses Spiel Entspannung."" contains one statement, which is ""Für manche ist dieses Spiel Entspannung."" The tokens ""Für manche"" is a prepositional phrase specifying the subject, ""ist"" is the verb, ""dieses Spiel"" is the object, and ""Entspannung"" is an additional information about the object. According to the annotation guidelines, this sentence contains only one statement, and the statement span is [[1, 2, 3, 4]]."
+29351,luftpolsterfolie,Kleider \newline Manche basteln sich aus Luftpolsterfolie Kleider zum anziehen.,2,"[[5, 6], [7, 8, 9]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]]"
+29352,luftpolsterfolie,Eine Luftpolsterfolie wird benutzt um: • etwas zu verpacken (zum Beispiel in einem Karton),3,"[[1, 2, 3], [4, 6, 7, 8], [9, 10, 11, 13]]","[[2, 3, 4, 5], [6, 7, 8, 9, 10, 11]]"
+29353,luftpolsterfolie,Eine Luftpolsterfolie wird benutzt um: • etwas zu schützen (damit es nicht kaputt geht),3,"[[1, 2, 3], [4, 6, 7, 8], [9, 10, 11, 12, 13]]","[[2, 3, 4, 5], [6, 7, 8, 9, 10, 11]]"
+29354,luft,Wir brauchen Luft zum Atmen.,1,,"[[0, 1, 2, 3, 4]]"
+29357,luft,Diese Stoffe brauchen wir zum Über-leben.,1,,"[[0, 1, 2, 3, 4]]"
+29358,luft,Luft kann man nicht sehen.,1,,"[[0, 1, 2, 3, 4]]"
+29359,luft,Luft ist überall um uns herum.,2,"[[2], [3, 4, 5]]","[[0, 1, 2, 3, 4]]"
+29360,luft,Wir spüren die Luft als Wind.,1,,"[[0, 1, 2, 3, 4]]"
+29361,lugenpresse,Das Wort wird oft von PEGIDA benutzt.,1,,"[[0, 1, 2, 3, 4]]"
+29362,lugenpresse,PEGIDA sagt: alles was in der Zeitung über PEGIDA steht ist falsch.,3,"[[0, 1], [2, 3, 4, 6, 7, 8, 9], [2, 10, 11]]","[[0, 1, 2], [3, 4, 5, 6, 7]]"
+29363,lugenpresse,Sie sagen: die Zeitungen wollen etwas verstecken.,2,"[[0, 1], [3, 4, 5, 6]]","[[0, 1, 2, 3, 4, 5]]"
+29364,lugenpresse,Darum sagen sie: Lügen-presse.,1,,"[[0, 1], [2, 3]]"
+29365,lugenpresse,Das Wort wird oft beim Thema Nationalsozialismus benutzt.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29366,lugenpresse,"Das heißt: jemand der etwas böses oder schlechtes macht, \newline möchte nicht das andere darüber schreiben.",4,"[[2, 10, 11], [12, 13, 14, 15], [3, 4, 5, 8], [3, 4, 7, 8]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]]"
+29367,lugenpresse,Darum benutzen solche Menschen manchmal das Wort Lügen-presse.,1,,"[[1, 2, 3, 4, 5, 6]]"
+29368,lugenpresse,Lügenpresse ist ein Unwort.,1,,"[[0, 1]]"
+29369,lugenpresse,Es heißt: was in der Zeitung steht ist falsch.,2,"[[1, 2, 5, 6], [7, 8]]","[[0, 1, 2, 3, 4], [5, 6, 7, 8]]"
+29370,luge,Eine Lüge ist: \newline Wenn Menschen den Inhalt vom Satz für falsch halten.,2,"[[1, 2], [4, 5, 7, 8, 9, 10, 11, 12]]","[[2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29371,luge,"Die Menschen denken dann, dass der Inhalt vom Satz mit Absicht falsch ist.",1,,"[[2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29372,luge,Man sagt auch: \newline Der Inhalt vom Satz ist gelogen.,1,,"[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]]"
+29373,luge,"Wer entscheidet, was eine Lüge ist?",2,"[[0, 1], [2, 4, 5]]","[[0, 1, 2, 3, 4, 5]]"
+29374,luge,"Wer entscheidet, was Wahrheit ist?",2,"[[0, 1], [2, 3, 4]]","[[0, 1, 2, 3, 4, 5]]"
+29375,luge,Das hängt vom Glauben und vom Wissen der Menschen ab.,2,"[[2, 3], [5, 6]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29376,luge,Lügen sind zum Beispiel: • Gras ist blau.,2,"[[0, 1, 2, 3], [5, 6, 7]]","[[2, 3, 4], [5, 6]]"
+29377,luge, • Nach Montag kommt Mittwoch.,1,,"[[0, 1]]"
+29378,luge, • Schnee ist nicht weiß.,1,,"[[0, 1]]"
+29379,luge,Wer eine Lüge sagt oder schreibt weiß: \newline Das ist nicht die Wahrheit.,4,"[[0, 2, 3], [0, 2, 5], [6], [8, 9, 10, 12]]","[[0, 1, 2, 3], [4, 5, 6, 7]]"
+29380,luge,Die Person lügt um andere Menschen zu täuschen.,2,"[[1, 2], [3, 4, 5, 6, 7]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29381,luge,Man nennt die Person Lügner.,1,,"[[0, 1, 2]]"
+29382,luge,In Märchen und Geschichten gibt es auch Lügner.,2,"[[1], [3]]","[[1, 2, 3, 4, 5]]"
+29387,luge,Es gibt viele Gründe für Lügen.,1,,"[[0, 1, 2, 3, 4]]"
+29391,luge,Eine Lüge ist eine absichtlich falsche Aussage.,2,"[[1, 2, 6], [4]]","[[1, 2, 3, 4, 5]]"
+29392,luge,Man will andere damit täuschen.,1,,"[[0, 1, 2, 3, 4]]"
+29393,luiz-inacio-lula-da-silva,Viele sagen zu Luiz Inácio Lula da Silva einfach nur Lula.,1,,"[[1, 2, 3, 4, 5]]"
+29394,luiz-inacio-lula-da-silva,Lula kommt am 27. Oktober 1945 auf die Welt.,1,,"[[1, 2, 3, 4, 5, 6]]"
+29395,luiz-inacio-lula-da-silva,"Das war in Caetés, Brasilien.",2,"[[3], [4]]","[[0, 1, 2, 3]]"
+29396,luiz-inacio-lula-da-silva,Aufgewachsen ist Lula in São Paulo.,1,,"[[1, 2, 3, 4]]"
+29397,luiz-inacio-lula-da-silva,Seine Familie ist arm.,1,,"[[0, 1, 2]]"
+29398,luiz-inacio-lula-da-silva,Sein Vater stirbt an Alkoholismus.,1,,"[[1, 2, 3, 4]]"
+29399,luiz-inacio-lula-da-silva,Alkoholismus heißt: Jemand ist süchtig nach Alkohol.,1,,"[[1, 2, 3, 4], [5, 6, 7]]"
+29400,luiz-inacio-lula-da-silva,Lula geht zur Schule.,1,,"[[0, 1, 2, 3]]"
+29401,luiz-inacio-lula-da-silva,Aber nur bis zu der zweiten Klasse.,1,,"Based on the annotation guidelines, I analyzed the sentence:
+
+""Aber nur bis zu der zweiten Klasse.""
+
+Here is the breakdown:
+
+* ""Aber"" is a coordinating conjunction, which connects two clauses.
+* ""nur"" is a filler word, which is not a separate statement.
+* ""bis zu der zweiten Klasse"" is a prepositional phrase that specifies a condition.
+
+According to the guidelines, the sentence contains 2 statements:
+
+1. The main clause ""Aber"" (which implies a contrast or addition)
+2. The prepositional phrase ""bis zu der zweiten Klasse"" (which specifies a condition)
+
+The statement spans are: [[0], [2, 3, 4, 5]]
+
+Where:
+
+* Token 0: ""Aber"" (main clause)
+* Tokens 2-5: ""bis zu der zweiten Klasse"" (prepositional phrase)
+
+Note that token 1 ""nur"" is not included in the spans, as it is a filler word."
+29402,luiz-inacio-lula-da-silva,Dann geht Lula nicht mehr zu Schule.,1,,"[[0, 1, 2, 3, 4]]"
+29403,luiz-inacio-lula-da-silva,Lula geht arbeiten.,1,,"[[0, 1]]"
+29404,luiz-inacio-lula-da-silva,Damit er seiner Familie helfen kann.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29405,luiz-inacio-lula-da-silva,Lesen lernt Lula erst mit 10 Jahren.,1,,"[[1, 2, 3, 4, 5]]"
+29406,luiz-inacio-lula-da-silva,Später macht Lula eine Ausbildung als Metallarbeiter.,1,,"[[1, 2, 3, 4, 5]]"
+29407,luiz-inacio-lula-da-silva,Im Jahr 1969 heiraten Lula und Maria de Lourdes.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29408,luiz-inacio-lula-da-silva,Im Jahr 1971 ist Maria de Lourdes schwanger.,2,"[[0, 1, 2], [3, 4, 5, 6, 7]]","[[2, 3, 4, 5], [0, 1]]"
+29409,luiz-inacio-lula-da-silva,Maria ist krank.,1,,"[[0, 1]]"
+29410,luiz-inacio-lula-da-silva,Sie hat eine Hepatitis-infektion.,1,,"[[0, 1, 2, 3]]"
+29411,luiz-inacio-lula-da-silva,Die Familie hat kein Geld für einen Arzt.,2,"[[1, 2, 3], [5, 7]]","[[0, 1, 2, 3, 4, 5]]"
+29412,luiz-inacio-lula-da-silva,Deswegen stirbt Maria.,1,,"[[1, 2]]"
+29413,luiz-inacio-lula-da-silva,Im Jahr 1974 heirateten Lula und Marisa Letícia Rocco.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29414,luiz-inacio-lula-da-silva,Zusammen haben sie 5 Kinder.,1,,"[[0, 1, 2, 3, 4]]"
+29416,luiz-inacio-lula-da-silva,"Im Jahr 2022 heiraten Lula und Rosangela ""Janja"" Silva.",2,"[[0, 1, 2], [3, 4, 5, 6, 7, 8]]","[[0, 1, 2, 3, 4, 5]]"
+29417,luiz-inacio-lula-da-silva,Als Metall-arbeiter geht Lula in die Gewerkschaft.,2,"[[0, 1], [4, 6]]","[[1, 2, 3], [4, 5, 6]]"
+29418,luiz-inacio-lula-da-silva,Im Jahr 1969 wird Lula in den Vorstand gewählt.,2,"[[0, 1, 2], [3, 4, 5, 7, 8]]","[[0, 1, 2, 3, 4, 5]]"
+29420,luiz-inacio-lula-da-silva,Später wird er Generalsekretär in der Gewerkschaft.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29421,luiz-inacio-lula-da-silva,Und im Jahr 1975 wird er zum Vorsitzenden der Gewerkschaft gewählt.,2,"[[1, 2, 3], [4, 5, 6, 7, 9, 10]]","[[2, 3, 4, 5, 6, 7]]"
+29422,luiz-inacio-lula-da-silva,Er bekommt bei der Wahl 92 Prozent der Stimmen.,1,,"[[1, 2, 3, 4, 5]]"
+29423,luiz-inacio-lula-da-silva,In der Gewerkschaft sind 100 Tausend Arbeiter.,1,,"[[1, 2, 3, 4, 5]]"
+29424,luiz-inacio-lula-da-silva,Während der 1970er Jahre organisiert Lula viele große Streiks.,2,"[[0, 2, 3], [4, 5, 6, 7, 8]]","Based on the annotation guidelines, I analyzed the sentence:
+
+""Während der 1970er Jahre organisiert Lula viele große Streiks.""
+
+Here's the breakdown:
+
+* ""Während der 1970er Jahre"" is a prepositional phrase that provides additional information about the time period, so it forms a separate statement.
+* ""organisiert Lula"" is the main clause, which forms another statement.
+* ""viele große Streiks"" is a noun phrase with adjectives ""viele"" and ""große"", which provide additional information about the Streiks. Each adjective forms a separate statement.
+
+Therefore, the sentence contains 4 statements.
+
+Here is the output in the required format:
+
+[[0, 1, 2, 3], [4, 5], [6, 7], [8, 9]]"
+29425,luiz-inacio-lula-da-silva,Damals war Brasilien eine Militärdiktatur.,1,,"[[0, 1, 2, 3, 4]]"
+29426,luiz-inacio-lula-da-silva,Die Auto-firma Volkswagen hat auch Fabriken in Brasilien.,2,"[[5], [6, 7]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29427,luiz-inacio-lula-da-silva,Volkswagen spioniert Lula aus.,1,,"[[0, 1]]"
+29428,luiz-inacio-lula-da-silva,Dann gibt Volkswagen die Informationen an die Polizei von der Militärdiktatur.,2,"[[0, 1, 2, 4, 5], [8, 10]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29429,luiz-inacio-lula-da-silva,Im Jahr 1980 muss Lula ins Gefängnis.,2,"[[0, 1, 2], [3, 4, 5, 6]]","[[2, 3, 4, 5]]"
+29430,luiz-inacio-lula-da-silva,Nach 31 Tagen wird Lula wieder freigelassen.,2,"[[0, 1, 2], [3, 4, 5, 6]]","[[0, 1, 2, 3, 4, 5]]"
+29431,luiz-inacio-lula-da-silva,Danach tut sich Lula mit anderen Gewerkschaften zusammen.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29432,luiz-inacio-lula-da-silva,Am 10. Februar 1980 gründen sie eine neue Partei.,2,"[[0, 1, 2, 3], [4, 5, 7, 8]]","[[1, 2, 3, 4, 5]]"
+29433,luiz-inacio-lula-da-silva,Die Partei heißt Partido dos Trabalhadores.,1,,"[[0, 1, 2, 3]]"
+29435,luiz-inacio-lula-da-silva,Die Partei hat 400 Tausend Mitglieder.,1,,"[[0, 1, 2, 3, 4]]"
+29436,luiz-inacio-lula-da-silva,Im Jahr 1986 ist Wahl in Brasilien.,1,,"[[0, 1, 2, 3, 4]]"
+29437,luiz-inacio-lula-da-silva,Sehr viele Menschen wählen Lula.,1,,"[[1, 2, 3, 4]]"
+29438,luiz-inacio-lula-da-silva,Lula wird in den Natrional-kongress gewählt.,1,,"[[0, 1, 2, 3, 4]]"
+29439,luiz-inacio-lula-da-silva,Er vertritt Bundes-staat São Paulo.,1,,"[[1, 2]]"
+29440,luiz-inacio-lula-da-silva,"Die Partei PT hilft mit, damit es eine neue Verfassung in Brasilien gibt.",2,"[[1, 2, 3, 4], [5, 6, 8, 9, 10, 11, 12]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29441,luiz-inacio-lula-da-silva,Zum Beispiel: In der neuen Verfassung stehen viele Rechte für die Arbeiter.,2,"[[2, 5, 6, 7, 8, 9, 11], [4]]","[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]"
+29442,luiz-inacio-lula-da-silva,Im Jahr 1989 sind Wahlen in Brasilien.,1,,"[[0, 1, 2, 3, 4]]"
+29443,luiz-inacio-lula-da-silva,Der Präsident soll gewählt werden.,1,,"[[0, 1, 2, 3]]"
+29444,luiz-inacio-lula-da-silva,Lula will Präsident werden.,1,,"[[0, 1, 2, 3]]"
+29445,luiz-inacio-lula-da-silva,Viele Leute in Brasilien finden Lula gut.,1,,"[[1, 2, 3, 4]]"
+29446,luiz-inacio-lula-da-silva,Manche Leute sagen aber: \newline Lula ist ein Sozialist.,2,"[[0, 1, 2], [5, 6, 8]]","[[0, 1, 2], [3, 4, 5]]"
+29447,luiz-inacio-lula-da-silva,Deswegen ist Lula schlecht für die Industrie \newline Und die Banken.,2,"[[4, 6], [10]]","[[0, 1, 2], [3, 4, 5]]"
+29449,luiz-inacio-lula-da-silva,Lula wird nicht gewählt.,1,,"[[0, 1, 2]]"
+29450,luiz-inacio-lula-da-silva,Im Jahr 2002 macht Lula wieder mit bei der Prösidenten-wahl.,2,"[[0, 1, 2], [3, 4, 5, 6, 7, 9]]","Based on the annotation guidelines, I analyzed the sentence:
+
+""Im Jahr 2002 macht Lula wieder mit bei der Prösidenten-wahl.""
+
+Here is the breakdown:
+
+* ""Im Jahr 2002"" is a separate statement (date specification)
+* ""macht Lula wieder mit bei der Prösidenten-wahl"" is another separate statement (main SVO combination)
+
+Therefore, the sentence contains 2 statements.
+
+The statement spans are:
+
+[[0, 1], [2, 3, 4, 5, 6, 7]]
+
+Here, the tokens are enumerated as follows:
+
+0. Im
+1. Jahr
+2. 2002
+3. macht
+4. Lula
+5. wieder
+6. mit
+7. bei
+8. der
+9. Prösidenten-wahl"
+29451,luiz-inacio-lula-da-silva,Er zieht jetzt andere Kleider an.,1,,"[[0, 1, 2, 3, 4]]"
+29452,luiz-inacio-lula-da-silva,Lula zieht einen Anzug und eine Krawatte an.,2,"[[3], [6]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29453,luiz-inacio-lula-da-silva,Er sagt: \newline  \newline Hunger und Armut müssen weg.,3,"[[0, 1], [5, 8, 9], [7, 8, 9]]","[[0, 1, 2], [3, 4, 5]]"
+29454,luiz-inacio-lula-da-silva,Und die Menschen brauchen eine bessere Ausbildung.,2,"[[2, 3], [5]]","[[1, 2, 3, 4, 5]]"
+29455,luiz-inacio-lula-da-silva,Am 27. Oktober 2002 wird Lula Präsident von Brasilien.,3,"[[0, 1, 2, 3], [4, 5, 6], [6, 7, 8]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29456,luiz-inacio-lula-da-silva,Und am 29. Oktober 2006 wird Lula wieder zum Präsidenten gewählt.,2,"[[1, 2, 3, 4], [5, 6, 7, 8, 9, 10]]","[[2, 3, 4, 5, 6, 7]]"
+29457,luiz-inacio-lula-da-silva,In Brasilien gibt es eine Verfassung.,1,,"[[0, 1, 2, 3, 4]]"
+29458,luiz-inacio-lula-da-silva,In der Verfassung steht: \newline Man darf nur 2 mal hintereinander Präsident sein.,3,"[[0, 2, 3], [5, 6, 7, 8, 11, 12], [8, 9, 10]]","Based on the annotation guidelines, I would annotate the sentence as follows:
+
+ Sentence: In der Verfassung steht: \newline Man darf nur 2 mal hintereinander Präsident sein.
+
+Number of statements: 2
+
+Statement spans: [[0, 1, 2, 3], [5, 6, 7, 8, 9]]
+
+Explanation:
+
+* The sentence contains two statements: ""In der Verfassung steht"" and ""Man darf nur 2 mal hintereinander Präsident sein"".
+* The first statement span includes tokens 0-3, which form the first statement.
+* The second statement span includes tokens 5-9, which form the second statement.
+* The newline token is ignored during annotation.
+* The coordinating conjunction ""und"" is not included in the spans.
+* The subordinating conjunction ""dass"" is not present in this sentence.
+* The tokens that are contained in both statements (e.g., ""Man"") are not included in the annotations."
+29459,luiz-inacio-lula-da-silva,Deswegen hat Lula bei der Wahl im Jahr 2010 nicht mit gemacht.,2,"[[0, 1, 2, 3, 5, 9, 10, 11], [6, 7, 8]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29460,luiz-inacio-lula-da-silva,Die Wahl gewinnt Dilma Rousseff.,1,,"[[0, 1, 2]]"
+29462,luiz-inacio-lula-da-silva,Seit dem 30. Oktober 2022 ist Lula wieder der Präsident von Brasilien.,3,"[[0, 2, 3, 4], [9], [10, 11]]","[[2, 3, 4, 5, 6, 7]]"
+29463,luiz-inacio-lula-da-silva,Luiz Inácio Lula da Silva ist der Präsident von Brasilien.,2,"[[7], [8, 9]]","[[0, 1, 2, 3, 4, 5]]"
+29464,luiz-inacio-lula-da-silva,Er ist seit dem 30. Oktober 2022 der Präsident.,1,,"[[2, 3, 4, 5], [6, 7]]"
+29465,luiz-inacio-lula-da-silva,Er war schon einmal Präsident von Brasilien.,1,,"[[1, 2, 3, 4, 5]]"
+29466,luiz-inacio-lula-da-silva,Das war vom 1. Januar 2003 bis zum 1. Januar 2011.,2,"[[2, 3, 4, 5], [6, 7, 8, 9, 10]]","[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]]"
+29467,lupe,Mit einer Lupe \newline sieht man Sachen größer.,1,,"[[0, 1], [2, 3, 4]]"
+29468,lupe,Zum Beispiel kann man einen kleinen Text besser lesen.,2,"[[0, 1, 2, 3, 7, 8], [5]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29470,lupe,Es gibt auch Redewendungen mit dem Wort Lupe.,1,,"[[1, 2, 3, 4, 5]]"
+29474,lupe,"Eine Lupe ist ein Glas, \newline das zum Ver-größern benutzt wird.",2,"[[1, 2, 4], [6, 7, 8, 9, 10]]","[[0, 1, 2], [3, 4, 5, 6]]"
+29475,lupe,Zum Beispiel: \newline um einen Text größer zu sehen,2,"[[0, 1, 3, 5, 6, 7], [6]]","[[0, 2], [3, 4, 5]]"
+29476,lurker,Das Wort Lurker sagt man im Internet oft als Schimpfwort.,2,"[[5, 6], [7, 8, 9]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29477,lurker,"Ein Lurker nimmt, \newline aber gibt nichts.",2,"[[1, 2], [4, 5, 6]]","[[0, 1], [2, 3, 4]]"
+29480,lurker,In einer Internet  Tauschbörse macht ein Lurker einen Download.,2,"[[0, 2, 4], [5, 7, 9]]","Based on the annotation guidelines, I analyzed the sentence:
+
+""In einer Internet Tauschbörse macht ein Lurker einen Download.""
+
+Here is the breakdown:
+
+* ""In einer Internet Tauschbörse"" is a prepositional phrase specifying the location, which forms a separate statement.
+* ""macht ein Lurker einen Download"" is the main SVO combination, which forms another statement.
+
+Therefore, the sentence contains 2 statements.
+
+The statement spans are: [[0, 1, 2, 3], [4, 5, 6]]
+
+Here, tokens 0-3 (""In einer Internet Tauschbörse"") form one statement span, and tokens 4-6 (""macht ein Lurker einen Download"") form another statement span."
+29481,lurker,Ein Luker macht in der Tauschbörse keinen Upload.,2,"[[1, 2, 6, 7], [3, 5]]","[[1, 2, 3, 4, 5]]"
+29483,lurker,Ein Lurker liest in einem Wiki.,1,,"[[1, 2, 3, 4, 5]]"
+29484,lurker,Ein Lurker schreibt selbst keine Artikel in einem Wiki.,2,"[[1, 2, 3, 4, 5], [6, 8]]","[[1, 2, 3, 4, 5]]"
+29485,lurker,Lurker ist ein englisches Wort.,1,,"For the sentence ""Lurker ist ein englisches Wort."", I would annotate it as follows:
+
+Number of statements: 2
+Statement spans: [[0, 1], [2, 3]]
+
+Explanation: The sentence contains two statements: ""Lurker ist"" and ""ein englisches Wort"". The first statement is a simple subject-verb combination, while the second statement provides additional information about the word ""Lurker""."
+29486,lurker,Das Wort wird meistens im Internet benutzt.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29487,lurker,"Zum Beispiel sind damit Internetbenutzer gemeint, \newline die in einem Forum nur lesen und beobachten.",3,"[[0, 1, 2, 3, 5], [7, 8, 10, 11, 12], [7, 8, 10, 11, 14]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]]"
+29488,lurker,Ein Lurker diskutiert nicht mit.,1,,"[[1, 2, 3]]"
+29489,lurker,Ein Lurker bleibt lieber versteckt.,1,,"[[0, 1, 2]]"
+29490,ma-getrank,In eine Maß passt 1 Liter Bier.,1,,"[[0, 1, 2, 3, 4]]"
+29491,ma-getrank,Besonders bekannt ist die Maß beim Oktoberfest.,2,"[[0, 1, 2, 4], [5, 6]]","[[0, 1, 2, 3, 4, 5]]"
+29492,ma-getrank,Eine Maß ist ein sehr großes Glas.,1,,"[[1, 2, 3, 4, 5]]"
+29494,mac-os-x,Mac OS X gehört der Firma Apple.,1,,"[[0, 1, 2, 3]]"
+29495,mac-os-x,Mac OS X ist ein Betriebssystem für den Computer.,2,"[[5], [6, 8]]","[[0, 1, 2, 3, 4, 5]]"
+29496,mac-os-x,Es funktioniert nur auf Computern der Firma Apple.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29497,machthaber,Machthaber können auch mehrere Personen sein.,1,,"[[1, 2, 3, 4, 5]]"
+29498,machthaber,Beispiele für Deutschland: \newline Der Bundeskanzler ist ein Machthaber.,1,,"Based on the annotation guidelines, I would annotate the sentence ""Beispiele für Deutschland: \newline Der Bundeskanzler ist ein Machthaber."" as follows:
+
+Number of statements: 2
+
+Statement spans: [[0, 1, 2], [4, 5, 6]]
+
+Explanation:
+
+* The sentence is split into two statements: ""Beispiele für Deutschland"" and ""Der Bundeskanzler ist ein Machthaber"".
+* The first statement ""Beispiele für Deutschland"" is annotated as [[0, 1, 2]], where 0 is ""Beispiele"", 1 is ""für"", and 2 is ""Deutschland"".
+* The second statement ""Der Bundeskanzler ist ein Machthaber"" is annotated as [[4, 5, 6]], where 4 is ""Der"", 5 is ""Bundeskanzler"", and 6 is ""ist ein Machthaber""."
+29499,machthaber,Die Bundesregierung ist ein Machthaber.,1,,"[[0, 1]]"
+29500,machthaber,Das Wort Machthaber ist nicht immer gut gemeint.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29501,machthaber,"Die meisten, die das Wort benutzen,  \newline meinen damit einen ""schlechten oder bösen Chef"".",4,"[[1, 8, 9, 14], [11], [13], [2, 4, 5]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]]"
+29502,machthaber,"Ein Machthaber ist jemand, der die Macht hat, ein Chef.",2,"[[3, 4, 6, 7], [9]]","[[1, 2, 3], [5, 6]]"
+29504,macht,Macht ist eine Fähigkeit von Menschen.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29505,macht,Ein Mensch mit Macht beeinflusst andere Menschen.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29506,macht,Macht ist manchmal gut und manchmal schlecht.,2,"[[2, 3], [5, 6]]","[[0, 1, 2], [3, 4, 5]]"
+29507,macht,Das Wort benutzt man bei Politik.,1,,"[[0, 1, 2]]"
+29508,macht,Menschen haben unterschiedlich viel Macht.,1,,"[[0, 1, 2]]"
+29509,macke,Jeder Mensch hat eine Macke.,1,,"[[1, 2, 3, 4, 5]]"
+29510,macke,"Eine Macke kann ein Tick sein, eine Eigenart oder eine Behinderung.",3,"[[4], [7], [10]]","[[1, 2], [3, 4, 5]]"
+29511,macke,Viele Menschen haben die-selben Macken.,1,,"[[1, 2, 3, 4, 5]]"
+29512,macke,Sie unterscheiden sich nicht besonders.,1,,"[[0, 1, 2, 3, 4]]"
+29513,macke,Manche Menschen haben besondere Macken.,1,,"[[0, 1, 2, 3, 4]]"
+29514,macke,Eine Macke macht jemand einzigartig.,1,,"[[1, 2, 3, 4, 5]]"
+29515,macke,"Man kann jemand besonders mögen, weil er eine Macke hat.",2,"[[0, 1, 2, 3, 4], [5, 6, 8, 9]]","[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]"
+29516,macke,"Je mehr Menschen stolz sind auf ihre Macken,  \newline um so normaler wird es,  \newline eine Macke zu haben.",3,"[[0, 1, 2, 3, 4, 5, 6, 7], [10, 11, 12, 13, 14], [18, 19, 20]]","[[2, 3, 4], [5, 6, 7]]"
+29517,macke,Eine Macke ist ein Kratzer oder eine Delle.,2,"[[4], [7]]","[[1, 2, 3, 4, 5]]"
+29518,macke,Bei Menschen ist eine Macke eine Besonderheit.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29519,mac,Der Mac ist eine Art von Computer.,1,,"[[0, 1, 2, 3, 4]]"
+29520,mac,"Das wird so gesprochen: ""Mäck"".",1,,"[[0, 1]]"
+29521,mac,Die Firma Apple verkauft die Computer.,1,,"[[0, 1, 2, 3]]"
+29522,madchenname,Eine Frau hat bei ihrer Geburt den gleichen Nach-namen wie ihre Eltern.,2,"[[1, 2, 7, 8, 9, 10, 11], [3, 4, 5]]","[[2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29523,madchenname,Später heiratet sie vielleicht einen Mann.,1,,"[[0, 1, 2, 3, 4]]"
+29524,madchenname,Dann bekommt sie meistens den Nach-namen von ihrem Mann.,1,,"[[1, 2, 3, 4, 5, 6]]"
+29525,madchenname,Ihr alter Nach-name ist dann ihr Mädchen-name.,1,,"[[1, 2, 3, 4, 5]]"
+29526,madchenname,"Der Mädchen-name ist der Nach-name, den sie als Mädchen hatte.",2,"[[1, 2, 4], [5, 6, 7, 8, 9]]","[[1, 2, 3, 4], [5, 6, 7, 8]]"
+29527,madchenname,Der Mädchen-name kann auch eine andere Bedeutung haben.,1,,"[[1, 2, 3, 4], [5, 6, 7, 8]]"
+29528,madchenname,Manche meinen mit Mädchen-name einen weiblichen Vornamen.,1,,"[[1, 2], [3, 4, 5]]"
+29529,madchenname,Der Mädchen-name ist der Nach-name von einer Frau.,2,"[[4], [5, 7]]","[[1, 2, 3], [5, 6, 7]]"
+29530,madchenname,Bevor sie einen Mann heiratet.,1,,"Based on the annotation guidelines, I would annotate the sentence ""Bevor sie einen Mann heiratet."" as follows:
+
+Number of statements: 2
+Statement spans: [[0, 1], [2, 3, 4]]
+
+Explanation:
+
+* ""Bevor"" is a subordinating conjunction, which connects the main clause ""sie einen Mann heiratet"" with a subordinate clause. This forms a separate statement.
+* ""sie einen Mann heiratet"" is the main clause, which forms another separate statement.
+
+Note that the article ""einen"" is not included in the statement spans, as per the guidelines."
+29531,madonna-kunstlerin,"Madonna wurde am 16. August 1958 in Bay City, USA geboren.",3,"[[2, 3, 4, 5], [6, 7, 8], [6, 9]]","[[2, 3, 4, 5, 6, 7]]"
+29532,madonna-kunstlerin,Vom Jahr 1985 bis zum Jahr 1989 war sie mit Sean Penn verheiratet.,2,"[[0, 1, 2], [3, 4, 5, 6]]","[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]]"
+29533,madonna-kunstlerin,Vom 2000 bis zum Jahr 2008 war sie mit Guy Ritchie verheiratet.,2,"[[0, 1], [2, 3, 4, 5]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29534,madonna-kunstlerin,Zusammen mit Carlos Leon hat sie eine Tochter.,2,"[[0, 1, 2, 3], [4, 5, 7]]","[[0, 1, 2, 3, 4]]"
+29535,madonna-kunstlerin,Sie ist am 14. Oktober 1996 geboren worden.,1,,"[[2, 3, 4, 5, 6]]"
+29536,madonna-kunstlerin,Sie heißt: Lourdes Maria Ciccone Leon.,1,,"[[1, 2, 3, 4, 5]]"
+29537,madonna-kunstlerin,Zusammen mit Guy Ritchie hat sie einen Sohn.,2,"[[0, 1, 2, 3], [4, 5, 7]]","[[0, 1, 2, 3, 4]]"
+29538,madonna-kunstlerin,Er ist am 11. August 2000 geboren worden.,1,,"[[2, 3, 4, 5, 6]]"
+29539,madonna-kunstlerin,Er heißt: Rocco John Ciccone Ritchie.,1,,"[[1, 2, 3, 4]]"
+29540,madonna-kunstlerin,Außerdem hat Madonna 2 Kinder adoptiert.,1,,"[[1, 2, 3, 4, 5]]"
+29541,madonna-kunstlerin,Die Kinder sind aus Malawi.,1,,"[[0, 1, 2, 3]]"
+29542,madonna-kunstlerin,Madonna hat 300 Millionen Ton-träger verkauft.,1,,"[[0, 1, 2, 3, 4]]"
+29543,madonna-kunstlerin,Das heißt: Madonna ist die erfolgreichste Sängerin der Welt.,1,,"[[2, 3, 4, 5], [6, 7, 8]]"
+29544,madonna-kunstlerin,Seit dem Jahr 1983 gibt es Musik Alben von Madonna.,3,"[[0, 2, 3], [4, 5, 6, 7], [6, 7, 8, 9]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29545,madonna-kunstlerin,Alle Alben waren in den Charts.,1,,"According to the annotation guidelines, the sentence ""Alle Alben waren in den Charts."" contains 1 statement, so the output is: NONE"
+29550,madonna-kunstlerin,Madonna ist auch Schauspielerin.,1,,"[[0, 1]]"
+29551,madonna-kunstlerin,Sie hat in verschiedenen Filmen mitgespielt.,1,,"[[0, 1, 2, 3, 4]]"
+29558,madonna-kunstlerin,Madonna ist auch Autorin.,1,,"[[0, 1]]"
+29559,madonna-kunstlerin,Sie hat Kinder-bücher gemacht.,1,,"[[0, 1, 2, 3]]"
+29563,madonna-kunstlerin,Madonna ist der Name für die Mutter Gottes im Christentum.,3,"[[0, 1], [4, 6, 7], [8, 9]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29564,madonna-kunstlerin,Das war über sehr lange Zeit der einzige Gebrauch dieses Namens.,2,"[[0, 1, 7, 8, 9, 10], [2, 3, 4, 5]]","[[1, 2, 3, 4, 5, 6, 7, 8]]"
+29565,madonna-kunstlerin,"Als eine Sängerin sich vor einigen Jahren so genannt hat, haben sich viele Christen sehr geärgert.",3,"[[0, 2, 3, 7, 8, 9], [4, 5, 6], [10, 11, 12, 13, 14, 15]]","[[2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29566,madonna-kunstlerin,Aber das hat die Sängerin nicht gestört.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29567,madonna-kunstlerin,Madonna ist eine Sängerin.,1,,"[[0, 1]]"
+29568,madonna-kunstlerin,"Sie ist auch eine • Song-schreiberin,",1,,"[[1, 2]]"
+29569,madonna-kunstlerin,"Sie ist auch eine • Schauspielerin,",1,,"[[1, 2]]"
+29570,madonna-kunstlerin,"Sie ist auch eine • Autorin,",1,,"[[1, 2]]"
+29571,madonna-kunstlerin,"Sie ist auch eine • Regisseurin,",1,,"[[1, 2]]"
+29572,madonna-kunstlerin,Sie ist auch eine • Produzentin,1,,"[[0, 1, 2]]"
+29573,madonna-kunstlerin,Sie ist auch eine • und Designerin.,1,,"[[1, 2]]"
+29574,madonna-wortklarung,Madonna kann verschiedene Bedeutungen haben.,1,,"[[1, 2, 3, 4, 5]]"
+29575,madonna-wortklarung," • Mit Madonna ist Maria, die Mutter von Jesus gemeint: Maria (Mutter Jesu)",4,"[[2, 3, 4, 5, 10], [6, 7, 8, 9], [11], [12, 13]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29577,magenknurren,"Magenknurren kann zum Beispiel enstehen,  \newline wenn man einen leeren Magen hat.",2,"[[0, 1, 4], [7, 8, 10, 11, 12]]","[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]]"
+29578,magenknurren,Also wenn wir Hunger haben.,1,,"[[0, 1, 2, 3, 4]]"
+29579,magenknurren,Die Geräusche entstehen durch die leere Bewegung des Darms.,2,"[[1, 2, 3, 7, 8], [5]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29581,magenknurren,"Wenn Luft und Flüssigkeit bewegt werden, gibt es Geräusche.",3,"[[0, 1, 4, 5], [0, 3, 4, 5], [6, 7, 8]]","[[0, 1, 2, 3, 4, 5]]"
+29582,magenknurren,Magenknurren ist ein Geräusch aus dem Bauch.,2,"[[0, 1, 3], [4, 6]]","[[0, 1, 2]]"
+29583,maghreb,Die Maghreb-staaten sind in Afrika.,1,,"[[0, 1, 2, 3, 4]]"
+29585,maghreb,Bei den Maghreb-staaten sind manche Sachen gleich.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29586,maghreb,Zum Beispiel: • die Länder haben alle ein ähnliches Klima,1,,"[[1, 2, 3, 4, 5, 6]]"
+29587,maghreb,Zum Beispiel: • die Länder liegen am Mittel-meer (außer Mauretanien),2,"[[4, 5, 6, 7], [8, 9]]","Based on the annotation guidelines, I analyzed the sentence:
+
+""Zum Beispiel: • die Länder liegen am Mittel-meer (außer Mauretanien)""
+
+Here is the breakdown:
+
+* ""Zum Beispiel:"" is a filler word and doesn't form a separate statement.
+* ""die Länder"" is the subject.
+* ""liegen"" is the main verb.
+* ""am Mittel-meer"" is a prepositional phrase specifying the location.
+* ""(außer Mauretanien)"" is a parenthetical remark providing additional information.
+
+According to the guidelines, the prepositional phrase ""am Mittel-meer"" forms a separate statement, and the parenthetical remark ""(außer Mauretanien)"" also forms a separate statement.
+
+Therefore, the sentence contains 3 statements.
+
+Here is the output in the required format:
+
+[[2, 3, 4], [5, 6], [7, 8, 9]]
+
+Where:
+
+* [[2, 3, 4]] corresponds to the statement ""die Länder liegen""
+* [[5, 6]] corresponds to the statement ""am Mittel-meer""
+* [[7, 8, 9]] corresponds to the statement ""außer Mauretanien"""
+29588,maghreb,Zum Beispiel: • in den Ländern sprechen die Menschen meistens Maghrebinisches Arabisch,1,,"[[1, 2, 3, 4, 5]]"
+29589,maghreb,Zum Beispiel: • die Länder haben eine ähnliche Geschichte,1,,"[[1, 2, 3, 4, 5]]"
+29597,maghreb,Mit Maghreb sind 3 Länder zusammen gemeint.,1,,"[[0, 1, 2, 3, 4]]"
+29604,magnus-carlsen,Magnus Carlsen wurde am 30. November 1990 in geboren.,1,,"[[1, 2, 3, 4, 5]]"
+29605,magnus-carlsen,"Das war in Tønsberg, Norwegen.",2,"[[3], [4]]","[[0, 1, 2, 3]]"
+29606,magnus-carlsen,Magnus Carlsens Vater hat ihm die Spiel-regeln für Schach beigebracht.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29607,magnus-carlsen,Da war Magnus Carlsen 5 Jahre alt.,1,,"[[1, 2, 3, 4, 5]]"
+29608,magnus-carlsen,"Seit er 9 Jahre alt ist, \newline macht er bei Schach-Turnieren mit.",2,"[[0, 1, 2, 3, 4, 5], [7, 8, 9, 10, 11]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29609,magnus-carlsen,Er hat den Titel: Schach-Großmeister.,1,,"[[1, 2, 3, 4]]"
+29610,magnus-carlsen,Seit dem 22. November 2013 ist er Schachweltmeister.,2,"[[0, 2, 3, 4], [5, 6, 7]]","[[1, 2, 3, 4, 5]]"
+29611,magnus-carlsen,Magnus Carlsen ist einer der besten Schachspieler der Welt.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29612,magnus-carlsen,Für Schachspieler gibt es eine Weltrangliste.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29613,magnus-carlsen,Im Februar 2013 hatte er in dieser Liste 2872 Punkte.,3,"[[0, 1, 2], [3, 4, 8, 9], [5, 7]]","[[2, 3, 4, 5, 6]]"
+29614,magnus-carlsen,So viele Punkte hat noch niemand vor ihm gehabt.,1,,"[[1, 2, 3, 4, 5, 6]]"
+29615,magnus-carlsen,Bis dahin hatte Garri Kimowitsch Kasparow die meisten Punkte in der Liste.,1,,"[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29616,magnus-carlsen,Garri Kasparow hatte im Juli 1999 in dieser Liste 2851 Punkte.,3,"[[0, 1, 2, 9, 10], [3, 4, 5], [6, 7, 8]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29617,magnus-carlsen,Magnus Carlsen ist auch ein Model.,1,,"[[1, 2, 3, 4]]"
+29618,magnus-carlsen,Das heißt er arbeitet auch für die Kleider-Firma G-Star.,2,"[[7], [8]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29619,magnus-carlsen,Er zieht die Kleider von der Firma an.,2,"[[0, 1, 7], [4, 6]]","[[0, 1, 2, 3, 4, 5]]"
+29620,magnus-carlsen,"So können andere sehen, wie die Kleider aussehen.",2,"[[0, 1, 2, 3], [4, 6, 7]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29621,magnus-carlsen,Magnus Carlsen ist ein Schach-spieler.,1,,"[[0, 1, 2]]"
+29622,mahatma-gandhi,Mahatma Gandhi wurde am 2. Oktober 1869 geboren.,1,,"[[2, 3, 4, 5, 6]]"
+29623,mahatma-gandhi,"Das war in Porbandar, Indien.",2,"[[3], [4]]","[[0, 1, 2, 3]]"
+29624,mahatma-gandhi,Er ist gestorben.,1,,"[[0, 1, 2]]"
+29626,mahatma-gandhi,Mahatma Gandhi war mit Kasturba Makthaji verheiratet.,1,,"[[1, 2, 3, 4, 5]]"
+29627,mahatma-gandhi,Zusammen hatten sie 4 Kinder.,1,,"[[0, 1, 2, 3]]"
+29628,mahatma-gandhi,Sein richtiger Name ist Mohandas Karamchand Gandhi.,1,,"[[1, 2, 3, 4, 5]]"
+29630,mahatma-gandhi,Die meisten Leute sagen aber Mahatma Gandhi.,1,,"[[0, 1], [2, 3]]"
+29631,mahatma-gandhi,Sanskrit ist eine indische Sprache.,1,,"[[0, 1, 2, 3]]"
+29632,mahatma-gandhi,"In Sanskrit heißt Mahatma ""Große Seele"".",2,"[[0, 1, 2, 3], [4, 5]]","[[0, 2], [1, 3, 4]]"
+29633,mahatma-gandhi,Nach der Schule ging Mahatma Gandhi nach Großbritannien.,2,"[[0, 2], [6, 7]]","[[0, 1, 2, 3, 4, 5]]"
+29634,mahatma-gandhi,In Großbritannien hat er studiert.,1,,"[[0, 1, 2, 3, 4]]"
+29635,mahatma-gandhi,Er hat das Fach Jura studiert.,1,,"[[0, 1, 2, 3, 4]]"
+29636,mahatma-gandhi,Er wurde Rechts-anwalt.,1,,"[[0, 1]]"
+29637,mahatma-gandhi,"Nach dem Studium, \newline ist er zurück nach Süd-afrika und nach Indien.",3,"[[0, 2], [4, 5, 6, 7, 8], [4, 5, 6, 10, 11]]","[[2, 3, 4, 5], [6, 7, 8, 9]]"
+29638,mahatma-gandhi,Süd-afrika und Indien waren damals eine Kolonie von Großbritannien.,3,"[[0, 3, 4], [2, 3, 4], [7, 8]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29639,mahatma-gandhi,Die Engländer haben die Gesetze in Indien gemacht.,2,"[[1, 2, 4, 7], [5, 6]]","[[0, 1, 2, 3, 4]]"
+29640,mahatma-gandhi,Die Gesetze waren für viele Inder schlecht.,1,,"[[1, 2, 3, 4, 5]]"
+29641,mahatma-gandhi,Die Gesetze waren ungerecht.,1,,"[[0, 1]]"
+29642,mahatma-gandhi,Die Inder sind unterdrückt worden.,1,,"[[0, 1, 2, 3]]"
+29643,mahatma-gandhi,Und sie sind ausgebeutet worden.,1,,"[[1, 2, 3, 4, 5]]"
+29644,mahatma-gandhi,"Mahatma Gandhi wollte, \newline dass Indien unabhängig wird.",2,"[[0, 1, 2], [4, 5, 6, 7]]","[[0, 1], [2, 3, 4]]"
+29645,mahatma-gandhi,Und dass die Inder selbst über ihr Land entscheiden können.,2,"[[0, 1, 3, 4, 8, 9], [5, 6, 7]]","[[1, 2, 3, 4, 5, 6]]"
+29646,mahatma-gandhi,Er hat gesagt.,1,,"[[0, 1]]"
+29647,mahatma-gandhi,Die Inder sollen ungehorsam sein.,1,,"[[0, 1, 2, 3]]"
+29648,mahatma-gandhi,Sie sollen den Engländern nicht gehorchen.,1,,"[[0, 1, 2, 3, 4]]"
+29649,mahatma-gandhi,Und sie sollen sich nicht an die ungerechten Gesetze halten.,1,,"[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29651,mahatma-gandhi,Die Engländer haben gesagt.,1,,"[[0, 1]]"
+29652,mahatma-gandhi,Die Inder müssen für Salz eine Steuer zahlen.,1,,"[[0, 1, 2, 3, 4]]"
+29654,mahatma-gandhi,Inder durften selbst kein Salz machen.,1,,"[[1, 2, 3, 4, 5]]"
+29656,mahatma-gandhi,Er ist zusammen mit anderen an das Meer marschiert.,2,"[[0, 1, 5, 7, 8], [2, 3, 4]]","[[0, 1, 2, 3, 4, 5, 6]]"
+29657,mahatma-gandhi,Sie sind 24 Tage lang marschiert.,1,,"[[0, 1, 2, 3]]"
+29658,mahatma-gandhi,Viele sagen dazu: Salz-marsch.,1,,"[[0, 1]]"
+29659,mahatma-gandhi,"Am Meer haben die Inder aus Salz-wasser, \newline Salz gemacht.",3,"[[0, 1], [2, 4, 8, 9], [5, 6]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29660,mahatma-gandhi,Sie haben das Salz verkauft.,1,,"[[0, 1, 2, 3]]"
+29661,mahatma-gandhi,Sie haben keine Steuern gezahlt.,1,,"[[0, 1, 2, 3]]"
+29662,mahatma-gandhi,Mahatma Gandhi hat noch andere Aktionen gemacht.,1,,"[[0, 1, 2, 3, 4]]"
+29663,mahatma-gandhi,Für die Aktionen haben die Engländer ihn immer wieder ins Gefängnis gebracht.,1,,"[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29664,mahatma-gandhi,Insgesamt war Mahatma Gandhi 8 Jahre im Gefängnis.,1,,"[[1, 2, 3, 4, 5, 6]]"
+29665,mahatma-gandhi,Am 3. Juni 1947 wurde Indien unabhängig.,2,"[[0, 1, 2, 3], [4, 5, 6]]","[[1, 2, 3, 4, 5]]"
+29666,mahatma-gandhi,Indien wurde in 2 Staaten geteilt.,1,,"[[0, 1, 2, 3, 4]]"
+29668,mahatma-gandhi,Am 30. Januar 1948 hat ein Attentäter Mahatma Gandhi erschossen.,2,"[[0, 1, 2, 3], [4, 6, 7, 8, 9]]","[[2, 3, 4, 5], [6, 7, 8]]"
+29669,mahatma-gandhi,Das war in der Stadt New Delhi.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29670,mahatma-gandhi,Mahatma Gandhi wurde eingeäschert.,1,,"[[0, 1]]"
+29671,mahatma-gandhi,Viele sagen er wurde verbrannt.,1,,"[[1, 2, 3, 4, 5]]"
+29672,mahatma-gandhi,Die Asche wurde im Fluss Ganges verstreut.,2,"[[1, 2, 6], [3, 4, 5]]","[[0, 1, 2, 3, 4, 5]]"
+29673,mahatma-gandhi,Mahatma Gandhi war ein indischer Rechts-anwalt.,2,"[[0, 1, 2, 5], [4]]","[[1, 2, 3, 4]]"
+29674,mahatma-gandhi,Er hat in Indien gelebt.,1,,"[[0, 1, 2, 3, 4]]"
+29675,mahatma-gandhi,Er hat vom Jahr 1869 bis zum Jahr 1948 gelebt.,2,"[[2, 3, 4], [5, 6, 7, 8]]","[[0, 1, 2, 3, 4, 5, 6, 7]]"
+29676,mahatma-gandhi,"Er war auch ein Widerstands-kämpfer, Publizist, Politiker, Asket und Pazifist.",5,"[[4], [5], [6], [7], [9]]","[[1, 2, 3, 4, 5]]"
+29677,mahatma-gandhi,Er hat für die Rechte und die Befreiung seines Volkes gekämpft.,2,"[[4], [7]]","[[1, 2, 3, 4, 5, 6]]"
+29678,mahatma-gandhi,Das hat er ohne Gewalt gemacht.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29679,mahatma-gandhi,Deshalb ist er für viele ein Vorbild.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29680,mahatma-gandhi,Ein Vorbild für gewaltfreien Widerstand.,2,"[[3], [4]]","[[0, 1, 2, 3, 4, 5]]"
+29681,mail-apple,Mail gehört zu dem Betriebssystem Mac OS X.,2,"[[4], [5, 6, 7]]","[[0, 1, 2, 3, 4]]"
+29682,mail-apple,Mail ist ein E-Mail-Programm.,1,,"[[0, 1, 2]]"
+29683,mail-apple,Es wurde von dem Unternehmen Apple hergestellt.,1,,"[[0, 1, 2, 3, 4]]"
+29684,mail,Mail ist englisch.,1,,"[[0, 1]]"
+29685,mail,"Auf deutsch heißt Mail ""Post"".",1,,"[[1, 2]]"
+29686,mail,Das Wort Mail kann verschiedene Bedeutungen haben.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29687,mail,Es gibt die elektronische Post.,1,,"[[0, 1, 2, 3]]"
+29688,mail,Informationen findet man unter E-Mail.,1,,"[[1, 2, 3]]"
+29689,mail,Es gibt ein E-Mail-Programm.,1,,"[[0, 1, 2, 3]]"
+29690,mail,Informationen findet man unter Mail (Apple).,2,"[[0, 1, 2, 3, 4], [5]]","[[1, 2], [3, 4]]"
+29691,mainstream,Main-stream ist der Geschmack von vielen Menschen.,1,,"[[1, 2, 3, 4, 5]]"
+29692,mainstream,"Das heißt, \newline sehr viele Menschen finden etwas gut oder schlecht.",2,"[[8], [10]]","[[0, 1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11]]"
+29693,mainstream,Wenn es sehr viele Menschen sind ist es ein Main-stream.,2,"[[0, 1, 2, 3, 4, 5], [6, 7, 9]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29694,mainstream,"Main-stream kann zum Beispiel Musik, eine Zeitung oder ein Fernseh-programm sein.",3,"[[4], [6], [9]]","[[1, 2, 3], [5, 6, 7, 8], [9, 10, 11, 12]]"
+29695,mainstream,Das Gegenteil von einem Main-stream ist eine Sub-kultur.,1,,"[[1], [2, 3, 4, 5]]"
+29696,mainstream,Das Wort Main-stream ist ein Substantiv.,2,"[[1], [5]]","[[1, 2, 3], [4, 5]]"
+29697,mainstream,Es hat die 2 englischen Wörter: • Main (heißt auf Deutsch Haupt  damit sind viele Menschen gemeint),3,"[[0, 1, 3, 4, 5, 7], [8, 9, 10, 11], [13, 14, 15, 16, 17]]","[[2, 3, 4, 5], [6, 7, 8, 9, 10, 11]]"
+29698,mainstream,Es hat die 2 englischen Wörter: • Stream (heißt auf Deutsch Strom  damit ist ein bestimmter Geschmack gemeint),3,"[[0, 1, 3, 4, 5, 7], [8, 9, 10, 11], [13, 14, 16, 17, 18]]","[[2, 3, 4, 5], [6, 7, 8, 9, 10, 11]]"
+29699,mainstream,"Wenn viele Menschen das gleiche gut finden, \newline gehören sie zum Mainstream.",2,"[[0, 1, 2, 4, 5, 6], [8, 9, 10, 11]]","[[0, 1, 2, 3, 4], [5, 6, 7]]"
+29700,mainstream,Main-stream ist alles was sehr viele gut finden.,2,"[[0, 1, 2], [3, 4, 5, 6, 7]]","[[1, 2, 3, 4, 5]]"
+29702,mais,Aus den Mais-körnern kann man verschiedene Sachen machen.,1,,"[[0, 1, 2, 3, 4, 5, 6]]"
+29710,mais,Mais kann auch Tier-futter sein.,1,,"[[1, 2]]"
+29713,mais,Aus Mais kann man auch Bio-ethanol machen.,1,,"[[0, 1, 2, 3, 4, 5]]"
+29715,mais,Mais ist eine Getreide-pflanze.,1,,"[[0, 1]]"
+29716,mais,Mais kommt aus Mittel-amerika.,1,,"[[0, 1]]"
+29717,mais,Mais ist eine hoch-wachsende Pflanze.,1,,"[[0, 1, 2]]"
+29718,mais,Mais hat lange und breite Blätter.,2,"[[2], [4]]","[[0, 1, 2, 3, 4]]"
+29719,mais,Die Mais-pflanze ist grün.,1,,"[[0, 1, 2]]"
+29720,mais,An der Pflanze wachsen Kolben.,1,,"[[0, 1]]"
+29721,mais,Im Mais-kolben sind gelbe Körner.,1,,"[[0, 1, 2, 3]]"
