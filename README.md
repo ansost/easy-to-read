@@ -7,7 +7,8 @@ If you want to put this on main, you can just take the LLM folder from here. Eve
 the LLM analysis is in there. For the Readme, you can take the section below: 
 
 # LLM/ Llama 
-Our main analysis was predicting the number of statements and the statement spans. This was done using LLAMA-3-70B-Instruct. The model was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of the Gwdg Göttingen. 
+The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. Seeds were used for every query to ensure replicability. 
+> Note that the seed feature is stil in its beta. For more information on seeds, see OpenAI's [documentation](https://platform.openai.com/docs/api-reference/chat/create).
 
 To reproduce our results, you have to:
 
@@ -26,5 +27,8 @@ api_key = "YOUR_API_KEY"  # Replace with your own API key
 ```
 
 5. Execute the script and check your results!
+
+
+> We also experimented with Llama for subcases from the annotation guidelines with manual prompting over [Huggingchat](https://huggingface.co/chat/). You can find the prompts used and an example answer in ``Llama/prompts_subtasks.md``
 
 
