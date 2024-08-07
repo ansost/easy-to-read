@@ -31,6 +31,6 @@ api_key = "YOUR_API_KEY"  # Replace with your own API key
 5. Execute the script and check your results!
 
 
-> We also experimented with Llama for subcases from the annotation guidelines with manual prompting over [Huggingchat](https://huggingface.co/chat/). You can find the prompts used and an example answer in ``Llama/prompts_subtasks.md``
+We also experimented with Llama for subcases from the annotation guidelines with manual prompting over [Huggingchat](https://huggingface.co/chat/). You can find the prompts used and an example answer in ``Llama/prompts_subtasks.md``
 
 
