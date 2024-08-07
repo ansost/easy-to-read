@@ -17,6 +17,7 @@ To reproduce our results, you have to:
  2. You will be redirected to an AcademicID login. If you are a student or researcher from a German University you will be able to log in with your university credentials or create a new account and aqcuire the API key.
 
 4. Add you API key to the script:
+> ``LLM/API_prompts_num_statements.py`` or ``LLM/API_prompts_statement_spans.py``, depending on what prompt you want.
 
 ```python
 
