@@ -6,7 +6,7 @@ If you want to put this on main, you can just take the LLM folder from here. Eve
 the LLM analysis is in there. For the Readme, you can take this section below: 
 
 # LLM/ Llama 
-The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. We report all our prompts and utilize seeds to ensure replicability. 
+The LLM for our analysis was run over resources provided by [Kisski](https://kisski.gwdg.de/), part of Gwdg Göttingen. We utilize seeds to ensure replicability. 
 > Note that the seed feature is stil in its beta. For more information on seeds, see OpenAI's [documentation](https://platform.openai.com/docs/api-reference/chat/create).
 
 To reproduce our results:
@@ -16,7 +16,7 @@ To reproduce our results:
  2. You will be redirected to an AcademicID login. If you are a student or researcher from a German University you will be able to log in with your university credentials or create a new account and aqcuire the API key.
 
 4. Add you API key to the script:
-> ``LLM/API_prompts_num_statements.py`` or ``LLM/API_prompts_statement_spans.py``, depending on what prompt you want.
+> ``LLM/api_predict_num_statements.py`` or ``LLM/api_predict_statement_spans.py``, depending on the prompt you want.
 
 ```python
 
