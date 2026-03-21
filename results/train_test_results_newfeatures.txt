@@ -1,0 +1,119 @@
+Classifier: RF, Dataset: trial
+Results from RF using: ['sent-id', 'verb_count', 'min_dep_length', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'class_score', 'flesh_reading_ease', 'is_sent', 'big_np_count', 'big_pp_count']
+
+              precision    recall  f1-score   support
+
+           1       0.83      1.00      0.91         5
+           2       1.00      0.67      0.80         3
+
+    accuracy                           0.88         8
+   macro avg       0.92      0.83      0.85         8
+weighted avg       0.90      0.88      0.87         8
+
+Classifier: RF, Dataset: train
+Results from RF using: ['sent-id', 'verb_count', 'min_dep_length', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'class_score', 'flesh_reading_ease', 'is_sent', 'big_np_count', 'big_pp_count']
+
+              precision    recall  f1-score   support
+
+           1       0.81      0.87      0.84       505
+           2       0.56      0.51      0.53       242
+           3       0.40      0.33      0.37        63
+           4       0.75      0.23      0.35        13
+
+    accuracy                           0.72       823
+   macro avg       0.63      0.49      0.52       823
+weighted avg       0.70      0.72      0.71       823
+
+Classifier: RF, Dataset: test
+Results from RF using: ['sent-id', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'verb_count', 'min_dep_length', 'class_score', 'flesh_reading_ease']
+
+              precision    recall  f1-score   support
+
+           1       0.80      0.87      0.84        85
+           2       0.59      0.59      0.59        41
+           3       0.50      0.22      0.31         9
+           4       0.00      0.00      0.00         2
+
+    accuracy                           0.73       137
+   macro avg       0.47      0.42      0.43       137
+weighted avg       0.71      0.73      0.71       137
+
+Classifier: MLP, Dataset: trial
+Results from MLP using: ['sent-id', 'verb_count', 'min_dep_length', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'class_score', 'flesh_reading_ease', 'is_sent', 'big_np_count', 'big_pp_count']
+
+              precision    recall  f1-score   support
+
+           1       0.75      0.60      0.67         5
+           2       0.50      0.67      0.57         3
+
+    accuracy                           0.62         8
+   macro avg       0.62      0.63      0.62         8
+weighted avg       0.66      0.62      0.63         8
+
+Classifier: MLP, Dataset: train
+Results from MLP using: ['sent-id', 'verb_count', 'min_dep_length', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'class_score', 'flesh_reading_ease', 'is_sent', 'big_np_count', 'big_pp_count']
+
+              precision    recall  f1-score   support
+
+           1       0.79      0.74      0.76       505
+           2       0.43      0.44      0.44       242
+           3       0.20      0.24      0.22        63
+           4       0.24      0.46      0.32        13
+
+    accuracy                           0.61       823
+   macro avg       0.41      0.47      0.43       823
+weighted avg       0.63      0.61      0.62       823
+
+Classifier: MLP, Dataset: test
+Results from MLP using: ['sent-id', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'verb_count', 'min_dep_length', 'class_score', 'flesh_reading_ease']
+              precision    recall  f1-score   support
+
+           1       0.84      0.85      0.84        85
+           2       0.59      0.56      0.57        41
+           3       0.17      0.22      0.19         9
+           4       0.00      0.00      0.00         2
+
+    accuracy                           0.71       137
+   macro avg       0.40      0.41      0.40       137
+weighted avg       0.71      0.71      0.71       137
+
+Classifier: SVM, Dataset: trial
+Results from SVM using: ['sent-id', 'verb_count', 'min_dep_length', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'class_score', 'flesh_reading_ease', 'is_sent', 'big_np_count', 'big_pp_count']
+
+              precision    recall  f1-score   support
+
+           1       0.80      0.80      0.80         5
+           2       0.67      0.67      0.67         3
+
+    accuracy                           0.75         8
+   macro avg       0.73      0.73      0.73         8
+weighted avg       0.75      0.75      0.75         8
+
+Classifier: SVM, Dataset: train
+Results from SVM using: ['sent-id', 'verb_count', 'min_dep_length', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'class_score', 'flesh_reading_ease', 'is_sent', 'big_np_count', 'big_pp_count']
+
+              precision    recall  f1-score   support
+
+           1       0.87      0.73      0.79       505
+           2       0.46      0.46      0.46       242
+           3       0.27      0.60      0.37        63
+           4       0.29      0.38      0.33        13
+
+    accuracy                           0.64       823
+   macro avg       0.47      0.54      0.49       823
+weighted avg       0.69      0.64      0.66       823
+
+Classifier: SVM, Dataset: test
+Results from SVM using: ['sent-id', 'disj_count', 'mean_dep_length', 'conj_count', 'max_dep_length', 'token_count', 'verb_count', 'min_dep_length', 'class_score', 'flesh_reading_ease']
+
+              precision    recall  f1-score   support
+
+           1       0.83      0.73      0.78        85
+           2       0.47      0.49      0.48        41
+           3       0.33      0.67      0.44         9
+           4       0.00      0.00      0.00         2
+
+    accuracy                           0.64       137
+   macro avg       0.41      0.47      0.42       137
+weighted avg       0.67      0.64      0.65       137
+
