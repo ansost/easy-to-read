@@ -1,11 +1,8 @@
-"""Prompt LLAMA to annotate the statement spans in the test data."""
-
 from openai import OpenAI
 import pandas as pd
-import os
 
 # API configuration
-api_key =  "YOUR-API-KEY-HERE" # Replace with your API key
+api_key =   # Replace with your API key
 base_url = "https://chat-ai.academiccloud.de/v1"  # This runs over resources provided by the University of Göttingen. See: https://kisski.gwdg.de/
 model = "meta-llama-3-70b-instruct" 
 
@@ -43,16 +40,13 @@ def get_response(sentence, annotation_guidelines):
 
 
 def main():
+    # Read in test data and annotation guidelines.
+    filepath_testdata = (
+        "/home/emmastein/Documents/Studium/SS_24/GermEval KONVENS2024/test.csv"
+    )
+    df_test_data = pd.read_csv(filepath_testdata)
 
-    # Define components of file paths
-    data_dir = "data"
-    test_filename = "test.csv"
-    llm_dir = "LLM"
-    annotation_guidelines_filename = "annotation_guidelines_cleaned.txt"
-
-    # Create the full file paths, independent of system.
-    filepath_testdata = os.path.join(data_dir, test_filename)
-    filepath_annotation_guidelines = os.path.join(llm_dir, annotation_guidelines_filename)
+    filepath_annotation_guidelines = "/home/emmastein/Documents/Studium/SS_24/GermEval KONVENS2024/annotation_guidelines_text.txt"
 
     with open(
         filepath_annotation_guidelines, "r"

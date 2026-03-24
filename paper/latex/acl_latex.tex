@@ -1,0 +1,904 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[final]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+% skip star symbol in 'thanks' command  
+% \makeatletter
+% \def\@fnsymbol#1{\ensuremath{\ifcase#1\or \dagger\or \ddagger\or
+% \mathsection\or \mathparagraph\or \|\or **\or \dagger\dagger
+% \or \ddagger\ddagger \else\@ctrerr\fi}}
+% \makeatother
+
+\usepackage{paralist}
+
+%for highlighting
+\usepackage{xcolor}
+\usepackage{soul}
+
+
+\usepackage{tabularx}
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%
+%\setlength\titlebox{8cm}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{KlarTextCoders at StaGE: \\Automatic Statement Annotations for  \textit{German Easy Language}}
+
+% KlarTextCoders: (Automatic) Statement segmentation (approaches) for German Leichte Sprache (at StaGe)
+
+% KlarTextCoders (at StaGe): Statement (Span) annotation for German Leichte Sprache
+
+
+% \author{Akhilesh Kakolu Ramarao \\ Heinrich-Heine-Universität  \\ akhilesh.kakolu.ramarao@hhu.de  \And
+% Wiebke Petersen \\ Heinrich-Heine-Universität  \\ wiebke.petersen@hhu.de\AND
+% Anna Sophia Stein \\ Heinrich-Heine-Universität  \\ anna.stein@hhu.de \And
+% Emma Stein \\ Georg-August-Universität \\   emma.stein@stud.uni-goettingen.de \And
+% Hanxin Xia \\ Heinrich-Heine-Universität \\ hanxin.xia@hhu.de}
+
+\author{Akhilesh Kakolu Ramarao\textsuperscript{1}, Wiebke Petersen\textsuperscript{1}, Anna Sophia Stein\textsuperscript{1}, Emma Stein\textsuperscript{2}, Hanxin Xia\textsuperscript{1} \\ 
+Heinrich-Heine-Universität\textsuperscript{1}, Georg-August-Universität\textsuperscript{2} \\
+\url{{akhilesh.kakolu.ramarao, wiebke.petersen, anna.stein, hanxin.xia}@uni-duesseldorf.de},\\ \url{{emma.stein@stud.uni-goettingen.de}}}
+
+
+% Anna Sophia Stein \\ Heinrich-Heine-Universität  \\ anna.stein@hhu.de \And
+% Emma Stein \\ Georg-August-Universität \\   emma.stein@stud.uni-goettingen.de \And
+% Hanxin Xia \\ Heinrich-Heine-Universität \\ hanxin.xia@hhu.de}
+
+
+%\\
+%  \small{
+%    \textbf{Correspondence:} \href{mailto:email@domain}{email@domain}
+%  }
+%}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This paper presents our approach to the Germ\-Eval 2024 task, "Statement Segmentation in German Easy Language (StaGE)," addressing both subtasks: predicting the number of statements and identifying statement spans. We introduce a novel method integrating part-of-speech information with pre-trained BERT models, achieving leading performance in both the subtasks. For the statement count prediction (subtask 1), our model achieved a precision of 0.65, a recall of 0.68, and an F1-score of 0.65, with a Mean Absolute Error (MAE) of 0.36 and Mean Squared Error (MSE) of 0.43. For statement span annotation (subtask 2), we adapted our BERT model (used for subtask 1) to perform token-level classification, achieving a chrF score of 0.36 and a Jaccard similarity of 0.29. We also detail our exploration of alternative approaches to the shared task, including a rule-based system, LLMs, and traditional machine learning models. These machine learning models used a comprehensive feature set, combining Abstract Meaning Representation (AMR) features to capture deep semantic structures, part-of-speech (POS) tags for syntactic information, and other linguistic features.
+
+\end{abstract}
+
+\textbf{Keywords:} Automatic Text Simplification, Leichte Sprache,  Statement Segmentation, German Easy Language. 
+
+
+\section{Introduction}
+Easy Language is a simplified linguistic form that excludes complex grammatical and lexical features \citep{maas_ratgeber_2017}. Using German Easy Language, or: \textit{Leichte Sprache} named in original German concepts, offers substantial advantages to a diverse range of users. A recent LEO study found that 6.2 million Germans have a low literacy level and struggle with reading simple sentences \citep{buddeberg_leo_2020}. This includes, for example, individuals who are not native speakers of German or those with learning disabilities. However, other groups may also benefit from Easy Language: educators and therapists may find these adaptations beneficial in making educational materials more accessible and engaging. Furthermore, governmental entities sharing complex legal or bureaucratic information can leverage these tools to ensure their communications are comprehensible to a broader audience, potentially enhancing civic participation and adherence to regulations. Since 2011, German regulatory frameworks have mandated that governance bodies ensure their online content conforms to higher accessibility standards \citep{biv20}. This includes mandatory German Easy Language information on the main contents of the website, notes on navigating the website, and further information available in German Sign Language and in Easy Language.
+
+Developing an algorithm capable of annotating statements in Easy Language could significantly streamline the process of composing and reviewing such texts, simplifying the publication of German Easy Language materials. Additionally, this technology could increase the quality of these texts by providing authors with deeper insights into the prevalence of specific statements within a text.
+
+To foster this development, the "Statement Segmentation in German Easy Language (StaGE)" workshop from this year's GermEval task is comprised of two sub-tasks. The first task (subtask 1) involves predicting the number of statements for the given dataset, while the second task (subtask 2) asks to predict the position of the statement spans. The data for this task consists of Easy Language sentences sampled from Hurraki\footnote{\url{https://hurraki.de/wiki/Hauptseite}}, an encyclopedia similar to Wikipedia for German Easy Language. For subtask 1, our submitted model achieved a 0.35 mean accuracy error (precision: 0.66, recall: 0.68, f1-score: 0.66) on the provided evaluation set. For the subtask 2, our submitted model achieved a chrF score of 0.36 and a Jaccard similarity of 0.29. 
+
+Our main contributions are: 1) We presented a multi-faceted approach to the shared task, using rule-based parser, machine learning classifiers with various linguistic features, Large Language Models (LLMs) and fine-tuning pretrained language model. 2) Integration of part-of-speech (POS) information with pre-trained language model for both subtasks. 3) We approached the statement span annotation task (subtask 2) as a token-level classification problem. This allowed the model to leverage transfer learning from the broader statement-level classification task (subtask 1).
+
+
+% The following paper is divided into six subsections. We begin by introducing the importance of German Easy Language. The background section reviews related work in text simplification and segmentation methods. We then describe the task, including the dataset and annotation guidelines provided.
+
+All the code and data are available on GitHub\footnote{\url{https://github.com/ansost/easy-to-read}}.
+
+% Our methodology section details our approaches: developing a rule-based parser, extracting features for classical machine learning models, fine-tuning a BERT model, and experimenting with LLMs. The way we used these methods for the task is detailed in the experiments section, with a special highlight on the BERT classifiers that were our final submission. We conclude our paper with a note on future directions, limitations of our approach, and an ethics statement.  
+
+\section{Background}
+
+Text simplification has been an ongoing task attracting joint efforts from researchers of various disciplines across the globe \citep{shardlow2014survey}. Although initially conceptualized as a method reducing the processing load of NLP systems by reducing text complexity \citep{chandrasekar1997automatic}, the application areas of Easy Language have expanded to assisting individuals with low literacy and reading comprehension difficulties, enhancing L2 language acquisition and facilitating the integration of migrants \citep{al2021automated,steinmetz-harbusch-2022-text,bock2014leichte}. 
+
+In the German context, governmental mandates aimed at improving public accessibility have led to the widespread availability of German Easy Language texts, known as \textit{Leichte Sprache}, on the Internet \citep{ebling-2022-automatic,asghari-2023-prevalence}. This has also led to the creation of text-based corpora such as, the document-level aligned corpus created by \citet{gonzales-2021-new}, which contains full articles paired with simplified summaries collected from Swiss news magazine \textit{20 Minuten}, and sentence-level aligned Simple German dataset curated by \citet{toborek-2023-new}. 
+
+Early approaches to automatic text simplification in German focused on rule-based methods, such as the system developed by \citet{suter-etal-2016-rule}, which primarily used syntactic transformation rules. Subsequent studies introduced discourse-based techniques \citep{niklaus-etal-2019-dissim} and lexical simplification strategies \citep{siegal2019}. 
+
+More recent research viewed text simplification as a sequence-to-sequence task, where the input is a complex text and the output is a simplified version of the same text. For instance, \citet{sauberli-etal-2020-benchmarking,spring-etal-2021-exploring,ebling-2022-automatic} used transformer-based \citep{vaswani2017attention} sequence-to-sequence models. \citet{gonzales-2021-new} further extended this approach by fine-tuning mBART \citep{liu2020multilingual} model. Additionally, prompting techniques have been explored by \citet{ryan-etal-2023-revisiting} and \citet{alva2021}, while \citet{mallinson-etal-2020-zero} used few-shot and zero-shot learning using BLOOM model \citep{scao2023}. A thorough evaluation of the neural approaches is presented in \citet{stodden-2024-reproduction}, providing a comprehensive comparison of their performance.  
+
+Despite these advancements, the automatic text simplification for German texts remains a persitent challenge \citep{schomacker-etal-2023-exploring}. A major challenge in automatic text simplification is accurately identifying individual statements within complex sentences, a crucial step in improving the effectiveness of current simplification methods.
+
+% Besides manually compiling corpora, multiple approaches for automatic text simplification have been proposed. On word level, lexical substitution and word sense disambiguation have had a long history due to their simplicity with actual implementation \citep{carroll-1998-practical}. On syntactic level, transforming constituency trees \citep{cumbicus-pineda-etal-2021-syntax} or dependency structures \citep{manchego-etal-2020-dependency} combined with rule-based and data-driven methods has also been shown to work well for text simplification tasks. Another well-established approach is integrating various machine translation algorithms into automatic text simplification \citep{specia-2010-translating,nisioi-etal-2017-translation,ebling-2022-automatic}. Using BERT \citep{devlin-etal-2019-bert}, for example, \citet{alissa-2023-bert} increased the comprehensibility of texts in the WikiSmall dataset from 49.07 to 53.78, measured by the Bilingual Evaluation Understudy (BLEU) score. By fine-tuning a pre-trained language model for text simplification, the difficulty posed by data scarcity of specific low-resource languages can be efficiently resolved \citep{maruyama-2019-low}.
+
+\section{Task}
+
+The following section briefly outlines the "Statement Segmentation in German Easy Language (StaGE)" task at GermEval 2024 \citep{germeval-2024-stage}.
+
+  
+\subsection{Annotation guidelines}
+
+A sentence in German Easy Language differs from regular language in a couple of ways and should adhere to its own set of rules. Ideally, a sentence in \textit{Leichte Sprache} contains three arguments: subject, object, and verb. Additional information will be regarded as extra statements. The provided annotation guidelines\footnote{\url{https://german-easy-to-read.github.io/statements/annotations/}} follow the recommendations drafted in the DIN SPEC 33429\footnote{\url{https://www.dinmedia.de/de/technische-regel-entwurf/din-spec-33429/364785446}. Last accessed: 2nd August, 2024.}.
+
+\subsection{Dataset}\label{subsec: dataset}
+
+
+For the task, four datasets are provided by the organizers, three reserved for development (train, trial, and test) and one for evaluation (eval). The trial set is the smallest split with 26 sentences, followed by test with 416, and finally, training with 1,530 sentences. The number-of-statement counts for each split can be seen in Table \ref{tab:num-statements}.
+
+% The data are represented in minimal CSV format containing following column names: \textit{sent-id}: unique ID for each sentence; \textit{topic}: sentence topic; \textit{phrase}: actual sentence as string; \textit{phrase\_number}: type of sentence; \textit{genre}: domain; \textit{timestamp}: time of posting; \textit{user}: original poster ID; \textit{phrase\_tokenized}: pre-tokenized sentence with token indexes; \textit{num\_statements}: statement count; \textit{statement\_spans}: token indices of each statement. All columns are present in the train, trial, and test sets. In the eval set, num\_statements and statement\_spans are omitted. The statement span of a sentence is left empty unless the sentence contains more than one statement. For our experiment, we only took sentence strings as raw documents and statement count and spans as classes.
+
+The small trial set was available at the start of the task for a general overview. Train data was then published for initial model development. Then the test set was released to enhance the development. Finally, eval was made public for blind model evaluation and scoring.
+
+The train set has a token count of 5,093 with an average sentence length of 7.59. The token count and average sentence length of the test set are 1,142 and 7.35. Sentences in the eval set contain 7.54 tokens on average. %  A Table with the token overlap between all splits is given in \ref{tab:token-overlap}. While there seems to be some overlap, each split contains a \hl{fair} amount of unique tokens.
+
+\begin{table}[ht]
+\begin{tabular}{ccccc}
+\hline
+ n. statements &
+ trial  & train  & test & eval\\
+\hline
+0 & 1 & 449 & - & -\\
+1 & 15 & 1530 & 258 & 437 \\
+2 & 9 & 732 & 123 & 332\\
+3 & 1 & 191 & 28 & 89\\
+4 & - & 38 & 6 & 14\\
+5 & - & 3 & 1 & 5\\
+6 & - & 1 & - & 1\\
+\hline
+\end{tabular}\centering\caption{Distribution of number of statements in trial, test and train.}\label{tab:num-statements}
+\end{table}
+
+% \hl{Average number of tokens in test: 7.35}\\
+% Average number of tokens in train: 7.59\\
+% Average number of tokens in trial: 7.27\\
+% Average number of tokens in eval: 7.54\\
+% (split using whitespace)\\
+
+% \begin{table}[h]
+% \begin{tabular}{ccc}
+% \hline
+% 
+% %  datasets  & percentage  & n. tokens\\
+% \hline
+% train/test & \% & 576\\
+% test/trial & \% & 65\\
+% train/trial & \% & 99\\
+% eval/train & \% & 913 \\
+% eval/test & \% & 401\\
+% eval/trial & \% & 76 \\
+% train+trial+test/eval & \% & \\
+% \hline
+% \end{tabular}\centering\caption{Token overlap between the data splits.}\label{tab:token-overlap}
+% \end{table}
+
+% n tokens train: 5093\\
+% n tokens trial : 148\\
+% n tokens test: 1142\\
+
+\section{Methodology}\label{sec: methodology}
+
+In this section, we describe different methods used in our study. We begin by explaining the Rule-based parser (Section \ref{subsec: rule-based}), features used for machine learning classifiers (Section \ref{sec:features}), BERT (Section \ref{subsec: bert}) and finally the Large Language Models (LLMs) (Section \ref{subsec: llms}).
+
+
+\subsection{Rule-based}\label{subsec: rule-based}
+
+We built a rule-based parser based on the annotation guidelines provided by the organizers. We used the German language model from SpaCy's \textit{de\_dep\_news\_trf}\footnote{\url{https://spacy.io/models/de}}, which was trained on a dataset of German news articles. We began by performing a token-level analysis, where we iterated over each token in the sentence. For each token, we extracted the part-of-speech tag, dependency label, and morphological features using the parser mentioned above. Tokens in parentheses were counted as separate statements. Adjectives with noun heads were also counted, and they functioned as separate statements. Conversely, quantifiers, filler words, comparatives, and superlatives did not constitute independent statements.
+
+In the next step, we checked for the existence of propositional phrases and their positioning in a sentence to see whether they added a new statement or not. For example, if a propositional phrase was part of a larger composite phrase, we counted it as one statement instead of multiple separate statements. Similarly, trivial propositions were not counted as separate statements. A sentence with date and year was treated as a distinct statement.
+
+We then grouped tokens into clauses based on their dependencies and part-of-speech tags. We analyzed each clause to determine if it contained a subject, verb, or object. The clauses that met this criteria were treated as separate statements.
+
+% At the sentence level, the rule-based parser checked for specific patterns, such as ``das heißt" or ``manche sagen", and treated them as separate statements.
+% \begin{itemize}
+%     \item report numbers of the rule-based annotator when one just follows the guideline. removing 0-statements did not really improve the model
+%     \item benapar results on 0-statements
+%     \item no 0-statements in test data
+% \end{itemize}
+
+
+\subsection{Feature-based}\label{sec:features}\label{subsec: classification}
+In order to experiment with classical feature-based machine learning approaches, a set of features has been extracted. 
+
+
+\subsubsection{Feature extraction}
+
+The features were chosen to cover a spectrum of linguistic characteristics as broad and diverse as possible. This includes features extracted from syntax trees, features of meaning representations, simple length features and embedding vectors contextualized by a LLM. Some features have been inspired by our previous work on judging text simplicity \citep{arps-etal-2022-hhuplexity} and on machine generated text detection \citep{ciccarelli-etal-2024-team}.
+Altogether, we extracted 3,968 features, of which we kept only those 1,310. which applied to at least five items from the union of the train and the trial data. 
+
+\paragraph{Dependency tree features}
+
+We parsed the phrases using the dependency tree parser with Spacy's \textit{de\_core\_news\_sm}\footnote{\url{https://spacy.io/models/de}}  language model (the small model was used due to computational limitations). For each dependency tree, we have extracted all maximal paths, starting from the root node. From these, we extracted as features: 1) all dependency sequences of the maximal paths and their prefixes and 2) all pairings of maximal dependency paths with the POS tag of their nodes. Figure \ref{fig:depTree} (appendix) illustrates the extracted features. Furthermore, we included some more general features like minimal/maximal/average length of dependency chains, number of roots and number of root childs. 
+All this resulted in 2,146 dependency tree features (of which 388 were kept as they apply to at least five items in train and trial).   
+
+\paragraph{AMR features}
+
+To capture semantic features as well, we decided to use abstract meaning representations (AMRs) as a further source of features. AMR is a semantic representation framework that abstracts the meaning of a text by focusing on predicate-argument structure rather than surface form. It was first introduced in \citet{langkilde-knight-1998-generation}, and due to strict format specifications, it became one of the most influential representation formats for semantic parsing \citep{Banarescu2013AbstractMR}. Due to availability and performance, we have opted for the \emph{amrlib} library for English.\footnote{\url{https://github.com/bjascob/amrlib}} Therefore we translated all texts to English using \emph{GoogleTranslator} from the \emph{deep-translator} library\footnote{\url{https://pypi.org/project/deep-translator/}}. The translated texts were then parsed into AMRs. Similar to the dependency trees, we traversed the AMR, starting from the root node and collecting attribute paths as features. The main difference is that AMRs are not trees but general acyclic graphs. The following features have been collected (see Figure \ref{fig:ex_amr} in Appendix \ref{appendix:amr-representation} for illustration): a) all attribute sequences starting at the root; b) each maximal path additionally paired with the instance types of its leave. Altogether this resulted in 1,776 AMR-features (888 apply to at least five items in train and trial). 
+
+\paragraph{Additional linguistic features}
+
+Furthermore, we collected additional linguistic features. These features include simple counting features like number of tokens, mean number of characters per word, or number of punctuation counts and counts of important part-of-speech tags obtained via Spacy verb|de\_dep\_news\_trf|; Spacy ver. 3.7.5;\footnote{\url{https://spacy.io/models/de##de_dep_news_trf}} \citet{honnibal2020spacy}. 
+
+For further syntactic features, we used the Berkeley Neural Parser \citep{kitaev-etal-2019-multilingual,kitaev-klein-2018-constituency}\footnote{\url{https://github.com/nikitakit/self-attentive-parser}}. The direct results returned by the parser are NLTK tree forms (see Figure \ref{fig:nltk-tree-forms}).
+
+Based on the tree form of each sentence we extracted multiple features based on pre-defined rules for training the classifiers: 1) For NPs that contain more than two words (not only article and noun root), we count each occurrence within the sentence, so if a sentence has five such NPs, we record the big NP count as 5; 2) For Prepositional Phrases (PPs) that contain more than three words, we count each occurrence within the sentence, so if a sentence has two such PPs, we record the big PP count as 2; 3) If neither ``(S'' nor ``(V'' is present in the tree form, the current instance is not a sentence, i.e., 0-statement;.
+
+Additionally, two readability formulas defined in the \textit{textstat} library, namely Flesch and of the Wiener Sachtextformel (variant 1), have been applied to the phrases\footnote{\url{https://pypi.org/project/textstat/}}. These formulas try to estimate how easy a text is to read on the basis of words per sentence and syllable or character per word counts. Both measures are specially designed to estimate the readability of German texts.
+
+We also used a language complexity classification pipeline, which classifies texts into four language complexity classes and assigns them a score. Only the score was used as a feature \footnote{\url{https://huggingface.co/krupper/text-complexity-classification}}.
+
+Finally, the predictions on the number of statements made by the rule-based account as described in Section \ref{subsec: rule-based} has been added as an additional feature as well. Altogether, this group of additional features consists of 32 features (25 are kept, as they apply to at least five items in train and trial).%\hl{[Emma: I don't know what you meant to write here, so I couldn't correct the sentence, please loook over it again @Wiebke]}
+% If features are moved to other subsections, please adapt the function in ClassifierExperiments.ipynb
+
+  
+%['big_np_count', 'big_pp_count', 'class_score', 'conj_count',       'disj_count', 'flesch_reading_ease', 'is_sent',       'mean_chars_per_word', 'num_ADJP', 'num_ADVP', 'num_NP', 'num_PP',       'num_S', 'num_VP', 'num_adjs', 'num_adps', 'num_advs', 'num_aux', 'num_compound', 'num_conjs', 'num_det', 'num_nouns', 'num_num',       'num_part', 'num_pron', 'num_punct', 'num_sym', 'num_verbs',       'rule_pred', 'token_count', 'verb_count', 'wiener_sachtextformel']
+	   
+\paragraph{BERT features}
+The BERT model \textit{bert-base-german-cased} has been used without any finetuning to extract the last hidden state of the CLS token that can be seen as an embedding of the phrase.\footnote{\url{https://huggingface.co/dbmdz/bert-base-german-cased}} Uniform Manifold Approximation and Projection (UMAP) has been used to reduce the number of dimensions to 10. The resulting 10 dimensions were used as additional features.
+
+\subsubsection{Data augmentation} \label{subsec:augmented}
+
+In order to account for the unbalanced training set, in which more than 60\% of the data belongs to the class `1 statement', we have decided to augment the data by round-trip translation. Therefore, all items with more than one statement have been translated into Finnish and back using Google Translator, and all examples with more than two statements have additionally been translated into Mandarin and back.
+Finnish and Mandarin were selected
+to maximize contrast with German. Neither language belongs to the Indo-European language family, and they represent opposite ends of the morphological spectrum. While Chinese is an isolating language, Finnish is agglutinative, providing a stark contrast to the inflectional nature of German. The idea is that this contrast in language structure reveals the underlying semantic content through roundtrip translations. It turned out that cases in which the re-translation matched the original were rare enough (for Finnish 6.6\%, for Mandarin 3\%) to be ignored. Thus, by the round-trip translation method new trainings data with differing feature values could be gained. We assumed that the number of statements is not affected by the translations.
+%\hl{@Wiebke: add information on why round trip translation is relevant for the feature approach.} 
+
+
+
+
+
+
+
+
+
+%\subsection{Classification}\label{subsec: classification}
+
+%\subsubsection{Classification Models}
+
+%We tested four different machine learning classifiers implemented in Scikit-Learn \cite{pedregosa2011scikit} as performance baselines: Random Forest (RF), Support-Vector-Machine (SVM), Multilayer-Perceptron (MLP) and a logistic regression (log-reg) model. 
+%Each classifier was trained on the combined train and trial set and evaluated against the test set. Additionally, some surface-level features outlined in \ref{sec:features} were added for training (list of features in appendix \ref{tab:appendix-classifier-features}). Zero-statements were removed from all splits.
+%The \verb|class_weight| parameter was set to ´balanced' for the Random Forest, SVM, and log-reg. For MLP and the regression model max. iteration was set to 10.000. Finally, the default solver for MLP and the log-reg were changed to \verb|lbfgs| and \verb|liblinear| respectively. All other parameters were left at their default values. 
+
+
+\subsection{BERT}\label{subsec: bert}
+
+We use BERT (Bidirectional Encoder Representations from Transformers) \citep{devlin-etal-2019-bert} specifically \textit{bert-base-german-cased}\footnote{\url{https://huggingface.co/google-bert/bert-base-german-cased}}. We further adapted this model by fine-tuning it for the subtasks, explained in Sections \ref{subsec: subtask1} and \ref{subsec: subtask2}. 
+
+\subsection{LLMs}\label{subsec: llms}
+Since Large Language Models are already finding various applications in the area of text simplification \citet{tan2024llmenhancedadversarialeditinglexical, baez_lsLLaMA_2023}, we wanted to explore how LLMs perform for annotating statements in simplified language. 
+
+We used \textit{LLaMA-3-70B-Instruct} \footnote{\url{https://huggingface.co/meta-LLaMA/Meta-LLaMA-3-70B-Instruct}} for our analysis.
+To design the prompt, we started out with a simple one-shot prompt: "How many statements does this sentence have?". This prompt was then iteratively improved. One of the first changes we made was adding few-shot prompting and providing the model with example annotations from the training data in the prompt. 
+
+We also tested multiple ways of providing the annotation guidelines and specific rules from those annotation guidelines to the model. Automatic chain of thought prompting was also added since it has been shown to improve LLM performance in the past \cite{NEURIPS2022_9d560961, zhang_automatic_2022}. Initially, the prompts were given over \textit{Huggingchat}\footnote{\url{https://huggingface.co/chat/}}, but an API provided faster and more reproducible results. This way, it allowed us to provide one sentence at a time instead of chunks of the dataset, which also improved performance. We also incorporated both system and user-level prompts and instructed the LLM to return the data in a specific format for easier analysis of the results. We used \textit{LLaMA} model through an API endpoint provided by the KISSKI AI Service Centre for Sensitive and Critical Infrastructures\footnote{\url{https://kisski.gwdg.de/}}.
+All queries were made using a seed to ensure reproducibility. Models, scripts, prompts, and hyperparameters can be found on our GitHub.
+
+
+\section{Experiments}
+
+
+In this section, we provide a detailed evaluation of our approach to the shared task, specifying how we built the rule-based parser, different machine learning classifiers, and used Large Language Models (LLMs) (mentioned in Section \ref{sec: methodology}).
+
+\subsection{Subtask 1: Determining the number of statements}\label{subsec: subtask1}
+
+The performance results of our models tackling subtask 1, as described in Section \ref{sec: methodology}, are stated in Table \ref{tab:classifier_results} and compared to a most frequent class dummy classifier (MFC, model 0). 
+
+
+% We tested four different machine learning classifiers implemented in Scikit-Learn \cite{pedregosa2011scikit} and compared their performances to a most frequent class dummy classifier (MFC): Random Forest (RF), Support-Vector-Machine (SVM), Multilayer-Perceptron (MLP) and a logistic regression (LR) model (see Table \ref{tab:classifier_results}, model 1-5). The `max\_iteration' and `solver' parameters were adjusted to fit the small datasets.  
+
+
+% \begin{table}[h]
+%     \centering
+% \begin{tabular}{@{}lll|ll@{}}
+% Nr & Model & Data & MAE & Acc \\
+% \hline
+% \multicolumn{5}{@{}l}{Most frequent class dummy classifier}\\
+% 0 & MFC & ttt  & 0.655 & 0.499 \\
+% \hline
+% \multicolumn{5}{@{}l}{rule-based parser}\\
+% 1 &  RuleParser & tt & ??? & ???\\
+% \hline
+% \multicolumn{5}{@{}l}{feature-based (baselines)}\\
+% %\hline
+% 2 & MLP+allFeat & ttt  & 0.426 & 0.622 \\
+% 3 & SVM+allFeat & ttt   & 0.449 & 0.618 \\
+% 4 & LR+allFeat & ttt  & 0.376 & 0.663 \\
+% 5 & RF+allFeat & ttt  & 0.377 & 0.67 \\
+% \hline
+% \multicolumn{5}{@{}l}{feature-based}\\[-.5ex]
+% \multicolumn{5}{@{}l}{(feature subsets and augmentated data)} \\
+% 6 & LR+allFeat &	ttt+au & 	0.367	&	0.67\\
+% 7 & RF+allFeat & ttt+au  & 0.354 &
+% 0.688 \\
+% 8 & RF+BERTFeat & ttt  & 0.625 & 0.498 \\
+% 9 & RF+AMRFeat & ttt  & 0.559 & 0.544 \\
+% 10 & RF+DepTreeFeat & ttt  & 0.419 & 0.634 \\
+% 11 & RF+addFeat & ttt  & 0.39 & 0.646 \\
+% 12 & LR-75-per-type	& ttt+au &	0.331 & 0.698 \\
+% 13 & LR-200-overall &	ttt+au & 0.328	&	0.698
+% \\
+% \hline
+% \multicolumn{5}{@{}l}{LLMs} \\
+% 14^{\ast} & LLMPrompting &  tt & -- & 0.668\\
+% \textbf{15} & \textbf{BERT+POStags} & \textbf{90\%ttt} & \textbf{0.36} & \textbf{0.689} \\
+% \hline
+% \end{tabular}
+% \caption{Performance comparison of different models tested on the eval data for subtask 1 (models marked by $\phantom{}°{\ast}$ are trained and tested only on the original data sets)% MFC: most frequent class dummy classifier, MLP: multi-layer perceptron, SVM: support vector machine, LR: logistic regression, RF: random forest
+% . Training data differs (ttt: original train, trial and test data, ttt+au: ttt plus augmented data  as described in Section \ref{subsec:augmented}). The feature-based approaches have been trained on all (allFeat) 
+% or a subset of the features as described in Section \ref{sec:features}.}
+%     \label{tab:classifier_results}
+% \end{table}
+
+\begin{table}[ht]
+% \centering
+\small
+\begin{tabular}{|l|l|l|l|l|}
+
+\hline
+\textbf{Nr} & \textbf{Model} & \textbf{Data} & \textbf{MAE} & \textbf{Acc} \\
+\hline
+\multicolumn{5}{|l|}{\textbf{Most frequent class dummy classifier}}\\
+\hline
+0 & MFC & ttt & 0.655 & 0.499 \\
+\hline
+\multicolumn{5}{|l|}{\textbf{Rule-based parser}}\\
+\hline
+1 & RuleParser & tt & 0.891 & 0.336\\
+\hline
+\multicolumn{5}{|l|}{\textbf{Feature-based (baselines)}}\\
+\hline
+2 & MLP+allFeat & ttt & 0.426 & 0.622 \\
+3 & SVM+allFeat & ttt & 0.449 & 0.618 \\
+4 & LR+allFeat & ttt & 0.376 & 0.663 \\
+5 & RF+allFeat & ttt & 0.377 & 0.67 \\
+\hline
+\multicolumn{5}{|l|}{\textbf{Feature-based (feature subsets + augmented data)}}\\
+\hline
+6 & LR+allFeat & ttt+au & 0.367 & 0.67\\
+7 & RF+allFeat & ttt+au & 0.354 &
+0.688 \\
+8 & RF+BERTFeat & ttt & 0.625 & 0.498 \\
+9 & RF+AMRFeat & ttt & 0.559 & 0.544 \\
+10 & RF+DepTreeFeat & ttt & 0.419 & 0.634 \\
+11 & RF+addFeat & ttt & 0.39 & 0.646 \\
+12 & LR-75-per-type & ttt+au & 0.331 & 0.698 \\
+13 & LR-200-overall & ttt+au & 0.328 & 0.698
+\\
+\hline
+\multicolumn{5}{|l|}{\textbf{LLMs}} \\
+\hline
+$14^\ast$ & LLMPrompting & tt & $--$ & 0.668\\
+\textbf{15} & \textbf{BERT+POStags} & \textbf{90\%ttt} & \textbf{0.36} & \textbf{0.689} \\
+\hline
+\end{tabular}
+\caption{Performance comparison of different models tested on the eval data for subtask 1 (models marked by $\ast$ are trained and tested only on the original data sets)% MFC: most frequent class dummy classifier, MLP: multi-layer perceptron, SVM: support vector machine, LR: logistic regression, RF: random forest
+. Training data differs (ttt: original train, trial and test data, ttt+au: ttt plus augmented data as described in Section \ref{subsec:augmented}). The feature-based approaches have been trained on all (allFeat)
+or a subset of the features as described in Section \ref{sec:features}.}
+\label{tab:classifier_results}
+\end{table}
+
+\paragraph{Rule-based parser} Our initial approach to the task involved developing a rule-based parser that followed the annotation guidelines provided by the organizers (refer Section \ref{subsec: rule-based}). The parser was then trained on the provided training dataset of 2,989 samples. It achieved an accuracy of 57\% on the test dataset (consisting of 417 samples). 
+
+%As this performance was below most of the baseline classifiers (see Table \ref{appendix:classifier-baselines}), the parser only served as a baseline for our subsequent approaches explained in the following sections.
+
+
+
+
+% We then used Berkeley Neural Parser \cite{kitaev-klein-2018-constituency, kitaev-etal-2019-multilingual} to obtain the constituency structure in NLTK tree form for each sentence. These metrics from this parser (!!!mention the metrics) were used as features for all the machine learning classifiers. 
+
+% The accuracy of the 0-statement filter on the train set reaches 92.56\%. Detailed results are shown in the Appendix \ref{sec:0-statement}
+
+% \begin{table}[h]
+%     \centering
+% \begin{tabular}{@{}llll|ll@{}}
+% \hline
+% Nr & Model & Au. & Feat. & MAE & Acc \\
+% \hline
+% 1 & MFC & no & all & 0.483 & 0.62 \\
+% 2 & MLP & no & all & 0.365 & 0.68 \\
+% 3 & SVM & no & all & 0.305 & 0.733 \\
+% 4 & LR & no & all & 0.351 & 0.685 \\
+% 5 & RF & no & all & \textbf{0.279} & \textbf{0.748} \\
+% \hline
+% 6 & RF & yes & all & 0.281 & 0.738 \\
+% 7 & RF & no & BERT & 0.481 & 0.606 \\
+% 8 & RF & no & AMR & 0.428 & 0.637 \\
+% 9 & RF & no & DepTree & 0.308 & 0.728 \\
+% 10 & RF & no & Add. & 0.296 & 0.726 \\
+% \hline
+% \end{tabular}
+
+% \caption{Performance comparison of different feature-based Classifiers%(MFC: most frequent class dummy classifier, MLP: multi-layer perceptron, SVM: support vector machine, LR: logistic regression, RF: random forest
+% . Trained either with or without augemented data (`Au.') and trained on all or a subset of the features (see section \ref{sec:features}).}
+%     \label{tab:classifier_results}
+% \end{table}
+
+
+\paragraph{Feature-based classifiers} We tested four different machine learning classifiers implemented in Scikit-Learn \cite{pedregosa2011scikit}: Random Forest (RF), Support-Vector-Machine (SVM), Multilayer-Perceptron (MLP) and a logistic regression (LR) model (see Table \ref{tab:classifier_results}, model 2-5). All classifier parameters have been set to the default values (for the MLP one hidden layer of size 128 was chosen).
+
+Each classifier was trained on the combined train, trial and test set and evaluated against the eval set. Zero-statements were removed from all splits. In the training all features described in Section \ref{sec:features}  have been used if they were attested for at least 5 phrases in the train and trial set. Table \ref{tab:classifier_results} shows that 
+all classifiers beat the dummy baseline (MFC) 
+and that RF and LR perform best of the baselines by outperforming MFC by 0.17 for accuracy (Acc.) and 0.28 for mean absolute error (MAE).  
+
+As on the original train and test data provided by the organizers, RF slightly outperformed LR all further experiments have been done with RF.
+Augmentating the training data did improve the results only slightly (compare model 7 to 5 and model 6 to 4 in Table \ref{tab:classifier_results}). 
+Additionally, we tested how different subsets of the feature set influence the performance (models 8-11 in Table \ref{tab:classifier_results}). The additional linguistic features (`Add.') performed best, followed closely by the dependency tree features (DepTreeFeat). Significantly worse are the AMR and the BERT features (in this order).
+
+To get a better grip on our features we have extracted from a Random Forest classifier the importance rankings for the features. Tables \ref{tab:importanceAMR}, \ref{tab:importanceDepTree} and \ref{tab:importanceAdditional} in Appendix show the 10 most important features for the first three classes. The 20 most important features over all classes can be seen in Table \ref{tab:importanceAll}. It turns out that length features (length of the AMR representation, length of the maximal dependency chain, number of tokens, \ldots) are the most important features for classification. That was to be expected as longer sentences tend to include more statements. Interestingly, although a classifier trained solely on the BERT features (Table \ref{tab:classifier_results}, model 7) does not perform very well, all 10 BERT features (UMAP0 up to UMAP9) belong to the overall top 20 features (see Table \ref{tab:importanceAll}).
+
+Based on the feature importance scores we trained LR models on feature subsets. As data augmentation lead at least to a slight improvement, we included the augmented data into our training data. First, we selected for each feature type class the n most important features (if available). We tested for n between 5 and 150 of which n=75 turned out best (see model 12 in Table \ref{tab:classifier_results}).
+Second, we considered all features at once and selected the n overall most important features testing for n between 5 and 1,000. Here, n=200 turned out best (see model 13 in Table \ref{tab:classifier_results}).  
+
+Thus, for the LR model MAE can be reduced by data augmentation by 0.01 (compare model 6 to 4) and by feature selection by an additional 0.04 (compare model 13 to 6). The accuracy improved by 3.5 percentage points. 
+
+
+
+\paragraph{LLM prompting} We also experimented with \textit{LLaMA} for this task. We tested its performance for a) annotating the number of statements, b) predicting the statement spans, and c) identifying whether a specific rule in the annotation guidelines applied to a sentence. An example of this is to predict whether the adjectives in this sentence constitute a new statement or not. This approach was primarily exploratory, but we still want to share our results. An example prompt can be found in Appendix \ref{appendix:llm prompts}.
+
+Out of all of these applications, LLMs worked best for predicting the number of statements with an accuracy of 66.83\% on the test set. However, this accuracy is mainly due to 	\textit{LLaMA} over predicting sentences with one statement. 	\textit{LLaMA} struggled with predicting statement spans, presumably because this is a much more complex task, where a mistake in the first reasoning step easily leads to errors down the line.
+To test the individual rules in the annotation guidelines, we crafted a set of sentences and manually annotated whether the specific rule we wanted to test was true or not. Due to the manual nature of this part, we tested on a smaller set of samples for the annotation rules, so the results should be viewed as more of an initial investigation. Out of all the rules, LLMs seemed to perform well at deciding whether an adjective adds a new statement or not and moderately well for predicting zero statements. For the other rules, its predictions were hardly better than chance.
+With a fine-tuned model and larger example sets, results might increase. 
+However, given the lower explainability of LLMs compared to our other methods and since their accuracy did not match that of our other approaches, we decided not to pursue this method further.
+\subsubsection{Submission}\label{subsubsec: subtask1-submission}
+
+We extend the BERT architecture (refer Section \ref{subsec: bert}) to incorporate part-of-speech (POS) information alongside the contextual embeddings generated by BERT. This model consists of three main components: a pre-trained German BERT model, a POS encoder that transforms POS tags into dense representations, and a classifier that combines BERT outputs with encoded POS features. By encoding POS tags, the model potentially gains access to extra syntactic knowledge that might not be fully captured in BERT's learned representations alone.
+
+The model's forward pass begins by processing the input text through the BERT model to get the contextual embeddings. We then extract the [CLS] token representation from BERT's last hidden state. After that, we get the POS tags for each input text using the SpaCy \textit{de\_core\_news\_lg}\footnote{\url{https://spacy.io/models/de}} language model and encode the POS tags using a simple one-hot encoding. At the same time, the POS tags are encoded using a linear layer to create dense representations. The BERT [CLS] token representation and the encoded POS features are concatenated and passed through a final linear classifier to predict the number of statements. We use the Adam optimizer \citep{kingma2014adam} with a learning rate of 2e-5 and train the model for 100 epochs with a batch size of 16.
+
+We combine the trial, train, and test datasets provided by the organizers (for details, see Section \ref{subsec: dataset}), remove zero-statement sentences, and get 2,937 samples. We split this dataset into 90\% training and 10\% test datasets by randomly shuffling the samples. In the end, the training set and test set consist of 2,643 and 294 samples, respectively. On this test set, the model achieved an accuracy of 80\%.
+
+On the evaluation dataset provided by the organizers, our model achieved a precision of 0.65, a recall of 0.68, and an F1-score of 0.65. In terms of prediction accuracy, the model achieved a  Mean Absolute Error (MAE) of 0.36, indicating that, on average, our predictions deviate by approximately 0.36 units from the true values. The Mean Squared Error (MSE) is 0.43, which is slightly higher than MAE, but the difference (0.07) is quite low, which means our model is generally consistent and has very few large outliers in the predictions.
+
+\subsection{Subtask 2: Annotating the statement spans}\label{subsec: subtask2}
+
+% The fine-tuned model used for subtask1:
+The goal of the task is to identify and annotate distinct statements within a sentence, particularly when a sentence contains multiple statements. We approach this sequence labeling problem as a token classification task. This approach allowed us to adapt the BERT model used for subtask 1 (see Section \ref{subsubsec: subtask1-submission}), which is already fine-tuned for statement-level classification, to perform token-level predictions. In this framework, we transform the original attention span labels into token-level classifications. We use the \texttt{tokenized phrase} provided in the dataset (see Section \ref{subsec: dataset}), and each token is assigned a label corresponding to its position within the statement span. For example, consider the \texttt{tokenized phrase}, [`Alcopop', `ist', `ein', `süßes', `Getränk.'] which has the attention span of [[0, 1, 4], [3]] and is converted to [1, 1, 0, 2, 1], since `Alcopop', `ist' and `Getränk.' belongs to the first span (labeled as 1), `ein' belongs to none of the spans (labeled as 0) and `süßes' belongs to the second span (labeled as 2).
+
+\subsubsection{Submission}\label{subsubsec: subtask2-submission}
+
+The fine-tuned BERT used for subtask 1 (refer Section \ref{subsubsec: subtask1-submission}) is further fine-tuned for this token classification task. This approach leverages transfer learning, allowing the model to build upon the knowledge gained from the broader statement-level classification to perform the more specific token-level classification. We modify the top layers of the already fine-tuned model by retaining the pre-trained BERT layers, adding a part-of-speech (POS) encoder to incorporate syntactic information, and implementing a new classification layer for token-level predictions. 
+
+In the forward pass, the model first processes the input (tokenized phrase) through BERT, obtaining the last hidden state. It then encodes the POS tags using the POS encoder. These two outputs are concatenated along the last dimension, combining contextual information from BERT with the POS information. Finally, this combined representation is passed through the classifier to produce logits for each token. The loss is computed on the flattened logits and labels, treating each token as an independent classification problem (padded tokens are ignored).
+
+We then fine-tuned this adapted model on the evaluation dataset (provided by the organizers) following the same split as subtask 1 (90\% train and 10\% test split), but the sentences were shuffled. We use the Adam optimizer \citep{kingma2014adam} with a learning rate of 2e-5 and train the model for ten epochs with a batch size of 16.
+
+Our model's performance was evaluated using two key metrics: chrF and Jaccard similarity. The chrF score indicates the model's ability to capture character-level n-gram similarities between the predicted and reference texts \citep{popovic2015chrf}. The Jaccard similarity is a statistical measure used to gauge the similarity and diversity of sample sets. The model achieved a chrF score of 0.36 and a Jaccard similarity of 0.29 on the evaluation dataset provided by the organizers.
+
+% \begin{compactitem}
+% \item If ``(S'' or ``(V'' found in the tree form, regard it as a sentence with more than 1 statement.
+% \item If a sentence contains less than three tokens, regard it as 1 statement.
+% \item Big NP: if three or more tokens found in NP structure, consider it as a big NP.
+% \item Big PP: if three or more tokens found in PP structure, consider it as a big NP.
+% \end{compactitem}
+
+
+
+\section{Conclusion and Future work}
+
+Our experiments focused on both detecting the number of statements and subsequently detecting the annotation spans of Simple German sentences, namely both subtasks 1 and 2 of the GermEval "Statement Segmentation in German Easy Language (StaGE)" shared task. 
+
+In subtask 1 of detecting the number of statements (Section \ref{subsec: subtask1}), the submitted model that extended the BERT architecture by incorporating POS features scored a 0.65 precision, 0.68 recall, and 0.65 F1-score on the evaluation dataset. The  Mean Absolute Error (MAE) and the Mean Squared Error (MSE) were 0.36 and 0.43, respectively. The relatively small difference between MAE and MSE suggests consistent performance without significant outliers. 
+
+For the Subtask 2 of statement span annotation (Section \ref{subsec: subtask1}), we adapted the BERT model used for subtask 1 to perform token-level classification. This approach achieved a chrF score of 0.36 and a Jaccard similarity of 0.29. While these scores indicate room for improvement, they demonstrate the model's ability to identify and annotate distinct statements within a sentence.
+
+These results provide encouraging evidence for the effectiveness of our approach, particularly using BERT with POS information for both subtasks. Moreover, our exploration of various methods, from rule-based systems to fine-tuning language models, allowed us to gain insights into the strengths and limitations of different approaches for both subtasks.
+
+\subsection{Future work}\label{subsec: future-work}
+
+
+Based on the results and approach described, we would like to propose some potential directions for future work. 
+
+We would like to investigate a multi-task learning approach, where the model is trained simultaneously on both statement identification and span annotation tasks, which could provide an improved performance across both tasks by using shared linguistic knowledge.
+
+We plan to compare the performance of our BERT architecture with other pre-trained language models like RoBERTa \citep{liu2019roberta}, XLNet \citep{yang2019xlnet} or T5 \citep{raffel2020exploring} or mBART \citep{liu2020multilingual}. This will help us identify the most effective base model for the given tasks.
+With regard to the \textit{LLaMA} approach, it would be interesting to explore fine-tuned models and integrate the LLM's judgment with other approaches, for example, rule-based. 
+
+\section*{Limitations}
+
+
+We acknowledge a few limitations in our approach. A significant limitation is that we did not perform hyperparameter tuning for our extended BERT model for both tasks. We focused on extending BERT but did not explore other pre-trained models. We did not conduct any analysis on how the POS information influences the model's decision. We did not conduct ablation studies to understand the individual contribution of different components of our model, such as the POS encoder or specific layers of our BERT architecture. 
+
+\section*{Ethics Statement}
+
+
+We fully complied with all rules, guidelines, and data usage policies set forth by the shared task organizers. We accurately represented our models' capabilities and limitations. \textit{LLaMA} was used solely for inference purposes; we did not fine-tune our model. We aimed to use computational resources efficiently by leveraging pre-trained models. Our submissions reflect our own work. 
+
+\section*{CRediT authorship contribution statement}
+
+We follow the CRediT taxonomy\footnote{ \url{https://credit.niso.org/}}. Conceptualization: [AKR, ES, AS, HX, WP];  Formal Analysis: [AKR, ES, AS, HX, WP]; Investigation: [AKR, ES, AS, HX, WP]; Methodology: [AKR, AS, WP]; Supervision: [AKR, AS, WP]; and Writing – original draft: [AKR, ES, AS, HX, WP] and Writing – review \& editing: [AKR, ES, AS, HX, WP].
+
+
+\section*{Acknowledgments}
+We thank the organizers of both subtasks for their effort and for their help during the training and evaluation phases. We would like to thank Nele Mastracchio for helping in the initial ideation phase of this project. We acknowledge the use of Google Colab\footnote{\url{https://colab.research.google.com/}} for providing some of the computational resources necessary for this research. 
+% Bibliography entries for the entire Anthology, followed by custom entries
+%\bibliography{anthology,custom}
+% Custom bibliography entries only
+\bibliography{custom}
+%\newpage
+
+\appendix
+\section*{Appendix}
+
+
+% \section{Classifier Baselines}\label{appendix:classifier-baselines}
+% \begin{table}[h]
+% \begin{tabular}{lllll}
+% \hline
+% label & prec. & recall & f1-score & n \\
+% \hline
+% 1 & 0.67 & 0.92 & 0.78 & 437 \\
+% 2 & 0.61  &    0.42 &       0.5 &     332 \\
+% 3 & 0.35   &   0.17   &    0.23  &    89 \\
+% 4 & 0.09   &   0.07   &   0.08    &  14 \\
+% 5 & 0.0    &   0.0   &    0.0   &    5.0 \\
+% 6    &  0.0   &    0.0    &   0.0    &   1.0 \\
+% accuracy & 0.63 &  & & \\
+% \hline
+% \end{tabular}\centering\caption{Baseline results for the MLP classifier using the "lbfgs" solver an `max\_iter" 5000.}
+% \end{table}
+
+% \begin{table}[h]
+% \begin{tabular}{lllll}
+% \hline
+%  label & prec. & recall & f1-score & n \\
+% \hline
+% 1  & 0.67   &   0.9  &    0.77  &  437 \\
+% 2 & 0.56  &   0.25  &    0.35  &  332 \\
+% 3 & 0.34  &   0.38   &   0.36  &   89\\
+% 4 & 0.1   &  0.21   &   0.13  &   14 \\
+% 5 & 0.0   &   0.0   &    0.0  &    5 \\
+% 6  &  0.0  &    0.0    &   0.0   &   1\\
+% accuracy & 0.58 & &  & \\
+% % macro avg & 0.34& 0.37 & 0.34 & 416 \\
+% % weighted avg & 0.67 & 0.66 & 0.65 & 416 \\
+% \hline
+% \end{tabular}\centering\caption{Baseline results for the logistic regression classifier using the default parameters except for the "liblinear" solver and "max\_iter" 5000.}
+% \end{table}
+
+% \begin{table}[h]
+% \begin{tabular}{lllll}
+% \hline
+% label & precision & recall & f1-score & n \\
+% \hline
+% 1 & 0.68    &  0.86  &    0.76  &   437\\
+% 2 & 0.6   &   0.49   &   0.54   &  332\\
+% 3 & 0.39   &   0.17   &   0.24   &   89\\
+% 4 & 0.0   &    0.0    &   0.0   &   14\\
+% 5 & 0.0   &    0.0   &    0.0    &   5\\
+% 6 & 0.0   &    0.0    &   0.0    &   1.0\\
+% accuracy & 0.63 & &  & \\
+% % macro avg & 0.35 & 0.35 & 0.35& 416 \\
+% % weighted avg & 0.70 & 0.72 & 0.71 & 416 \\
+% \hline
+% \end{tabular}\centering\caption{Baseline results for the random forest classifier using the default parameters and "class\_weight" set to "balanced".}
+% \end{table}
+
+% \begin{table}[h]
+% \begin{tabular}{lllll}
+% \hline
+% label & prec. & recall & f1-score & n \\
+% \hline
+% 1 & 0.7   &   0.86   &   0.77  &   437 \\
+% 2 & 0.56  &    0.35   &   0.43    & 332 \\
+% 3 & 0.26   &   0.24   &   0.25   &   89 \\
+% 4 & 0.14   &   0.29   &   0.19   &   14 \\
+% 5 & 0.11    &   0.4   &   0.17   &    5 \\
+% 6 & 0.0    &   0.0   &    0.0    &   1\\
+% accuracy & 0.59 & &  &  \\
+% % macro avg & 0.41& 0.60 & 0.42& 416 \\
+% % weighted avg & 0.70& 0.68& 0.68 & 416 \\
+% \hline
+% \end{tabular}\centering\caption{Baseline results for SVM using the default parameters and "class\_weight" set to "balanced".}
+% \end{table}
+
+
+
+
+
+% \begin{table}[h]
+%     \centering
+%     \begin{tabular}{l}
+%     \hline
+%     feature name\\
+%     \hline
+%     is\_sent\\
+%     big\_np\_count\\
+%     big\_pp\_count\\
+%     disj\_count\\
+%     min\_dep\_length\\
+%     conj\_count\\
+%     mean\_dep\_length\\
+%     token\_count\\
+%     verb\_count\\
+%     max\_dep\_length\\
+%     class\_score\\
+%     flesch\_reading\_ease\\
+%     \hline
+%     \end{tabular}
+%     \caption{Features used for the baseline classifiers.}
+%     \label{tab:appendix-classifier-features}
+% \end{table}
+
+\section{Extracted Features}\label{appendix:amr-representation}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\linewidth]{latex/depTree.pdf}
+    \caption{Dependency tree of phrase `Viele Zeitungen haben über den Hund berichtet.' The following features are extracted from this tree: 
+    'max\_dep\_length', 'mean\_dep\_length', 'min\_dep\_length', 'num\_dep\_paths',    'num\_root', 'num\_root\_childs', 'oc\#', 'oc\#op\#', 'oc\#op\#nk\#',       'oc\#op\#nk\#nk\#', 'oc\#op\#nk\#nk\#DET', 'punct\#', 'punct\#PUNCT', 'sb\#',      'sb\#nk\#', 'sb\#nk\#DET'
+    }
+    \label{fig:depTree}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{verbatim}
+(r / report-01
+      :ARG0 (n / newspaper
+            :quant (m / many))
+      :ARG1 (d / dog))
+\end{verbatim}
+\caption{AMR of phrase `Many newspapers have reported about the dog.' The following features are extracted from this AMR: 'arg0:', 
+'arg0:instance:',
+'arg0:quant:',
+'arg0:quant:instance:',
+'arg0:quant:instance:many', 
+'arg1:',
+'arg1:instance:', 
+'instance:'} \label{fig:ex_amr}
+\end{figure}
+
+\begin{figure}
+\begin{verbatim}
+
+((S
+  (ADV Leider)
+  (VVFIN bekomme)
+  (PPER ich)
+  (NP (PIAT keine) (NN Katze)))
+($, ,))
+\end{verbatim}
+    
+\caption{An example of NLTK tree forms}
+\label{fig:nltk-tree-forms}
+\end{figure}
+
+
+\section{LLM prompts}\label{appendix:llm prompts}
+
+The following is an example of an LLM prompt we used. Text in \textbf{bold} was not part of the prompt but is included here to illustrate the different prompt levels. For the sake of clarity, the prompt is slightly shortened, the full prompt can be found in our GitHub repository.
+
+
+
+\noindent
+\begin{quote}
+\begin{small}
+\noindent
+\textbf{System prompt}\\
+\texttt{You are an expert in German Easy Language.} \\
+\textbf{User prompt}\\
+\texttt{Give the statement spans of the sentence below.} \\
+\texttt{For your decisions rely on the annotation guidelines provided below. Provide your output in the form of a nested list. Return nothing but that list or the string “None” if the sentence only has one statement or zero statements.} \\
+\texttt{Think step by step.} \\
+\texttt{Three example sentences:} \\
+\texttt{sentence: Eine sehr bekannte Alchemisten war Maria die Jüdin} \\
+\texttt{statements: 1, statement spans: None;}\\
+\texttt{(We provided two more examples but did not include them here for the sake of brevity.)}\\
+
+\texttt{The sentence you should annotate is the following:} \\
+\texttt{\{sentence\}} \\
+\texttt{Annotation guidelines:} \\
+\texttt{\{annotation\_guidelines\}}
+\end{small}
+\end{quote}
+
+
+
+\section{Feature Importance}\label{appendix:feature-importance}
+
+\begin{table}[ht]
+    \centering\small
+\begin{tabular}{ll}
+\hline
+Features & Importance \\ 
+\hline
+attr-arg1:attr-instance: & 0.0088 \\
+amr\_length & 0.0084 \\
+attr-arg1: & 0.0083 \\
+attr-arg2: & 0.0077 \\
+attr-arg0:attr-instance: & 0.0076 \\
+attr-arg2:attr-instance: & 0.0075 \\
+attr-(mod):attr-instance: & 0.0074 \\
+attr-(mod): & 0.0074 \\
+attr-arg0: & 0.0073 \\
+attr-time:attr-instance: & 0.0071 \\
+\hline
+\end{tabular} 
+\caption{Ranked 10 most important AMR-features}
+    \label{tab:importanceAMR}
+\end{table}
+
+\begin{table}[ht]
+    \centering\small
+\begin{tabular}{ll}
+\hline
+Feature & Importance \\ 
+\hline
+max\_dep\_length & 0.1012 \\
+mean\_dep\_length & 0.0869 \\
+num\_dep\_paths & 0.0787 \\
+num\_root\_childs & 0.0523 \\
+sb\#PRON & 0.0137 \\
+sb\#nk\#DET & 0.0134 \\
+sb\#nk\# & 0.0123 \\
+mo\#ADV & 0.0108 \\
+num\_root & 0.0101 \\
+oa\# & 0.0089 \\
+\hline
+\end{tabular} 
+\caption{Ranked 10 most important dependency tree features}
+    \label{tab:importanceDepTree}
+\end{table}
+
+\begin{table}[ht]
+    \centering\small
+\begin{tabular}{ll}
+\hline
+Feature & Importance \\ 
+\hline
+token\_count & 0.1738 \\
+mean\_chars\_per\_word & 0.0956 \\
+wiener\_sachtextformel & 0.0946 \\
+flesch\_reading\_ease & 0.0814 \\
+num\_compound & 0.0725 \\
+num\_nouns & 0.0584 \\
+verb\_count & 0.0472 \\
+num\_PP & 0.0464 \\
+class\_score & 0.0395 \\
+num\_S & 0.0381 \\
+\hline
+\end{tabular} 
+\caption{Ranked 10 most important additional linguistic features}
+    \label{tab:importanceAdditional}
+\end{table}
+
+\begin{table}[ht]
+    \centering\small
+\begin{tabular}{ll}
+\hline
+Feature & Importance \\ 
+\hline
+token\_count & 0.06 \\
+max\_dep\_length & 0.0328 \\
+num\_dep\_paths & 0.0328 \\
+mean\_dep\_length & 0.0256 \\
+num\_compound & 0.0211 \\
+UMAP2 & 0.0179 \\
+UMAP4 & 0.0176 \\
+UMAP1 & 0.0176 \\
+UMAP0 & 0.0168 \\
+UMAP8 & 0.0166 \\
+UMAP9 & 0.0161 \\
+UMAP5 & 0.0161 \\
+UMAP7 & 0.016 \\
+verb\_count & 0.016 \\
+UMAP3 & 0.0158 \\
+flesch\_reading\_ease & 0.0155 \\
+num\_S & 0.0154 \\
+wiener\_sachtextformel & 0.0153 \\
+UMAP6 & 0.0146 \\
+mean\_chars\_per\_word & 0.0146 \\
+\hline
+\end{tabular} 
+\caption{Ranked 20 most important features (over all feature classes)}
+    \label{tab:importanceAll}
+\end{table}
+
+
+% \begin{table}[]
+%     \centering
+% \begin{tabular}{@{}llll|rr@{}}
+% \hline
+% Nr & Model & Au. & Feat. & MAE & Acc \\
+% \hline
+% 1 & MFC & no & all & 0.483 & 0.62 \\
+% 2 & MLP & no & all & 0.365 & 0.68 \\
+% 3 & SVM & no & all & 0.305 & 0.733 \\
+% 4 & LR & no & all & 0.351 & 0.685 \\
+% 5 & RF & no & all & 0.279 & 0.748 \\
+% \hline
+% 6 & RF & yes & all & 0.281 & 0.738 \\
+% 7 & RF & no & BERT & 0.481 & 0.606 \\
+% 8 & RF & no & AMR & 0.428 & 0.637 \\
+% 9 & RF & no & DepTree & 0.308 & 0.728 \\
+% 10 & RF & no & Add. & 0.296 & 0.726 \\
+% \end{tabular}
+% \caption{Performance comparison of different Classifiers (MFC: most frequent class dummy classifier, MLP: multi-layer perceptron, SVM: support vector machine, LR: logistic regression, RF: random forest. Trained either with or without augemented data (`Au.') and trained on all or a subset of the features (see section \ref{sec:features}.}
+%     \label{tab:classifier_results}
+% \end{table}
+
+
+% \newpage
+% \onecolumn
+% \begin{table}
+% \centering
+% \begin{tabular}{p{10ex}p{14ex}rrrrr}
+% \textbf{Model} & \textbf{Train Data} & \textbf{MAE} & \textbf{MSE} & \textbf{Macro F1} & \textbf{Weighted F1} & \textbf{Accuracy} \\
+% MLP & ['train', 'trial'] & 0.365 & 0.462 & 0.310 & 0.670 & 0.680 \\
+% MLP & ['train', 'trial', 'augmented'] & 0.389 & 0.457 & 0.317 & 0.650 & 0.644 \\
+% SVM & ['train', 'trial'] & 0.305 & 0.387 & 0.280 & 0.690 & 0.733 \\
+% Naive Bayes & ['train', 'trial'] & 0.416 & 0.550 & 0.267 & 0.633 & 0.644 \\
+% dummy & ['train', 'trial'] & 0.483 & 0.733 & 0.153 & 0.475 & 0.620 \\
+% Random Forest & ['train', 'trial'] & 0.279 & 0.337 & 0.314 & 0.716 & 0.748 \\
+% Random Forest & ['train', 'trial', 'augmented'] & 0.281 & 0.325 & 0.368 & 0.735 & 0.738 \\
+% \end{tabular}
+% \caption{Performance comparison of different models. All trained on the full feature set}
+% \label{tab:my_label}
+% \end{table}
+
+% \begin{table}[]
+%     \centering
+% \begin{tabular}{p{10ex}p{12ex}rrrrr}
+% \textbf{Model} & \textbf{Features} & \textbf{MAE} & \textbf{MSE} & \textbf{Macro F1} & \textbf{Weighted F1} & \textbf{Accuracy} \\
+% Random Forest & ['bert'] & 0.481 & 0.683 & 0.250 & 0.575 & 0.606 \\
+% Random Forest & ['amr'] & 0.428 & 0.582 & 0.248 & 0.606 & 0.637 \\
+% Random Forest & ['depTree'] & 0.308 & 0.385 & 0.303 & 0.701 & 0.728 \\
+% Random Forest & ['additional'] & 0.296 & 0.344 & 0.345 & 0.706 & 0.726 \\
+% \end{tabular}
+% \caption{Performance comparison of Random Forest Classifiers trained with subsets of the feature set. All trained on the train and trial data}
+%     \label{tab:my_label}
+% \end{table}
+
+% \begin{table}[]
+%     \centering
+% \begin{tabular}{p{28ex}rrrrr}
+% \textbf{Model} & \textbf{MAE} & \textbf{MSE} & \textbf{Macro F1} & \textbf{Weighted F1} & \textbf{Accuracy} \\
+% 5 most imp. feat. of each type & 0.308 & 0.365 & 0.367 & 0.710 & 0.719 \\
+% 15 most imp. feat. of each type & 0.274 & 0.308 & 0.369 & 0.727 & 0.743 \\
+% 25 most imp. feat. of each type & 0.286 & 0.339 & 0.341 & 0.719 & 0.738 \\
+% 35 most imp. feat. of each type & 0.267 & 0.315 & 0.350 & 0.736 & 0.755 \\
+% 45 most imp. feat. of each type & 0.291 & 0.353 & 0.342 & 0.716 & 0.738 \\
+% 55 most imp. feat. of each type & 0.281 & 0.339 & 0.326 & 0.720 & 0.745 \\
+% 65 most imp. feat. of each type & 0.293 & 0.351 & 0.337 & 0.710 & 0.733 \\
+% 75 most imp. feat. of each type & 0.291 & 0.344 & 0.331 & 0.711 & 0.733 \\
+% 5 overall most imp. feat. & 0.358 & 0.445 & 0.334 & 0.677 & 0.683 \\
+% 10 overall most imp. feat. & 0.303 & 0.332 & 0.345 & 0.699 & 0.709 \\
+% 25 overall most imp. feat. & 0.305 & 0.353 & 0.355 & 0.706 & 0.716 \\
+% 50 overall most imp. feat. & 0.274 & 0.308 & 0.382 & 0.730 & 0.743 \\
+% 75 overall most imp. feat. & 0.274 & 0.327 & 0.370 & 0.734 & 0.750 \\
+% 100 overall most imp. feat. & 0.272 & 0.315 & 0.378 & 0.735 & 0.750 \\
+% 150 overall most imp. feat. & 0.279 & 0.337 & 0.338 & 0.726 & 0.748 \\
+% 200 overall most imp. feat. & 0.276 & 0.334 & 0.347 & 0.727 & 0.750 \\
+% 250 overall most imp. feat. & 0.284 & 0.341 & 0.313 & 0.716 & 0.743 \\
+% 500 overall most imp. feat. & 0.262 & 0.315 & 0.334 & 0.736 & 0.762 \\
+% \end{tabular}
+% \caption{Performance comparison of Random Forest models with different important feature sets}
+%     \label{tab:my_label}
+% \end{table}
+
+% \section{0-statement filter performance} \label{sec:0-statement}
+% 
+% \begin{table}[h]
+% \begin{tabular}{lcc}
+% \hline
+%                                      & \textbf{0-statement} & \textbf{>0-statement} \\ \hline
+% {\color[HTML]{323232} \textbf{0-statement}}   & 304         & 146           \\
+% {\color[HTML]{323232} \textbf{>0-statement}} & 106          & 2830          \\ \hline
+% \end{tabular}
+% \caption{Confusion matrix for 0-statement filter based on Benepar parser. Columns: gold labels; rows: predictions.}
+% \end{table}
+
+\end{document}
